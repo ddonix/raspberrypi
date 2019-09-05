@@ -1,0 +1,123 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARMCTRL_0_BELL_BASE	include/mach/platform.h	81;"	d
+ARMCTRL_0_MAIL0_BASE	include/mach/platform.h	82;"	d
+ARMCTRL_0_SBM_BASE	include/mach/platform.h	80;"	d
+ARMCTRL_BASE	include/mach/platform.h	77;"	d
+ARMCTRL_IC_BASE	include/mach/platform.h	78;"	d
+ARMCTRL_TIMER0_1_BASE	include/mach/platform.h	79;"	d
+ARM_BASE	include/mach/platform.h	60;"	d
+BCM2708_PERI_BASE	include/mach/platform.h	55;"	d
+BCM2708_SDRAM_BASE	include/mach/platform.h	34;"	d
+BCM2708_UART_CR	include/mach/uncompress.h	33;"	d
+BCM2708_UART_DR	include/mach/uncompress.h	28;"	d
+BCM2708_UART_FBRD	include/mach/uncompress.h	31;"	d
+BCM2708_UART_FR	include/mach/uncompress.h	29;"	d
+BCM2708_UART_IBRD	include/mach/uncompress.h	30;"	d
+BCM2708_UART_LCRH	include/mach/uncompress.h	32;"	d
+BCM_PLAT_PHYS_OFFSET	include/mach/memory.h	35;"	d
+BSC0_BASE	include/mach/platform.h	69;"	d
+BSC1_BASE	include/mach/platform.h	73;"	d
+BUS_OFFSET	include/mach/memory.h	51;"	d
+DMA_BASE	include/mach/platform.h	59;"	d
+EMMC_BASE	include/mach/platform.h	71;"	d
+GPIO_BASE	include/mach/platform.h	64;"	d
+HW_REGISTER_RO	include/mach/platform.h	48;"	d
+HW_REGISTER_RW	include/mach/platform.h	47;"	d
+I2S_BASE	include/mach/platform.h	67;"	d
+IC0_BASE	include/mach/platform.h	56;"	d
+IO_ADDRESS	include/mach/platform.h	26;"	d
+IO_SPACE_LIMIT	include/mach/io.h	23;"	d
+MCORE_BASE	include/mach/platform.h	75;"	d
+MMCI0_BASE	include/mach/platform.h	66;"	d
+MPHI_BASE	include/mach/platform.h	58;"	d
+PCM_CLOCK_BASE	include/mach/platform.h	62;"	d
+PIN	rasp_led.c	107;"	d	file:
+PM_BASE	include/mach/platform.h	61;"	d
+PM_PASSWORD	include/mach/platform.h	92;"	d
+PM_RSTC	include/mach/platform.h	87;"	d
+PM_RSTC_RESET	include/mach/platform.h	97;"	d
+PM_RSTC_WRCFG_CLR	include/mach/platform.h	94;"	d
+PM_RSTC_WRCFG_FULL_RESET	include/mach/platform.h	96;"	d
+PM_RSTC_WRCFG_SET	include/mach/platform.h	95;"	d
+PM_RSTS	include/mach/platform.h	88;"	d
+PM_RSTS_HADDRF_SET	include/mach/platform.h	107;"	d
+PM_RSTS_HADDRH_SET	include/mach/platform.h	106;"	d
+PM_RSTS_HADDRQ_SET	include/mach/platform.h	108;"	d
+PM_RSTS_HADPOR_SET	include/mach/platform.h	99;"	d
+PM_RSTS_HADSRF_SET	include/mach/platform.h	101;"	d
+PM_RSTS_HADSRH_SET	include/mach/platform.h	100;"	d
+PM_RSTS_HADSRQ_SET	include/mach/platform.h	102;"	d
+PM_RSTS_HADWRF_SET	include/mach/platform.h	104;"	d
+PM_RSTS_HADWRH_SET	include/mach/platform.h	103;"	d
+PM_RSTS_HADWRQ_SET	include/mach/platform.h	105;"	d
+PM_WDOG	include/mach/platform.h	89;"	d
+PM_WDOG_RESET	include/mach/platform.h	91;"	d
+PM_WDOG_TIME_SET	include/mach/platform.h	93;"	d
+RNG_BASE	include/mach/platform.h	63;"	d
+RPI_GPIO_P1_11	rasp_led.c	106;"	d	file:
+SMI_BASE	include/mach/platform.h	72;"	d
+SPI0_BASE	include/mach/platform.h	68;"	d
+ST_BASE	include/mach/platform.h	57;"	d
+UART0_BASE	include/mach/platform.h	65;"	d
+UART0_CLOCK	include/mach/platform.h	110;"	d
+UART1_BASE	include/mach/platform.h	70;"	d
+UART_BAUD	include/mach/uncompress.h	26;"	d
+USB_BASE	include/mach/platform.h	74;"	d
+VC_ARMMEM_OFFSET	include/mach/memory.h	36;"	d
+VMALLOC_END	include/mach/vmalloc.h	20;"	d
+_BCM2708_PLATFORM_H	include/mach/platform.h	22;"	d
+_REAL_BUS_OFFSET	include/mach/memory.h	39;"	d
+_REAL_BUS_OFFSET	include/mach/memory.h	41;"	d
+__ASM_ARCH_MEMORY_H	include/mach/memory.h	21;"	d
+__ASM_ARCH_SYSTEM_H	include/mach/system.h	23;"	d
+__ASM_ARM_ARCH_IO_H	include/mach/io.h	21;"	d
+__bus_to_pfn	include/mach/memory.h	55;"	d
+__bus_to_virt	include/mach/memory.h	53;"	d
+__initdata	bcm2708.c	/^static struct map_desc bcm2708_io_desc[] __initdata = {$/;"	v	typeref:struct:bcm2708_io_desc	file:
+__io	include/mach/io.h	25;"	d
+__io_address	include/mach/platform.h	28;"	d
+__pfn_to_bus	include/mach/memory.h	54;"	d
+__this_module	hello.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__used	hello.mod.c	/^__used$/;"	v	file:
+__used	hello.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__virt_to_bus	include/mach/memory.h	52;"	d
+arch_decomp_setup	include/mach/uncompress.h	/^static inline void arch_decomp_setup(void)$/;"	f
+arch_decomp_wdog	include/mach/uncompress.h	84;"	d
+arch_idle	include/mach/system.h	/^static inline void arch_idle(void)$/;"	f
+bcm2708_compat	bcm2708.c	/^static const char * const bcm2708_compat[] = {$/;"	v	file:
+bcm2708_init	bcm2708.c	/^void __init bcm2708_init(void)$/;"	f
+bcm2708_init_early	bcm2708.c	/^void __init bcm2708_init_early(void)$/;"	f
+bcm2708_init_uart1	bcm2708.c	/^static void __init bcm2708_init_uart1(void)$/;"	f	file:
+bcm2708_map_io	bcm2708.c	/^void __init bcm2708_map_io(void)$/;"	f
+bcm2708_power_off	bcm2708.c	/^static void bcm2708_power_off(void)$/;"	f	file:
+bcm2708_restart	bcm2708.c	/^static void bcm2708_restart(enum reboot_mode mode, const char *cmd)$/;"	f	file:
+bcm2835_gpio_clr	rasp_led.c	/^int bcm2835_gpio_clr(uint8_t pin)$/;"	f
+bcm2835_gpio_fsel	rasp_led.c	/^int bcm2835_gpio_fsel(uint8_t pin, uint8_t mode)$/;"	f
+bcm2835_gpio_set	rasp_led.c	/^int bcm2835_gpio_set(uint8_t pin)$/;"	f
+board_reserve	bcm2708.c	/^static void __init board_reserve(void)$/;"	f	file:
+boardrev	bcm2708.c	/^static unsigned boardrev, serial;$/;"	v	file:
+calc_rsts	bcm2708.c	/^int calc_rsts(int partition)$/;"	f
+flush	include/mach/uncompress.h	/^static inline void flush(void)$/;"	f
+hello_exit	hello.c	/^module_exit(hello_exit);$/;"	v
+hello_exit	hello.c	/^static void hello_exit(void)$/;"	f	file:
+hello_init	hello.c	/^module_init(hello_init);$/;"	v
+hello_init	hello.c	/^static int hello_init(void)$/;"	f	file:
+leds_exit	rasp_led.c	/^module_exit(leds_exit);$/;"	v
+leds_exit	rasp_led.c	/^static void leds_exit(void)$/;"	f	file:
+leds_fops	rasp_led.c	/^static const struct file_operations leds_fops = {$/;"	v	typeref:struct:file_operations	file:
+leds_init	rasp_led.c	/^module_init(leds_init);$/;"	v
+leds_init	rasp_led.c	/^static int __init leds_init(void)$/;"	f	file:
+leds_ioctl	rasp_led.c	/^static int leds_ioctl(struct file *filp, unsigned int cmd, unsigned long arg)$/;"	f	file:
+leds_open	rasp_led.c	/^static int leds_open(struct inode *inode, struct file *filp)$/;"	f	file:
+leds_release	rasp_led.c	/^static int leds_release(struct inode *inode, struct file *filp)$/;"	f	file:
+misc	rasp_led.c	/^static struct miscdevice misc = {$/;"	v	typeref:struct:miscdevice	file:
+obj-m	Makefile	/^obj-m := hello.o rasp_led.o$/;"	m
+open_state	rasp_led.c	/^int open_state = 0;		\/\/文件打开状态  $/;"	v
+putc	include/mach/uncompress.h	/^static inline void putc(int c)$/;"	f
+reboot_part	bcm2708.c	/^static unsigned reboot_part = 0;$/;"	v	file:
+serial	bcm2708.c	/^static unsigned boardrev, serial;$/;"	v	file:

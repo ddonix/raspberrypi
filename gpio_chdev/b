@@ -1,0 +1,773 @@
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 4.4.38-v7+ (dc4@dc4-XPS13-9333) (gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) ) #938 SMP Thu Dec 15 15:22:21 GMT 2016
+[    0.000000] CPU: ARMv7 Processor [410fd034] revision 4 (ARMv7), cr=10c5383d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[    0.000000] Machine model: Raspberry Pi 3 Model B Rev 1.2
+[    0.000000] cma: Reserved 8 MiB at 0x3a800000
+[    0.000000] Memory policy: Data cache writealloc
+[    0.000000] On node 0 totalpages: 241664
+[    0.000000] free_area_init_node: node 0, pgdat 808c4f40, node_mem_map b9fa6000
+[    0.000000]   Normal zone: 2124 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 241664 pages, LIFO batch:31
+[    0.000000] [bcm2709_smp_init_cpus] enter (9520->f3003010)
+[    0.000000] [bcm2709_smp_init_cpus] ncores=4
+[    0.000000] PERCPU: Embedded 13 pages/cpu @b9f62000 s22592 r8192 d22464 u53248
+[    0.000000] pcpu-alloc: s22592 r8192 d22464 u53248 alloc=13*4096
+[    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 239540
+[    0.000000] Kernel command line: 8250.nr_uarts=0 dma.dmachans=0x7f35 bcm2708_fb.fbwidth=1680 bcm2708_fb.fbheight=1050 bcm2709.boardrev=0xa02082 bcm2709.serial=0xdfbda565 smsc95xx.macaddr=B8:27:EB:BD:A5:65 bcm2708_fb.fbswap=1 bcm2709.uart_clock=48000000 vc_mem.mem_base=0x3dc00000 vc_mem.mem_size=0x3f000000  dwc_otg.lpm_enable=0 console=ttyS0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+[    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+[    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Memory: 939064K/966656K available (6357K kernel code, 432K rwdata, 1716K rodata, 476K init, 764K bss, 19400K reserved, 8192K cma-reserved)
+[    0.000000] Virtual kernel memory layout:
+    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+    fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+    vmalloc : 0xbb800000 - 0xff800000   (1088 MB)
+    lowmem  : 0x80000000 - 0xbb000000   ( 944 MB)
+    modules : 0x7f000000 - 0x80000000   (  16 MB)
+      .text : 0x80008000 - 0x807ea688   (8074 kB)
+      .init : 0x807eb000 - 0x80862000   ( 476 kB)
+      .data : 0x80862000 - 0x808ce250   ( 433 kB)
+       .bss : 0x808d1000 - 0x809901ec   ( 765 kB)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[    0.000000] Hierarchical RCU implementation.
+[    0.000000] 	Build-time adjustment of leaf fanout to 32.
+[    0.000000] NR_IRQS:16 nr_irqs:16 16
+[    0.000000] Architected cp15 timer(s) running at 19.20MHz (phys).
+[    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x46d987e47, max_idle_ns: 440795202767 ns
+[    0.000010] sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 4398046511078ns
+[    0.000028] Switching to timer-based delay loop, resolution 52ns
+[    0.000293] Console: colour dummy device 80x30
+[    0.001345] console [tty1] enabled
+[    0.001390] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=192000)
+[    0.001458] pid_max: default: 32768 minimum: 301
+[    0.001794] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.001837] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.002789] Disabling cpuset control group subsystem
+[    0.002847] Initializing cgroup subsys io
+[    0.002900] Initializing cgroup subsys memory
+[    0.002966] Initializing cgroup subsys devices
+[    0.003009] Initializing cgroup subsys freezer
+[    0.003053] Initializing cgroup subsys net_cls
+[    0.003124] CPU: Testing write buffer coherency: ok
+[    0.003211] ftrace: allocating 21237 entries in 63 pages
+[    0.052639] CPU0: update cpu_capacity 1024
+[    0.052706] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+[    0.052739] [bcm2709_smp_prepare_cpus] enter
+[    0.052895] Setting up static identity map for 0x8240 - 0x8274
+[    0.054586] [bcm2709_boot_secondary] cpu:1 started (0) 18
+[    0.054776] [bcm2709_secondary_init] enter cpu:1
+[    0.054819] CPU1: update cpu_capacity 1024
+[    0.054825] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+[    0.055205] [bcm2709_boot_secondary] cpu:2 started (0) 17
+[    0.055367] [bcm2709_secondary_init] enter cpu:2
+[    0.055388] CPU2: update cpu_capacity 1024
+[    0.055394] CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+[    0.055761] [bcm2709_boot_secondary] cpu:3 started (0) 17
+[    0.055891] [bcm2709_secondary_init] enter cpu:3
+[    0.055911] CPU3: update cpu_capacity 1024
+[    0.055917] CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+[    0.055978] Brought up 4 CPUs
+[    0.056077] SMP: Total of 4 processors activated (153.60 BogoMIPS).
+[    0.056107] CPU: All CPU(s) started in HYP mode.
+[    0.056133] CPU: Virtualization extensions available.
+[    0.056763] devtmpfs: initialized
+[    0.067697] VFP support v0.3: implementor 41 architecture 3 part 40 variant 3 rev 4
+[    0.068071] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+[    0.068812] pinctrl core: initialized pinctrl subsystem
+[    0.069355] NET: Registered protocol family 16
+[    0.074538] DMA: preallocated 4096 KiB pool for atomic coherent allocations
+[    0.081435] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+[    0.081484] hw-breakpoint: maximum watchpoint size is 8 bytes.
+[    0.081659] Serial: AMBA PL011 UART driver
+[    0.081811] uart-pl011 3f201000.uart: could not find pctldev for node /soc/gpio@7e200000/uart0_pins, deferring probe
+[    0.082012] bcm2835-mbox 3f00b880.mailbox: mailbox enabled
+[    0.144788] bcm2835-dma 3f007000.dma: DMA legacy API manager at f3007000, dmachans=0x1
+[    0.145394] SCSI subsystem initialized
+[    0.145605] usbcore: registered new interface driver usbfs
+[    0.145717] usbcore: registered new interface driver hub
+[    0.145838] usbcore: registered new device driver usb
+[    0.152201] raspberrypi-firmware soc:firmware: Attached to firmware from 2016-12-09 15:11
+[    0.179368] clocksource: Switched to clocksource arch_sys_counter
+[    0.224388] FS-Cache: Loaded
+[    0.224686] CacheFiles: Loaded
+[    0.237040] NET: Registered protocol family 2
+[    0.237919] TCP established hash table entries: 8192 (order: 3, 32768 bytes)
+[    0.238057] TCP bind hash table entries: 8192 (order: 4, 65536 bytes)
+[    0.238268] TCP: Hash tables configured (established 8192 bind 8192)
+[    0.238384] UDP hash table entries: 512 (order: 2, 16384 bytes)
+[    0.238452] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+[    0.238702] NET: Registered protocol family 1
+[    0.239044] RPC: Registered named UNIX socket transport module.
+[    0.239077] RPC: Registered udp transport module.
+[    0.239105] RPC: Registered tcp transport module.
+[    0.239133] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.240235] hw perfevents: enabled with armv7_cortex_a7 PMU driver, 7 counters available
+[    0.241590] futex hash table entries: 1024 (order: 4, 65536 bytes)
+[    0.254833] VFS: Disk quotas dquot_6.6.0
+[    0.255165] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+[    0.257410] FS-Cache: Netfs 'nfs' registered for caching
+[    0.258333] NFS: Registering the id_resolver key type
+[    0.258400] Key type id_resolver registered
+[    0.258429] Key type id_legacy registered
+[    0.260795] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+[    0.260952] io scheduler noop registered
+[    0.260988] io scheduler deadline registered (default)
+[    0.261059] io scheduler cfq registered
+[    0.263601] BCM2708FB: allocated DMA memory fac10000
+[    0.263648] BCM2708FB: allocated DMA channel 0 @ f3007000
+[    0.313524] Console: switching to colour frame buffer device 210x65
+[    0.343252] bcm2835-rng 3f104000.rng: hwrng registered
+[    0.343491] vc-cma: Videocore CMA driver
+[    0.343610] vc-cma: vc_cma_base      = 0x00000000
+[    0.343747] vc-cma: vc_cma_size      = 0x00000000 (0 MiB)
+[    0.343901] vc-cma: vc_cma_initial   = 0x00000000 (0 MiB)
+[    0.344255] vc-mem: phys_addr:0x00000000 mem_base=0x3dc00000 mem_size:0x3f000000(1008 MiB)
+[    0.359520] brd: module loaded
+[    0.368283] loop: module loaded
+[    0.369346] vchiq: vchiq_init_state: slot_zero = 0xbac80000, is_master = 0
+[    0.371116] Loading iSCSI transport class v2.0-870.
+[    0.371905] usbcore: registered new interface driver smsc95xx
+[    0.372117] dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+[    0.572602] Core Release: 2.80a
+[    0.572708] Setting default values for core params
+[    0.572874] Finished setting default values for core params
+[    0.773425] Using Buffer DMA mode
+[    0.773532] Periodic Transfer Interrupt Enhancement - disabled
+[    0.773698] Multiprocessor Interrupt Enhancement - disabled
+[    0.773860] OTG VER PARAM: 0, OTG VER FLAG: 0
+[    0.773998] Dedicated Tx FIFOs mode
+[    0.774418] WARN::dwc_otg_hcd_init:1047: FIQ DMA bounce buffers: virt = 0xbac04000 dma = 0xfac04000 len=9024
+[    0.774712] FIQ FSM acceleration enabled for :
+Non-periodic Split Transactions
+Periodic Split Transactions
+High-Speed Isochronous Endpoints
+Interrupt/Control Split Transaction hack enabled
+[    0.775307] dwc_otg: Microframe scheduler enabled
+[    0.775360] WARN::hcd_init_fiq:413: FIQ on core 1 at 0x8044844c
+[    0.775539] WARN::hcd_init_fiq:414: FIQ ASM at 0x804487bc length 36
+[    0.775723] WARN::hcd_init_fiq:439: MPHI regs_base at 0xbb87e000
+[    0.775952] dwc_otg 3f980000.usb: DWC OTG Controller
+[    0.783191] dwc_otg 3f980000.usb: new USB bus registered, assigned bus number 1
+[    0.790492] dwc_otg 3f980000.usb: irq 62, io mem 0x00000000
+[    0.797777] Init: Port Power? op_state=1
+[    0.804952] Init: Power Port (0)
+[    0.812249] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[    0.819472] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.826652] usb usb1: Product: DWC OTG Controller
+[    0.833802] usb usb1: Manufacturer: Linux 4.4.38-v7+ dwc_otg_hcd
+[    0.840937] usb usb1: SerialNumber: 3f980000.usb
+[    0.848867] hub 1-0:1.0: USB hub found
+[    0.855990] hub 1-0:1.0: 1 port detected
+[    0.863795] dwc_otg: FIQ enabled
+[    0.863805] dwc_otg: NAK holdoff enabled
+[    0.863813] dwc_otg: FIQ split-transaction FSM enabled
+[    0.863852] Module dwc_common_port init
+[    0.864111] usbcore: registered new interface driver usb-storage
+[    0.871615] mousedev: PS/2 mouse device common for all mice
+[    0.879576] bcm2835-cpufreq: min=600000 max=1200000
+[    0.886960] sdhci: Secure Digital Host Controller Interface driver
+[    0.894086] sdhci: Copyright(c) Pierre Ossman
+[    0.901501] sdhost: log_buf @ bac07000 (fac07000)
+[    0.959497] mmc0: sdhost-bcm2835 loaded - DMA enabled (>1)
+[    0.968818] mmc-bcm2835 3f300000.mmc: mmc_debug:0 mmc_debug2:0
+[    0.975880] mmc-bcm2835 3f300000.mmc: DMA channel allocated
+[    1.019496] sdhci-pltfm: SDHCI platform and OF driver helper
+[    1.026961] ledtrig-cpu: registered to indicate activity on CPUs
+[    1.034157] hidraw: raw HID events driver (C) Jiri Kosina
+[    1.041357] usbcore: registered new interface driver usbhid
+[    1.048392] usbhid: USB HID core driver
+[    1.055969] Initializing XFRM netlink socket
+[    1.060718] mmc0: host does not support reading read-only switch, assuming write-enable
+[    1.063130] mmc0: new high speed SDHC card at address aaaa
+[    1.063732] mmcblk0: mmc0:aaaa SL16G 14.8 GiB
+[    1.075330]  mmcblk0: p1 p2
+[    1.090353] mmc1: queuing unknown CIS tuple 0x80 (2 bytes)
+[    1.091909] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+[    1.093456] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+[    1.096238] mmc1: queuing unknown CIS tuple 0x80 (7 bytes)
+[    1.120504] NET: Registered protocol family 17
+[    1.120534] Indeed it is in host mode hprt0 = 00021501
+[    1.134626] Key type dns_resolver registered
+[    1.142104] Registering SWP/SWPB emulation handler
+[    1.149887] registered taskstats version 1
+[    1.156938] vc-sm: Videocore shared memory driver
+[    1.163815] [vc_sm_connected_init]: start
+[    1.171142] [vc_sm_connected_init]: end - returning 0
+[    1.179314] 3f201000.uart: ttyAMA0 at MMIO 0x3f201000 (irq = 87, base_baud = 0) is a PL011 rev2
+[    1.186781] of_cfs_init
+[    1.187216] mmc1: new high speed SDIO card at address 0001
+[    1.200781] of_cfs_init: OK
+[    1.213744] EXT4-fs (mmcblk0p2): INFO: recovery required on readonly filesystem
+[    1.220818] EXT4-fs (mmcblk0p2): write access will be enabled during recovery
+[    1.299440] usb 1-1: new high-speed USB device number 2 using dwc_otg
+[    1.306748] Indeed it is in host mode hprt0 = 00001101
+[    1.364144] EXT4-fs (mmcblk0p2): recovery complete
+[    1.376613] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+[    1.383672] VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+[    1.401788] devtmpfs: mounted
+[    1.409618] Freeing unused kernel memory: 476K (807eb000 - 80862000)
+[    1.509700] usb 1-1: New USB device found, idVendor=0424, idProduct=9514
+[    1.517063] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    1.525225] hub 1-1:1.0: USB hub found
+[    1.532677] hub 1-1:1.0: 5 ports detected
+[    1.668033] random: systemd: uninitialized urandom read (16 bytes read, 65 bits of entropy available)
+[    1.679771] systemd[1]: systemd 215 running in system mode. (+PAM +AUDIT +SELINUX +IMA +SYSVINIT +LIBCRYPTSETUP +GCRYPT +ACL +XZ -SECCOMP -APPARMOR)
+[    1.687861] systemd[1]: Detected architecture 'arm'.
+[    1.819429] usb 1-1.1: new high-speed USB device number 3 using dwc_otg
+[    1.835822] NET: Registered protocol family 10
+[    1.845050] systemd[1]: Inserted module 'ipv6'
+[    1.857681] systemd[1]: Set hostname to <raspberrypi_2>.
+[    1.939850] usb 1-1.1: New USB device found, idVendor=0424, idProduct=ec00
+[    1.949477] usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    1.961608] smsc95xx v1.0.4
+[    2.006262] random: systemd-sysv-ge: uninitialized urandom read (16 bytes read, 75 bits of entropy available)
+[    2.033235] smsc95xx 1-1.1:1.0 eth0: register 'smsc95xx' at usb-3f980000.usb-1.1, smsc95xx USB 2.0 Ethernet, b8:27:eb:bd:a5:65
+[    2.097264] random: systemd: uninitialized urandom read (16 bytes read, 79 bits of entropy available)
+[    2.106896] random: systemd: uninitialized urandom read (16 bytes read, 79 bits of entropy available)
+[    2.116522] random: systemd: uninitialized urandom read (16 bytes read, 79 bits of entropy available)
+[    2.129420] usb 1-1.2: new low-speed USB device number 4 using dwc_otg
+[    2.149859] random: systemd: uninitialized urandom read (16 bytes read, 80 bits of entropy available)
+[    2.158962] random: systemd: uninitialized urandom read (16 bytes read, 80 bits of entropy available)
+[    2.167418] random: systemd: uninitialized urandom read (16 bytes read, 80 bits of entropy available)
+[    2.213775] random: systemd: uninitialized urandom read (16 bytes read, 80 bits of entropy available)
+[    2.224774] random: systemd: uninitialized urandom read (16 bytes read, 80 bits of entropy available)
+[    2.338638] usb 1-1.2: New USB device found, idVendor=0e8f, idProduct=00a7
+[    2.346610] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    2.354508] usb 1-1.2: Product: 2.4G RX
+[    2.362259] usb 1-1.2: Manufacturer: DaKai
+[    2.381891] input: DaKai 2.4G RX as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.2/1-1.2:1.0/0003:0E8F:00A7.0001/input/input0
+[    2.384987] systemd[1]: Starting Forward Password Requests to Wall Directory Watch.
+[    2.385377] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[    2.385453] systemd[1]: Starting Remote File Systems (Pre).
+[    2.423726] systemd[1]: Reached target Remote File Systems (Pre).
+[    2.432415] systemd[1]: Starting Arbitrary Executable File Formats File System Automount Point.
+[    2.451001] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[    2.459909] systemd[1]: Starting Encrypted Volumes.
+[    2.470145] hid-generic 0003:0E8F:00A7.0001: input,hidraw0: USB HID v1.10 Keyboard [DaKai 2.4G RX] on usb-3f980000.usb-1.2/input0
+[    2.487924] systemd[1]: Reached target Encrypted Volumes.
+[    2.497197] systemd[1]: Starting Swap.
+[    2.516677] systemd[1]: Reached target Swap.
+[    2.525762] systemd[1]: Expecting device dev-mmcblk0p1.device...
+[    2.545047] systemd[1]: Starting Root Slice.
+[    2.546535] input: DaKai 2.4G RX as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.2/1-1.2:1.1/0003:0E8F:00A7.0002/input/input1
+[    2.573695] systemd[1]: Created slice Root Slice.
+[    2.583030] systemd[1]: Starting User and Session Slice.
+[    2.600095] hid-generic 0003:0E8F:00A7.0002: input,hiddev0,hidraw1: USB HID v1.10 Mouse [DaKai 2.4G RX] on usb-3f980000.usb-1.2/input1
+[    2.612230] systemd[1]: Created slice User and Session Slice.
+[    2.621774] systemd[1]: Starting Delayed Shutdown Socket.
+[    2.641705] systemd[1]: Listening on Delayed Shutdown Socket.
+[    2.651258] systemd[1]: Starting /dev/initctl Compatibility Named Pipe.
+[    2.671287] systemd[1]: Listening on /dev/initctl Compatibility Named Pipe.
+[    2.680939] systemd[1]: Starting Journal Socket (/dev/log).
+[    2.699412] usb 1-1.3: new high-speed USB device number 5 using dwc_otg
+[    2.709846] systemd[1]: Listening on Journal Socket (/dev/log).
+[    2.719227] systemd[1]: Starting udev Control Socket.
+[    2.738818] systemd[1]: Listening on udev Control Socket.
+[    2.748189] systemd[1]: Starting udev Kernel Socket.
+[    2.767648] systemd[1]: Listening on udev Kernel Socket.
+[    2.777003] systemd[1]: Starting Journal Socket.
+[    2.796474] systemd[1]: Listening on Journal Socket.
+[    2.805712] systemd[1]: Starting System Slice.
+[    2.819695] usb 1-1.3: New USB device found, idVendor=1908, idProduct=0226
+[    2.819704] usb 1-1.3: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    2.820580] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[    2.820927] scsi host0: usb-storage 1-1.3:1.0
+[    2.860882] systemd[1]: Created slice System Slice.
+[    2.870071] systemd[1]: Starting File System Check on Root Device...
+[    2.919416] usb 1-1.4: new high-speed USB device number 6 using dwc_otg
+[    2.929989] systemd[1]: Starting system-systemd\x2dfsck.slice.
+[    2.950800] systemd[1]: Created slice system-systemd\x2dfsck.slice.
+[    2.960432] systemd[1]: Starting system-autologin.slice.
+[    2.981342] systemd[1]: Created slice system-autologin.slice.
+[    2.990886] systemd[1]: Starting Increase datagram queue length...
+[    3.013794] systemd[1]: Starting Restore / save the current clock...
+[    3.042818] systemd[1]: Mounted Huge Pages File System.
+[    3.052520] systemd[1]: Starting udev Coldplug all Devices...
+[    3.063045] usb 1-1.4: New USB device found, idVendor=1908, idProduct=0226
+[    3.063057] usb 1-1.4: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    3.064044] usb-storage 1-1.4:1.0: USB Mass Storage device detected
+[    3.064412] scsi host1: usb-storage 1-1.4:1.0
+[    3.112143] systemd[1]: Mounting Debug File System...
+[    3.149439] usb 1-1.5: new low-speed USB device number 7 using dwc_otg
+[    3.171505] systemd[1]: Started Set Up Additional Binary Formats.
+[    3.181798] systemd[1]: Starting Create list of required static device nodes for the current kernel...
+[    3.250177] systemd[1]: Mounting POSIX Message Queue File System...
+[    3.281742] systemd[1]: Starting Load Kernel Modules...
+[    3.282780] usb 1-1.5: New USB device found, idVendor=0e8f, idProduct=00a4
+[    3.282790] usb 1-1.5: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    3.282798] usb 1-1.5: Product: 2.4G RX
+[    3.282806] usb 1-1.5: Manufacturer: DKTEK
+[    3.308555] input: DKTEK 2.4G RX as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.5/1-1.5:1.0/0003:0E8F:00A4.0003/input/input2
+[    3.347480] systemd[1]: Starting Slices.
+[    3.360571] hid-generic 0003:0E8F:00A4.0003: input,hidraw2: USB HID v1.10 Keyboard [DKTEK 2.4G RX] on usb-3f980000.usb-1.5/input0
+[    3.375814] systemd[1]: Reached target Slices.
+[    3.376798] fuse init (API version 7.23)
+[    3.384447] input: DKTEK 2.4G RX as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.5/1-1.5:1.1/0003:0E8F:00A4.0004/input/input3
+[    3.389309] i2c /dev entries driver
+[    3.424412] systemd[1]: Mounted POSIX Message Queue File System.
+[    3.440135] hid-generic 0003:0E8F:00A4.0004: input,hiddev0,hidraw3: USB HID v1.10 Mouse [DKTEK 2.4G RX] on usb-3f980000.usb-1.5/input1
+[    3.452858] systemd[1]: Mounted Debug File System.
+[    3.473704] systemd[1]: Started File System Check on Root Device.
+[    3.506860] systemd[1]: Started Increase datagram queue length.
+[    3.527915] systemd[1]: Started Restore / save the current clock.
+[    3.583336] systemd[1]: Started Create list of required static device nodes for the current kernel.
+[    3.606117] systemd[1]: Started Load Kernel Modules.
+[    3.619535] systemd[1]: Time has been changed
+[    3.641606] systemd[1]: Started udev Coldplug all Devices.
+[    3.799646] systemd[1]: Mounting FUSE Control File System...
+[    3.820253] scsi 0:0:0:0: Direct-Access     Generic  Mass-Storage     1.11 PQ: 0 ANSI: 2
+[    3.860175] systemd[1]: Mounting Configuration File System...
+[    3.884265] systemd[1]: Starting Apply Kernel Variables...
+[    3.909015] systemd[1]: Starting Create Static Device Nodes in /dev...
+[    3.933512] systemd[1]: Starting Syslog Socket.
+[    3.944791] systemd[1]: Listening on Syslog Socket.
+[    3.945008] systemd[1]: Starting Journal Service...
+[    3.970352] systemd[1]: Started Journal Service.
+[    4.060489] scsi 1:0:0:0: Direct-Access     Generic  Mass-Storage     1.11 PQ: 0 ANSI: 2
+[    4.097327] sd 0:0:0:0: [sda] Attached SCSI removable disk
+[    4.160827] systemd-udevd[152]: starting version 215
+[    4.770596] sd 1:0:0:0: [sdb] 15605760 512-byte logical blocks: (7.99 GB/7.44 GiB)
+[    4.771039] sd 1:0:0:0: [sdb] Write Protect is off
+[    4.771050] sd 1:0:0:0: [sdb] Mode Sense: 03 00 00 00
+[    4.771676] sd 1:0:0:0: [sdb] No Caching mode page found
+[    4.771685] sd 1:0:0:0: [sdb] Assuming drive cache: write through
+[    4.776008]  sdb: sdb1
+[    4.778329] sd 1:0:0:0: [sdb] Attached SCSI removable disk
+[    4.818301] bcm2835-wdt 3f100000.watchdog: Broadcom BCM2835 watchdog timer
+[    4.828385] gpiomem-bcm2835 3f200000.gpiomem: Initialised: Registers at 0x3f200000
+[    4.916899] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null)
+[    5.022375] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[    5.023257] sd 1:0:0:0: Attached scsi generic sg1 type 0
+[    5.074697] random: nonblocking pool is initialized
+[    5.106760] usbcore: registered new interface driver brcmfmac
+[    5.266554] brcmfmac: brcmf_c_preinit_dcmds: Firmware version = wl0: May 27 2016 00:13:38 version 7.45.41.26 (r640327) FWID 01-df77e4a7
+[    5.289928] brcmfmac: brcmf_cfg80211_reg_notifier: not a ISO3166 code
+[    5.455728] brcmfmac: brcmf_cfg80211_reg_notifier: not a ISO3166 code
+[    5.455749] cfg80211: World regulatory domain updated:
+[    5.455767] cfg80211:  DFS Master region: unset
+[    5.455770] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+[    5.455793] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+[    5.455808] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+[    5.455827] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (N/A, 2000 mBm), (N/A)
+[    5.455843] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (N/A)
+[    5.455867] cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (0 s)
+[    5.455877] cfg80211:   (5490000 KHz - 5730000 KHz @ 160000 KHz), (N/A, 2000 mBm), (0 s)
+[    5.455883] cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (N/A, 2000 mBm), (N/A)
+[    5.455891] cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 0 mBm), (N/A)
+[    5.754955] systemd-journald[147]: Received request to flush runtime journal from PID 1
+[    6.507536] brcmfmac: brcmf_add_if: ERROR: netdev:wlan0 already exists
+[    6.507563] brcmfmac: brcmf_add_if: ignore IF event
+[    6.513094] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[    6.513128] brcmfmac: power management disabled
+[    6.943270] cfg80211: Regulatory domain changed to country: GB
+[    6.943297] cfg80211:  DFS Master region: ETSI
+[    6.943306] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+[    6.943322] cfg80211:   (2402000 KHz - 2482000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+[    6.943337] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (N/A)
+[    6.943352] cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (0 s)
+[    6.943364] cfg80211:   (5490000 KHz - 5710000 KHz @ 160000 KHz), (N/A, 2700 mBm), (0 s)
+[    6.943377] cfg80211:   (57000000 KHz - 66000000 KHz @ 2160000 KHz), (N/A, 4000 mBm), (N/A)
+[    7.219186] uart-pl011 3f201000.uart: no DMA platform data
+[    7.498489] Adding 102396k swap on /var/swap.  Priority:-1 extents:4 across:192508k SSFS
+[    7.860608] smsc95xx 1-1.1:1.0 eth0: hardware isn't capable of remote wakeup
+[    7.860971] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[    7.942515] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+[   11.731585] Bluetooth: Core ver 2.21
+[   11.731664] NET: Registered protocol family 31
+[   11.731672] Bluetooth: HCI device and connection manager initialized
+[   11.732583] Bluetooth: HCI socket layer initialized
+[   11.732611] Bluetooth: L2CAP socket layer initialized
+[   11.732648] Bluetooth: SCO socket layer initialized
+[   11.741542] Bluetooth: HCI UART driver ver 2.3
+[   11.741557] Bluetooth: HCI UART protocol H4 registered
+[   11.741562] Bluetooth: HCI UART protocol Three-wire (H5) registered
+[   11.741684] Bluetooth: HCI UART protocol BCM registered
+[   11.899499] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[   11.899502] Bluetooth: BNEP filters: protocol multicast
+[   11.899516] Bluetooth: BNEP socket layer initialized
+[   60.439459] address = f3200000
+[   60.439478] Changing function of GPIO22 from 0 to 0
+[   60.439488] Changing function of GPIO23 from 0 to 1
+[   60.439499] dlaser init successfully s_pGpioRegisters=f3200000, s_pTSCL=f3003004
+[   60.442169] high=0, low=1000000, ct1=62720292 ct2=62720292, ct2-ct1=0
+[   60.786317] ct1=62722964 ct2=63067099, ct2-ct1=344135
+[   60.786336] write 1 read 1 0
+[   60.786350] write 1 read 1 0
+[   60.786364] write 1 read 1 0
+[   60.786378] write 1 read 1 0
+[   60.786391] write 1 read 1 0
+[   60.786404] write 1 read 1 0
+[   60.786417] write 1 read 1 0
+[   60.786430] write 1 read 1 0
+[   60.786443] write 1 read 1 0
+[   60.786456] write 1 read 1 0
+[   60.786470] write 0 read 0 0
+[   60.786483] write 0 read 0 0
+[   60.786497] write 0 read 0 0
+[   60.786510] write 0 read 0 0
+[   60.786523] write 0 read 0 0
+[   60.786536] write 0 read 0 0
+[   60.786549] write 0 read 0 0
+[   60.786563] write 0 read 0 0
+[   60.786576] write 0 read 0 0
+[   60.786590] write 0 read 0 0
+[   60.786655] write p read p 63067390 63067390 0
+[   60.786661] write p read p 63067391 63067390 1
+[   60.786665] write p read p 63067391 63067391 0
+[   60.786670] write p read p 63067392 63067391 1
+[   60.786674] write p read p 63067392 63067392 0
+[   60.786679] write p read p 63067393 63067392 1
+[   60.786683] write p read p 63067393 63067393 0
+[   60.786688] write p read p 63067394 63067393 1
+[   60.786692] write p read p 63067394 63067394 0
+[   60.786697] write p read p 63067395 63067394 1
+[   60.786701] write p read p 63067396 63067395 1
+[   60.786706] write p read p 63067396 63067396 0
+[   60.786711] write p read p 63067396 63067396 0
+[   60.786715] write p read p 63067397 63067396 1
+[   60.786720] write p read p 63067397 63067397 0
+[   60.786724] write p read p 63067398 63067397 1
+[   60.786729] write p read p 63067398 63067398 0
+[   60.786733] write p read p 63067399 63067398 1
+[   60.786738] write p read p 63067400 63067399 1
+[   60.786742] write p read p 63067400 63067400 0
+[   60.786747] write p read p 63067401 63067400 1
+[   60.786752] write p read p 63067401 63067401 0
+[   60.786756] write p read p 63067402 63067401 1
+[   60.786761] write p read p 63067403 63067402 1
+[   60.786765] write p read p 63067403 63067403 0
+[   60.786770] write p read p 63067404 63067403 1
+[   60.786774] write p read p 63067404 63067404 0
+[   60.786779] write p read p 63067405 63067404 1
+[   60.786783] write p read p 63067405 63067405 0
+[   60.786788] write p read p 63067406 63067405 1
+[   60.786792] write p read p 63067406 63067406 0
+[   60.786797] write p read p 63067407 63067406 1
+[   60.786801] write p read p 63067407 63067407 0
+[   60.786806] write p read p 63067408 63067407 1
+[   60.786810] write p read p 63067408 63067408 0
+[   60.786814] write p read p 63067409 63067408 1
+[   60.786819] write p read p 63067409 63067409 0
+[   60.786823] write p read p 63067410 63067409 1
+[   60.786829] write p read p 63067410 63067410 0
+[   60.786833] write p read p 63067411 63067410 1
+[   60.786837] write p read p 63067411 63067411 0
+[   60.786842] write p read p 63067412 63067411 1
+[   60.786846] write p read p 63067412 63067412 0
+[   60.786851] write p read p 63067413 63067412 1
+[   60.786855] write p read p 63067413 63067413 0
+[   60.786860] write p read p 63067414 63067413 1
+[   60.786864] write p read p 63067414 63067414 0
+[   60.786869] write p read p 63067415 63067414 1
+[   60.786873] write p read p 63067415 63067415 0
+[   60.786878] write p read p 63067416 63067415 1
+[   60.786882] write p read p 63067416 63067416 0
+[   60.786886] write p read p 63067417 63067416 1
+[   60.786891] write p read p 63067417 63067417 0
+[   60.786895] write p read p 63067418 63067417 1
+[   60.786900] write p read p 63067418 63067418 0
+[   60.786905] write p read p 63067419 63067418 1
+[   60.786910] write p read p 63067419 63067419 0
+[   60.786914] write p read p 63067420 63067419 1
+[   60.786919] write p read p 63067420 63067420 0
+[   60.786923] write p read p 63067421 63067420 1
+[   60.786928] write p read p 63067421 63067421 0
+[   60.786932] write p read p 63067422 63067421 1
+[   60.786937] write p read p 63067422 63067422 0
+[   60.786941] write p read p 63067423 63067422 1
+[   60.786946] write p read p 63067423 63067423 0
+[   60.786951] write p read p 63067424 63067423 1
+[   60.786956] write p read p 63067424 63067424 0
+[   60.786960] write p read p 63067425 63067424 1
+[   60.786965] write p read p 63067425 63067425 0
+[   60.786969] write p read p 63067426 63067425 1
+[   60.786974] write p read p 63067426 63067426 0
+[   60.786978] write p read p 63067427 63067426 1
+[   60.786982] write p read p 63067427 63067427 0
+[   60.786987] write p read p 63067428 63067427 1
+[   60.786991] write p read p 63067428 63067428 0
+[   60.786997] write p read p 63067429 63067428 1
+[   60.787001] write p read p 63067429 63067429 0
+[   60.787006] write p read p 63067430 63067429 1
+[   60.787010] write p read p 63067430 63067430 0
+[   60.787015] write p read p 63067431 63067430 1
+[   60.787019] write p read p 63067431 63067431 0
+[   60.787023] write p read p 63067432 63067431 1
+[   60.787028] write p read p 63067432 63067432 0
+[   60.787032] write p read p 63067433 63067432 1
+[   60.787037] write p read p 63067433 63067433 0
+[   60.787041] write p read p 63067434 63067433 1
+[   60.787046] write p read p 63067434 63067434 0
+[   60.787050] write p read p 63067435 63067434 1
+[   60.787055] write p read p 63067435 63067435 0
+[   60.787059] write p read p 63067436 63067435 1
+[   60.787064] write p read p 63067436 63067436 0
+[   60.787068] write p read p 63067437 63067436 1
+[   60.787073] write p read p 63067437 63067437 0
+[   60.787078] write p read p 63067438 63067437 1
+[   60.787082] write p read p 63067438 63067438 0
+[   60.787087] write p read p 63067439 63067438 1
+[   60.787091] write p read p 63067439 63067439 0
+[   60.787096] write p read p 63067440 63067439 1
+[   60.787100] write p read p 63067440 63067440 0
+[   60.787105] write p read p 63067441 63067440 1
+[  167.724207] dlaser exit successfully
+[  170.240038] address = f3200000
+[  170.240053] Changing function of GPIO22 from 0 to 0
+[  170.240060] Changing function of GPIO23 from 1 to 1
+[  170.240068] dlaser init successfully s_pGpioRegisters=f3200000, s_pTSCL=f3003004
+[  170.242650] high=0, low=1000000, ct1=172521137 ct2=172521137, ct2-ct1=0
+[  170.586842] ct1=172523723 ct2=172867904, ct2-ct1=344181
+[  170.586858] write 1 read 1 0
+[  170.586872] write 1 read 1 0
+[  170.586887] write 1 read 1 0
+[  170.586901] write 1 read 1 0
+[  170.586915] write 1 read 1 0
+[  170.586928] write 1 read 1 0
+[  170.586942] write 1 read 1 0
+[  170.586955] write 1 read 1 0
+[  170.586968] write 1 read 1 0
+[  170.586982] write 1 read 1 0
+[  170.586995] write 0 read 0 0
+[  170.587009] write 0 read 0 0
+[  170.587023] write 0 read 0 0
+[  170.587036] write 0 read 0 0
+[  170.587050] write 0 read 0 0
+[  170.587065] write 0 read 0 0
+[  170.587078] write 0 read 0 0
+[  170.587091] write 0 read 0 0
+[  170.587104] write 0 read 0 0
+[  170.587117] write 0 read 0 0
+[  170.587183] write p read p 172868197 172868197 0
+[  170.587188] write p read p 172868198 172868197 1
+[  170.587193] write p read p 172868199 172868198 1
+[  170.587197] write p read p 172868199 172868199 0
+[  170.587203] write p read p 172868200 172868199 1
+[  170.587207] write p read p 172868200 172868200 0
+[  170.587212] write p read p 172868201 172868200 1
+[  170.587217] write p read p 172868201 172868201 0
+[  170.587221] write p read p 172868202 172868201 1
+[  170.587226] write p read p 172868202 172868202 0
+[  170.587231] write p read p 172868203 172868202 1
+[  170.587235] write p read p 172868203 172868203 0
+[  170.587240] write p read p 172868204 172868203 1
+[  170.587244] write p read p 172868204 172868204 0
+[  170.587249] write p read p 172868205 172868204 1
+[  170.587254] write p read p 172868205 172868205 0
+[  170.587259] write p read p 172868206 172868205 1
+[  170.587264] write p read p 172868206 172868206 0
+[  170.587269] write p read p 172868207 172868206 1
+[  170.587274] write p read p 172868207 172868207 0
+[  170.587279] write p read p 172868208 172868207 1
+[  170.587284] write p read p 172868208 172868208 0
+[  170.587288] write p read p 172868209 172868208 1
+[  170.587293] write p read p 172868209 172868209 0
+[  170.587298] write p read p 172868210 172868209 1
+[  170.587302] write p read p 172868210 172868210 0
+[  170.587307] write p read p 172868211 172868210 1
+[  170.587311] write p read p 172868211 172868211 0
+[  170.587316] write p read p 172868212 172868211 1
+[  170.587321] write p read p 172868212 172868212 0
+[  170.587326] write p read p 172868213 172868212 1
+[  170.587330] write p read p 172868213 172868213 0
+[  170.587335] write p read p 172868214 172868213 1
+[  170.587341] write p read p 172868214 172868214 0
+[  170.587345] write p read p 172868215 172868214 1
+[  170.587350] write p read p 172868215 172868215 0
+[  170.587355] write p read p 172868216 172868215 1
+[  170.587360] write p read p 172868216 172868216 0
+[  170.587365] write p read p 172868217 172868216 1
+[  170.587369] write p read p 172868217 172868217 0
+[  170.587374] write p read p 172868218 172868217 1
+[  170.587379] write p read p 172868218 172868218 0
+[  170.587384] write p read p 172868219 172868218 1
+[  170.587388] write p read p 172868219 172868219 0
+[  170.587393] write p read p 172868220 172868219 1
+[  170.587398] write p read p 172868220 172868220 0
+[  170.587402] write p read p 172868221 172868220 1
+[  170.587407] write p read p 172868221 172868221 0
+[  170.587411] write p read p 172868222 172868221 1
+[  170.587417] write p read p 172868222 172868222 0
+[  170.587421] write p read p 172868223 172868222 1
+[  170.587426] write p read p 172868223 172868223 0
+[  170.587431] write p read p 172868224 172868223 1
+[  170.587435] write p read p 172868224 172868224 0
+[  170.587440] write p read p 172868225 172868224 1
+[  170.587445] write p read p 172868225 172868225 0
+[  170.587449] write p read p 172868226 172868225 1
+[  170.587454] write p read p 172868226 172868226 0
+[  170.587458] write p read p 172868227 172868226 1
+[  170.587463] write p read p 172868227 172868227 0
+[  170.587468] write p read p 172868228 172868227 1
+[  170.587472] write p read p 172868228 172868228 0
+[  170.587477] write p read p 172868229 172868228 1
+[  170.587481] write p read p 172868229 172868229 0
+[  170.587486] write p read p 172868230 172868229 1
+[  170.587491] write p read p 172868230 172868230 0
+[  170.587495] write p read p 172868231 172868230 1
+[  170.587500] write p read p 172868231 172868231 0
+[  170.587505] write p read p 172868232 172868231 1
+[  170.587510] write p read p 172868232 172868232 0
+[  170.587514] write p read p 172868233 172868232 1
+[  170.587519] write p read p 172868233 172868233 0
+[  170.587524] write p read p 172868234 172868233 1
+[  170.587529] write p read p 172868234 172868234 0
+[  170.587533] write p read p 172868235 172868234 1
+[  170.587538] write p read p 172868235 172868235 0
+[  170.587543] write p read p 172868236 172868235 1
+[  170.587547] write p read p 172868236 172868236 0
+[  170.587552] write p read p 172868237 172868236 1
+[  170.587556] write p read p 172868237 172868237 0
+[  170.587561] write p read p 172868238 172868237 1
+[  170.587566] write p read p 172868238 172868238 0
+[  170.587571] write p read p 172868239 172868238 1
+[  170.587575] write p read p 172868239 172868239 0
+[  170.587580] write p read p 172868240 172868239 1
+[  170.587586] write p read p 172868240 172868240 0
+[  170.587590] write p read p 172868241 172868240 1
+[  170.587595] write p read p 172868241 172868241 0
+[  170.587599] write p read p 172868242 172868241 1
+[  170.587604] write p read p 172868242 172868242 0
+[  170.587609] write p read p 172868243 172868242 1
+[  170.587613] write p read p 172868243 172868243 0
+[  170.587618] write p read p 172868244 172868243 1
+[  170.587622] write p read p 172868244 172868244 0
+[  170.587628] write p read p 172868245 172868244 1
+[  170.587632] write p read p 172868245 172868245 0
+[  170.587637] write p read p 172868246 172868245 1
+[  170.587641] write p read p 172868246 172868246 0
+[  170.587647] write p read p 172868247 172868246 1
+[  170.587652] write p read p 172868247 172868247 0
+[  275.862183] dlaser exit successfully
+[  278.214831] address = f3200000
+[  278.214847] Changing function of GPIO22 from 0 to 0
+[  278.214855] Changing function of GPIO23 from 1 to 1
+[  278.214862] dlaser init successfully s_pGpioRegisters=f3200000, s_pTSCL=f3003004
+[  278.217401] high=0, low=1000000, ct1=280496205 ct2=280496205, ct2-ct1=0
+[  278.561751] ct1=280498749 ct2=280843087, ct2-ct1=344338
+[  278.561771] write 1 read 1 0
+[  278.561785] write 1 read 1 0
+[  278.561799] write 1 read 1 0
+[  278.561813] write 1 read 1 0
+[  278.561826] write 1 read 1 0
+[  278.561839] write 1 read 1 0
+[  278.561852] write 1 read 1 0
+[  278.561865] write 1 read 1 0
+[  278.561878] write 1 read 1 0
+[  278.561892] write 1 read 1 0
+[  278.561906] write 0 read 0 0
+[  278.561920] write 0 read 0 0
+[  278.561933] write 0 read 0 0
+[  278.561946] write 0 read 0 0
+[  278.561959] write 0 read 0 0
+[  278.561973] write 0 read 0 0
+[  278.561986] write 0 read 0 0
+[  278.561999] write 0 read 0 0
+[  278.562012] write 0 read 0 0
+[  278.562026] write 0 read 0 0
+[  278.562091] write p read p 280843379 280843379 0
+[  278.562096] write p read p 280843380 280843379 1
+[  278.562101] write p read p 280843381 280843380 1
+[  278.562105] write p read p 280843381 280843381 0
+[  278.562110] write p read p 280843382 280843381 1
+[  278.562114] write p read p 280843382 280843382 0
+[  278.562119] write p read p 280843383 280843382 1
+[  278.562123] write p read p 280843383 280843383 0
+[  278.562128] write p read p 280843384 280843383 1
+[  278.562133] write p read p 280843384 280843384 0
+[  278.562137] write p read p 280843385 280843384 1
+[  278.562142] write p read p 280843385 280843385 0
+[  278.562148] write p read p 280843386 280843385 1
+[  278.562152] write p read p 280843386 280843386 0
+[  278.562157] write p read p 280843387 280843386 1
+[  278.562161] write p read p 280843387 280843387 0
+[  278.562166] write p read p 280843388 280843387 1
+[  278.562171] write p read p 280843388 280843388 0
+[  278.562176] write p read p 280843389 280843388 1
+[  278.562181] write p read p 280843389 280843389 0
+[  278.562185] write p read p 280843390 280843389 1
+[  278.562190] write p read p 280843390 280843390 0
+[  278.562194] write p read p 280843391 280843390 1
+[  278.562199] write p read p 280843391 280843391 0
+[  278.562204] write p read p 280843392 280843391 1
+[  278.562208] write p read p 280843392 280843392 0
+[  278.562213] write p read p 280843393 280843392 1
+[  278.562218] write p read p 280843393 280843393 0
+[  278.562223] write p read p 280843394 280843393 1
+[  278.562227] write p read p 280843394 280843394 0
+[  278.562232] write p read p 280843395 280843394 1
+[  278.562236] write p read p 280843395 280843395 0
+[  278.562241] write p read p 280843396 280843395 1
+[  278.562246] write p read p 280843396 280843396 0
+[  278.562250] write p read p 280843397 280843396 1
+[  278.562255] write p read p 280843397 280843397 0
+[  278.562259] write p read p 280843398 280843397 1
+[  278.562264] write p read p 280843398 280843398 0
+[  278.562269] write p read p 280843399 280843398 1
+[  278.562274] write p read p 280843399 280843399 0
+[  278.562280] write p read p 280843400 280843399 1
+[  278.562284] write p read p 280843400 280843400 0
+[  278.562289] write p read p 280843401 280843401 0
+[  278.562294] write p read p 280843401 280843401 0
+[  278.562299] write p read p 280843402 280843402 0
+[  278.562303] write p read p 280843402 280843402 0
+[  278.562308] write p read p 280843403 280843403 0
+[  278.562313] write p read p 280843403 280843403 0
+[  278.562317] write p read p 280843404 280843404 0
+[  278.562322] write p read p 280843404 280843404 0
+[  278.562326] write p read p 280843405 280843404 1
+[  278.562331] write p read p 280843405 280843405 0
+[  278.562336] write p read p 280843406 280843405 1
+[  278.562341] write p read p 280843407 280843406 1
+[  278.562345] write p read p 280843407 280843407 0
+[  278.562350] write p read p 280843408 280843407 1
+[  278.562355] write p read p 280843408 280843408 0
+[  278.562360] write p read p 280843409 280843408 1
+[  278.562364] write p read p 280843409 280843409 0
+[  278.562369] write p read p 280843410 280843409 1
+[  278.562374] write p read p 280843410 280843410 0
+[  278.562378] write p read p 280843411 280843410 1
+[  278.562383] write p read p 280843411 280843411 0
+[  278.562387] write p read p 280843412 280843411 1
+[  278.562392] write p read p 280843412 280843412 0
+[  278.562397] write p read p 280843413 280843412 1
+[  278.562402] write p read p 280843413 280843413 0
+[  278.562407] write p read p 280843414 280843413 1
+[  278.562411] write p read p 280843414 280843414 0
+[  278.562417] write p read p 280843415 280843414 1
+[  278.562422] write p read p 280843415 280843415 0
+[  278.562426] write p read p 280843416 280843415 1
+[  278.562432] write p read p 280843416 280843416 0
+[  278.562436] write p read p 280843417 280843416 1
+[  278.562441] write p read p 280843417 280843417 0
+[  278.562445] write p read p 280843418 280843417 1
+[  278.562450] write p read p 280843418 280843418 0
+[  278.562455] write p read p 280843419 280843418 1
+[  278.562459] write p read p 280843419 280843419 0
+[  278.562464] write p read p 280843420 280843419 1
+[  278.562468] write p read p 280843420 280843420 0
+[  278.562473] write p read p 280843421 280843420 1
+[  278.562478] write p read p 280843421 280843421 0
+[  278.562483] write p read p 280843422 280843421 1
+[  278.562487] write p read p 280843422 280843422 0
+[  278.562492] write p read p 280843423 280843422 1
+[  278.562497] write p read p 280843423 280843423 0
+[  278.562501] write p read p 280843424 280843423 1
+[  278.562506] write p read p 280843424 280843424 0
+[  278.562510] write p read p 280843425 280843424 1
+[  278.562515] write p read p 280843425 280843425 0
+[  278.562520] write p read p 280843426 280843425 1
+[  278.562525] write p read p 280843426 280843426 0
+[  278.562529] write p read p 280843427 280843426 1
+[  278.562534] write p read p 280843427 280843427 0
+[  278.562539] write p read p 280843428 280843427 1
+[  278.562544] write p read p 280843428 280843428 0
+[  278.562548] write p read p 280843429 280843428 1
+[  278.562553] write p read p 280843429 280843429 0
+[  278.562558] write p read p 280843430 280843429 1

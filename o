@@ -1,0 +1,1196 @@
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 4.4.38-v7+ (dc4@dc4-XPS13-9333) (gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) ) #938 SMP Thu Dec 15 15:22:21 GMT 2016
+[    0.000000] CPU: ARMv7 Processor [410fd034] revision 4 (ARMv7), cr=10c5383d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[    0.000000] Machine model: Raspberry Pi 3 Model B Rev 1.2
+[    0.000000] cma: Reserved 8 MiB at 0x3a800000
+[    0.000000] Memory policy: Data cache writealloc
+[    0.000000] On node 0 totalpages: 241664
+[    0.000000] free_area_init_node: node 0, pgdat 808c4f40, node_mem_map b9fa6000
+[    0.000000]   Normal zone: 2124 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 241664 pages, LIFO batch:31
+[    0.000000] [bcm2709_smp_init_cpus] enter (9520->f3003010)
+[    0.000000] [bcm2709_smp_init_cpus] ncores=4
+[    0.000000] PERCPU: Embedded 13 pages/cpu @b9f62000 s22592 r8192 d22464 u53248
+[    0.000000] pcpu-alloc: s22592 r8192 d22464 u53248 alloc=13*4096
+[    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 239540
+[    0.000000] Kernel command line: 8250.nr_uarts=0 dma.dmachans=0x7f35 bcm2708_fb.fbwidth=1680 bcm2708_fb.fbheight=1050 bcm2709.boardrev=0xa02082 bcm2709.serial=0xdfbda565 smsc95xx.macaddr=B8:27:EB:BD:A5:65 bcm2708_fb.fbswap=1 bcm2709.uart_clock=48000000 vc_mem.mem_base=0x3dc00000 vc_mem.mem_size=0x3f000000  dwc_otg.lpm_enable=0 console=ttyS0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+[    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+[    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Memory: 939064K/966656K available (6357K kernel code, 432K rwdata, 1716K rodata, 476K init, 764K bss, 19400K reserved, 8192K cma-reserved)
+[    0.000000] Virtual kernel memory layout:
+    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+    fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+    vmalloc : 0xbb800000 - 0xff800000   (1088 MB)
+    lowmem  : 0x80000000 - 0xbb000000   ( 944 MB)
+    modules : 0x7f000000 - 0x80000000   (  16 MB)
+      .text : 0x80008000 - 0x807ea688   (8074 kB)
+      .init : 0x807eb000 - 0x80862000   ( 476 kB)
+      .data : 0x80862000 - 0x808ce250   ( 433 kB)
+       .bss : 0x808d1000 - 0x809901ec   ( 765 kB)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[    0.000000] Hierarchical RCU implementation.
+[    0.000000] 	Build-time adjustment of leaf fanout to 32.
+[    0.000000] NR_IRQS:16 nr_irqs:16 16
+[    0.000000] Architected cp15 timer(s) running at 19.20MHz (phys).
+[    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x46d987e47, max_idle_ns: 440795202767 ns
+[    0.000009] sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 4398046511078ns
+[    0.000027] Switching to timer-based delay loop, resolution 52ns
+[    0.000295] Console: colour dummy device 80x30
+[    0.001347] console [tty1] enabled
+[    0.001392] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=192000)
+[    0.001461] pid_max: default: 32768 minimum: 301
+[    0.001797] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.001841] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.002787] Disabling cpuset control group subsystem
+[    0.002844] Initializing cgroup subsys io
+[    0.002896] Initializing cgroup subsys memory
+[    0.002963] Initializing cgroup subsys devices
+[    0.003006] Initializing cgroup subsys freezer
+[    0.003049] Initializing cgroup subsys net_cls
+[    0.003120] CPU: Testing write buffer coherency: ok
+[    0.003207] ftrace: allocating 21237 entries in 63 pages
+[    0.052884] CPU0: update cpu_capacity 1024
+[    0.052950] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+[    0.052983] [bcm2709_smp_prepare_cpus] enter
+[    0.053137] Setting up static identity map for 0x8240 - 0x8274
+[    0.054794] [bcm2709_boot_secondary] cpu:1 started (0) 18
+[    0.055007] [bcm2709_secondary_init] enter cpu:1
+[    0.055049] CPU1: update cpu_capacity 1024
+[    0.055055] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+[    0.055437] [bcm2709_boot_secondary] cpu:2 started (0) 17
+[    0.055601] [bcm2709_secondary_init] enter cpu:2
+[    0.055622] CPU2: update cpu_capacity 1024
+[    0.055628] CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+[    0.055993] [bcm2709_boot_secondary] cpu:3 started (0) 17
+[    0.056124] [bcm2709_secondary_init] enter cpu:3
+[    0.056144] CPU3: update cpu_capacity 1024
+[    0.056150] CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+[    0.056211] Brought up 4 CPUs
+[    0.056310] SMP: Total of 4 processors activated (153.60 BogoMIPS).
+[    0.056339] CPU: All CPU(s) started in HYP mode.
+[    0.056366] CPU: Virtualization extensions available.
+[    0.056995] devtmpfs: initialized
+[    0.067919] VFP support v0.3: implementor 41 architecture 3 part 40 variant 3 rev 4
+[    0.068295] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+[    0.069037] pinctrl core: initialized pinctrl subsystem
+[    0.069582] NET: Registered protocol family 16
+[    0.074763] DMA: preallocated 4096 KiB pool for atomic coherent allocations
+[    0.081666] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+[    0.081715] hw-breakpoint: maximum watchpoint size is 8 bytes.
+[    0.081889] Serial: AMBA PL011 UART driver
+[    0.082042] uart-pl011 3f201000.uart: could not find pctldev for node /soc/gpio@7e200000/uart0_pins, deferring probe
+[    0.082242] bcm2835-mbox 3f00b880.mailbox: mailbox enabled
+[    0.145066] bcm2835-dma 3f007000.dma: DMA legacy API manager at f3007000, dmachans=0x1
+[    0.145672] SCSI subsystem initialized
+[    0.145882] usbcore: registered new interface driver usbfs
+[    0.145994] usbcore: registered new interface driver hub
+[    0.146115] usbcore: registered new device driver usb
+[    0.152439] raspberrypi-firmware soc:firmware: Attached to firmware from 2016-12-09 15:11
+[    0.179609] clocksource: Switched to clocksource arch_sys_counter
+[    0.224647] FS-Cache: Loaded
+[    0.224942] CacheFiles: Loaded
+[    0.237290] NET: Registered protocol family 2
+[    0.238164] TCP established hash table entries: 8192 (order: 3, 32768 bytes)
+[    0.238302] TCP bind hash table entries: 8192 (order: 4, 65536 bytes)
+[    0.238513] TCP: Hash tables configured (established 8192 bind 8192)
+[    0.238629] UDP hash table entries: 512 (order: 2, 16384 bytes)
+[    0.238697] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+[    0.238947] NET: Registered protocol family 1
+[    0.239290] RPC: Registered named UNIX socket transport module.
+[    0.239323] RPC: Registered udp transport module.
+[    0.239351] RPC: Registered tcp transport module.
+[    0.239379] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.240481] hw perfevents: enabled with armv7_cortex_a7 PMU driver, 7 counters available
+[    0.241834] futex hash table entries: 1024 (order: 4, 65536 bytes)
+[    0.255091] VFS: Disk quotas dquot_6.6.0
+[    0.255425] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+[    0.257669] FS-Cache: Netfs 'nfs' registered for caching
+[    0.258598] NFS: Registering the id_resolver key type
+[    0.258661] Key type id_resolver registered
+[    0.258690] Key type id_legacy registered
+[    0.261066] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+[    0.261224] io scheduler noop registered
+[    0.261260] io scheduler deadline registered (default)
+[    0.261332] io scheduler cfq registered
+[    0.263873] BCM2708FB: allocated DMA memory fac10000
+[    0.263920] BCM2708FB: allocated DMA channel 0 @ f3007000
+[    0.313611] Console: switching to colour frame buffer device 210x65
+[    0.343302] bcm2835-rng 3f104000.rng: hwrng registered
+[    0.343544] vc-cma: Videocore CMA driver
+[    0.343663] vc-cma: vc_cma_base      = 0x00000000
+[    0.343801] vc-cma: vc_cma_size      = 0x00000000 (0 MiB)
+[    0.343956] vc-cma: vc_cma_initial   = 0x00000000 (0 MiB)
+[    0.344315] vc-mem: phys_addr:0x00000000 mem_base=0x3dc00000 mem_size:0x3f000000(1008 MiB)
+[    0.359535] brd: module loaded
+[    0.368329] loop: module loaded
+[    0.369391] vchiq: vchiq_init_state: slot_zero = 0xbac80000, is_master = 0
+[    0.371163] Loading iSCSI transport class v2.0-870.
+[    0.371955] usbcore: registered new interface driver smsc95xx
+[    0.372169] dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+[    0.572641] Core Release: 2.80a
+[    0.572747] Setting default values for core params
+[    0.572914] Finished setting default values for core params
+[    0.773455] Using Buffer DMA mode
+[    0.773561] Periodic Transfer Interrupt Enhancement - disabled
+[    0.773726] Multiprocessor Interrupt Enhancement - disabled
+[    0.773890] OTG VER PARAM: 0, OTG VER FLAG: 0
+[    0.774030] Dedicated Tx FIFOs mode
+[    0.774454] WARN::dwc_otg_hcd_init:1047: FIQ DMA bounce buffers: virt = 0xbac04000 dma = 0xfac04000 len=9024
+[    0.774748] FIQ FSM acceleration enabled for :
+Non-periodic Split Transactions
+Periodic Split Transactions
+High-Speed Isochronous Endpoints
+Interrupt/Control Split Transaction hack enabled
+[    0.775345] dwc_otg: Microframe scheduler enabled
+[    0.775396] WARN::hcd_init_fiq:413: FIQ on core 1 at 0x8044844c
+[    0.775575] WARN::hcd_init_fiq:414: FIQ ASM at 0x804487bc length 36
+[    0.775761] WARN::hcd_init_fiq:439: MPHI regs_base at 0xbb87e000
+[    0.775989] dwc_otg 3f980000.usb: DWC OTG Controller
+[    0.783229] dwc_otg 3f980000.usb: new USB bus registered, assigned bus number 1
+[    0.790515] dwc_otg 3f980000.usb: irq 62, io mem 0x00000000
+[    0.797794] Init: Port Power? op_state=1
+[    0.804965] Init: Power Port (0)
+[    0.812251] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[    0.819445] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.826624] usb usb1: Product: DWC OTG Controller
+[    0.833773] usb usb1: Manufacturer: Linux 4.4.38-v7+ dwc_otg_hcd
+[    0.840907] usb usb1: SerialNumber: 3f980000.usb
+[    0.848837] hub 1-0:1.0: USB hub found
+[    0.855963] hub 1-0:1.0: 1 port detected
+[    0.863760] dwc_otg: FIQ enabled
+[    0.863770] dwc_otg: NAK holdoff enabled
+[    0.863778] dwc_otg: FIQ split-transaction FSM enabled
+[    0.863812] Module dwc_common_port init
+[    0.864071] usbcore: registered new interface driver usb-storage
+[    0.871585] mousedev: PS/2 mouse device common for all mice
+[    0.879520] bcm2835-cpufreq: min=600000 max=1200000
+[    0.886926] sdhci: Secure Digital Host Controller Interface driver
+[    0.894051] sdhci: Copyright(c) Pierre Ossman
+[    0.901460] sdhost: log_buf @ bac07000 (fac07000)
+[    0.959732] mmc0: sdhost-bcm2835 loaded - DMA enabled (>1)
+[    0.969064] mmc-bcm2835 3f300000.mmc: mmc_debug:0 mmc_debug2:0
+[    0.976122] mmc-bcm2835 3f300000.mmc: DMA channel allocated
+[    1.019730] sdhci-pltfm: SDHCI platform and OF driver helper
+[    1.027191] ledtrig-cpu: registered to indicate activity on CPUs
+[    1.034395] hidraw: raw HID events driver (C) Jiri Kosina
+[    1.041598] usbcore: registered new interface driver usbhid
+[    1.048636] usbhid: USB HID core driver
+[    1.056214] Initializing XFRM netlink socket
+[    1.060941] mmc0: host does not support reading read-only switch, assuming write-enable
+[    1.063575] mmc0: new high speed SDHC card at address aaaa
+[    1.064172] mmcblk0: mmc0:aaaa SL16G 14.8 GiB
+[    1.072326]  mmcblk0: p1 p2
+[    1.089311] mmc1: queuing unknown CIS tuple 0x80 (2 bytes)
+[    1.090899] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+[    1.092452] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+[    1.095233] mmc1: queuing unknown CIS tuple 0x80 (7 bytes)
+[    1.120834] NET: Registered protocol family 17
+[    1.120856] Indeed it is in host mode hprt0 = 00021501
+[    1.134991] Key type dns_resolver registered
+[    1.142512] Registering SWP/SWPB emulation handler
+[    1.150333] registered taskstats version 1
+[    1.157375] vc-sm: Videocore shared memory driver
+[    1.164290] [vc_sm_connected_init]: start
+[    1.171639] [vc_sm_connected_init]: end - returning 0
+[    1.179851] 3f201000.uart: ttyAMA0 at MMIO 0x3f201000 (irq = 87, base_baud = 0) is a PL011 rev2
+[    1.185968] mmc1: new high speed SDIO card at address 0001
+[    1.194315] of_cfs_init
+[    1.201389] of_cfs_init: OK
+[    1.225226] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+[    1.232380] VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+[    1.250333] devtmpfs: mounted
+[    1.258087] Freeing unused kernel memory: 476K (807eb000 - 80862000)
+[    1.299652] usb 1-1: new high-speed USB device number 2 using dwc_otg
+[    1.306799] Indeed it is in host mode hprt0 = 00001101
+[    1.509952] usb 1-1: New USB device found, idVendor=0424, idProduct=9514
+[    1.517248] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    1.520875] random: systemd: uninitialized urandom read (16 bytes read, 44 bits of entropy available)
+[    1.532647] hub 1-1:1.0: USB hub found
+[    1.540041] hub 1-1:1.0: 5 ports detected
+[    1.549413] systemd[1]: systemd 215 running in system mode. (+PAM +AUDIT +SELINUX +IMA +SYSVINIT +LIBCRYPTSETUP +GCRYPT +ACL +XZ -SECCOMP -APPARMOR)
+[    1.557624] systemd[1]: Detected architecture 'arm'.
+[    1.706368] NET: Registered protocol family 10
+[    1.715635] systemd[1]: Inserted module 'ipv6'
+[    1.728290] systemd[1]: Set hostname to <raspberrypi_2>.
+[    1.819704] usb 1-1.1: new high-speed USB device number 3 using dwc_otg
+[    1.884426] random: systemd-sysv-ge: uninitialized urandom read (16 bytes read, 69 bits of entropy available)
+[    1.930083] usb 1-1.1: New USB device found, idVendor=0424, idProduct=ec00
+[    1.937950] usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    1.951516] smsc95xx v1.0.4
+[    1.981189] random: systemd: uninitialized urandom read (16 bytes read, 72 bits of entropy available)
+[    1.990725] random: systemd: uninitialized urandom read (16 bytes read, 72 bits of entropy available)
+[    2.001330] random: systemd: uninitialized urandom read (16 bytes read, 73 bits of entropy available)
+[    2.023257] smsc95xx 1-1.1:1.0 eth0: register 'smsc95xx' at usb-3f980000.usb-1.1, smsc95xx USB 2.0 Ethernet, b8:27:eb:bd:a5:65
+[    2.030003] random: systemd: uninitialized urandom read (16 bytes read, 75 bits of entropy available)
+[    2.030746] random: systemd: uninitialized urandom read (16 bytes read, 75 bits of entropy available)
+[    2.030912] random: systemd: uninitialized urandom read (16 bytes read, 75 bits of entropy available)
+[    2.066732] random: systemd: uninitialized urandom read (16 bytes read, 76 bits of entropy available)
+[    2.081347] random: systemd: uninitialized urandom read (16 bytes read, 76 bits of entropy available)
+[    2.139678] usb 1-1.2: new low-speed USB device number 4 using dwc_otg
+[    2.213252] systemd[1]: Starting Forward Password Requests to Wall Directory Watch.
+[    2.221632] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[    2.229575] systemd[1]: Starting Remote File Systems (Pre).
+[    2.246391] systemd[1]: Reached target Remote File Systems (Pre).
+[    2.254606] systemd[1]: Starting Arbitrary Executable File Formats File System Automount Point.
+[    2.272031] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[    2.280377] systemd[1]: Starting Encrypted Volumes.
+[    2.297724] systemd[1]: Reached target Encrypted Volumes.
+[    2.306123] systemd[1]: Starting Swap.
+[    2.323743] systemd[1]: Reached target Swap.
+[    2.332231] systemd[1]: Expecting device dev-mmcblk0p1.device...
+[    2.350383] systemd[1]: Starting Root Slice.
+[    2.367703] usb 1-1.2: New USB device found, idVendor=0e8f, idProduct=00a7
+[    2.367714] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    2.367722] usb 1-1.2: Product: 2.4G RX
+[    2.367729] usb 1-1.2: Manufacturer: DaKai
+[    2.402970] systemd[1]: Created slice Root Slice.
+[    2.411480] systemd[1]: Starting User and Session Slice.
+[    2.428594] input: DaKai 2.4G RX as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.2/1-1.2:1.0/0003:0E8F:00A7.0001/input/input0
+[    2.438856] systemd[1]: Created slice User and Session Slice.
+[    2.447705] systemd[1]: Starting Delayed Shutdown Socket.
+[    2.466147] systemd[1]: Listening on Delayed Shutdown Socket.
+[    2.474898] systemd[1]: Starting /dev/initctl Compatibility Named Pipe.
+[    2.480344] hid-generic 0003:0E8F:00A7.0001: input,hidraw0: USB HID v1.10 Keyboard [DaKai 2.4G RX] on usb-3f980000.usb-1.2/input0
+[    2.502986] systemd[1]: Listening on /dev/initctl Compatibility Named Pipe.
+[    2.512005] systemd[1]: Starting Journal Socket (/dev/log).
+[    2.531091] systemd[1]: Listening on Journal Socket (/dev/log).
+[    2.539970] systemd[1]: Starting udev Control Socket.
+[    2.558391] systemd[1]: Listening on udev Control Socket.
+[    2.558620] input: DaKai 2.4G RX as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.2/1-1.2:1.1/0003:0E8F:00A7.0002/input/input1
+[    2.576128] systemd[1]: Starting udev Kernel Socket.
+[    2.595084] systemd[1]: Listening on udev Kernel Socket.
+[    2.604225] systemd[1]: Starting Journal Socket.
+[    2.620419] hid-generic 0003:0E8F:00A7.0002: input,hiddev0,hidraw1: USB HID v1.10 Mouse [DaKai 2.4G RX] on usb-3f980000.usb-1.2/input1
+[    2.632249] systemd[1]: Listening on Journal Socket.
+[    2.641537] systemd[1]: Starting System Slice.
+[    2.660634] systemd[1]: Created slice System Slice.
+[    2.669807] systemd[1]: Starting File System Check on Root Device...
+[    2.709659] usb 1-1.3: new high-speed USB device number 5 using dwc_otg
+[    2.740237] systemd[1]: Starting system-systemd\x2dfsck.slice.
+[    2.760922] systemd[1]: Created slice system-systemd\x2dfsck.slice.
+[    2.770844] systemd[1]: Starting system-autologin.slice.
+[    2.791724] systemd[1]: Created slice system-autologin.slice.
+[    2.801389] systemd[1]: Starting Increase datagram queue length...
+[    2.839954] usb 1-1.3: New USB device found, idVendor=1908, idProduct=0226
+[    2.849399] usb 1-1.3: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    2.860066] usb-storage 1-1.3:1.0: USB Mass Storage device detected
+[    2.869871] scsi host0: usb-storage 1-1.3:1.0
+[    2.880734] systemd[1]: Starting Restore / save the current clock...
+[    2.905352] systemd[1]: Mounted Huge Pages File System.
+[    2.914959] systemd[1]: Starting udev Coldplug all Devices...
+[    2.937978] systemd[1]: Mounting Debug File System...
+[    2.959720] usb 1-1.4: new high-speed USB device number 6 using dwc_otg
+[    2.991852] systemd[1]: Started Set Up Additional Binary Formats.
+[    3.002635] systemd[1]: Starting Create list of required static device nodes for the current kernel...
+[    3.026301] systemd[1]: Mounting POSIX Message Queue File System...
+[    3.061305] systemd[1]: Starting Load Kernel Modules...
+[    3.072407] usb 1-1.4: New USB device found, idVendor=1908, idProduct=0226
+[    3.072422] usb 1-1.4: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    3.082957] usb-storage 1-1.4:1.0: USB Mass Storage device detected
+[    3.086725] scsi host1: usb-storage 1-1.4:1.0
+[    3.124766] systemd[1]: Starting Slices.
+[    3.145162] systemd[1]: Reached target Slices.
+[    3.167344] systemd[1]: Mounted POSIX Message Queue File System.
+[    3.167790] fuse init (API version 7.23)
+[    3.189656] usb 1-1.5: new low-speed USB device number 7 using dwc_otg
+[    3.195371] i2c /dev entries driver
+[    3.214493] systemd[1]: Mounted Debug File System.
+[    3.234351] systemd[1]: Started File System Check on Root Device.
+[    3.266179] systemd[1]: Started Increase datagram queue length.
+[    3.286002] systemd[1]: Started Restore / save the current clock.
+[    3.316209] usb 1-1.5: New USB device found, idVendor=0e8f, idProduct=00a4
+[    3.324918] usb 1-1.5: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    3.333533] usb 1-1.5: Product: 2.4G RX
+[    3.342075] usb 1-1.5: Manufacturer: DKTEK
+[    3.361890] input: DKTEK 2.4G RX as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.5/1-1.5:1.0/0003:0E8F:00A4.0003/input/input2
+[    3.382771] systemd[1]: Started Create list of required static device nodes for the current kernel.
+[    3.403730] systemd[1]: Started Load Kernel Modules.
+[    3.416165] systemd[1]: Time has been changed
+[    3.430597] hid-generic 0003:0E8F:00A4.0003: input,hidraw2: USB HID v1.10 Keyboard [DKTEK 2.4G RX] on usb-3f980000.usb-1.5/input0
+[    3.445909] systemd[1]: Started udev Coldplug all Devices.
+[    3.469052] input: DKTEK 2.4G RX as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.5/1-1.5:1.1/0003:0E8F:00A4.0004/input/input3
+[    3.530402] hid-generic 0003:0E8F:00A4.0004: input,hiddev0,hidraw3: USB HID v1.10 Mouse [DKTEK 2.4G RX] on usb-3f980000.usb-1.5/input1
+[    3.608610] systemd[1]: Mounting FUSE Control File System...
+[    3.680393] systemd[1]: Mounting Configuration File System...
+[    3.703901] systemd[1]: Starting Apply Kernel Variables...
+[    3.728144] systemd[1]: Starting Create Static Device Nodes in /dev...
+[    3.752563] systemd[1]: Starting Syslog Socket.
+[    3.764079] systemd[1]: Listening on Syslog Socket.
+[    3.764287] systemd[1]: Starting Journal Service...
+[    3.789847] systemd[1]: Started Journal Service.
+[    3.870559] scsi 0:0:0:0: Direct-Access     Generic  Mass-Storage     1.11 PQ: 0 ANSI: 2
+[    3.970992] systemd-udevd[146]: starting version 215
+[    4.080746] scsi 1:0:0:0: Direct-Access     Generic  Mass-Storage     1.11 PQ: 0 ANSI: 2
+[    4.137936] sd 0:0:0:0: [sda] Attached SCSI removable disk
+[    4.484391] bcm2835-wdt 3f100000.watchdog: Broadcom BCM2835 watchdog timer
+[    4.486405] gpiomem-bcm2835 3f200000.gpiomem: Initialised: Registers at 0x3f200000
+[    4.693042] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[    4.693362] sd 1:0:0:0: Attached scsi generic sg1 type 0
+[    4.788228] sd 1:0:0:0: [sdb] 15605760 512-byte logical blocks: (7.99 GB/7.44 GiB)
+[    4.789521] sd 1:0:0:0: [sdb] Write Protect is off
+[    4.789572] sd 1:0:0:0: [sdb] Mode Sense: 03 00 00 00
+[    4.791809] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null)
+[    4.793634] sd 1:0:0:0: [sdb] No Caching mode page found
+[    4.793663] sd 1:0:0:0: [sdb] Assuming drive cache: write through
+[    4.798677]  sdb: sdb1
+[    4.804605] sd 1:0:0:0: [sdb] Attached SCSI removable disk
+[    4.809928] usbcore: registered new interface driver brcmfmac
+[    4.883625] random: nonblocking pool is initialized
+[    4.972376] brcmfmac: brcmf_c_preinit_dcmds: Firmware version = wl0: May 27 2016 00:13:38 version 7.45.41.26 (r640327) FWID 01-df77e4a7
+[    5.015097] brcmfmac: brcmf_cfg80211_reg_notifier: not a ISO3166 code
+[    5.130670] brcmfmac: brcmf_cfg80211_reg_notifier: not a ISO3166 code
+[    5.130716] cfg80211: World regulatory domain updated:
+[    5.130730] cfg80211:  DFS Master region: unset
+[    5.130741] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+[    5.130772] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+[    5.130817] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+[    5.130841] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (N/A, 2000 mBm), (N/A)
+[    5.130857] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (N/A)
+[    5.130899] cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (0 s)
+[    5.130919] cfg80211:   (5490000 KHz - 5730000 KHz @ 160000 KHz), (N/A, 2000 mBm), (0 s)
+[    5.130932] cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (N/A, 2000 mBm), (N/A)
+[    5.130944] cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 0 mBm), (N/A)
+[    5.472421] systemd-journald[141]: Received request to flush runtime journal from PID 1
+[    6.190422] brcmfmac: brcmf_add_if: ERROR: netdev:wlan0 already exists
+[    6.190449] brcmfmac: brcmf_add_if: ignore IF event
+[    6.195927] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[    6.195977] brcmfmac: power management disabled
+[    6.623355] cfg80211: Regulatory domain changed to country: GB
+[    6.623380] cfg80211:  DFS Master region: ETSI
+[    6.623390] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+[    6.623407] cfg80211:   (2402000 KHz - 2482000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+[    6.623424] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (N/A)
+[    6.623438] cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (0 s)
+[    6.623452] cfg80211:   (5490000 KHz - 5710000 KHz @ 160000 KHz), (N/A, 2700 mBm), (0 s)
+[    6.623464] cfg80211:   (57000000 KHz - 66000000 KHz @ 2160000 KHz), (N/A, 4000 mBm), (N/A)
+[    6.880553] uart-pl011 3f201000.uart: no DMA platform data
+[    7.173332] Adding 102396k swap on /var/swap.  Priority:-1 extents:4 across:192508k SSFS
+[    7.530863] smsc95xx 1-1.1:1.0 eth0: hardware isn't capable of remote wakeup
+[    7.531018] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[    7.686568] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+[   11.387570] Bluetooth: Core ver 2.21
+[   11.387635] NET: Registered protocol family 31
+[   11.387642] Bluetooth: HCI device and connection manager initialized
+[   11.387657] Bluetooth: HCI socket layer initialized
+[   11.387666] Bluetooth: L2CAP socket layer initialized
+[   11.387685] Bluetooth: SCO socket layer initialized
+[   11.393992] Bluetooth: HCI UART driver ver 2.3
+[   11.394007] Bluetooth: HCI UART protocol H4 registered
+[   11.394012] Bluetooth: HCI UART protocol Three-wire (H5) registered
+[   11.394124] Bluetooth: HCI UART protocol BCM registered
+[   11.541931] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[   11.541935] Bluetooth: BNEP filters: protocol multicast
+[   11.541947] Bluetooth: BNEP socket layer initialized
+[   23.735240] address = f3200000
+[   23.735254] Changing function of GPIO22 from 0 to 0
+[   23.735258] dlaser init successfully1
+[   23.735462] 25860105 25860105 0
+[   23.735468] 25860106 25860106 0
+[   23.735472] 25860107 25860107 0
+[   23.735476] 25860108 25860108 0
+[   23.735481] 25860109 25860109 0
+[   23.735485] 25860110 25860110 0
+[   23.735489] 25860111 25860111 0
+[   23.735493] 25860113 25860112 1
+[   23.735499] 25860113 25860113 0
+[   23.735503] 25860114 25860114 0
+[   23.735507] 25860115 25860115 0
+[   23.735512] 25860116 25860116 0
+[   23.735516] 25860117 25860117 0
+[   23.735520] 25860118 25860118 0
+[   23.735524] 25860119 25860119 0
+[   23.735530] 25860120 25860120 0
+[   23.735534] 25860121 25860121 0
+[   23.735538] 25860122 25860122 0
+[   23.735542] 25860123 25860123 0
+[   23.735546] 25860124 25860124 0
+[   23.735550] 25860125 25860125 0
+[   23.735554] 25860126 25860126 0
+[   23.735560] 25860127 25860127 0
+[   23.735564] 25860129 25860128 1
+[   23.735568] 25860129 25860129 0
+[   23.735572] 25860130 25860130 0
+[   23.735577] 25860131 25860131 0
+[   23.735581] 25860132 25860132 0
+[   23.735589] 25860133 25860133 0
+[   23.735594] 25860134 25860134 0
+[   23.735598] 25860135 25860135 0
+[   23.735602] 25860136 25860136 0
+[   23.735606] 25860137 25860137 0
+[   23.735615] 25860138 25860138 0
+[   23.735622] 25860139 25860139 0
+[   23.735626] 25860140 25860140 0
+[   23.735630] 25860141 25860141 0
+[   23.735634] 25860142 25860142 0
+[   23.735638] 25860144 25860143 1
+[   23.735642] 25860144 25860144 0
+[   23.735647] 25860145 25860145 0
+[   23.735652] 25860146 25860146 0
+[   23.735656] 25860147 25860147 0
+[   23.735661] 25860148 25860148 0
+[   23.735665] 25860149 25860149 0
+[   23.735669] 25860150 25860150 0
+[   23.735673] 25860151 25860151 0
+[   23.735677] 25860152 25860152 0
+[   23.735688] 25860153 25860153 0
+[   23.735698] 25860154 25860154 0
+[   23.735703] 25860155 25860155 0
+[   23.735707] 25860156 25860156 0
+[   23.735713] 25860158 25860157 1
+[   23.735723] 25860159 25860158 1
+[   23.735733] 25860159 25860159 0
+[   23.735740] 25860160 25860160 0
+[   23.735749] 25860161 25860161 0
+[   23.735760] 25860162 25860162 0
+[   23.735766] 25860163 25860163 0
+[   23.735771] 25860164 25860164 0
+[   23.735775] 25860165 25860165 0
+[   23.735779] 25860166 25860166 0
+[   23.735783] 25860167 25860167 0
+[   23.735791] 25860168 25860168 0
+[   23.735796] 25860169 25860169 0
+[   23.735800] 25860170 25860170 0
+[   23.735805] 25860171 25860171 0
+[   23.735816] 25860172 25860172 0
+[   23.735826] 25860174 25860173 1
+[   23.735835] 25860174 25860174 0
+[   23.735846] 25860175 25860175 0
+[   23.735854] 25860176 25860176 0
+[   23.735860] 25860177 25860177 0
+[   23.735867] 25860178 25860178 0
+[   23.735871] 25860179 25860179 0
+[   23.735878] 25860180 25860180 0
+[   23.735888] 25860181 25860181 0
+[   23.735897] 25860182 25860182 0
+[   23.735907] 25860183 25860183 0
+[   23.735918] 25860184 25860184 0
+[   23.735923] 25860185 25860185 0
+[   23.735928] 25860186 25860186 0
+[   23.735932] 25860187 25860187 0
+[   23.735939] 25860190 25860188 2
+[   23.735951] 25860190 25860189 1
+[   23.735959] 25860190 25860190 0
+[   23.735970] 25860191 25860191 0
+[   23.735979] 25860192 25860192 0
+[   23.735984] 25860193 25860193 0
+[   23.735989] 25860194 25860194 0
+[   23.735995] 25860195 25860195 0
+[   23.736000] 25860196 25860196 0
+[   23.736004] 25860197 25860197 0
+[   23.736008] 25860198 25860198 0
+[   23.736012] 25860199 25860199 0
+[   23.736023] 25860200 25860200 0
+[   23.736033] 25860201 25860201 0
+[   23.736038] 25860202 25860202 0
+[   23.736043] 25860203 25860203 0
+[   23.736053] 25860205 25860204 1
+[   23.736063] 25860205 25860205 0
+[   23.736067] 25860206 25860206 0
+[   23.736072] 25860207 25860207 0
+[   23.736076] 25860208 25860208 0
+[   23.736081] 25860209 25860209 0
+[   23.736085] 25860210 25860210 0
+[   23.736090] 25860211 25860211 0
+[   23.736094] 25860212 25860212 0
+[   23.736098] 25860213 25860213 0
+[   23.736102] 25860214 25860214 0
+[   23.736106] 25860215 25860215 0
+[   23.736116] 25860216 25860216 0
+[   23.736125] 25860217 25860217 0
+[   23.736132] 25860218 25860218 0
+[   23.736139] 25860220 25860219 1
+[   23.736143] 25860220 25860220 0
+[   23.736147] 25860221 25860221 0
+[   23.736152] 25860222 25860222 0
+[   23.736158] 25860223 25860223 0
+[   23.736163] 25860224 25860224 0
+[   23.736174] 25860225 25860225 0
+[   23.736182] 25860226 25860226 0
+[   23.736187] 25860227 25860227 0
+[   23.736191] 25860228 25860228 0
+[   23.736197] 25860229 25860229 0
+[   23.736201] 25860230 25860230 0
+[   23.736205] 25860231 25860231 0
+[   23.736210] 25860232 25860232 0
+[   23.736214] 25860233 25860233 0
+[   23.736219] 25860235 25860234 1
+[   23.736223] 25860235 25860235 0
+[   23.736227] 25860236 25860236 0
+[   23.736231] 25860237 25860237 0
+[   23.736236] 25860238 25860238 0
+[   23.736240] 25860239 25860239 0
+[   23.736244] 25860240 25860240 0
+[   23.736249] 25860241 25860241 0
+[   23.736256] 25860242 25860242 0
+[   23.736266] 25860243 25860243 0
+[   23.736274] 25860244 25860244 0
+[   23.736282] 25860245 25860245 0
+[   23.736287] 25860246 25860246 0
+[   23.736291] 25860247 25860247 0
+[   23.736297] 25860248 25860248 0
+[   23.736306] 25860249 25860249 0
+[   23.736317] 25860251 25860250 1
+[   23.736327] 25860251 25860251 0
+[   23.736331] 25860252 25860252 0
+[   23.736337] 25860253 25860253 0
+[   23.736342] 25860254 25860254 0
+[   23.736346] 25860255 25860255 0
+[   23.736354] 25860256 25860256 0
+[   23.736359] 25860257 25860257 0
+[   23.736363] 25860258 25860258 0
+[   23.736369] 25860259 25860259 0
+[   23.736373] 25860260 25860260 0
+[   23.736377] 25860261 25860261 0
+[   23.736382] 25860262 25860262 0
+[   23.736388] 25860263 25860263 0
+[   23.736392] 25860264 25860264 0
+[   23.736396] 25860265 25860265 0
+[   23.736401] 25860266 25860266 0
+[   23.736405] 25860267 25860267 0
+[   23.736409] 25860268 25860268 0
+[   23.736413] 25860269 25860269 0
+[   23.736417] 25860270 25860270 0
+[   23.736422] 25860271 25860271 0
+[   23.736426] 25860272 25860272 0
+[   23.736434] 25860273 25860273 0
+[   23.736445] 25860274 25860274 0
+[   23.736451] 25860275 25860275 0
+[   23.736455] 25860276 25860276 0
+[   23.736461] 25860277 25860277 0
+[   23.736470] 25860278 25860278 0
+[   23.736482] 25860279 25860279 0
+[   23.736488] 25860280 25860280 0
+[   23.736492] 25860281 25860281 0
+[   23.736497] 25860282 25860282 0
+[   23.736501] 25860283 25860283 0
+[   23.736505] 25860284 25860284 0
+[   23.736510] 25860285 25860285 0
+[   23.736514] 25860286 25860286 0
+[   23.736518] 25860287 25860287 0
+[   23.736523] 25860288 25860288 0
+[   23.736527] 25860289 25860289 0
+[   23.736531] 25860290 25860290 0
+[   23.736535] 25860291 25860291 0
+[   23.736541] 25860292 25860292 0
+[   23.736545] 25860293 25860293 0
+[   23.736549] 25860294 25860294 0
+[   23.736553] 25860296 25860295 1
+[   23.736558] 25860297 25860296 1
+[   23.736562] 25860297 25860297 0
+[   23.736566] 25860298 25860298 0
+[   23.736572] 25860299 25860299 0
+[   23.736576] 25860300 25860300 0
+[   23.736580] 25860301 25860301 0
+[   23.736586] 25860302 25860302 0
+[   23.736591] 25860303 25860303 0
+[   23.736595] 25860304 25860304 0
+
+[   23.739008] 25861446 25861446 -12
+[   23.739018] 25861458 25861458 -12
+[   23.739022] 25861470 25861470 -12
+[   23.739026] 25861482 25861482 -12
+[   23.739031] 25861494 25861494 -12
+[   23.739035] 25861507 25861506 -11
+[   23.739039] 25861518 25861518 -12
+[   23.739043] 25861530 25861530 -12
+[   23.739047] 25861542 25861542 -12
+[   23.739052] 25861554 25861554 -12
+[   23.739056] 25861566 25861566 -12
+[   23.739061] 25861578 25861578 -12
+[   23.739065] 25861590 25861590 -12
+[   23.739069] 25861602 25861602 -12
+[   23.739073] 25861614 25861614 -12
+[   23.739077] 25861626 25861626 -12
+[   23.739082] 25861638 25861638 -12
+[   23.739086] 25861650 25861650 -12
+[   23.739090] 25861662 25861662 -12
+[   23.739094] 25861675 25861674 -11
+[   23.739098] 25861686 25861686 -12
+[   23.739103] 25861698 25861698 -12
+[   23.739107] 25861710 25861710 -12
+[   23.739111] 25861722 25861722 -12
+[   23.739115] 25861734 25861734 -12
+[   23.739119] 25861746 25861746 -12
+[   23.739124] 25861758 25861758 -12
+[   23.739128] 25861770 25861770 -12
+[   23.739132] 25861783 25861782 -11
+[   23.739136] 25861794 25861794 -12
+[   23.739140] 25861806 25861806 -12
+[   23.739145] 25861818 25861818 -12
+[   23.739149] 25861830 25861830 -12
+[   23.739153] 25861844 25861842 -10
+[   23.739157] 25861854 25861854 -12
+[   23.739161] 25861866 25861866 -12
+[   23.739166] 25861878 25861878 -12
+[   23.739170] 25861890 25861890 -12
+[   23.739175] 25861902 25861902 -12
+[   23.739179] 25861914 25861914 -12
+[   23.739183] 25861926 25861926 -12
+[   23.739187] 25861938 25861938 -12
+[   23.739191] 25861951 25861950 -11
+[   23.739196] 25861962 25861962 -12
+[   23.739200] 25861974 25861974 -12
+[   23.739204] 25861986 25861986 -12
+[   23.739208] 25861998 25861998 -12
+[   23.739212] 25862010 25862010 -12
+[   23.739217] 25862022 25862022 -12
+[   23.739221] 25862034 25862034 -12
+[   23.739225] 25862046 25862046 -12
+[   23.739229] 25862058 25862058 -12
+[   23.739233] 25862070 25862070 -12
+[   23.739237] 25862082 25862082 -12
+[   23.739242] 25862094 25862094 -12
+[   23.739246] 25862106 25862106 -12
+[   23.739250] 25862120 25862118 -10
+[   23.739254] 25862130 25862130 -12
+[   23.739259] 25862142 25862142 -12
+[   23.739263] 25862154 25862154 -12
+[   23.739267] 25862166 25862166 -12
+[   23.739271] 25862178 25862178 -12
+[   23.739275] 25862190 25862190 -12
+[   23.739279] 25862202 25862202 -12
+[   23.739284] 25862214 25862214 -12
+[   23.739288] 25862227 25862226 -11
+[   23.739292] 25862238 25862238 -12
+[   23.739296] 25862250 25862250 -12
+[   23.739301] 25862262 25862262 -12
+[   23.739305] 25862274 25862274 -12
+[   23.739309] 25862286 25862286 -12
+[   23.739313] 25862298 25862298 -12
+[   23.739317] 25862310 25862310 -12
+[   23.739322] 25862322 25862322 -12
+[   23.739326] 25862334 25862334 -12
+[   23.739330] 25862346 25862346 -12
+[   23.739334] 25862358 25862358 -12
+[   23.739338] 25862370 25862370 -12
+[   23.739343] 25862382 25862382 -12
+[   23.739347] 25862394 25862394 -12
+[   23.739352] 25862406 25862406 -12
+[   23.739356] 25862418 25862418 -12
+[   23.739360] 25862430 25862430 -12
+[   23.739364] 25862442 25862442 -12
+[   23.739368] 25862454 25862454 -12
+[   23.739373] 25862466 25862466 -12
+[   23.739377] 25862478 25862478 -12
+[   23.739381] 25862490 25862490 -12
+[   23.739385] 25862502 25862502 -12
+[   23.739390] 25862514 25862514 -12
+[   23.739394] 25862526 25862526 -12
+[   23.739398] 25862538 25862538 -12
+[   23.739402] 25862550 25862550 -12
+[   23.739406] 25862564 25862562 -10
+[   23.739410] 25862574 25862574 -12
+[   23.739415] 25862586 25862586 -12
+[   23.739419] 25862598 25862598 -12
+[   23.739423] 25862610 25862610 -12
+[   23.739427] 25862622 25862622 -12
+[   23.739432] 25862634 25862634 -12
+[   23.739436] 25862646 25862646 -12
+[   23.739440] 25862658 25862658 -12
+[   23.739444] 25862670 25862670 -12
+[   23.739448] 25862682 25862682 -12
+[   23.739453] 25862694 25862694 -12
+[   23.739457] 25862706 25862706 -12
+[   23.739461] 25862718 25862718 -12
+[   23.739465] 25862730 25862730 -12
+[   23.739469] 25862742 25862742 -12
+[   23.739474] 25862754 25862754 -12
+[   23.739478] 25862766 25862766 -12
+[   23.739482] 25862778 25862778 -12
+[   23.739486] 25862790 25862790 -12
+[   23.739490] 25862802 25862802 -12
+[   23.739495] 25862814 25862814 -12
+[   23.739500] 25862826 25862826 -12
+[   23.739504] 25862838 25862838 -12
+[   23.739508] 25862850 25862850 -12
+[   23.739512] 25862862 25862862 -12
+[   23.739516] 25862874 25862874 -12
+[   23.739520] 25862886 25862886 -12
+[   23.739525] 25862898 25862898 -12
+[   23.739529] 25862910 25862910 -12
+[   23.739533] 25862922 25862922 -12
+[   23.739537] 25862934 25862934 -12
+[   23.739541] 25862946 25862946 -12
+[   23.739546] 25862958 25862958 -12
+[   23.739550] 25862970 25862970 -12
+[   23.739554] 25862982 25862982 -12
+[   23.739558] 25862994 25862994 -12
+[   23.739563] 25863006 25863006 -12
+[   23.739567] 25863018 25863018 -12
+[   23.739571] 25863030 25863030 -12
+[   23.739575] 25863042 25863042 -12
+[   23.739579] 25863054 25863054 -12
+[   23.739584] 25863066 25863066 -12
+[   23.739588] 25863079 25863078 -11
+[   23.739592] 25863090 25863090 -12
+[   23.739596] 25863102 25863102 -12
+[   23.739600] 25863114 25863114 -12
+[   23.739605] 25863126 25863126 -12
+[   23.739609] 25863138 25863138 -12
+[   23.739613] 25863150 25863150 -12
+[   23.739618] 25863162 25863162 -12
+[   23.739623] 25863174 25863174 -12
+[   23.739627] 25863186 25863186 -12
+[   23.739631] 25863198 25863198 -12
+[   23.739635] 25863210 25863210 -12
+[   23.739640] 25863222 25863222 -12
+[   23.739644] 25863234 25863234 -12
+[   23.739649] 25863246 25863246 -12
+[   23.739653] 25863258 25863258 -12
+[   23.739657] 25863270 25863270 -12
+[   23.739661] 25863282 25863282 -12
+[   23.739665] 25863294 25863294 -12
+[   23.739670] 25863306 25863306 -12
+[   23.739674] 25863318 25863318 -12
+[   23.739678] 25863330 25863330 -12
+[   23.739682] 25863342 25863342 -12
+[   23.739686] 25863354 25863354 -12
+[   23.739691] 25863366 25863366 -12
+[   23.739695] 25863378 25863378 -12
+[   23.739700] 25863390 25863390 -12
+[   23.739704] 25863402 25863402 -12
+[   23.739708] 25863414 25863414 -12
+[   23.739712] 25863426 25863426 -12
+[   23.739716] 25863438 25863438 -12
+[   23.739721] 25863450 25863450 -12
+[   23.739725] 25863462 25863462 -12
+[   23.739729] 25863474 25863474 -12
+[   23.739733] 25863486 25863486 -12
+[   23.739737] 25863498 25863498 -12
+[   23.739742] 25863510 25863510 -12
+[   23.739746] 25863522 25863522 -12
+[   23.739750] 25863534 25863534 -12
+[   23.739754] 25863546 25863546 -12
+[   23.739759] 25863558 25863558 -12
+[   23.739763] 25863570 25863570 -12
+[   23.739767] 25863582 25863582 -12
+[   23.739772] 25863594 25863594 -12
+[   23.739777] 25863606 25863606 -12
+[   23.739781] 25863618 25863618 -12
+[   23.739785] 25863630 25863630 -12
+[   23.739790] 25863642 25863642 -12
+[   23.739794] 25863654 25863654 -12
+[   23.739798] 25863666 25863666 -12
+[   23.739803] 25863678 25863678 -12
+[   23.739807] 25863690 25863690 -12
+[   23.739811] 25863702 25863702 -12
+[   23.739816] 25863714 25863714 -12
+[   23.739820] 25863726 25863726 -12
+[   23.739824] 25863738 25863738 -12
+[   23.739828] 25863750 25863750 -12
+[   23.739833] 25863762 25863762 -12
+[   23.739837] 25863774 25863774 -12
+[   23.739842] 25863786 25863786 -12
+[   23.739846] 25863798 25863798 -12
+[   23.739850] 25863810 25863810 -12
+[   23.739854] 25863822 25863822 -12
+[   23.739858] 25863834 25863834 -12
+
+[   23.742290] udelay(12) 25864720 25864708 0
+[   23.742294] udelay(12) 25864732 25864720 0
+[   23.742299] udelay(12) 25864744 25864732 0
+[   23.742304] udelay(12) 25864756 25864744 0
+[   23.742308] udelay(12) 25864768 25864756 0
+[   23.742312] udelay(12) 25864781 25864768 1
+[   23.742317] udelay(12) 25864793 25864781 0
+[   23.742321] udelay(12) 25864805 25864793 0
+[   23.742326] udelay(12) 25864817 25864805 0
+[   23.742330] udelay(12) 25864829 25864817 0
+[   23.742334] udelay(12) 25864841 25864829 0
+[   23.742339] udelay(12) 25864853 25864841 0
+[   23.742343] udelay(12) 25864865 25864853 0
+[   23.742347] udelay(12) 25864878 25864865 1
+[   23.742352] udelay(12) 25864890 25864878 0
+[   23.742356] udelay(12) 25864902 25864890 0
+[   23.742361] udelay(12) 25864914 25864902 0
+[   23.742365] udelay(12) 25864926 25864914 0
+[   23.742370] udelay(12) 25864938 25864926 0
+[   23.742374] udelay(12) 25864950 25864938 0
+[   23.742378] udelay(12) 25864962 25864950 0
+[   23.742383] udelay(12) 25864975 25864962 1
+[   23.742387] udelay(12) 25864987 25864975 0
+[   23.742391] udelay(12) 25864999 25864987 0
+[   23.742396] udelay(12) 25865011 25864999 0
+[   23.742400] udelay(12) 25865023 25865011 0
+[   23.742404] udelay(12) 25865035 25865023 0
+[   23.742409] udelay(12) 25865047 25865035 0
+[   23.742413] udelay(12) 25865059 25865047 0
+[   23.742417] udelay(12) 25865071 25865059 0
+[   23.742422] udelay(12) 25865083 25865071 0
+[   23.742426] udelay(12) 25865096 25865083 1
+[   23.742431] udelay(12) 25865108 25865096 0
+[   23.742435] udelay(12) 25865120 25865108 0
+[   23.742439] udelay(12) 25865132 25865120 0
+[   23.742444] udelay(12) 25865144 25865132 0
+[   23.742448] udelay(12) 25865156 25865144 0
+[   23.742452] udelay(12) 25865168 25865156 0
+[   23.742457] udelay(12) 25865180 25865168 0
+[   23.742461] udelay(12) 25865193 25865180 1
+[   23.742466] udelay(12) 25865205 25865193 0
+[   23.742470] udelay(12) 25865217 25865205 0
+[   23.742474] udelay(12) 25865229 25865217 0
+[   23.742479] udelay(12) 25865241 25865229 0
+[   23.742483] udelay(12) 25865253 25865241 0
+[   23.742487] udelay(12) 25865265 25865253 0
+[   23.742492] udelay(12) 25865277 25865265 0
+[   23.742496] udelay(12) 25865289 25865277 0
+[   23.742501] udelay(12) 25865302 25865289 1
+[   23.742505] udelay(12) 25865314 25865302 0
+[   23.742509] udelay(12) 25865326 25865314 0
+[   23.742514] udelay(12) 25865338 25865326 0
+[   23.742518] udelay(12) 25865350 25865338 0
+[   23.742522] udelay(12) 25865362 25865350 0
+[   23.742527] udelay(12) 25865374 25865362 0
+[   23.742531] udelay(12) 25865386 25865374 0
+[   23.742536] udelay(12) 25865398 25865386 0
+[   23.742540] udelay(12) 25865411 25865398 1
+[   23.742544] udelay(12) 25865423 25865411 0
+[   23.742549] udelay(12) 25865435 25865423 0
+[   23.742553] udelay(12) 25865447 25865435 0
+[   23.742557] udelay(12) 25865459 25865447 0
+[   23.742562] udelay(12) 25865471 25865459 0
+[   23.742566] udelay(12) 25865483 25865471 0
+[   23.742571] udelay(12) 25865495 25865483 0
+[   23.742575] udelay(12) 25865507 25865495 0
+[   23.742579] udelay(12) 25865519 25865507 0
+[   23.742584] udelay(12) 25865532 25865519 1
+[   23.742588] udelay(12) 25865544 25865532 0
+[   23.742592] udelay(12) 25865556 25865544 0
+[   23.742597] udelay(12) 25865568 25865556 0
+[   23.742601] udelay(12) 25865580 25865568 0
+[   23.742606] udelay(12) 25865592 25865580 0
+[   23.742610] udelay(12) 25865604 25865592 0
+[   23.742614] udelay(12) 25865616 25865604 0
+[   23.742619] udelay(12) 25865629 25865616 1
+[   23.742623] udelay(12) 25865641 25865629 0
+[   23.742627] udelay(12) 25865653 25865641 0
+[   23.742632] udelay(12) 25865665 25865653 0
+[   23.742636] udelay(12) 25865677 25865665 0
+[   23.742641] udelay(12) 25865689 25865677 0
+[   23.742645] udelay(12) 25865701 25865689 0
+[   23.742649] udelay(12) 25865713 25865701 0
+[   23.742654] udelay(12) 25865726 25865713 1
+[   23.742658] udelay(12) 25865738 25865726 0
+[   23.742662] udelay(12) 25865750 25865738 0
+[   23.742667] udelay(12) 25865762 25865750 0
+[   23.742671] udelay(12) 25865774 25865762 0
+[   23.742676] udelay(12) 25865786 25865774 0
+[   23.742680] udelay(12) 25865798 25865786 0
+[   23.742684] udelay(12) 25865810 25865798 0
+[   23.742689] udelay(12) 25865822 25865810 0
+[   23.742693] udelay(12) 25865835 25865822 1
+[   23.742697] udelay(12) 25865847 25865835 0
+[   23.742702] udelay(12) 25865859 25865847 0
+[   23.742706] udelay(12) 25865871 25865859 0
+[   23.742711] udelay(12) 25865883 25865871 0
+[   23.742715] udelay(12) 25865895 25865883 0
+[   23.742719] udelay(12) 25865907 25865895 0
+[   23.742724] udelay(12) 25865919 25865907 0
+[   23.742728] udelay(12) 25865932 25865919 1
+[   23.742732] udelay(12) 25865944 25865932 0
+[   23.742737] udelay(12) 25865956 25865944 0
+[   23.742741] udelay(12) 25865968 25865956 0
+[   23.742746] udelay(12) 25865980 25865968 0
+[   23.742750] udelay(12) 25865992 25865980 0
+[   23.742754] udelay(12) 25866004 25865992 0
+[   23.742759] udelay(12) 25866016 25866004 0
+[   23.742763] udelay(12) 25866029 25866016 1
+[   23.742767] udelay(12) 25866041 25866029 0
+[   23.742772] udelay(12) 25866053 25866041 0
+[   23.742776] udelay(12) 25866065 25866053 0
+[   23.742781] udelay(12) 25866077 25866065 0
+[   23.742785] udelay(12) 25866089 25866077 0
+[   23.742789] udelay(12) 25866101 25866089 0
+[   23.742794] udelay(12) 25866113 25866101 0
+[   23.742798] udelay(12) 25866126 25866113 1
+[   23.742802] udelay(12) 25866138 25866126 0
+[   23.742807] udelay(12) 25866150 25866138 0
+[   23.742811] udelay(12) 25866162 25866150 0
+[   23.742816] udelay(12) 25866174 25866162 0
+[   23.742820] udelay(12) 25866186 25866174 0
+[   23.742824] udelay(12) 25866198 25866186 0
+[   23.742829] udelay(12) 25866210 25866198 0
+[   23.742833] udelay(12) 25866222 25866210 0
+[   23.742837] udelay(12) 25866235 25866222 1
+[   23.742842] udelay(12) 25866247 25866235 0
+[   23.742846] udelay(12) 25866259 25866247 0
+[   23.742851] udelay(12) 25866271 25866259 0
+[   23.742855] udelay(12) 25866283 25866271 0
+[   23.742860] udelay(12) 25866295 25866283 0
+[   23.742864] udelay(12) 25866307 25866295 0
+[   23.742868] udelay(12) 25866319 25866307 0
+[   23.742873] udelay(12) 25866331 25866319 0
+[   23.742877] udelay(12) 25866344 25866331 1
+[   23.742881] udelay(12) 25866356 25866344 0
+[   23.742886] udelay(12) 25866368 25866356 0
+[   23.742890] udelay(12) 25866380 25866368 0
+[   23.742894] udelay(12) 25866392 25866380 0
+[   23.742899] udelay(12) 25866404 25866392 0
+[   23.742903] udelay(12) 25866416 25866404 0
+[   23.742907] udelay(12) 25866428 25866416 0
+[   23.742912] udelay(12) 25866441 25866428 1
+[   23.742916] udelay(12) 25866453 25866441 0
+[   23.742921] udelay(12) 25866465 25866453 0
+[   23.742925] udelay(12) 25866477 25866465 0
+[   23.742929] udelay(12) 25866489 25866477 0
+[   23.742934] udelay(12) 25866501 25866489 0
+[   23.742938] udelay(12) 25866513 25866501 0
+[   23.742942] udelay(12) 25866525 25866513 0
+[   23.742947] udelay(12) 25866537 25866525 0
+[   23.742951] udelay(12) 25866550 25866537 1
+[   23.742956] udelay(12) 25866562 25866550 0
+[   23.742960] udelay(12) 25866574 25866562 0
+[   23.742964] udelay(12) 25866586 25866574 0
+[   23.742969] udelay(12) 25866598 25866586 0
+[   23.742973] udelay(12) 25866610 25866598 0
+[   23.742978] udelay(12) 25866622 25866610 0
+[   23.742982] udelay(12) 25866634 25866622 0
+[   23.742986] udelay(12) 25866647 25866634 1
+[   23.742991] udelay(12) 25866659 25866647 0
+[   23.742995] udelay(12) 25866671 25866659 0
+[   23.742999] udelay(12) 25866683 25866671 0
+[   23.743004] udelay(12) 25866695 25866683 0
+[   23.743008] udelay(12) 25866707 25866695 0
+[   23.743013] udelay(12) 25866719 25866707 0
+[   23.743017] udelay(12) 25866731 25866719 0
+[   23.743021] udelay(12) 25866744 25866731 1
+[   23.743026] udelay(12) 25866756 25866744 0
+[   23.743030] udelay(12) 25866768 25866756 0
+[   23.743035] udelay(12) 25866780 25866768 0
+[   23.743039] udelay(12) 25866792 25866780 0
+[   23.743043] udelay(12) 25866804 25866792 0
+[   23.743048] udelay(12) 25866816 25866804 0
+[   23.743052] udelay(12) 25866828 25866816 0
+[   23.743056] udelay(12) 25866840 25866828 0
+[   23.743061] udelay(12) 25866852 25866840 0
+[   23.743065] udelay(12) 25866865 25866852 1
+[   23.743069] udelay(12) 25866877 25866865 0
+[   23.743074] udelay(12) 25866889 25866877 0
+[   23.743078] udelay(12) 25866901 25866889 0
+[   23.743082] udelay(12) 25866913 25866901 0
+[   23.743087] udelay(12) 25866925 25866913 0
+[   23.743091] udelay(12) 25866937 25866925 0
+[   23.743096] udelay(12) 25866949 25866937 0
+[   23.743100] udelay(12) 25866961 25866949 0
+[   23.743104] udelay(12) 25866974 25866961 1
+[   23.743109] udelay(12) 25866986 25866974 0
+[   23.743113] udelay(12) 25866999 25866986 1
+[   23.743117] udelay(12) 25867011 25866999 0
+[   23.743122] udelay(12) 25867023 25867011 0
+[   23.743126] udelay(12) 25867035 25867023 0
+[   23.743131] udelay(12) 25867047 25867035 0
+[   23.743135] udelay(12) 25867059 25867047 0
+[   23.743139] udelay(12) 25867071 25867059 0
+[   23.743144] udelay(12) 25867083 25867071 0
+[   23.743148] udelay(12) 25867096 25867083 1
+[   23.743153] udelay(12) 25867108 25867096 0
+[   23.743157] udelay(12) 25867120 25867108 0
+
+[   23.745565] udelayTSC(12) 25868019 25868007 0
+[   23.745569] udelayTSC(12) 25868031 25868019 0
+[   23.745574] udelayTSC(12) 25868043 25868031 0
+[   23.745578] udelayTSC(12) 25868055 25868043 0
+[   23.745582] udelayTSC(12) 25868067 25868055 0
+[   23.745587] udelayTSC(12) 25868079 25868067 0
+[   23.745592] udelayTSC(12) 25868091 25868079 0
+[   23.745596] udelayTSC(12) 25868103 25868091 0
+[   23.745601] udelayTSC(12) 25868115 25868103 0
+[   23.745605] udelayTSC(12) 25868127 25868115 0
+[   23.745609] udelayTSC(12) 25868139 25868127 0
+[   23.745614] udelayTSC(12) 25868151 25868139 0
+[   23.745618] udelayTSC(12) 25868163 25868151 0
+[   23.745623] udelayTSC(12) 25868175 25868163 0
+[   23.745627] udelayTSC(12) 25868187 25868175 0
+[   23.745632] udelayTSC(12) 25868199 25868187 0
+[   23.745636] udelayTSC(12) 25868211 25868199 0
+[   23.745641] udelayTSC(12) 25868223 25868211 0
+[   23.745645] udelayTSC(12) 25868235 25868223 0
+[   23.745649] udelayTSC(12) 25868247 25868235 0
+[   23.745654] udelayTSC(12) 25868259 25868247 0
+[   23.745658] udelayTSC(12) 25868271 25868259 0
+[   23.745662] udelayTSC(12) 25868283 25868271 0
+[   23.745667] udelayTSC(12) 25868295 25868283 0
+[   23.745671] udelayTSC(12) 25868307 25868295 0
+[   23.745676] udelayTSC(12) 25868319 25868307 0
+[   23.745680] udelayTSC(12) 25868331 25868319 0
+[   23.745684] udelayTSC(12) 25868343 25868331 0
+[   23.745689] udelayTSC(12) 25868355 25868343 0
+[   23.745693] udelayTSC(12) 25868367 25868355 0
+[   23.745698] udelayTSC(12) 25868379 25868367 0
+[   23.745702] udelayTSC(12) 25868391 25868379 0
+[   23.745706] udelayTSC(12) 25868403 25868391 0
+[   23.745711] udelayTSC(12) 25868415 25868403 0
+[   23.745715] udelayTSC(12) 25868427 25868415 0
+[   23.745719] udelayTSC(12) 25868439 25868427 0
+[   23.745724] udelayTSC(12) 25868451 25868439 0
+[   23.745728] udelayTSC(12) 25868463 25868451 0
+[   23.745733] udelayTSC(12) 25868475 25868463 0
+[   23.745737] udelayTSC(12) 25868487 25868475 0
+[   23.745741] udelayTSC(12) 25868499 25868487 0
+[   23.745746] udelayTSC(12) 25868511 25868499 0
+[   23.745750] udelayTSC(12) 25868523 25868511 0
+[   23.745755] udelayTSC(12) 25868535 25868523 0
+[   23.745760] udelayTSC(12) 25868547 25868535 0
+[   23.745765] udelayTSC(12) 25868559 25868547 0
+[   23.745769] udelayTSC(12) 25868571 25868559 0
+[   23.745773] udelayTSC(12) 25868583 25868571 0
+[   23.745778] udelayTSC(12) 25868595 25868583 0
+[   23.745782] udelayTSC(12) 25868607 25868595 0
+[   23.745787] udelayTSC(12) 25868619 25868607 0
+[   23.745791] udelayTSC(12) 25868631 25868619 0
+[   23.745796] udelayTSC(12) 25868643 25868631 0
+[   23.745800] udelayTSC(12) 25868655 25868643 0
+[   23.745805] udelayTSC(12) 25868667 25868655 0
+[   23.745809] udelayTSC(12) 25868679 25868667 0
+[   23.745813] udelayTSC(12) 25868691 25868679 0
+[   23.745818] udelayTSC(12) 25868703 25868691 0
+[   23.745822] udelayTSC(12) 25868715 25868703 0
+[   23.745826] udelayTSC(12) 25868727 25868715 0
+[   23.745831] udelayTSC(12) 25868739 25868727 0
+[   23.745835] udelayTSC(12) 25868751 25868739 0
+[   23.745840] udelayTSC(12) 25868763 25868751 0
+[   23.745844] udelayTSC(12) 25868775 25868763 0
+[   23.745848] udelayTSC(12) 25868787 25868775 0
+[   23.745853] udelayTSC(12) 25868799 25868787 0
+[   23.745857] udelayTSC(12) 25868811 25868799 0
+[   23.745862] udelayTSC(12) 25868823 25868811 0
+[   23.745866] udelayTSC(12) 25868835 25868823 0
+[   23.745870] udelayTSC(12) 25868847 25868835 0
+[   23.745875] udelayTSC(12) 25868859 25868847 0
+[   23.745879] udelayTSC(12) 25868871 25868859 0
+[   23.745884] udelayTSC(12) 25868883 25868871 0
+[   23.745888] udelayTSC(12) 25868895 25868883 0
+[   23.745892] udelayTSC(12) 25868907 25868895 0
+[   23.745898] udelayTSC(12) 25868919 25868907 0
+[   23.745902] udelayTSC(12) 25868931 25868919 0
+[   23.745906] udelayTSC(12) 25868943 25868931 0
+[   23.745911] udelayTSC(12) 25868955 25868943 0
+[   23.745915] udelayTSC(12) 25868967 25868955 0
+[   23.745920] udelayTSC(12) 25868979 25868967 0
+[   23.745924] udelayTSC(12) 25868991 25868979 0
+[   23.745929] udelayTSC(12) 25869003 25868991 0
+[   23.745933] udelayTSC(12) 25869015 25869003 0
+[   23.745938] udelayTSC(12) 25869027 25869015 0
+[   23.745942] udelayTSC(12) 25869039 25869027 0
+[   23.745947] udelayTSC(12) 25869051 25869039 0
+[   23.745951] udelayTSC(12) 25869063 25869051 0
+[   23.745956] udelayTSC(12) 25869075 25869063 0
+[   23.745960] udelayTSC(12) 25869087 25869075 0
+[   23.745964] udelayTSC(12) 25869099 25869087 0
+[   23.745969] udelayTSC(12) 25869111 25869099 0
+[   23.745973] udelayTSC(12) 25869123 25869111 0
+[   23.745977] udelayTSC(12) 25869135 25869123 0
+[   23.745982] udelayTSC(12) 25869147 25869135 0
+[   23.745986] udelayTSC(12) 25869159 25869147 0
+[   23.745991] udelayTSC(12) 25869171 25869159 0
+[   23.745995] udelayTSC(12) 25869183 25869171 0
+[   23.745999] udelayTSC(12) 25869195 25869183 0
+[   23.746004] udelayTSC(12) 25869207 25869195 0
+[   23.746008] udelayTSC(12) 25869219 25869207 0
+[   23.746013] udelayTSC(12) 25869231 25869219 0
+[   23.746017] udelayTSC(12) 25869243 25869231 0
+[   23.746021] udelayTSC(12) 25869255 25869243 0
+[   23.746026] udelayTSC(12) 25869267 25869255 0
+[   23.746030] udelayTSC(12) 25869279 25869267 0
+[   23.746035] udelayTSC(12) 25869291 25869279 0
+[   23.746039] udelayTSC(12) 25869303 25869291 0
+[   23.746043] udelayTSC(12) 25869315 25869303 0
+[   23.746048] udelayTSC(12) 25869327 25869315 0
+[   23.746052] udelayTSC(12) 25869339 25869327 0
+[   23.746056] udelayTSC(12) 25869351 25869339 0
+[   23.746061] udelayTSC(12) 25869363 25869351 0
+[   23.746067] udelayTSC(12) 25869375 25869363 0
+[   23.746071] udelayTSC(12) 25869387 25869375 0
+[   23.746075] udelayTSC(12) 25869399 25869387 0
+[   23.746080] udelayTSC(12) 25869411 25869399 0
+[   23.746084] udelayTSC(12) 25869423 25869411 0
+[   23.746089] udelayTSC(12) 25869435 25869423 0
+[   23.746093] udelayTSC(12) 25869447 25869435 0
+[   23.746098] udelayTSC(12) 25869459 25869447 0
+[   23.746102] udelayTSC(12) 25869471 25869459 0
+[   23.746106] udelayTSC(12) 25869483 25869471 0
+[   23.746111] udelayTSC(12) 25869495 25869483 0
+[   23.746115] udelayTSC(12) 25869507 25869495 0
+[   23.746120] udelayTSC(12) 25869519 25869507 0
+[   23.746124] udelayTSC(12) 25869531 25869519 0
+[   23.746128] udelayTSC(12) 25869543 25869531 0
+[   23.746133] udelayTSC(12) 25869555 25869543 0
+[   23.746137] udelayTSC(12) 25869567 25869555 0
+[   23.746142] udelayTSC(12) 25869579 25869567 0
+[   23.746146] udelayTSC(12) 25869591 25869579 0
+[   23.746150] udelayTSC(12) 25869603 25869591 0
+[   23.746155] udelayTSC(12) 25869615 25869603 0
+[   23.746159] udelayTSC(12) 25869627 25869615 0
+[   23.746163] udelayTSC(12) 25869639 25869627 0
+[   23.746168] udelayTSC(12) 25869651 25869639 0
+[   23.746172] udelayTSC(12) 25869663 25869651 0
+[   23.746177] udelayTSC(12) 25869675 25869663 0
+[   23.746181] udelayTSC(12) 25869687 25869675 0
+[   23.746185] udelayTSC(12) 25869699 25869687 0
+[   23.746190] udelayTSC(12) 25869711 25869699 0
+[   23.746194] udelayTSC(12) 25869723 25869711 0
+[   23.746199] udelayTSC(12) 25869735 25869723 0
+[   23.746203] udelayTSC(12) 25869747 25869735 0
+[   23.746207] udelayTSC(12) 25869759 25869747 0
+[   23.746212] udelayTSC(12) 25869771 25869759 0
+[   23.746216] udelayTSC(12) 25869783 25869771 0
+[   23.746221] udelayTSC(12) 25869795 25869783 0
+[   23.746225] udelayTSC(12) 25869807 25869795 0
+[   23.746229] udelayTSC(12) 25869819 25869807 0
+[   23.746235] udelayTSC(12) 25869831 25869819 0
+[   23.746239] udelayTSC(12) 25869843 25869831 0
+[   23.746243] udelayTSC(12) 25869855 25869843 0
+[   23.746248] udelayTSC(12) 25869867 25869855 0
+[   23.746252] udelayTSC(12) 25869879 25869867 0
+[   23.746256] udelayTSC(12) 25869891 25869879 0
+[   23.746261] udelayTSC(12) 25869903 25869891 0
+[   23.746266] udelayTSC(12) 25869915 25869903 0
+[   23.746270] udelayTSC(12) 25869927 25869915 0
+[   23.746275] udelayTSC(12) 25869939 25869927 0
+[   23.746279] udelayTSC(12) 25869951 25869939 0
+[   23.746283] udelayTSC(12) 25869963 25869951 0
+[   23.746288] udelayTSC(12) 25869975 25869963 0
+[   23.746292] udelayTSC(12) 25869987 25869975 0
+[   23.746297] udelayTSC(12) 25869999 25869987 0
+[   23.746301] udelayTSC(12) 25870011 25869999 0
+[   23.746306] udelayTSC(12) 25870023 25870011 0
+[   23.746310] udelayTSC(12) 25870035 25870023 0
+[   23.746314] udelayTSC(12) 25870047 25870035 0
+[   23.746319] udelayTSC(12) 25870059 25870047 0
+[   23.746323] udelayTSC(12) 25870071 25870059 0
+[   23.746328] udelayTSC(12) 25870083 25870071 0
+[   23.746332] udelayTSC(12) 25870095 25870083 0
+[   23.746336] udelayTSC(12) 25870107 25870095 0
+[   23.746341] udelayTSC(12) 25870119 25870107 0
+[   23.746345] udelayTSC(12) 25870131 25870119 0
+[   23.746350] udelayTSC(12) 25870143 25870131 0
+[   23.746354] udelayTSC(12) 25870155 25870143 0
+[   23.746358] udelayTSC(12) 25870167 25870155 0
+[   23.746363] udelayTSC(12) 25870179 25870167 0
+[   23.746367] udelayTSC(12) 25870191 25870179 0
+[   23.746373] udelayTSC(12) 25870203 25870191 0
+[   23.746377] udelayTSC(12) 25870215 25870203 0
+[   23.746382] udelayTSC(12) 25870227 25870215 0
+[   23.746386] udelayTSC(12) 25870239 25870227 0
+[   23.746391] udelayTSC(12) 25870251 25870239 0
+[   23.746395] udelayTSC(12) 25870263 25870251 0
+[   23.746399] udelayTSC(12) 25870275 25870263 0
+[   23.746404] udelayTSC(12) 25870287 25870275 0
+[   23.746408] udelayTSC(12) 25870299 25870287 0
+[   23.746413] udelayTSC(12) 25870311 25870299 0
+[   23.746417] udelayTSC(12) 25870323 25870311 0
+[   23.746422] udelayTSC(12) 25870335 25870323 0
+[   23.746426] udelayTSC(12) 25870347 25870335 0
+[   23.746430] udelayTSC(12) 25870359 25870347 0
+[   23.746435] udelayTSC(12) 25870371 25870359 0
+[   23.746439] udelayTSC(12) 25870383 25870371 0
+[   23.746444] udelayTSC(12) 25870395 25870383 0
+
+[   35.746483] TSC(12) 1000000 999993 7 0 0 0 0

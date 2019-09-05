@@ -1,0 +1,1 @@
+cmd_/home/pi/work/gpio_chdev/gpio_chdev.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/pi/work/gpio_chdev/gpio_chdev.ko /home/pi/work/gpio_chdev/gpio_chdev.o /home/pi/work/gpio_chdev/gpio_chdev.mod.o

@@ -1,0 +1,4 @@
+obj-m := hello.o rasp_led.o gpio.o  led.o
+
+clean:
+	rm *.ko *.o *~

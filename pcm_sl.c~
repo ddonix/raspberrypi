@@ -1,0 +1,164 @@
+#include <wiringPi.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/shm.h>
+
+#include <pthread.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <string.h>
+#include "pcmlib.h"
+
+#define SETBIT(X,Y) ((X)|=(1<<(Y)))
+#define CLRBIT(X,Y) ((X)&=~(1<<(Y)))
+#define REVBIT(X,Y) ((X)^=(1<<(Y)))
+
+/* 获取信号量资源 */
+static int semaphore_v(void)
+{
+    struct sembuf sem_b;
+
+        sem_b.sem_num = 0;
+	    sem_b.sem_op = 1;
+	        sem_b.sem_flg = SEM_UNDO;
+		    if (semop(sem_id, &sem_b, 1) == -1) {
+		            return -1;
+			        }
+
+				    return 0;
+				    }
+
+				    /* 释放信号量资源 */
+				    static int semaphore_p(void)
+				    {
+				        struct sembuf sem_b;
+
+					    sem_b.sem_num = 0;
+					        sem_b.sem_op = -1;
+						    sem_b.sem_flg = SEM_UNDO;
+						        if (semop(sem_id, &sem_b, 1) == -1) {
+							        return -1;
+								    }
+
+								        return 0;
+									}
+
+									/* 初始化信号量 */
+									static int semaphore_init(void)
+									{
+									    union semun sem_union;
+
+									        sem_id = semget((key_t)SEM_KEY, 1, 0666 | IPC_CREAT);
+										    if (sem_id == -1) {
+										            return -1;
+											        }
+
+												    sem_union.val = 1;
+												        if (semctl(sem_id, 0, SETVAL, sem_union) == -1) {
+													        return -1;
+														    }
+
+														        return 0;
+															}
+
+
+int readstream(int fd_sour, char *buf)
+{
+	if (1024 != read(fd_sour, buf, 1024))
+		lseek(fd_sour, 0, SEEK_SET);
+	return 0;
+}
+
+int openstream(char *name)
+{
+	int fd;
+	fd = open(name, O_RDONLY);
+	if (fd < 0)
+		return fd;
+	if (lseek(fd, 44, SEEK_SET) < 0) {
+		close(fd);
+		return -1;
+	}
+	return fd;
+}
+
+int closestream(int fd)
+{
+	return close(fd);
+}
+
+static int write_running = 0;
+static int cur_frame = 0;
+static char buffer[4+1024];
+
+void *write_pthread(void *arg)
+{
+	pthread_attr_t attr;	// 线程属性
+	struct sched_param sched;	// 调度策略
+	int i;
+	
+	write_running = 1;
+
+	pthread_attr_init(&attr);
+
+	pthread_attr_setschedpolicy (&attr, SCHED_FIFO);
+
+	printf("set SCHED_FIFO policy cur_frame %d\n", cur_frame);
+	memset(buffer, '0', 1028);
+	writegpio_ls(buffer, 1028);
+	delayMicroseconds(10000);
+	printf("leave cur_frame %d\n", cur_frame);
+	write_running = 0;
+}
+
+int main(int argc, char *argv[])
+{
+	int fd_sour, i;
+	char c;
+	char *music;
+	pthread_t tid1;
+	
+	fd_sour = open("./ljxq_cs.wav", O_RDONLY);
+	if (fd_sour < 0) {
+		perror("open sour error\n");
+        	return -1;
+	}
+	music = (char *)malloc(1496064);
+	if( 0 == music)
+	{
+		perror("malloc error\n");
+		close(fd_sour);
+        	return -1;
+	}
+	lseek(fd_sour, 44, SEEK_SET);
+	for(i =0; i < 1461; i++)
+		read(fd_sour, music+i*1024, 1024);
+	close(fd_sour);
+
+
+	
+	write_running = 0;
+	
+	cur_frame = 0;
+	
+	initgpio_write();
+	while (1)
+	{
+		if(write_running)
+		{
+			delayMicroseconds(1000);
+			printf("dd\n");
+			continue;
+		}
+		*(long *)buffer = cur_frame;
+		memcpy(buffer + 4, music+(cur_frame%1461)*1024, 1024);
+		cur_frame++;
+		pthread_create(&tid1, NULL, write_pthread, NULL);
+		pthread_join(tid1, NULL);
+		write_running = 1;
+	}
+	return 0;
+}

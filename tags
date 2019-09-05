@@ -1,0 +1,1759 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A0	i2c/adda/pcf8591.c	16;"	d	file:
+A0	work/i2c/adda/pcf8591.c	16;"	d	file:
+A1	i2c/adda/pcf8591.c	17;"	d	file:
+A1	work/i2c/adda/pcf8591.c	17;"	d	file:
+A2	i2c/adda/pcf8591.c	18;"	d	file:
+A2	work/i2c/adda/pcf8591.c	18;"	d	file:
+A3	i2c/adda/pcf8591.c	19;"	d	file:
+A3	work/i2c/adda/pcf8591.c	19;"	d	file:
+ARMCTRL_0_BELL_BASE	kernel/include/mach/platform.h	81;"	d
+ARMCTRL_0_BELL_BASE	work/kernel/include/mach/platform.h	81;"	d
+ARMCTRL_0_MAIL0_BASE	kernel/include/mach/platform.h	82;"	d
+ARMCTRL_0_MAIL0_BASE	work/kernel/include/mach/platform.h	82;"	d
+ARMCTRL_0_SBM_BASE	kernel/include/mach/platform.h	80;"	d
+ARMCTRL_0_SBM_BASE	work/kernel/include/mach/platform.h	80;"	d
+ARMCTRL_BASE	kernel/include/mach/platform.h	77;"	d
+ARMCTRL_BASE	work/kernel/include/mach/platform.h	77;"	d
+ARMCTRL_IC_BASE	kernel/include/mach/platform.h	78;"	d
+ARMCTRL_IC_BASE	work/kernel/include/mach/platform.h	78;"	d
+ARMCTRL_TIMER0_1_BASE	kernel/include/mach/platform.h	79;"	d
+ARMCTRL_TIMER0_1_BASE	work/kernel/include/mach/platform.h	79;"	d
+ARM_BASE	kernel/include/mach/platform.h	60;"	d
+ARM_BASE	work/kernel/include/mach/platform.h	60;"	d
+Address	i2c/adda/pcf8591.c	14;"	d	file:
+Address	work/i2c/adda/pcf8591.c	14;"	d	file:
+App	i2c/adda/PC8591/Tkinter_I2CB.py	/^class App:$/;"	c
+App	work/i2c/adda/PC8591/Tkinter_I2CB.py	/^class App:$/;"	c
+AudioFormat	wav2.c	/^	short AudioFormat;	\/\/编码方式$/;"	m	struct:_WAVEFILE_HEADER	file:
+AudioFormat	work/wav2.c	/^	short AudioFormat;	\/\/编码方式$/;"	m	struct:_WAVEFILE_HEADER	file:
+BASE	i2c/adda/pcf8591.c	15;"	d	file:
+BASE	work/i2c/adda/pcf8591.c	15;"	d	file:
+BCK2835_LIBRARY_BUILD	kernel/bcm2835.c	22;"	d	file:
+BCK2835_LIBRARY_BUILD	work/kernel/bcm2835.c	22;"	d	file:
+BCM2708_PERI_BASE	kernel/include/mach/platform.h	55;"	d
+BCM2708_PERI_BASE	work/kernel/include/mach/platform.h	55;"	d
+BCM2708_SDRAM_BASE	kernel/include/mach/platform.h	34;"	d
+BCM2708_SDRAM_BASE	work/kernel/include/mach/platform.h	34;"	d
+BCM2708_UART_CR	kernel/include/mach/uncompress.h	33;"	d
+BCM2708_UART_CR	work/kernel/include/mach/uncompress.h	33;"	d
+BCM2708_UART_DR	kernel/include/mach/uncompress.h	28;"	d
+BCM2708_UART_DR	work/kernel/include/mach/uncompress.h	28;"	d
+BCM2708_UART_FBRD	kernel/include/mach/uncompress.h	31;"	d
+BCM2708_UART_FBRD	work/kernel/include/mach/uncompress.h	31;"	d
+BCM2708_UART_FR	kernel/include/mach/uncompress.h	29;"	d
+BCM2708_UART_FR	work/kernel/include/mach/uncompress.h	29;"	d
+BCM2708_UART_IBRD	kernel/include/mach/uncompress.h	30;"	d
+BCM2708_UART_IBRD	work/kernel/include/mach/uncompress.h	30;"	d
+BCM2708_UART_LCRH	kernel/include/mach/uncompress.h	32;"	d
+BCM2708_UART_LCRH	work/kernel/include/mach/uncompress.h	32;"	d
+BCM2835_BLOCK_SIZE	kernel/bcm2835.h	588;"	d
+BCM2835_BLOCK_SIZE	work/kernel/bcm2835.h	588;"	d
+BCM2835_BSC0_BASE	kernel/bcm2835.h	514;"	d
+BCM2835_BSC0_BASE	work/kernel/bcm2835.h	514;"	d
+BCM2835_BSC1_BASE	kernel/bcm2835.h	518;"	d
+BCM2835_BSC1_BASE	work/kernel/bcm2835.h	518;"	d
+BCM2835_BSC_A	kernel/bcm2835.h	884;"	d
+BCM2835_BSC_A	work/kernel/bcm2835.h	884;"	d
+BCM2835_BSC_C	kernel/bcm2835.h	881;"	d
+BCM2835_BSC_C	work/kernel/bcm2835.h	881;"	d
+BCM2835_BSC_CLKT	kernel/bcm2835.h	888;"	d
+BCM2835_BSC_CLKT	work/kernel/bcm2835.h	888;"	d
+BCM2835_BSC_C_CLEAR_1	kernel/bcm2835.h	896;"	d
+BCM2835_BSC_C_CLEAR_1	work/kernel/bcm2835.h	896;"	d
+BCM2835_BSC_C_CLEAR_2	kernel/bcm2835.h	897;"	d
+BCM2835_BSC_C_CLEAR_2	work/kernel/bcm2835.h	897;"	d
+BCM2835_BSC_C_I2CEN	kernel/bcm2835.h	891;"	d
+BCM2835_BSC_C_I2CEN	work/kernel/bcm2835.h	891;"	d
+BCM2835_BSC_C_INTD	kernel/bcm2835.h	894;"	d
+BCM2835_BSC_C_INTD	work/kernel/bcm2835.h	894;"	d
+BCM2835_BSC_C_INTR	kernel/bcm2835.h	892;"	d
+BCM2835_BSC_C_INTR	work/kernel/bcm2835.h	892;"	d
+BCM2835_BSC_C_INTT	kernel/bcm2835.h	893;"	d
+BCM2835_BSC_C_INTT	work/kernel/bcm2835.h	893;"	d
+BCM2835_BSC_C_READ	kernel/bcm2835.h	898;"	d
+BCM2835_BSC_C_READ	work/kernel/bcm2835.h	898;"	d
+BCM2835_BSC_C_ST	kernel/bcm2835.h	895;"	d
+BCM2835_BSC_C_ST	work/kernel/bcm2835.h	895;"	d
+BCM2835_BSC_DEL	kernel/bcm2835.h	887;"	d
+BCM2835_BSC_DEL	work/kernel/bcm2835.h	887;"	d
+BCM2835_BSC_DIV	kernel/bcm2835.h	886;"	d
+BCM2835_BSC_DIV	work/kernel/bcm2835.h	886;"	d
+BCM2835_BSC_DLEN	kernel/bcm2835.h	883;"	d
+BCM2835_BSC_DLEN	work/kernel/bcm2835.h	883;"	d
+BCM2835_BSC_FIFO	kernel/bcm2835.h	885;"	d
+BCM2835_BSC_FIFO	work/kernel/bcm2835.h	885;"	d
+BCM2835_BSC_FIFO_SIZE	kernel/bcm2835.h	912;"	d
+BCM2835_BSC_FIFO_SIZE	work/kernel/bcm2835.h	912;"	d
+BCM2835_BSC_S	kernel/bcm2835.h	882;"	d
+BCM2835_BSC_S	work/kernel/bcm2835.h	882;"	d
+BCM2835_BSC_S_CLKT	kernel/bcm2835.h	901;"	d
+BCM2835_BSC_S_CLKT	work/kernel/bcm2835.h	901;"	d
+BCM2835_BSC_S_DONE	kernel/bcm2835.h	909;"	d
+BCM2835_BSC_S_DONE	work/kernel/bcm2835.h	909;"	d
+BCM2835_BSC_S_ERR	kernel/bcm2835.h	902;"	d
+BCM2835_BSC_S_ERR	work/kernel/bcm2835.h	902;"	d
+BCM2835_BSC_S_RXD	kernel/bcm2835.h	905;"	d
+BCM2835_BSC_S_RXD	work/kernel/bcm2835.h	905;"	d
+BCM2835_BSC_S_RXF	kernel/bcm2835.h	903;"	d
+BCM2835_BSC_S_RXF	work/kernel/bcm2835.h	903;"	d
+BCM2835_BSC_S_RXR	kernel/bcm2835.h	907;"	d
+BCM2835_BSC_S_RXR	work/kernel/bcm2835.h	907;"	d
+BCM2835_BSC_S_TA	kernel/bcm2835.h	910;"	d
+BCM2835_BSC_S_TA	work/kernel/bcm2835.h	910;"	d
+BCM2835_BSC_S_TXD	kernel/bcm2835.h	906;"	d
+BCM2835_BSC_S_TXD	work/kernel/bcm2835.h	906;"	d
+BCM2835_BSC_S_TXE	kernel/bcm2835.h	904;"	d
+BCM2835_BSC_S_TXE	work/kernel/bcm2835.h	904;"	d
+BCM2835_BSC_S_TXW	kernel/bcm2835.h	908;"	d
+BCM2835_BSC_S_TXW	work/kernel/bcm2835.h	908;"	d
+BCM2835_CLOCK_BASE	kernel/bcm2835.h	508;"	d
+BCM2835_CLOCK_BASE	work/kernel/bcm2835.h	508;"	d
+BCM2835_CORE_CLK_HZ	kernel/bcm2835.h	481;"	d
+BCM2835_CORE_CLK_HZ	work/kernel/bcm2835.h	481;"	d
+BCM2835_GPAFEN0	kernel/bcm2835.h	622;"	d
+BCM2835_GPAFEN0	work/kernel/bcm2835.h	622;"	d
+BCM2835_GPAFEN1	kernel/bcm2835.h	623;"	d
+BCM2835_GPAFEN1	work/kernel/bcm2835.h	623;"	d
+BCM2835_GPAREN0	kernel/bcm2835.h	620;"	d
+BCM2835_GPAREN0	work/kernel/bcm2835.h	620;"	d
+BCM2835_GPAREN1	kernel/bcm2835.h	621;"	d
+BCM2835_GPAREN1	work/kernel/bcm2835.h	621;"	d
+BCM2835_GPCLR0	kernel/bcm2835.h	606;"	d
+BCM2835_GPCLR0	work/kernel/bcm2835.h	606;"	d
+BCM2835_GPCLR1	kernel/bcm2835.h	607;"	d
+BCM2835_GPCLR1	work/kernel/bcm2835.h	607;"	d
+BCM2835_GPEDS0	kernel/bcm2835.h	610;"	d
+BCM2835_GPEDS0	work/kernel/bcm2835.h	610;"	d
+BCM2835_GPEDS1	kernel/bcm2835.h	611;"	d
+BCM2835_GPEDS1	work/kernel/bcm2835.h	611;"	d
+BCM2835_GPFEN0	kernel/bcm2835.h	614;"	d
+BCM2835_GPFEN0	work/kernel/bcm2835.h	614;"	d
+BCM2835_GPFEN1	kernel/bcm2835.h	615;"	d
+BCM2835_GPFEN1	work/kernel/bcm2835.h	615;"	d
+BCM2835_GPFSEL0	kernel/bcm2835.h	598;"	d
+BCM2835_GPFSEL0	work/kernel/bcm2835.h	598;"	d
+BCM2835_GPFSEL1	kernel/bcm2835.h	599;"	d
+BCM2835_GPFSEL1	work/kernel/bcm2835.h	599;"	d
+BCM2835_GPFSEL2	kernel/bcm2835.h	600;"	d
+BCM2835_GPFSEL2	work/kernel/bcm2835.h	600;"	d
+BCM2835_GPFSEL3	kernel/bcm2835.h	601;"	d
+BCM2835_GPFSEL3	work/kernel/bcm2835.h	601;"	d
+BCM2835_GPFSEL4	kernel/bcm2835.h	602;"	d
+BCM2835_GPFSEL4	work/kernel/bcm2835.h	602;"	d
+BCM2835_GPFSEL5	kernel/bcm2835.h	603;"	d
+BCM2835_GPFSEL5	work/kernel/bcm2835.h	603;"	d
+BCM2835_GPHEN0	kernel/bcm2835.h	616;"	d
+BCM2835_GPHEN0	work/kernel/bcm2835.h	616;"	d
+BCM2835_GPHEN1	kernel/bcm2835.h	617;"	d
+BCM2835_GPHEN1	work/kernel/bcm2835.h	617;"	d
+BCM2835_GPIO_BASE	kernel/bcm2835.h	510;"	d
+BCM2835_GPIO_BASE	work/kernel/bcm2835.h	510;"	d
+BCM2835_GPIO_FSEL_ALT0	kernel/bcm2835.h	/^    BCM2835_GPIO_FSEL_ALT0  = 0x04,   \/*!< Alternate function 0 0b100 *\/$/;"	e	enum:__anon2
+BCM2835_GPIO_FSEL_ALT0	work/kernel/bcm2835.h	/^    BCM2835_GPIO_FSEL_ALT0  = 0x04,   \/*!< Alternate function 0 0b100 *\/$/;"	e	enum:__anon14
+BCM2835_GPIO_FSEL_ALT1	kernel/bcm2835.h	/^    BCM2835_GPIO_FSEL_ALT1  = 0x05,   \/*!< Alternate function 1 0b101 *\/$/;"	e	enum:__anon2
+BCM2835_GPIO_FSEL_ALT1	work/kernel/bcm2835.h	/^    BCM2835_GPIO_FSEL_ALT1  = 0x05,   \/*!< Alternate function 1 0b101 *\/$/;"	e	enum:__anon14
+BCM2835_GPIO_FSEL_ALT2	kernel/bcm2835.h	/^    BCM2835_GPIO_FSEL_ALT2  = 0x06,   \/*!< Alternate function 2 0b110, *\/$/;"	e	enum:__anon2
+BCM2835_GPIO_FSEL_ALT2	work/kernel/bcm2835.h	/^    BCM2835_GPIO_FSEL_ALT2  = 0x06,   \/*!< Alternate function 2 0b110, *\/$/;"	e	enum:__anon14
+BCM2835_GPIO_FSEL_ALT3	kernel/bcm2835.h	/^    BCM2835_GPIO_FSEL_ALT3  = 0x07,   \/*!< Alternate function 3 0b111 *\/$/;"	e	enum:__anon2
+BCM2835_GPIO_FSEL_ALT3	work/kernel/bcm2835.h	/^    BCM2835_GPIO_FSEL_ALT3  = 0x07,   \/*!< Alternate function 3 0b111 *\/$/;"	e	enum:__anon14
+BCM2835_GPIO_FSEL_ALT4	kernel/bcm2835.h	/^    BCM2835_GPIO_FSEL_ALT4  = 0x03,   \/*!< Alternate function 4 0b011 *\/$/;"	e	enum:__anon2
+BCM2835_GPIO_FSEL_ALT4	work/kernel/bcm2835.h	/^    BCM2835_GPIO_FSEL_ALT4  = 0x03,   \/*!< Alternate function 4 0b011 *\/$/;"	e	enum:__anon14
+BCM2835_GPIO_FSEL_ALT5	kernel/bcm2835.h	/^    BCM2835_GPIO_FSEL_ALT5  = 0x02,   \/*!< Alternate function 5 0b010 *\/$/;"	e	enum:__anon2
+BCM2835_GPIO_FSEL_ALT5	work/kernel/bcm2835.h	/^    BCM2835_GPIO_FSEL_ALT5  = 0x02,   \/*!< Alternate function 5 0b010 *\/$/;"	e	enum:__anon14
+BCM2835_GPIO_FSEL_INPT	kernel/bcm2835.h	/^    BCM2835_GPIO_FSEL_INPT  = 0x00,   \/*!< Input 0b000 *\/$/;"	e	enum:__anon2
+BCM2835_GPIO_FSEL_INPT	work/kernel/bcm2835.h	/^    BCM2835_GPIO_FSEL_INPT  = 0x00,   \/*!< Input 0b000 *\/$/;"	e	enum:__anon14
+BCM2835_GPIO_FSEL_MASK	kernel/bcm2835.h	/^    BCM2835_GPIO_FSEL_MASK  = 0x07    \/*!< Function select bits mask 0b111 *\/$/;"	e	enum:__anon2
+BCM2835_GPIO_FSEL_MASK	work/kernel/bcm2835.h	/^    BCM2835_GPIO_FSEL_MASK  = 0x07    \/*!< Function select bits mask 0b111 *\/$/;"	e	enum:__anon14
+BCM2835_GPIO_FSEL_OUTP	kernel/bcm2835.h	/^    BCM2835_GPIO_FSEL_OUTP  = 0x01,   \/*!< Output 0b001 *\/$/;"	e	enum:__anon2
+BCM2835_GPIO_FSEL_OUTP	work/kernel/bcm2835.h	/^    BCM2835_GPIO_FSEL_OUTP  = 0x01,   \/*!< Output 0b001 *\/$/;"	e	enum:__anon14
+BCM2835_GPIO_PADS	kernel/bcm2835.h	506;"	d
+BCM2835_GPIO_PADS	work/kernel/bcm2835.h	506;"	d
+BCM2835_GPIO_PUD_DOWN	kernel/bcm2835.h	/^    BCM2835_GPIO_PUD_DOWN    = 0x01,   \/*!< Enable Pull Down control 0b01 *\/$/;"	e	enum:__anon3
+BCM2835_GPIO_PUD_DOWN	work/kernel/bcm2835.h	/^    BCM2835_GPIO_PUD_DOWN    = 0x01,   \/*!< Enable Pull Down control 0b01 *\/$/;"	e	enum:__anon15
+BCM2835_GPIO_PUD_OFF	kernel/bcm2835.h	/^    BCM2835_GPIO_PUD_OFF     = 0x00,   \/*!< Off ? disable pull-up\/down 0b00 *\/$/;"	e	enum:__anon3
+BCM2835_GPIO_PUD_OFF	work/kernel/bcm2835.h	/^    BCM2835_GPIO_PUD_OFF     = 0x00,   \/*!< Off ? disable pull-up\/down 0b00 *\/$/;"	e	enum:__anon15
+BCM2835_GPIO_PUD_UP	kernel/bcm2835.h	/^    BCM2835_GPIO_PUD_UP      = 0x02    \/*!< Enable Pull Up control 0b10  *\/$/;"	e	enum:__anon3
+BCM2835_GPIO_PUD_UP	work/kernel/bcm2835.h	/^    BCM2835_GPIO_PUD_UP      = 0x02    \/*!< Enable Pull Up control 0b10  *\/$/;"	e	enum:__anon15
+BCM2835_GPIO_PWM	kernel/bcm2835.h	516;"	d
+BCM2835_GPIO_PWM	work/kernel/bcm2835.h	516;"	d
+BCM2835_GPLEN0	kernel/bcm2835.h	618;"	d
+BCM2835_GPLEN0	work/kernel/bcm2835.h	618;"	d
+BCM2835_GPLEN1	kernel/bcm2835.h	619;"	d
+BCM2835_GPLEN1	work/kernel/bcm2835.h	619;"	d
+BCM2835_GPLEV0	kernel/bcm2835.h	608;"	d
+BCM2835_GPLEV0	work/kernel/bcm2835.h	608;"	d
+BCM2835_GPLEV1	kernel/bcm2835.h	609;"	d
+BCM2835_GPLEV1	work/kernel/bcm2835.h	609;"	d
+BCM2835_GPPUD	kernel/bcm2835.h	624;"	d
+BCM2835_GPPUD	work/kernel/bcm2835.h	624;"	d
+BCM2835_GPPUDCLK0	kernel/bcm2835.h	625;"	d
+BCM2835_GPPUDCLK0	work/kernel/bcm2835.h	625;"	d
+BCM2835_GPPUDCLK1	kernel/bcm2835.h	626;"	d
+BCM2835_GPPUDCLK1	work/kernel/bcm2835.h	626;"	d
+BCM2835_GPREN0	kernel/bcm2835.h	612;"	d
+BCM2835_GPREN0	work/kernel/bcm2835.h	612;"	d
+BCM2835_GPREN1	kernel/bcm2835.h	613;"	d
+BCM2835_GPREN1	work/kernel/bcm2835.h	613;"	d
+BCM2835_GPSET0	kernel/bcm2835.h	604;"	d
+BCM2835_GPSET0	work/kernel/bcm2835.h	604;"	d
+BCM2835_GPSET1	kernel/bcm2835.h	605;"	d
+BCM2835_GPSET1	work/kernel/bcm2835.h	605;"	d
+BCM2835_H	kernel/bcm2835.h	457;"	d
+BCM2835_H	work/kernel/bcm2835.h	457;"	d
+BCM2835_HAVE_DMB	kernel/bcm2835.h	467;"	d
+BCM2835_HAVE_DMB	work/kernel/bcm2835.h	467;"	d
+BCM2835_I2C_CLOCK_DIVIDER_148	kernel/bcm2835.h	/^    BCM2835_I2C_CLOCK_DIVIDER_148    = 148        \/*!< 148 = 59ns = 1.689 MHz *\/$/;"	e	enum:__anon10
+BCM2835_I2C_CLOCK_DIVIDER_148	work/kernel/bcm2835.h	/^    BCM2835_I2C_CLOCK_DIVIDER_148    = 148        \/*!< 148 = 59ns = 1.689 MHz *\/$/;"	e	enum:__anon22
+BCM2835_I2C_CLOCK_DIVIDER_150	kernel/bcm2835.h	/^    BCM2835_I2C_CLOCK_DIVIDER_150    = 150,       \/*!< 150 = 60ns = 1.666 MHz (default at reset) *\/$/;"	e	enum:__anon10
+BCM2835_I2C_CLOCK_DIVIDER_150	work/kernel/bcm2835.h	/^    BCM2835_I2C_CLOCK_DIVIDER_150    = 150,       \/*!< 150 = 60ns = 1.666 MHz (default at reset) *\/$/;"	e	enum:__anon22
+BCM2835_I2C_CLOCK_DIVIDER_2500	kernel/bcm2835.h	/^    BCM2835_I2C_CLOCK_DIVIDER_2500   = 2500,      \/*!< 2500 = 10us = 100 kHz *\/$/;"	e	enum:__anon10
+BCM2835_I2C_CLOCK_DIVIDER_2500	work/kernel/bcm2835.h	/^    BCM2835_I2C_CLOCK_DIVIDER_2500   = 2500,      \/*!< 2500 = 10us = 100 kHz *\/$/;"	e	enum:__anon22
+BCM2835_I2C_CLOCK_DIVIDER_626	kernel/bcm2835.h	/^    BCM2835_I2C_CLOCK_DIVIDER_626    = 626,       \/*!< 622 = 2.504us = 399.3610 kHz *\/$/;"	e	enum:__anon10
+BCM2835_I2C_CLOCK_DIVIDER_626	work/kernel/bcm2835.h	/^    BCM2835_I2C_CLOCK_DIVIDER_626    = 626,       \/*!< 622 = 2.504us = 399.3610 kHz *\/$/;"	e	enum:__anon22
+BCM2835_I2C_REASON_ERROR_CLKT	kernel/bcm2835.h	/^    BCM2835_I2C_REASON_ERROR_CLKT    = 0x02,      \/*!< Received Clock Stretch Timeout *\/$/;"	e	enum:__anon11
+BCM2835_I2C_REASON_ERROR_CLKT	work/kernel/bcm2835.h	/^    BCM2835_I2C_REASON_ERROR_CLKT    = 0x02,      \/*!< Received Clock Stretch Timeout *\/$/;"	e	enum:__anon23
+BCM2835_I2C_REASON_ERROR_DATA	kernel/bcm2835.h	/^    BCM2835_I2C_REASON_ERROR_DATA    = 0x04       \/*!< Not all data is sent \/ received *\/$/;"	e	enum:__anon11
+BCM2835_I2C_REASON_ERROR_DATA	work/kernel/bcm2835.h	/^    BCM2835_I2C_REASON_ERROR_DATA    = 0x04       \/*!< Not all data is sent \/ received *\/$/;"	e	enum:__anon23
+BCM2835_I2C_REASON_ERROR_NACK	kernel/bcm2835.h	/^    BCM2835_I2C_REASON_ERROR_NACK    = 0x01,      \/*!< Received a NACK *\/$/;"	e	enum:__anon11
+BCM2835_I2C_REASON_ERROR_NACK	work/kernel/bcm2835.h	/^    BCM2835_I2C_REASON_ERROR_NACK    = 0x01,      \/*!< Received a NACK *\/$/;"	e	enum:__anon23
+BCM2835_I2C_REASON_OK	kernel/bcm2835.h	/^    BCM2835_I2C_REASON_OK   	     = 0x00,      \/*!< Success *\/$/;"	e	enum:__anon11
+BCM2835_I2C_REASON_OK	work/kernel/bcm2835.h	/^    BCM2835_I2C_REASON_OK   	     = 0x00,      \/*!< Success *\/$/;"	e	enum:__anon23
+BCM2835_PADS_GPIO_0_27	kernel/bcm2835.h	655;"	d
+BCM2835_PADS_GPIO_0_27	work/kernel/bcm2835.h	655;"	d
+BCM2835_PADS_GPIO_28_45	kernel/bcm2835.h	656;"	d
+BCM2835_PADS_GPIO_28_45	work/kernel/bcm2835.h	656;"	d
+BCM2835_PADS_GPIO_46_53	kernel/bcm2835.h	657;"	d
+BCM2835_PADS_GPIO_46_53	work/kernel/bcm2835.h	657;"	d
+BCM2835_PAD_DRIVE_10mA	kernel/bcm2835.h	667;"	d
+BCM2835_PAD_DRIVE_10mA	work/kernel/bcm2835.h	667;"	d
+BCM2835_PAD_DRIVE_12mA	kernel/bcm2835.h	668;"	d
+BCM2835_PAD_DRIVE_12mA	work/kernel/bcm2835.h	668;"	d
+BCM2835_PAD_DRIVE_14mA	kernel/bcm2835.h	669;"	d
+BCM2835_PAD_DRIVE_14mA	work/kernel/bcm2835.h	669;"	d
+BCM2835_PAD_DRIVE_16mA	kernel/bcm2835.h	670;"	d
+BCM2835_PAD_DRIVE_16mA	work/kernel/bcm2835.h	670;"	d
+BCM2835_PAD_DRIVE_2mA	kernel/bcm2835.h	663;"	d
+BCM2835_PAD_DRIVE_2mA	work/kernel/bcm2835.h	663;"	d
+BCM2835_PAD_DRIVE_4mA	kernel/bcm2835.h	664;"	d
+BCM2835_PAD_DRIVE_4mA	work/kernel/bcm2835.h	664;"	d
+BCM2835_PAD_DRIVE_6mA	kernel/bcm2835.h	665;"	d
+BCM2835_PAD_DRIVE_6mA	work/kernel/bcm2835.h	665;"	d
+BCM2835_PAD_DRIVE_8mA	kernel/bcm2835.h	666;"	d
+BCM2835_PAD_DRIVE_8mA	work/kernel/bcm2835.h	666;"	d
+BCM2835_PAD_GROUP_GPIO_0_27	kernel/bcm2835.h	/^    BCM2835_PAD_GROUP_GPIO_0_27         = 0, \/*!< Pad group for GPIO pads 0 to 27 *\/$/;"	e	enum:__anon4
+BCM2835_PAD_GROUP_GPIO_0_27	work/kernel/bcm2835.h	/^    BCM2835_PAD_GROUP_GPIO_0_27         = 0, \/*!< Pad group for GPIO pads 0 to 27 *\/$/;"	e	enum:__anon16
+BCM2835_PAD_GROUP_GPIO_28_45	kernel/bcm2835.h	/^    BCM2835_PAD_GROUP_GPIO_28_45        = 1, \/*!< Pad group for GPIO pads 28 to 45 *\/$/;"	e	enum:__anon4
+BCM2835_PAD_GROUP_GPIO_28_45	work/kernel/bcm2835.h	/^    BCM2835_PAD_GROUP_GPIO_28_45        = 1, \/*!< Pad group for GPIO pads 28 to 45 *\/$/;"	e	enum:__anon16
+BCM2835_PAD_GROUP_GPIO_46_53	kernel/bcm2835.h	/^    BCM2835_PAD_GROUP_GPIO_46_53        = 2  \/*!< Pad group for GPIO pads 46 to 53 *\/$/;"	e	enum:__anon4
+BCM2835_PAD_GROUP_GPIO_46_53	work/kernel/bcm2835.h	/^    BCM2835_PAD_GROUP_GPIO_46_53        = 2  \/*!< Pad group for GPIO pads 46 to 53 *\/$/;"	e	enum:__anon16
+BCM2835_PAD_HYSTERESIS_ENABLED	kernel/bcm2835.h	662;"	d
+BCM2835_PAD_HYSTERESIS_ENABLED	work/kernel/bcm2835.h	662;"	d
+BCM2835_PAD_PASSWRD	kernel/bcm2835.h	660;"	d
+BCM2835_PAD_PASSWRD	work/kernel/bcm2835.h	660;"	d
+BCM2835_PAD_SLEW_RATE_UNLIMITED	kernel/bcm2835.h	661;"	d
+BCM2835_PAD_SLEW_RATE_UNLIMITED	work/kernel/bcm2835.h	661;"	d
+BCM2835_PAGE_SIZE	kernel/bcm2835.h	586;"	d
+BCM2835_PAGE_SIZE	work/kernel/bcm2835.h	586;"	d
+BCM2835_PERI_BASE	kernel/bcm2835.h	497;"	d
+BCM2835_PERI_BASE	work/kernel/bcm2835.h	497;"	d
+BCM2835_PERI_SIZE	kernel/bcm2835.h	499;"	d
+BCM2835_PERI_SIZE	work/kernel/bcm2835.h	499;"	d
+BCM2835_PWM0_DATA	kernel/bcm2835.h	960;"	d
+BCM2835_PWM0_DATA	work/kernel/bcm2835.h	960;"	d
+BCM2835_PWM0_ENABLE	kernel/bcm2835.h	985;"	d
+BCM2835_PWM0_ENABLE	work/kernel/bcm2835.h	985;"	d
+BCM2835_PWM0_MS_MODE	kernel/bcm2835.h	978;"	d
+BCM2835_PWM0_MS_MODE	work/kernel/bcm2835.h	978;"	d
+BCM2835_PWM0_OFFSTATE	kernel/bcm2835.h	982;"	d
+BCM2835_PWM0_OFFSTATE	work/kernel/bcm2835.h	982;"	d
+BCM2835_PWM0_RANGE	kernel/bcm2835.h	959;"	d
+BCM2835_PWM0_RANGE	work/kernel/bcm2835.h	959;"	d
+BCM2835_PWM0_REPEATFF	kernel/bcm2835.h	983;"	d
+BCM2835_PWM0_REPEATFF	work/kernel/bcm2835.h	983;"	d
+BCM2835_PWM0_REVPOLAR	kernel/bcm2835.h	981;"	d
+BCM2835_PWM0_REVPOLAR	work/kernel/bcm2835.h	981;"	d
+BCM2835_PWM0_SERIAL	kernel/bcm2835.h	984;"	d
+BCM2835_PWM0_SERIAL	work/kernel/bcm2835.h	984;"	d
+BCM2835_PWM0_USEFIFO	kernel/bcm2835.h	980;"	d
+BCM2835_PWM0_USEFIFO	work/kernel/bcm2835.h	980;"	d
+BCM2835_PWM1_DATA	kernel/bcm2835.h	963;"	d
+BCM2835_PWM1_DATA	work/kernel/bcm2835.h	963;"	d
+BCM2835_PWM1_ENABLE	kernel/bcm2835.h	976;"	d
+BCM2835_PWM1_ENABLE	work/kernel/bcm2835.h	976;"	d
+BCM2835_PWM1_MS_MODE	kernel/bcm2835.h	970;"	d
+BCM2835_PWM1_MS_MODE	work/kernel/bcm2835.h	970;"	d
+BCM2835_PWM1_OFFSTATE	kernel/bcm2835.h	973;"	d
+BCM2835_PWM1_OFFSTATE	work/kernel/bcm2835.h	973;"	d
+BCM2835_PWM1_RANGE	kernel/bcm2835.h	962;"	d
+BCM2835_PWM1_RANGE	work/kernel/bcm2835.h	962;"	d
+BCM2835_PWM1_REPEATFF	kernel/bcm2835.h	974;"	d
+BCM2835_PWM1_REPEATFF	work/kernel/bcm2835.h	974;"	d
+BCM2835_PWM1_REVPOLAR	kernel/bcm2835.h	972;"	d
+BCM2835_PWM1_REVPOLAR	work/kernel/bcm2835.h	972;"	d
+BCM2835_PWM1_SERIAL	kernel/bcm2835.h	975;"	d
+BCM2835_PWM1_SERIAL	work/kernel/bcm2835.h	975;"	d
+BCM2835_PWM1_USEFIFO	kernel/bcm2835.h	971;"	d
+BCM2835_PWM1_USEFIFO	work/kernel/bcm2835.h	971;"	d
+BCM2835_PWMCLK_CNTL	kernel/bcm2835.h	966;"	d
+BCM2835_PWMCLK_CNTL	work/kernel/bcm2835.h	966;"	d
+BCM2835_PWMCLK_DIV	kernel/bcm2835.h	967;"	d
+BCM2835_PWMCLK_DIV	work/kernel/bcm2835.h	967;"	d
+BCM2835_PWM_CLEAR_FIFO	kernel/bcm2835.h	979;"	d
+BCM2835_PWM_CLEAR_FIFO	work/kernel/bcm2835.h	979;"	d
+BCM2835_PWM_CLOCK_DIVIDER_1	kernel/bcm2835.h	/^    BCM2835_PWM_CLOCK_DIVIDER_1     = 1        \/*!< 1 = 4.6875kHz, same as divider 4096 *\/$/;"	e	enum:__anon12
+BCM2835_PWM_CLOCK_DIVIDER_1	work/kernel/bcm2835.h	/^    BCM2835_PWM_CLOCK_DIVIDER_1     = 1        \/*!< 1 = 4.6875kHz, same as divider 4096 *\/$/;"	e	enum:__anon24
+BCM2835_PWM_CLOCK_DIVIDER_1024	kernel/bcm2835.h	/^    BCM2835_PWM_CLOCK_DIVIDER_1024  = 1024,    \/*!< 1024 = 18.75kHz *\/$/;"	e	enum:__anon12
+BCM2835_PWM_CLOCK_DIVIDER_1024	work/kernel/bcm2835.h	/^    BCM2835_PWM_CLOCK_DIVIDER_1024  = 1024,    \/*!< 1024 = 18.75kHz *\/$/;"	e	enum:__anon24
+BCM2835_PWM_CLOCK_DIVIDER_128	kernel/bcm2835.h	/^    BCM2835_PWM_CLOCK_DIVIDER_128   = 128,     \/*!< 128 = 150kHz *\/$/;"	e	enum:__anon12
+BCM2835_PWM_CLOCK_DIVIDER_128	work/kernel/bcm2835.h	/^    BCM2835_PWM_CLOCK_DIVIDER_128   = 128,     \/*!< 128 = 150kHz *\/$/;"	e	enum:__anon24
+BCM2835_PWM_CLOCK_DIVIDER_16	kernel/bcm2835.h	/^    BCM2835_PWM_CLOCK_DIVIDER_16    = 16,      \/*!< 16 = 1.2MHz *\/$/;"	e	enum:__anon12
+BCM2835_PWM_CLOCK_DIVIDER_16	work/kernel/bcm2835.h	/^    BCM2835_PWM_CLOCK_DIVIDER_16    = 16,      \/*!< 16 = 1.2MHz *\/$/;"	e	enum:__anon24
+BCM2835_PWM_CLOCK_DIVIDER_2	kernel/bcm2835.h	/^    BCM2835_PWM_CLOCK_DIVIDER_2     = 2,       \/*!< 2 = 9.6MHz, fastest you can get *\/$/;"	e	enum:__anon12
+BCM2835_PWM_CLOCK_DIVIDER_2	work/kernel/bcm2835.h	/^    BCM2835_PWM_CLOCK_DIVIDER_2     = 2,       \/*!< 2 = 9.6MHz, fastest you can get *\/$/;"	e	enum:__anon24
+BCM2835_PWM_CLOCK_DIVIDER_2048	kernel/bcm2835.h	/^    BCM2835_PWM_CLOCK_DIVIDER_2048  = 2048,    \/*!< 2048 = 9.375kHz *\/$/;"	e	enum:__anon12
+BCM2835_PWM_CLOCK_DIVIDER_2048	work/kernel/bcm2835.h	/^    BCM2835_PWM_CLOCK_DIVIDER_2048  = 2048,    \/*!< 2048 = 9.375kHz *\/$/;"	e	enum:__anon24
+BCM2835_PWM_CLOCK_DIVIDER_256	kernel/bcm2835.h	/^    BCM2835_PWM_CLOCK_DIVIDER_256   = 256,     \/*!< 256 = 75kHz *\/$/;"	e	enum:__anon12
+BCM2835_PWM_CLOCK_DIVIDER_256	work/kernel/bcm2835.h	/^    BCM2835_PWM_CLOCK_DIVIDER_256   = 256,     \/*!< 256 = 75kHz *\/$/;"	e	enum:__anon24
+BCM2835_PWM_CLOCK_DIVIDER_32	kernel/bcm2835.h	/^    BCM2835_PWM_CLOCK_DIVIDER_32    = 32,      \/*!< 32 = 600.0kHz *\/$/;"	e	enum:__anon12
+BCM2835_PWM_CLOCK_DIVIDER_32	work/kernel/bcm2835.h	/^    BCM2835_PWM_CLOCK_DIVIDER_32    = 32,      \/*!< 32 = 600.0kHz *\/$/;"	e	enum:__anon24
+BCM2835_PWM_CLOCK_DIVIDER_4	kernel/bcm2835.h	/^    BCM2835_PWM_CLOCK_DIVIDER_4     = 4,       \/*!< 4 = 4.8MHz *\/$/;"	e	enum:__anon12
+BCM2835_PWM_CLOCK_DIVIDER_4	work/kernel/bcm2835.h	/^    BCM2835_PWM_CLOCK_DIVIDER_4     = 4,       \/*!< 4 = 4.8MHz *\/$/;"	e	enum:__anon24
+BCM2835_PWM_CLOCK_DIVIDER_512	kernel/bcm2835.h	/^    BCM2835_PWM_CLOCK_DIVIDER_512   = 512,     \/*!< 512 = 37.5kHz *\/$/;"	e	enum:__anon12
+BCM2835_PWM_CLOCK_DIVIDER_512	work/kernel/bcm2835.h	/^    BCM2835_PWM_CLOCK_DIVIDER_512   = 512,     \/*!< 512 = 37.5kHz *\/$/;"	e	enum:__anon24
+BCM2835_PWM_CLOCK_DIVIDER_64	kernel/bcm2835.h	/^    BCM2835_PWM_CLOCK_DIVIDER_64    = 64,      \/*!< 64 = 300kHz *\/$/;"	e	enum:__anon12
+BCM2835_PWM_CLOCK_DIVIDER_64	work/kernel/bcm2835.h	/^    BCM2835_PWM_CLOCK_DIVIDER_64    = 64,      \/*!< 64 = 300kHz *\/$/;"	e	enum:__anon24
+BCM2835_PWM_CLOCK_DIVIDER_8	kernel/bcm2835.h	/^    BCM2835_PWM_CLOCK_DIVIDER_8     = 8,       \/*!< 8 = 2.4MHz *\/$/;"	e	enum:__anon12
+BCM2835_PWM_CLOCK_DIVIDER_8	work/kernel/bcm2835.h	/^    BCM2835_PWM_CLOCK_DIVIDER_8     = 8,       \/*!< 8 = 2.4MHz *\/$/;"	e	enum:__anon24
+BCM2835_PWM_CONTROL	kernel/bcm2835.h	956;"	d
+BCM2835_PWM_CONTROL	work/kernel/bcm2835.h	956;"	d
+BCM2835_PWM_DMAC	kernel/bcm2835.h	958;"	d
+BCM2835_PWM_DMAC	work/kernel/bcm2835.h	958;"	d
+BCM2835_PWM_FIF1	kernel/bcm2835.h	961;"	d
+BCM2835_PWM_FIF1	work/kernel/bcm2835.h	961;"	d
+BCM2835_PWM_PASSWRD	kernel/bcm2835.h	968;"	d
+BCM2835_PWM_PASSWRD	work/kernel/bcm2835.h	968;"	d
+BCM2835_PWM_STATUS	kernel/bcm2835.h	957;"	d
+BCM2835_PWM_STATUS	work/kernel/bcm2835.h	957;"	d
+BCM2835_REGBASE_BSC0	kernel/bcm2835.h	/^    BCM2835_REGBASE_BSC0 = 7, \/*!< Base of the BSC0 registers. *\/$/;"	e	enum:__anon1
+BCM2835_REGBASE_BSC0	work/kernel/bcm2835.h	/^    BCM2835_REGBASE_BSC0 = 7, \/*!< Base of the BSC0 registers. *\/$/;"	e	enum:__anon13
+BCM2835_REGBASE_BSC1	kernel/bcm2835.h	/^    BCM2835_REGBASE_BSC1 = 8  \/*!< Base of the BSC1 registers. *\/$/;"	e	enum:__anon1
+BCM2835_REGBASE_BSC1	work/kernel/bcm2835.h	/^    BCM2835_REGBASE_BSC1 = 8  \/*!< Base of the BSC1 registers. *\/$/;"	e	enum:__anon13
+BCM2835_REGBASE_CLK	kernel/bcm2835.h	/^    BCM2835_REGBASE_CLK  = 4, \/*!< Base of the CLK registers. *\/$/;"	e	enum:__anon1
+BCM2835_REGBASE_CLK	work/kernel/bcm2835.h	/^    BCM2835_REGBASE_CLK  = 4, \/*!< Base of the CLK registers. *\/$/;"	e	enum:__anon13
+BCM2835_REGBASE_GPIO	kernel/bcm2835.h	/^    BCM2835_REGBASE_GPIO = 2, \/*!< Base of the GPIO registers. *\/$/;"	e	enum:__anon1
+BCM2835_REGBASE_GPIO	work/kernel/bcm2835.h	/^    BCM2835_REGBASE_GPIO = 2, \/*!< Base of the GPIO registers. *\/$/;"	e	enum:__anon13
+BCM2835_REGBASE_PADS	kernel/bcm2835.h	/^    BCM2835_REGBASE_PADS = 5, \/*!< Base of the PADS registers. *\/$/;"	e	enum:__anon1
+BCM2835_REGBASE_PADS	work/kernel/bcm2835.h	/^    BCM2835_REGBASE_PADS = 5, \/*!< Base of the PADS registers. *\/$/;"	e	enum:__anon13
+BCM2835_REGBASE_PWM	kernel/bcm2835.h	/^    BCM2835_REGBASE_PWM  = 3, \/*!< Base of the PWM registers. *\/$/;"	e	enum:__anon1
+BCM2835_REGBASE_PWM	work/kernel/bcm2835.h	/^    BCM2835_REGBASE_PWM  = 3, \/*!< Base of the PWM registers. *\/$/;"	e	enum:__anon13
+BCM2835_REGBASE_SPI0	kernel/bcm2835.h	/^    BCM2835_REGBASE_SPI0 = 6, \/*!< Base of the SPI0 registers. *\/$/;"	e	enum:__anon1
+BCM2835_REGBASE_SPI0	work/kernel/bcm2835.h	/^    BCM2835_REGBASE_SPI0 = 6, \/*!< Base of the SPI0 registers. *\/$/;"	e	enum:__anon13
+BCM2835_REGBASE_ST	kernel/bcm2835.h	/^    BCM2835_REGBASE_ST   = 1, \/*!< Base of the ST (System Timer) registers. *\/$/;"	e	enum:__anon1
+BCM2835_REGBASE_ST	work/kernel/bcm2835.h	/^    BCM2835_REGBASE_ST   = 1, \/*!< Base of the ST (System Timer) registers. *\/$/;"	e	enum:__anon13
+BCM2835_SPI0_BASE	kernel/bcm2835.h	512;"	d
+BCM2835_SPI0_BASE	work/kernel/bcm2835.h	512;"	d
+BCM2835_SPI0_CLK	kernel/bcm2835.h	785;"	d
+BCM2835_SPI0_CLK	work/kernel/bcm2835.h	785;"	d
+BCM2835_SPI0_CS	kernel/bcm2835.h	783;"	d
+BCM2835_SPI0_CS	work/kernel/bcm2835.h	783;"	d
+BCM2835_SPI0_CS_ADCS	kernel/bcm2835.h	805;"	d
+BCM2835_SPI0_CS_ADCS	work/kernel/bcm2835.h	805;"	d
+BCM2835_SPI0_CS_CLEAR	kernel/bcm2835.h	811;"	d
+BCM2835_SPI0_CS_CLEAR	work/kernel/bcm2835.h	811;"	d
+BCM2835_SPI0_CS_CLEAR_RX	kernel/bcm2835.h	812;"	d
+BCM2835_SPI0_CS_CLEAR_RX	work/kernel/bcm2835.h	812;"	d
+BCM2835_SPI0_CS_CLEAR_TX	kernel/bcm2835.h	813;"	d
+BCM2835_SPI0_CS_CLEAR_TX	work/kernel/bcm2835.h	813;"	d
+BCM2835_SPI0_CS_CPHA	kernel/bcm2835.h	815;"	d
+BCM2835_SPI0_CS_CPHA	work/kernel/bcm2835.h	815;"	d
+BCM2835_SPI0_CS_CPOL	kernel/bcm2835.h	814;"	d
+BCM2835_SPI0_CS_CPOL	work/kernel/bcm2835.h	814;"	d
+BCM2835_SPI0_CS_CS	kernel/bcm2835.h	816;"	d
+BCM2835_SPI0_CS_CS	work/kernel/bcm2835.h	816;"	d
+BCM2835_SPI0_CS_CSPOL	kernel/bcm2835.h	810;"	d
+BCM2835_SPI0_CS_CSPOL	work/kernel/bcm2835.h	810;"	d
+BCM2835_SPI0_CS_CSPOL0	kernel/bcm2835.h	795;"	d
+BCM2835_SPI0_CS_CSPOL0	work/kernel/bcm2835.h	795;"	d
+BCM2835_SPI0_CS_CSPOL1	kernel/bcm2835.h	794;"	d
+BCM2835_SPI0_CS_CSPOL1	work/kernel/bcm2835.h	794;"	d
+BCM2835_SPI0_CS_CSPOL2	kernel/bcm2835.h	793;"	d
+BCM2835_SPI0_CS_CSPOL2	work/kernel/bcm2835.h	793;"	d
+BCM2835_SPI0_CS_DMAEN	kernel/bcm2835.h	808;"	d
+BCM2835_SPI0_CS_DMAEN	work/kernel/bcm2835.h	808;"	d
+BCM2835_SPI0_CS_DMA_LEN	kernel/bcm2835.h	792;"	d
+BCM2835_SPI0_CS_DMA_LEN	work/kernel/bcm2835.h	792;"	d
+BCM2835_SPI0_CS_DONE	kernel/bcm2835.h	800;"	d
+BCM2835_SPI0_CS_DONE	work/kernel/bcm2835.h	800;"	d
+BCM2835_SPI0_CS_INTD	kernel/bcm2835.h	807;"	d
+BCM2835_SPI0_CS_INTD	work/kernel/bcm2835.h	807;"	d
+BCM2835_SPI0_CS_INTR	kernel/bcm2835.h	806;"	d
+BCM2835_SPI0_CS_INTR	work/kernel/bcm2835.h	806;"	d
+BCM2835_SPI0_CS_LEN	kernel/bcm2835.h	803;"	d
+BCM2835_SPI0_CS_LEN	work/kernel/bcm2835.h	803;"	d
+BCM2835_SPI0_CS_LEN_LONG	kernel/bcm2835.h	791;"	d
+BCM2835_SPI0_CS_LEN_LONG	work/kernel/bcm2835.h	791;"	d
+BCM2835_SPI0_CS_LMONO	kernel/bcm2835.h	802;"	d
+BCM2835_SPI0_CS_LMONO	work/kernel/bcm2835.h	802;"	d
+BCM2835_SPI0_CS_REN	kernel/bcm2835.h	804;"	d
+BCM2835_SPI0_CS_REN	work/kernel/bcm2835.h	804;"	d
+BCM2835_SPI0_CS_RXD	kernel/bcm2835.h	799;"	d
+BCM2835_SPI0_CS_RXD	work/kernel/bcm2835.h	799;"	d
+BCM2835_SPI0_CS_RXF	kernel/bcm2835.h	796;"	d
+BCM2835_SPI0_CS_RXF	work/kernel/bcm2835.h	796;"	d
+BCM2835_SPI0_CS_RXR	kernel/bcm2835.h	797;"	d
+BCM2835_SPI0_CS_RXR	work/kernel/bcm2835.h	797;"	d
+BCM2835_SPI0_CS_TA	kernel/bcm2835.h	809;"	d
+BCM2835_SPI0_CS_TA	work/kernel/bcm2835.h	809;"	d
+BCM2835_SPI0_CS_TE_EN	kernel/bcm2835.h	801;"	d
+BCM2835_SPI0_CS_TE_EN	work/kernel/bcm2835.h	801;"	d
+BCM2835_SPI0_CS_TXD	kernel/bcm2835.h	798;"	d
+BCM2835_SPI0_CS_TXD	work/kernel/bcm2835.h	798;"	d
+BCM2835_SPI0_DC	kernel/bcm2835.h	788;"	d
+BCM2835_SPI0_DC	work/kernel/bcm2835.h	788;"	d
+BCM2835_SPI0_DLEN	kernel/bcm2835.h	786;"	d
+BCM2835_SPI0_DLEN	work/kernel/bcm2835.h	786;"	d
+BCM2835_SPI0_FIFO	kernel/bcm2835.h	784;"	d
+BCM2835_SPI0_FIFO	work/kernel/bcm2835.h	784;"	d
+BCM2835_SPI0_LTOH	kernel/bcm2835.h	787;"	d
+BCM2835_SPI0_LTOH	work/kernel/bcm2835.h	787;"	d
+BCM2835_SPI_BIT_ORDER_LSBFIRST	kernel/bcm2835.h	/^    BCM2835_SPI_BIT_ORDER_LSBFIRST = 0,  \/*!< LSB First *\/$/;"	e	enum:__anon6
+BCM2835_SPI_BIT_ORDER_LSBFIRST	work/kernel/bcm2835.h	/^    BCM2835_SPI_BIT_ORDER_LSBFIRST = 0,  \/*!< LSB First *\/$/;"	e	enum:__anon18
+BCM2835_SPI_BIT_ORDER_MSBFIRST	kernel/bcm2835.h	/^    BCM2835_SPI_BIT_ORDER_MSBFIRST = 1   \/*!< MSB First *\/$/;"	e	enum:__anon6
+BCM2835_SPI_BIT_ORDER_MSBFIRST	work/kernel/bcm2835.h	/^    BCM2835_SPI_BIT_ORDER_MSBFIRST = 1   \/*!< MSB First *\/$/;"	e	enum:__anon18
+BCM2835_SPI_CLOCK_DIVIDER_1	kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_1     = 1        \/*!< 1 = 262.144us = 3.814697260kHz, same as 0\/65536 *\/$/;"	e	enum:__anon9
+BCM2835_SPI_CLOCK_DIVIDER_1	work/kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_1     = 1        \/*!< 1 = 262.144us = 3.814697260kHz, same as 0\/65536 *\/$/;"	e	enum:__anon21
+BCM2835_SPI_CLOCK_DIVIDER_1024	kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_1024  = 1024,    \/*!< 1024 = 4.096us = 244.140625kHz *\/$/;"	e	enum:__anon9
+BCM2835_SPI_CLOCK_DIVIDER_1024	work/kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_1024  = 1024,    \/*!< 1024 = 4.096us = 244.140625kHz *\/$/;"	e	enum:__anon21
+BCM2835_SPI_CLOCK_DIVIDER_128	kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_128   = 128,     \/*!< 128 = 512ns = = 1.953125MHz *\/$/;"	e	enum:__anon9
+BCM2835_SPI_CLOCK_DIVIDER_128	work/kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_128   = 128,     \/*!< 128 = 512ns = = 1.953125MHz *\/$/;"	e	enum:__anon21
+BCM2835_SPI_CLOCK_DIVIDER_16	kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_16    = 16,      \/*!< 16 = 64ns = 15.625MHz *\/$/;"	e	enum:__anon9
+BCM2835_SPI_CLOCK_DIVIDER_16	work/kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_16    = 16,      \/*!< 16 = 64ns = 15.625MHz *\/$/;"	e	enum:__anon21
+BCM2835_SPI_CLOCK_DIVIDER_16384	kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_16384 = 16384,   \/*!< 16384 = 65.536us = 15.25878906kHz *\/$/;"	e	enum:__anon9
+BCM2835_SPI_CLOCK_DIVIDER_16384	work/kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_16384 = 16384,   \/*!< 16384 = 65.536us = 15.25878906kHz *\/$/;"	e	enum:__anon21
+BCM2835_SPI_CLOCK_DIVIDER_2	kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_2     = 2,       \/*!< 2 = 8ns = 125MHz, fastest you can get *\/$/;"	e	enum:__anon9
+BCM2835_SPI_CLOCK_DIVIDER_2	work/kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_2     = 2,       \/*!< 2 = 8ns = 125MHz, fastest you can get *\/$/;"	e	enum:__anon21
+BCM2835_SPI_CLOCK_DIVIDER_2048	kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_2048  = 2048,    \/*!< 2048 = 8.192us = 122.0703125kHz *\/$/;"	e	enum:__anon9
+BCM2835_SPI_CLOCK_DIVIDER_2048	work/kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_2048  = 2048,    \/*!< 2048 = 8.192us = 122.0703125kHz *\/$/;"	e	enum:__anon21
+BCM2835_SPI_CLOCK_DIVIDER_256	kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_256   = 256,     \/*!< 256 = 1.024us = 976.5625kHz *\/$/;"	e	enum:__anon9
+BCM2835_SPI_CLOCK_DIVIDER_256	work/kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_256   = 256,     \/*!< 256 = 1.024us = 976.5625kHz *\/$/;"	e	enum:__anon21
+BCM2835_SPI_CLOCK_DIVIDER_32	kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_32    = 32,      \/*!< 32 = 128ns = 7.8125MHz *\/$/;"	e	enum:__anon9
+BCM2835_SPI_CLOCK_DIVIDER_32	work/kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_32    = 32,      \/*!< 32 = 128ns = 7.8125MHz *\/$/;"	e	enum:__anon21
+BCM2835_SPI_CLOCK_DIVIDER_32768	kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_32768 = 32768,   \/*!< 32768 = 131.072us = 7.629394531kHz *\/$/;"	e	enum:__anon9
+BCM2835_SPI_CLOCK_DIVIDER_32768	work/kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_32768 = 32768,   \/*!< 32768 = 131.072us = 7.629394531kHz *\/$/;"	e	enum:__anon21
+BCM2835_SPI_CLOCK_DIVIDER_4	kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_4     = 4,       \/*!< 4 = 16ns = 62.5MHz *\/$/;"	e	enum:__anon9
+BCM2835_SPI_CLOCK_DIVIDER_4	work/kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_4     = 4,       \/*!< 4 = 16ns = 62.5MHz *\/$/;"	e	enum:__anon21
+BCM2835_SPI_CLOCK_DIVIDER_4096	kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_4096  = 4096,    \/*!< 4096 = 16.384us = 61.03515625kHz *\/$/;"	e	enum:__anon9
+BCM2835_SPI_CLOCK_DIVIDER_4096	work/kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_4096  = 4096,    \/*!< 4096 = 16.384us = 61.03515625kHz *\/$/;"	e	enum:__anon21
+BCM2835_SPI_CLOCK_DIVIDER_512	kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_512   = 512,     \/*!< 512 = 2.048us = 488.28125kHz *\/$/;"	e	enum:__anon9
+BCM2835_SPI_CLOCK_DIVIDER_512	work/kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_512   = 512,     \/*!< 512 = 2.048us = 488.28125kHz *\/$/;"	e	enum:__anon21
+BCM2835_SPI_CLOCK_DIVIDER_64	kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_64    = 64,      \/*!< 64 = 256ns = 3.90625MHz *\/$/;"	e	enum:__anon9
+BCM2835_SPI_CLOCK_DIVIDER_64	work/kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_64    = 64,      \/*!< 64 = 256ns = 3.90625MHz *\/$/;"	e	enum:__anon21
+BCM2835_SPI_CLOCK_DIVIDER_65536	kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_65536 = 0,       \/*!< 65536 = 262.144us = 3.814697260kHz *\/$/;"	e	enum:__anon9
+BCM2835_SPI_CLOCK_DIVIDER_65536	work/kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_65536 = 0,       \/*!< 65536 = 262.144us = 3.814697260kHz *\/$/;"	e	enum:__anon21
+BCM2835_SPI_CLOCK_DIVIDER_8	kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_8     = 8,       \/*!< 8 = 32ns = 31.25MHz *\/$/;"	e	enum:__anon9
+BCM2835_SPI_CLOCK_DIVIDER_8	work/kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_8     = 8,       \/*!< 8 = 32ns = 31.25MHz *\/$/;"	e	enum:__anon21
+BCM2835_SPI_CLOCK_DIVIDER_8192	kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_8192  = 8192,    \/*!< 8192 = 32.768us = 30\/51757813kHz *\/$/;"	e	enum:__anon9
+BCM2835_SPI_CLOCK_DIVIDER_8192	work/kernel/bcm2835.h	/^    BCM2835_SPI_CLOCK_DIVIDER_8192  = 8192,    \/*!< 8192 = 32.768us = 30\/51757813kHz *\/$/;"	e	enum:__anon21
+BCM2835_SPI_CS0	kernel/bcm2835.h	/^    BCM2835_SPI_CS0 = 0,     \/*!< Chip Select 0 *\/$/;"	e	enum:__anon8
+BCM2835_SPI_CS0	work/kernel/bcm2835.h	/^    BCM2835_SPI_CS0 = 0,     \/*!< Chip Select 0 *\/$/;"	e	enum:__anon20
+BCM2835_SPI_CS1	kernel/bcm2835.h	/^    BCM2835_SPI_CS1 = 1,     \/*!< Chip Select 1 *\/$/;"	e	enum:__anon8
+BCM2835_SPI_CS1	work/kernel/bcm2835.h	/^    BCM2835_SPI_CS1 = 1,     \/*!< Chip Select 1 *\/$/;"	e	enum:__anon20
+BCM2835_SPI_CS2	kernel/bcm2835.h	/^    BCM2835_SPI_CS2 = 2,     \/*!< Chip Select 2 (ie pins CS1 and CS2 are asserted) *\/$/;"	e	enum:__anon8
+BCM2835_SPI_CS2	work/kernel/bcm2835.h	/^    BCM2835_SPI_CS2 = 2,     \/*!< Chip Select 2 (ie pins CS1 and CS2 are asserted) *\/$/;"	e	enum:__anon20
+BCM2835_SPI_CS_NONE	kernel/bcm2835.h	/^    BCM2835_SPI_CS_NONE = 3  \/*!< No CS, control it yourself *\/$/;"	e	enum:__anon8
+BCM2835_SPI_CS_NONE	work/kernel/bcm2835.h	/^    BCM2835_SPI_CS_NONE = 3  \/*!< No CS, control it yourself *\/$/;"	e	enum:__anon20
+BCM2835_SPI_MODE0	kernel/bcm2835.h	/^    BCM2835_SPI_MODE0 = 0,  \/*!< CPOL = 0, CPHA = 0 *\/$/;"	e	enum:__anon7
+BCM2835_SPI_MODE0	work/kernel/bcm2835.h	/^    BCM2835_SPI_MODE0 = 0,  \/*!< CPOL = 0, CPHA = 0 *\/$/;"	e	enum:__anon19
+BCM2835_SPI_MODE1	kernel/bcm2835.h	/^    BCM2835_SPI_MODE1 = 1,  \/*!< CPOL = 0, CPHA = 1 *\/$/;"	e	enum:__anon7
+BCM2835_SPI_MODE1	work/kernel/bcm2835.h	/^    BCM2835_SPI_MODE1 = 1,  \/*!< CPOL = 0, CPHA = 1 *\/$/;"	e	enum:__anon19
+BCM2835_SPI_MODE2	kernel/bcm2835.h	/^    BCM2835_SPI_MODE2 = 2,  \/*!< CPOL = 1, CPHA = 0 *\/$/;"	e	enum:__anon7
+BCM2835_SPI_MODE2	work/kernel/bcm2835.h	/^    BCM2835_SPI_MODE2 = 2,  \/*!< CPOL = 1, CPHA = 0 *\/$/;"	e	enum:__anon19
+BCM2835_SPI_MODE3	kernel/bcm2835.h	/^    BCM2835_SPI_MODE3 = 3   \/*!< CPOL = 1, CPHA = 1 *\/$/;"	e	enum:__anon7
+BCM2835_SPI_MODE3	work/kernel/bcm2835.h	/^    BCM2835_SPI_MODE3 = 3   \/*!< CPOL = 1, CPHA = 1 *\/$/;"	e	enum:__anon19
+BCM2835_ST_BASE	kernel/bcm2835.h	504;"	d
+BCM2835_ST_BASE	work/kernel/bcm2835.h	504;"	d
+BCM2835_ST_CHI	kernel/bcm2835.h	950;"	d
+BCM2835_ST_CHI	work/kernel/bcm2835.h	950;"	d
+BCM2835_ST_CLO	kernel/bcm2835.h	949;"	d
+BCM2835_ST_CLO	work/kernel/bcm2835.h	949;"	d
+BCM2835_ST_CS	kernel/bcm2835.h	948;"	d
+BCM2835_ST_CS	work/kernel/bcm2835.h	948;"	d
+BCM2835_VERSION	kernel/bcm2835.h	459;"	d
+BCM2835_VERSION	work/kernel/bcm2835.h	459;"	d
+BCM_PLAT_PHYS_OFFSET	kernel/include/mach/memory.h	35;"	d
+BCM_PLAT_PHYS_OFFSET	work/kernel/include/mach/memory.h	35;"	d
+BITWIDTH	gpio_chdev/gpio_chdev.c	106;"	d	file:
+BITWIDTH	pcmlib.h	21;"	d
+BITWIDTH	work/pcmlib.h	21;"	d
+BMC2835_RPI2_DT_FILENAME	kernel/bcm2835.h	484;"	d
+BMC2835_RPI2_DT_FILENAME	work/kernel/bcm2835.h	484;"	d
+BMC2835_RPI2_DT_PERI_BASE_ADDRESS_OFFSET	kernel/bcm2835.h	486;"	d
+BMC2835_RPI2_DT_PERI_BASE_ADDRESS_OFFSET	work/kernel/bcm2835.h	486;"	d
+BMC2835_RPI2_DT_PERI_SIZE_OFFSET	kernel/bcm2835.h	488;"	d
+BMC2835_RPI2_DT_PERI_SIZE_OFFSET	work/kernel/bcm2835.h	488;"	d
+BSC0_BASE	kernel/include/mach/platform.h	69;"	d
+BSC0_BASE	work/kernel/include/mach/platform.h	69;"	d
+BSC1_BASE	kernel/include/mach/platform.h	73;"	d
+BSC1_BASE	work/kernel/include/mach/platform.h	73;"	d
+BUFFMAX	gpio/RaspGPIODriver-master/gpio_sysfs/gpio_sys.h	7;"	d
+BUFFSIZE	shm/shmwrite.c	13;"	d	file:
+BUFFSIZE	shmwrite.c	13;"	d	file:
+BUFFSIZE	work/shm/shmwrite.c	13;"	d	file:
+BUFFSIZE	work/shmwrite.c	13;"	d	file:
+BUS_OFFSET	kernel/include/mach/memory.h	51;"	d
+BUS_OFFSET	work/kernel/include/mach/memory.h	51;"	d
+BitsPerSample	wav2.c	/^	short BitsPerSample;	\/\/每个采样需要的bit数$/;"	m	struct:_WAVEFILE_HEADER	file:
+BitsPerSample	work/wav2.c	/^	short BitsPerSample;	\/\/每个采样需要的bit数$/;"	m	struct:_WAVEFILE_HEADER	file:
+BlockAlign	wav2.c	/^	short BlockAlign;	\/\/每次采样需要的字节数$/;"	m	struct:_WAVEFILE_HEADER	file:
+BlockAlign	work/wav2.c	/^	short BlockAlign;	\/\/每次采样需要的字节数$/;"	m	struct:_WAVEFILE_HEADER	file:
+ByteRate	wav2.c	/^	long ByteRate;		\/\/每秒所需字节数$/;"	m	struct:_WAVEFILE_HEADER	file:
+ByteRate	work/wav2.c	/^	long ByteRate;		\/\/每秒所需字节数$/;"	m	struct:_WAVEFILE_HEADER	file:
+CLRBIT	hwx.c	9;"	d	file:
+CLRBIT	test.c	9;"	d	file:
+CLRBIT	work/hwx.c	9;"	d	file:
+CLRBIT	work/test.c	9;"	d	file:
+ChunkID	wav2.c	/^	char ChunkID[4];	\/\/"RIFF"$/;"	m	struct:_WAVEFILE_HEADER	file:
+ChunkID	work/wav2.c	/^	char ChunkID[4];	\/\/"RIFF"$/;"	m	struct:_WAVEFILE_HEADER	file:
+ChunkSize	wav2.c	/^	long ChunkSize;		\/\/整个文件大小-8bytes$/;"	m	struct:_WAVEFILE_HEADER	file:
+ChunkSize	work/wav2.c	/^	long ChunkSize;		\/\/整个文件大小-8bytes$/;"	m	struct:_WAVEFILE_HEADER	file:
+DEVICE_NAME	kernel/led.c	21;"	d	file:
+DEVICE_NAME	work/kernel/led.c	21;"	d	file:
+DMA_BASE	kernel/include/mach/platform.h	59;"	d
+DMA_BASE	work/kernel/include/mach/platform.h	59;"	d
+DRIVER_NAME	gpio_chdev/gpio_chdev.c	24;"	d	file:
+DRIVER_NAME	kernel/led.c	22;"	d	file:
+DRIVER_NAME	work/kernel/led.c	22;"	d	file:
+Delay_xms	gpio/RaspGPIODriver-master/gpio_sysfs/main.c	/^void Delay_xms(uint x)$/;"	f
+Delay_xms	gpio/RaspGPIODriver-master/main.c	/^void Delay_xms(uint x)$/;"	f
+EMMC_BASE	kernel/include/mach/platform.h	71;"	d
+EMMC_BASE	work/kernel/include/mach/platform.h	71;"	d
+ERR	gpio/RaspGPIODriver-master/gpio_sysfs/gpio_sys.h	15;"	d
+Format	wav2.c	/^	char Format[4];		\/\/"wave"$/;"	m	struct:_WAVEFILE_HEADER	file:
+Format	work/wav2.c	/^	char Format[4];		\/\/"wave"$/;"	m	struct:_WAVEFILE_HEADER	file:
+GPCLR	gpio_chdev/gpio_chdev.c	/^	uint32_t GPCLR[2];$/;"	m	struct:GpioRegisters	file:
+GPFSEL	gpio_chdev/gpio_chdev.c	/^	uint32_t GPFSEL[6];$/;"	m	struct:GpioRegisters	file:
+GPIOConfig	gpio/RaspGPIODriver-master/gpio_sysfs/main.c	/^int GPIOConfig()$/;"	f
+GPIODirection	gpio/RaspGPIODriver-master/gpio_sysfs/gpio_sys.c	/^int GPIODirection(int pin, int dir)$/;"	f
+GPIOExport	gpio/RaspGPIODriver-master/gpio_sysfs/gpio_sys.c	/^int GPIOExport(int pin)$/;"	f
+GPIOF_ACTIVE_LOW	kernel/gpio.h	20;"	d
+GPIOF_ACTIVE_LOW	work/kernel/gpio.h	20;"	d
+GPIOF_DIR_IN	kernel/gpio.h	10;"	d
+GPIOF_DIR_IN	work/kernel/gpio.h	10;"	d
+GPIOF_DIR_OUT	kernel/gpio.h	9;"	d
+GPIOF_DIR_OUT	work/kernel/gpio.h	9;"	d
+GPIOF_EXPORT	kernel/gpio.h	28;"	d
+GPIOF_EXPORT	work/kernel/gpio.h	28;"	d
+GPIOF_EXPORT_CHANGEABLE	kernel/gpio.h	29;"	d
+GPIOF_EXPORT_CHANGEABLE	work/kernel/gpio.h	29;"	d
+GPIOF_EXPORT_DIR_CHANGEABLE	kernel/gpio.h	31;"	d
+GPIOF_EXPORT_DIR_CHANGEABLE	work/kernel/gpio.h	31;"	d
+GPIOF_EXPORT_DIR_FIXED	kernel/gpio.h	30;"	d
+GPIOF_EXPORT_DIR_FIXED	work/kernel/gpio.h	30;"	d
+GPIOF_IN	kernel/gpio.h	15;"	d
+GPIOF_IN	work/kernel/gpio.h	15;"	d
+GPIOF_INIT_HIGH	kernel/gpio.h	13;"	d
+GPIOF_INIT_HIGH	work/kernel/gpio.h	13;"	d
+GPIOF_INIT_LOW	kernel/gpio.h	12;"	d
+GPIOF_INIT_LOW	work/kernel/gpio.h	12;"	d
+GPIOF_OPEN_DRAIN	kernel/gpio.h	23;"	d
+GPIOF_OPEN_DRAIN	work/kernel/gpio.h	23;"	d
+GPIOF_OPEN_SOURCE	kernel/gpio.h	26;"	d
+GPIOF_OPEN_SOURCE	work/kernel/gpio.h	26;"	d
+GPIOF_OUT_INIT_HIGH	kernel/gpio.h	17;"	d
+GPIOF_OUT_INIT_HIGH	work/kernel/gpio.h	17;"	d
+GPIOF_OUT_INIT_LOW	kernel/gpio.h	16;"	d
+GPIOF_OUT_INIT_LOW	work/kernel/gpio.h	16;"	d
+GPIORead	gpio/RaspGPIODriver-master/gpio_sysfs/gpio_sys.c	/^int GPIORead(int pin)$/;"	f
+GPIORelease	gpio/RaspGPIODriver-master/gpio_sysfs/main.c	/^int GPIORelease()$/;"	f
+GPIOUnexport	gpio/RaspGPIODriver-master/gpio_sysfs/gpio_sys.c	/^int GPIOUnexport(int pin)$/;"	f
+GPIOWrite	gpio/RaspGPIODriver-master/gpio_sysfs/gpio_sys.c	/^int GPIOWrite(int pin, int value)$/;"	f
+GPIO_BASE	kernel/include/mach/platform.h	64;"	d
+GPIO_BASE	work/kernel/include/mach/platform.h	64;"	d
+GPLEV	gpio_chdev/gpio_chdev.c	/^	uint32_t GPLEV[2];$/;"	m	struct:GpioRegisters	file:
+GPSET	gpio_chdev/gpio_chdev.c	/^	uint32_t GPSET[2];$/;"	m	struct:GpioRegisters	file:
+GpioRegisters	gpio_chdev/gpio_chdev.c	/^struct GpioRegisters {$/;"	s	file:
+HIGH	kernel/bcm2835.h	476;"	d
+HIGH	work/kernel/bcm2835.h	476;"	d
+HW_REGISTER_RO	kernel/include/mach/platform.h	48;"	d
+HW_REGISTER_RO	work/kernel/include/mach/platform.h	48;"	d
+HW_REGISTER_RW	kernel/include/mach/platform.h	47;"	d
+HW_REGISTER_RW	work/kernel/include/mach/platform.h	47;"	d
+I2S_BASE	kernel/include/mach/platform.h	67;"	d
+I2S_BASE	work/kernel/include/mach/platform.h	67;"	d
+IC0_BASE	kernel/include/mach/platform.h	56;"	d
+IC0_BASE	work/kernel/include/mach/platform.h	56;"	d
+ILASER_PIN	pcmlib.h	18;"	d
+ILASER_PIN	tt.c	14;"	d	file:
+ILASER_PIN	work/pcmlib.h	18;"	d
+ILASER_PIN	work/tt.c	14;"	d	file:
+IMP_PIN	pcm_back.c	12;"	d	file:
+IMP_PIN	work/pcm_back.c	12;"	d	file:
+IO_ADDRESS	kernel/include/mach/platform.h	26;"	d
+IO_ADDRESS	work/kernel/include/mach/platform.h	26;"	d
+IO_SPACE_LIMIT	kernel/include/mach/io.h	23;"	d
+IO_SPACE_LIMIT	work/kernel/include/mach/io.h	23;"	d
+IR_PIN	hwx.c	7;"	d	file:
+IR_PIN	pcm_back.c	9;"	d	file:
+IR_PIN	test.c	7;"	d	file:
+IR_PIN	work/hwx.c	7;"	d	file:
+IR_PIN	work/pcm_back.c	9;"	d	file:
+IR_PIN	work/test.c	7;"	d	file:
+Init_MAX7219	gpio/RaspGPIODriver-master/gpio_sysfs/main.c	/^void Init_MAX7219(void)$/;"	f
+KEY_POWER_DONIX	hwx.c	11;"	d	file:
+KEY_POWER_DONIX	test.c	11;"	d	file:
+KEY_POWER_DONIX	work/hwx.c	11;"	d	file:
+KEY_POWER_DONIX	work/test.c	11;"	d	file:
+LED_OFF	kernel/gpio.c	12;"	d	file:
+LED_OFF	work/kernel/gpio.c	12;"	d	file:
+LED_ON	kernel/gpio.c	11;"	d	file:
+LED_ON	work/kernel/gpio.c	11;"	d	file:
+LOW	kernel/bcm2835.h	478;"	d
+LOW	work/kernel/bcm2835.h	478;"	d
+MCORE_BASE	kernel/include/mach/platform.h	75;"	d
+MCORE_BASE	work/kernel/include/mach/platform.h	75;"	d
+MMCI0_BASE	kernel/include/mach/platform.h	66;"	d
+MMCI0_BASE	work/kernel/include/mach/platform.h	66;"	d
+MPHI_BASE	kernel/include/mach/platform.h	58;"	d
+MPHI_BASE	work/kernel/include/mach/platform.h	58;"	d
+NumChannels	wav2.c	/^	short NumChannels;	\/\/声道数量$/;"	m	struct:_WAVEFILE_HEADER	file:
+NumChannels	work/wav2.c	/^	short NumChannels;	\/\/声道数量$/;"	m	struct:_WAVEFILE_HEADER	file:
+OJG_PIN	hwx.c	13;"	d	file:
+OJG_PIN	jg.c	9;"	d	file:
+OJG_PIN	test.c	13;"	d	file:
+OJG_PIN	work/hwx.c	13;"	d	file:
+OJG_PIN	work/jg.c	9;"	d	file:
+OJG_PIN	work/test.c	13;"	d	file:
+OLASER_PIN	pcmlib.h	19;"	d
+OLASER_PIN	work/pcmlib.h	19;"	d
+OLB_PIN	dc.c	9;"	d	file:
+OLB_PIN	lb.c	9;"	d	file:
+OLB_PIN	pcm_back.c	11;"	d	file:
+OLB_PIN	work/dc.c	9;"	d	file:
+OLB_PIN	work/lb.c	9;"	d	file:
+OLB_PIN	work/pcm_back.c	11;"	d	file:
+OLED_PIN	dc.c	8;"	d	file:
+OLED_PIN	hwx.c	12;"	d	file:
+OLED_PIN	jg.c	8;"	d	file:
+OLED_PIN	lb.c	8;"	d	file:
+OLED_PIN	pcm_back.c	10;"	d	file:
+OLED_PIN	test.c	12;"	d	file:
+OLED_PIN	work/dc.c	8;"	d	file:
+OLED_PIN	work/hwx.c	12;"	d	file:
+OLED_PIN	work/jg.c	8;"	d	file:
+OLED_PIN	work/lb.c	8;"	d	file:
+OLED_PIN	work/pcm_back.c	10;"	d	file:
+OLED_PIN	work/test.c	12;"	d	file:
+PCM_CLOCK_BASE	kernel/include/mach/platform.h	62;"	d
+PCM_CLOCK_BASE	work/kernel/include/mach/platform.h	62;"	d
+PIN	bcmtest.c	4;"	d	file:
+PIN	kernel/rasp_led.c	34;"	d	file:
+PIN	work/bcmtest.c	4;"	d	file:
+PIN	work/kernel/rasp_led.c	34;"	d	file:
+PM_BASE	kernel/include/mach/platform.h	61;"	d
+PM_BASE	work/kernel/include/mach/platform.h	61;"	d
+PM_PASSWORD	kernel/include/mach/platform.h	92;"	d
+PM_PASSWORD	work/kernel/include/mach/platform.h	92;"	d
+PM_RSTC	kernel/include/mach/platform.h	87;"	d
+PM_RSTC	work/kernel/include/mach/platform.h	87;"	d
+PM_RSTC_RESET	kernel/include/mach/platform.h	97;"	d
+PM_RSTC_RESET	work/kernel/include/mach/platform.h	97;"	d
+PM_RSTC_WRCFG_CLR	kernel/include/mach/platform.h	94;"	d
+PM_RSTC_WRCFG_CLR	work/kernel/include/mach/platform.h	94;"	d
+PM_RSTC_WRCFG_FULL_RESET	kernel/include/mach/platform.h	96;"	d
+PM_RSTC_WRCFG_FULL_RESET	work/kernel/include/mach/platform.h	96;"	d
+PM_RSTC_WRCFG_SET	kernel/include/mach/platform.h	95;"	d
+PM_RSTC_WRCFG_SET	work/kernel/include/mach/platform.h	95;"	d
+PM_RSTS	kernel/include/mach/platform.h	88;"	d
+PM_RSTS	work/kernel/include/mach/platform.h	88;"	d
+PM_RSTS_HADDRF_SET	kernel/include/mach/platform.h	107;"	d
+PM_RSTS_HADDRF_SET	work/kernel/include/mach/platform.h	107;"	d
+PM_RSTS_HADDRH_SET	kernel/include/mach/platform.h	106;"	d
+PM_RSTS_HADDRH_SET	work/kernel/include/mach/platform.h	106;"	d
+PM_RSTS_HADDRQ_SET	kernel/include/mach/platform.h	108;"	d
+PM_RSTS_HADDRQ_SET	work/kernel/include/mach/platform.h	108;"	d
+PM_RSTS_HADPOR_SET	kernel/include/mach/platform.h	99;"	d
+PM_RSTS_HADPOR_SET	work/kernel/include/mach/platform.h	99;"	d
+PM_RSTS_HADSRF_SET	kernel/include/mach/platform.h	101;"	d
+PM_RSTS_HADSRF_SET	work/kernel/include/mach/platform.h	101;"	d
+PM_RSTS_HADSRH_SET	kernel/include/mach/platform.h	100;"	d
+PM_RSTS_HADSRH_SET	work/kernel/include/mach/platform.h	100;"	d
+PM_RSTS_HADSRQ_SET	kernel/include/mach/platform.h	102;"	d
+PM_RSTS_HADSRQ_SET	work/kernel/include/mach/platform.h	102;"	d
+PM_RSTS_HADWRF_SET	kernel/include/mach/platform.h	104;"	d
+PM_RSTS_HADWRF_SET	work/kernel/include/mach/platform.h	104;"	d
+PM_RSTS_HADWRH_SET	kernel/include/mach/platform.h	103;"	d
+PM_RSTS_HADWRH_SET	work/kernel/include/mach/platform.h	103;"	d
+PM_RSTS_HADWRQ_SET	kernel/include/mach/platform.h	105;"	d
+PM_RSTS_HADWRQ_SET	work/kernel/include/mach/platform.h	105;"	d
+PM_WDOG	kernel/include/mach/platform.h	89;"	d
+PM_WDOG	work/kernel/include/mach/platform.h	89;"	d
+PM_WDOG_RESET	kernel/include/mach/platform.h	91;"	d
+PM_WDOG_RESET	work/kernel/include/mach/platform.h	91;"	d
+PM_WDOG_TIME_SET	kernel/include/mach/platform.h	93;"	d
+PM_WDOG_TIME_SET	work/kernel/include/mach/platform.h	93;"	d
+PRINT_TIMES	shm_test2.c	13;"	d	file:
+PRINT_TIMES	work/shm_test2.c	13;"	d	file:
+REVBIT	hwx.c	10;"	d	file:
+REVBIT	test.c	10;"	d	file:
+REVBIT	work/hwx.c	10;"	d	file:
+REVBIT	work/test.c	10;"	d	file:
+RNG_BASE	kernel/include/mach/platform.h	63;"	d
+RNG_BASE	work/kernel/include/mach/platform.h	63;"	d
+RPI_BPLUS_GPIO_J8_03	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_03     =  2,  \/*!< B+, Pin J8-03 *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_03	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_03     =  2,  \/*!< B+, Pin J8-03 *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_05	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_05     =  3,  \/*!< B+, Pin J8-05 *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_05	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_05     =  3,  \/*!< B+, Pin J8-05 *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_07	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_07     =  4,  \/*!< B+, Pin J8-07 *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_07	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_07     =  4,  \/*!< B+, Pin J8-07 *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_08	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_08     = 14,  \/*!< B+, Pin J8-08, defaults to alt function 0 UART0_TXD *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_08	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_08     = 14,  \/*!< B+, Pin J8-08, defaults to alt function 0 UART0_TXD *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_10	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_10     = 15,  \/*!< B+, Pin J8-10, defaults to alt function 0 UART0_RXD *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_10	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_10     = 15,  \/*!< B+, Pin J8-10, defaults to alt function 0 UART0_RXD *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_11	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_11     = 17,  \/*!< B+, Pin J8-11 *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_11	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_11     = 17,  \/*!< B+, Pin J8-11 *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_12	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_12     = 18,  \/*!< B+, Pin J8-12, can be PWM channel 0 in ALT FUN 5 *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_12	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_12     = 18,  \/*!< B+, Pin J8-12, can be PWM channel 0 in ALT FUN 5 *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_13	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_13     = 27,  \/*!< B+, Pin J8-13 *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_13	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_13     = 27,  \/*!< B+, Pin J8-13 *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_15	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_15     = 22,  \/*!< B+, Pin J8-15 *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_15	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_15     = 22,  \/*!< B+, Pin J8-15 *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_16	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_16     = 23,  \/*!< B+, Pin J8-16 *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_16	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_16     = 23,  \/*!< B+, Pin J8-16 *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_18	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_18     = 24,  \/*!< B+, Pin J8-18 *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_18	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_18     = 24,  \/*!< B+, Pin J8-18 *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_19	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_19     = 10,  \/*!< B+, Pin J8-19, MOSI when SPI0 in use *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_19	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_19     = 10,  \/*!< B+, Pin J8-19, MOSI when SPI0 in use *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_21	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_21     =  9,  \/*!< B+, Pin J8-21, MISO when SPI0 in use *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_21	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_21     =  9,  \/*!< B+, Pin J8-21, MISO when SPI0 in use *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_22	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_22     = 25,  \/*!< B+, Pin J8-22 *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_22	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_22     = 25,  \/*!< B+, Pin J8-22 *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_23	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_23     = 11,  \/*!< B+, Pin J8-23, CLK when SPI0 in use *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_23	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_23     = 11,  \/*!< B+, Pin J8-23, CLK when SPI0 in use *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_24	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_24     =  8,  \/*!< B+, Pin J8-24, CE0 when SPI0 in use *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_24	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_24     =  8,  \/*!< B+, Pin J8-24, CE0 when SPI0 in use *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_26	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_26     =  7,  \/*!< B+, Pin J8-26, CE1 when SPI0 in use *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_26	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_26     =  7,  \/*!< B+, Pin J8-26, CE1 when SPI0 in use *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_29	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_29     =  5,  \/*!< B+, Pin J8-29,  *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_29	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_29     =  5,  \/*!< B+, Pin J8-29,  *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_31	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_31     =  6,  \/*!< B+, Pin J8-31,  *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_31	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_31     =  6,  \/*!< B+, Pin J8-31,  *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_32	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_32     = 12,  \/*!< B+, Pin J8-32,  *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_32	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_32     = 12,  \/*!< B+, Pin J8-32,  *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_33	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_33     = 13,  \/*!< B+, Pin J8-33,  *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_33	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_33     = 13,  \/*!< B+, Pin J8-33,  *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_35	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_35     = 19,  \/*!< B+, Pin J8-35,  *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_35	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_35     = 19,  \/*!< B+, Pin J8-35,  *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_36	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_36     = 16,  \/*!< B+, Pin J8-36,  *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_36	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_36     = 16,  \/*!< B+, Pin J8-36,  *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_37	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_37     = 26,  \/*!< B+, Pin J8-37,  *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_37	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_37     = 26,  \/*!< B+, Pin J8-37,  *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_38	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_38     = 20,  \/*!< B+, Pin J8-38,  *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_38	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_38     = 20,  \/*!< B+, Pin J8-38,  *\/$/;"	e	enum:__anon17
+RPI_BPLUS_GPIO_J8_40	kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_40     = 21   \/*!< B+, Pin J8-40,  *\/$/;"	e	enum:__anon5
+RPI_BPLUS_GPIO_J8_40	work/kernel/bcm2835.h	/^    RPI_BPLUS_GPIO_J8_40     = 21   \/*!< B+, Pin J8-40,  *\/$/;"	e	enum:__anon17
+RPI_GPIO_P1_03	kernel/bcm2835.h	/^    RPI_GPIO_P1_03        =  0,  \/*!< Version 1, Pin P1-03 *\/$/;"	e	enum:__anon5
+RPI_GPIO_P1_03	work/kernel/bcm2835.h	/^    RPI_GPIO_P1_03        =  0,  \/*!< Version 1, Pin P1-03 *\/$/;"	e	enum:__anon17
+RPI_GPIO_P1_05	kernel/bcm2835.h	/^    RPI_GPIO_P1_05        =  1,  \/*!< Version 1, Pin P1-05 *\/$/;"	e	enum:__anon5
+RPI_GPIO_P1_05	work/kernel/bcm2835.h	/^    RPI_GPIO_P1_05        =  1,  \/*!< Version 1, Pin P1-05 *\/$/;"	e	enum:__anon17
+RPI_GPIO_P1_07	kernel/bcm2835.h	/^    RPI_GPIO_P1_07        =  4,  \/*!< Version 1, Pin P1-07 *\/$/;"	e	enum:__anon5
+RPI_GPIO_P1_07	work/kernel/bcm2835.h	/^    RPI_GPIO_P1_07        =  4,  \/*!< Version 1, Pin P1-07 *\/$/;"	e	enum:__anon17
+RPI_GPIO_P1_08	kernel/bcm2835.h	/^    RPI_GPIO_P1_08        = 14,  \/*!< Version 1, Pin P1-08, defaults to alt function 0 UART0_TXD *\/$/;"	e	enum:__anon5
+RPI_GPIO_P1_08	work/kernel/bcm2835.h	/^    RPI_GPIO_P1_08        = 14,  \/*!< Version 1, Pin P1-08, defaults to alt function 0 UART0_TXD *\/$/;"	e	enum:__anon17
+RPI_GPIO_P1_10	kernel/bcm2835.h	/^    RPI_GPIO_P1_10        = 15,  \/*!< Version 1, Pin P1-10, defaults to alt function 0 UART0_RXD *\/$/;"	e	enum:__anon5
+RPI_GPIO_P1_10	work/kernel/bcm2835.h	/^    RPI_GPIO_P1_10        = 15,  \/*!< Version 1, Pin P1-10, defaults to alt function 0 UART0_RXD *\/$/;"	e	enum:__anon17
+RPI_GPIO_P1_11	kernel/bcm2835.h	/^    RPI_GPIO_P1_11        = 17,  \/*!< Version 1, Pin P1-11 *\/$/;"	e	enum:__anon5
+RPI_GPIO_P1_11	work/kernel/bcm2835.h	/^    RPI_GPIO_P1_11        = 17,  \/*!< Version 1, Pin P1-11 *\/$/;"	e	enum:__anon17
+RPI_GPIO_P1_12	kernel/bcm2835.h	/^    RPI_GPIO_P1_12        = 18,  \/*!< Version 1, Pin P1-12, can be PWM channel 0 in ALT FUN 5 *\/$/;"	e	enum:__anon5
+RPI_GPIO_P1_12	work/kernel/bcm2835.h	/^    RPI_GPIO_P1_12        = 18,  \/*!< Version 1, Pin P1-12, can be PWM channel 0 in ALT FUN 5 *\/$/;"	e	enum:__anon17
+RPI_GPIO_P1_13	kernel/bcm2835.h	/^    RPI_GPIO_P1_13        = 21,  \/*!< Version 1, Pin P1-13 *\/$/;"	e	enum:__anon5
+RPI_GPIO_P1_13	work/kernel/bcm2835.h	/^    RPI_GPIO_P1_13        = 21,  \/*!< Version 1, Pin P1-13 *\/$/;"	e	enum:__anon17
+RPI_GPIO_P1_15	kernel/bcm2835.h	/^    RPI_GPIO_P1_15        = 22,  \/*!< Version 1, Pin P1-15 *\/$/;"	e	enum:__anon5
+RPI_GPIO_P1_15	work/kernel/bcm2835.h	/^    RPI_GPIO_P1_15        = 22,  \/*!< Version 1, Pin P1-15 *\/$/;"	e	enum:__anon17
+RPI_GPIO_P1_16	kernel/bcm2835.h	/^    RPI_GPIO_P1_16        = 23,  \/*!< Version 1, Pin P1-16 *\/$/;"	e	enum:__anon5
+RPI_GPIO_P1_16	work/kernel/bcm2835.h	/^    RPI_GPIO_P1_16        = 23,  \/*!< Version 1, Pin P1-16 *\/$/;"	e	enum:__anon17
+RPI_GPIO_P1_18	kernel/bcm2835.h	/^    RPI_GPIO_P1_18        = 24,  \/*!< Version 1, Pin P1-18 *\/$/;"	e	enum:__anon5
+RPI_GPIO_P1_18	work/kernel/bcm2835.h	/^    RPI_GPIO_P1_18        = 24,  \/*!< Version 1, Pin P1-18 *\/$/;"	e	enum:__anon17
+RPI_GPIO_P1_19	kernel/bcm2835.h	/^    RPI_GPIO_P1_19        = 10,  \/*!< Version 1, Pin P1-19, MOSI when SPI0 in use *\/$/;"	e	enum:__anon5
+RPI_GPIO_P1_19	work/kernel/bcm2835.h	/^    RPI_GPIO_P1_19        = 10,  \/*!< Version 1, Pin P1-19, MOSI when SPI0 in use *\/$/;"	e	enum:__anon17
+RPI_GPIO_P1_21	kernel/bcm2835.h	/^    RPI_GPIO_P1_21        =  9,  \/*!< Version 1, Pin P1-21, MISO when SPI0 in use *\/$/;"	e	enum:__anon5
+RPI_GPIO_P1_21	work/kernel/bcm2835.h	/^    RPI_GPIO_P1_21        =  9,  \/*!< Version 1, Pin P1-21, MISO when SPI0 in use *\/$/;"	e	enum:__anon17
+RPI_GPIO_P1_22	kernel/bcm2835.h	/^    RPI_GPIO_P1_22        = 25,  \/*!< Version 1, Pin P1-22 *\/$/;"	e	enum:__anon5
+RPI_GPIO_P1_22	work/kernel/bcm2835.h	/^    RPI_GPIO_P1_22        = 25,  \/*!< Version 1, Pin P1-22 *\/$/;"	e	enum:__anon17
+RPI_GPIO_P1_23	kernel/bcm2835.h	/^    RPI_GPIO_P1_23        = 11,  \/*!< Version 1, Pin P1-23, CLK when SPI0 in use *\/$/;"	e	enum:__anon5
+RPI_GPIO_P1_23	work/kernel/bcm2835.h	/^    RPI_GPIO_P1_23        = 11,  \/*!< Version 1, Pin P1-23, CLK when SPI0 in use *\/$/;"	e	enum:__anon17
+RPI_GPIO_P1_24	kernel/bcm2835.h	/^    RPI_GPIO_P1_24        =  8,  \/*!< Version 1, Pin P1-24, CE0 when SPI0 in use *\/$/;"	e	enum:__anon5
+RPI_GPIO_P1_24	work/kernel/bcm2835.h	/^    RPI_GPIO_P1_24        =  8,  \/*!< Version 1, Pin P1-24, CE0 when SPI0 in use *\/$/;"	e	enum:__anon17
+RPI_GPIO_P1_26	kernel/bcm2835.h	/^    RPI_GPIO_P1_26        =  7,  \/*!< Version 1, Pin P1-26, CE1 when SPI0 in use *\/$/;"	e	enum:__anon5
+RPI_GPIO_P1_26	work/kernel/bcm2835.h	/^    RPI_GPIO_P1_26        =  7,  \/*!< Version 1, Pin P1-26, CE1 when SPI0 in use *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_03	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_03     =  2,  \/*!< Version 2, Pin P1-03 *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_03	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_03     =  2,  \/*!< Version 2, Pin P1-03 *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_05	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_05     =  3,  \/*!< Version 2, Pin P1-05 *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_05	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_05     =  3,  \/*!< Version 2, Pin P1-05 *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_07	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_07     =  4,  \/*!< Version 2, Pin P1-07 *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_07	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_07     =  4,  \/*!< Version 2, Pin P1-07 *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_08	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_08     = 14,  \/*!< Version 2, Pin P1-08, defaults to alt function 0 UART0_TXD *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_08	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_08     = 14,  \/*!< Version 2, Pin P1-08, defaults to alt function 0 UART0_TXD *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_10	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_10     = 15,  \/*!< Version 2, Pin P1-10, defaults to alt function 0 UART0_RXD *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_10	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_10     = 15,  \/*!< Version 2, Pin P1-10, defaults to alt function 0 UART0_RXD *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_11	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_11     = 17,  \/*!< Version 2, Pin P1-11 *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_11	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_11     = 17,  \/*!< Version 2, Pin P1-11 *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_12	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_12     = 18,  \/*!< Version 2, Pin P1-12, can be PWM channel 0 in ALT FUN 5 *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_12	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_12     = 18,  \/*!< Version 2, Pin P1-12, can be PWM channel 0 in ALT FUN 5 *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_13	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_13     = 27,  \/*!< Version 2, Pin P1-13 *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_13	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_13     = 27,  \/*!< Version 2, Pin P1-13 *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_15	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_15     = 22,  \/*!< Version 2, Pin P1-15 *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_15	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_15     = 22,  \/*!< Version 2, Pin P1-15 *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_16	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_16     = 23,  \/*!< Version 2, Pin P1-16 *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_16	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_16     = 23,  \/*!< Version 2, Pin P1-16 *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_18	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_18     = 24,  \/*!< Version 2, Pin P1-18 *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_18	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_18     = 24,  \/*!< Version 2, Pin P1-18 *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_19	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_19     = 10,  \/*!< Version 2, Pin P1-19, MOSI when SPI0 in use *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_19	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_19     = 10,  \/*!< Version 2, Pin P1-19, MOSI when SPI0 in use *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_21	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_21     =  9,  \/*!< Version 2, Pin P1-21, MISO when SPI0 in use *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_21	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_21     =  9,  \/*!< Version 2, Pin P1-21, MISO when SPI0 in use *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_22	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_22     = 25,  \/*!< Version 2, Pin P1-22 *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_22	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_22     = 25,  \/*!< Version 2, Pin P1-22 *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_23	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_23     = 11,  \/*!< Version 2, Pin P1-23, CLK when SPI0 in use *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_23	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_23     = 11,  \/*!< Version 2, Pin P1-23, CLK when SPI0 in use *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_24	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_24     =  8,  \/*!< Version 2, Pin P1-24, CE0 when SPI0 in use *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_24	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_24     =  8,  \/*!< Version 2, Pin P1-24, CE0 when SPI0 in use *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_26	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_26     =  7,  \/*!< Version 2, Pin P1-26, CE1 when SPI0 in use *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_26	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_26     =  7,  \/*!< Version 2, Pin P1-26, CE1 when SPI0 in use *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_29	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_29     =  5,  \/*!< Version 2, Pin P1-29 *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_29	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_29     =  5,  \/*!< Version 2, Pin P1-29 *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_31	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_31     =  6,  \/*!< Version 2, Pin P1-31 *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_31	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_31     =  6,  \/*!< Version 2, Pin P1-31 *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_32	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_32     = 12,  \/*!< Version 2, Pin P1-32 *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_32	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_32     = 12,  \/*!< Version 2, Pin P1-32 *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_33	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_33     = 13,  \/*!< Version 2, Pin P1-33 *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_33	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_33     = 13,  \/*!< Version 2, Pin P1-33 *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_35	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_35     = 19,  \/*!< Version 2, Pin P1-35 *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_35	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_35     = 19,  \/*!< Version 2, Pin P1-35 *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_36	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_36     = 16,  \/*!< Version 2, Pin P1-36 *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_36	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_36     = 16,  \/*!< Version 2, Pin P1-36 *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_37	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_37     = 26,  \/*!< Version 2, Pin P1-37 *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_37	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_37     = 26,  \/*!< Version 2, Pin P1-37 *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_38	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_38     = 20,  \/*!< Version 2, Pin P1-38 *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_38	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_38     = 20,  \/*!< Version 2, Pin P1-38 *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P1_40	kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_40     = 21,  \/*!< Version 2, Pin P1-40 *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P1_40	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P1_40     = 21,  \/*!< Version 2, Pin P1-40 *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P5_03	kernel/bcm2835.h	/^    RPI_V2_GPIO_P5_03     = 28,  \/*!< Version 2, Pin P5-03 *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P5_03	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P5_03     = 28,  \/*!< Version 2, Pin P5-03 *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P5_04	kernel/bcm2835.h	/^    RPI_V2_GPIO_P5_04     = 29,  \/*!< Version 2, Pin P5-04 *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P5_04	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P5_04     = 29,  \/*!< Version 2, Pin P5-04 *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P5_05	kernel/bcm2835.h	/^    RPI_V2_GPIO_P5_05     = 30,  \/*!< Version 2, Pin P5-05 *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P5_05	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P5_05     = 30,  \/*!< Version 2, Pin P5-05 *\/$/;"	e	enum:__anon17
+RPI_V2_GPIO_P5_06	kernel/bcm2835.h	/^    RPI_V2_GPIO_P5_06     = 31,  \/*!< Version 2, Pin P5-06 *\/$/;"	e	enum:__anon5
+RPI_V2_GPIO_P5_06	work/kernel/bcm2835.h	/^    RPI_V2_GPIO_P5_06     = 31,  \/*!< Version 2, Pin P5-06 *\/$/;"	e	enum:__anon17
+RPiGPIOPin	kernel/bcm2835.h	/^} RPiGPIOPin;$/;"	t	typeref:enum:__anon5
+RPiGPIOPin	work/kernel/bcm2835.h	/^} RPiGPIOPin;$/;"	t	typeref:enum:__anon17
+Reserved1	gpio_chdev/gpio_chdev.c	/^	uint32_t Reserved1;$/;"	m	struct:GpioRegisters	file:
+Reserved2	gpio_chdev/gpio_chdev.c	/^	uint32_t Reserved2;$/;"	m	struct:GpioRegisters	file:
+Reserved3	gpio_chdev/gpio_chdev.c	/^	uint32_t Reserved3;$/;"	m	struct:GpioRegisters	file:
+SEM_KEY	shm_test1.c	15;"	d	file:
+SEM_KEY	shm_test2.c	12;"	d	file:
+SEM_KEY	work/shm_test1.c	15;"	d	file:
+SEM_KEY	work/shm_test2.c	12;"	d	file:
+SETBIT	hwx.c	8;"	d	file:
+SETBIT	test.c	8;"	d	file:
+SETBIT	work/hwx.c	8;"	d	file:
+SETBIT	work/test.c	8;"	d	file:
+SHM_KEY	shm_test1.c	16;"	d	file:
+SHM_KEY	shm_test2.c	14;"	d	file:
+SHM_KEY	work/shm_test1.c	16;"	d	file:
+SHM_KEY	work/shm_test2.c	14;"	d	file:
+SMI_BASE	kernel/include/mach/platform.h	72;"	d
+SMI_BASE	work/kernel/include/mach/platform.h	72;"	d
+SPI0_BASE	kernel/include/mach/platform.h	68;"	d
+SPI0_BASE	work/kernel/include/mach/platform.h	68;"	d
+ST_BASE	kernel/include/mach/platform.h	57;"	d
+ST_BASE	work/kernel/include/mach/platform.h	57;"	d
+SYSFS_GPIO_DIR_IN	gpio/RaspGPIODriver-master/gpio_sysfs/gpio_sys.h	10;"	d
+SYSFS_GPIO_DIR_OUT	gpio/RaspGPIODriver-master/gpio_sysfs/gpio_sys.h	11;"	d
+SYSFS_GPIO_EXPORT	gpio/RaspGPIODriver-master/gpio_sysfs/gpio_sys.h	8;"	d
+SYSFS_GPIO_UNEXPORT	gpio/RaspGPIODriver-master/gpio_sysfs/gpio_sys.h	9;"	d
+SYSFS_GPIO_VAL_HIGH	gpio/RaspGPIODriver-master/gpio_sysfs/gpio_sys.h	12;"	d
+SYSFS_GPIO_VAL_LOW	gpio/RaspGPIODriver-master/gpio_sysfs/gpio_sys.h	13;"	d
+SampleRate	wav2.c	/^	long SampleRate;	\/\/采样率$/;"	m	struct:_WAVEFILE_HEADER	file:
+SampleRate	work/wav2.c	/^	long SampleRate;	\/\/采样率$/;"	m	struct:_WAVEFILE_HEADER	file:
+Subchunk1ID	wav2.c	/^	char Subchunk1ID[3];	\/\/"fmt" 表示以下是format chunck$/;"	m	struct:_WAVEFILE_HEADER	file:
+Subchunk1ID	work/wav2.c	/^	char Subchunk1ID[3];	\/\/"fmt" 表示以下是format chunck$/;"	m	struct:_WAVEFILE_HEADER	file:
+Subchunk1Size	wav2.c	/^	long Subchunk1Size;	\/\/格式数据的字节数 一般是16，特殊的也有18$/;"	m	struct:_WAVEFILE_HEADER	file:
+Subchunk1Size	work/wav2.c	/^	long Subchunk1Size;	\/\/格式数据的字节数 一般是16，特殊的也有18$/;"	m	struct:_WAVEFILE_HEADER	file:
+Subchunk2ID	wav2.c	/^	char Subchunk2ID[3];	\/\/'dat'字符串，标识以下是数据$/;"	m	struct:_WAVEFILE_HEADER	file:
+Subchunk2ID	work/wav2.c	/^	char Subchunk2ID[3];	\/\/'dat'字符串，标识以下是数据$/;"	m	struct:_WAVEFILE_HEADER	file:
+Subchunk2Size	wav2.c	/^	long Subchunk2Size;	\/\/数据的大小$/;"	m	struct:_WAVEFILE_HEADER	file:
+Subchunk2Size	work/wav2.c	/^	long Subchunk2Size;	\/\/数据的大小$/;"	m	struct:_WAVEFILE_HEADER	file:
+TEXT_SZ	shm/shmdata.h	4;"	d
+TEXT_SZ	work/shm/shmdata.h	4;"	d
+TOTAL_SEM	shm_test1.c	17;"	d	file:
+TOTAL_SEM	work/shm_test1.c	17;"	d	file:
+UART0_BASE	kernel/include/mach/platform.h	65;"	d
+UART0_BASE	work/kernel/include/mach/platform.h	65;"	d
+UART0_CLOCK	kernel/include/mach/platform.h	110;"	d
+UART0_CLOCK	work/kernel/include/mach/platform.h	110;"	d
+UART1_BASE	kernel/include/mach/platform.h	70;"	d
+UART1_BASE	work/kernel/include/mach/platform.h	70;"	d
+UART_BAUD	kernel/include/mach/uncompress.h	26;"	d
+UART_BAUD	work/kernel/include/mach/uncompress.h	26;"	d
+UNIX_DOMAIN	shm_test1.c	18;"	d	file:
+UNIX_DOMAIN	shm_test2.c	15;"	d	file:
+UNIX_DOMAIN	work/shm_test1.c	18;"	d	file:
+UNIX_DOMAIN	work/shm_test2.c	15;"	d	file:
+USB_BASE	kernel/include/mach/platform.h	74;"	d
+USB_BASE	work/kernel/include/mach/platform.h	74;"	d
+VC_ARMMEM_OFFSET	kernel/include/mach/memory.h	36;"	d
+VC_ARMMEM_OFFSET	work/kernel/include/mach/memory.h	36;"	d
+VMALLOC_END	kernel/include/mach/vmalloc.h	20;"	d
+VMALLOC_END	work/kernel/include/mach/vmalloc.h	20;"	d
+WAVEFILE_HEADER	wav2.c	/^} WAVEFILE_HEADER;$/;"	t	typeref:struct:_WAVEFILE_HEADER	file:
+WAVEFILE_HEADER	work/wav2.c	/^} WAVEFILE_HEADER;$/;"	t	typeref:struct:_WAVEFILE_HEADER	file:
+WAV_HEADER	wav.c	/^struct WAV_HEADER {$/;"	s	file:
+WAV_HEADER	work/wav.c	/^struct WAV_HEADER {$/;"	s	file:
+Write_Max7219	gpio/RaspGPIODriver-master/gpio_sysfs/main.c	/^void Write_Max7219(uchar address,uchar dat)$/;"	f
+Write_Max7219_byte	gpio/RaspGPIODriver-master/gpio_sysfs/main.c	/^void Write_Max7219_byte(uchar DATA)         $/;"	f
+_BCM2708_PLATFORM_H	kernel/include/mach/platform.h	22;"	d
+_BCM2708_PLATFORM_H	work/kernel/include/mach/platform.h	22;"	d
+_GPIO_SYS_H_	gpio/RaspGPIODriver-master/gpio_sysfs/gpio_sys.h	2;"	d
+_PCM_H_	pcmlib.h	2;"	d
+_PCM_H_	work/pcmlib.h	2;"	d
+_REAL_BUS_OFFSET	kernel/include/mach/memory.h	39;"	d
+_REAL_BUS_OFFSET	kernel/include/mach/memory.h	41;"	d
+_REAL_BUS_OFFSET	work/kernel/include/mach/memory.h	39;"	d
+_REAL_BUS_OFFSET	work/kernel/include/mach/memory.h	41;"	d
+_SHMDATA_H_HEADER	shm/shmdata.h	2;"	d
+_SHMDATA_H_HEADER	work/shm/shmdata.h	2;"	d
+_WAVEFILE_HEADER	wav2.c	/^typedef struct _WAVEFILE_HEADER	\/\/波形文件头结构体$/;"	s	file:
+_WAVEFILE_HEADER	work/wav2.c	/^typedef struct _WAVEFILE_HEADER	\/\/波形文件头结构体$/;"	s	file:
+__ASM_ARCH_MEMORY_H	kernel/include/mach/memory.h	21;"	d
+__ASM_ARCH_MEMORY_H	work/kernel/include/mach/memory.h	21;"	d
+__ASM_ARCH_SYSTEM_H	kernel/include/mach/system.h	23;"	d
+__ASM_ARCH_SYSTEM_H	work/kernel/include/mach/system.h	23;"	d
+__ASM_ARM_ARCH_IO_H	kernel/include/mach/io.h	21;"	d
+__ASM_ARM_ARCH_IO_H	work/kernel/include/mach/io.h	21;"	d
+__LINUX_GPIO_H	kernel/gpio.h	2;"	d
+__LINUX_GPIO_H	work/kernel/gpio.h	2;"	d
+__buf	shm_test1.c	/^	struct seminfo *__buf;	\/*   buffer   for   IPC_INFO   *\/$/;"	m	union:semun	typeref:struct:semun::seminfo	file:
+__buf	work/shm_test1.c	/^	struct seminfo *__buf;	\/*   buffer   for   IPC_INFO   *\/$/;"	m	union:semun	typeref:struct:semun::seminfo	file:
+__bus_to_pfn	kernel/include/mach/memory.h	55;"	d
+__bus_to_pfn	work/kernel/include/mach/memory.h	55;"	d
+__bus_to_virt	kernel/include/mach/memory.h	53;"	d
+__bus_to_virt	work/kernel/include/mach/memory.h	53;"	d
+__init__	i2c/adda/PC8591/Tkinter_I2CB.py	/^        def __init__(self, master):$/;"	m	class:App
+__init__	work/i2c/adda/PC8591/Tkinter_I2CB.py	/^        def __init__(self, master):$/;"	m	class:App
+__initdata	kernel/bcm2708.c	/^static struct map_desc bcm2708_io_desc[] __initdata = {$/;"	v	typeref:struct:bcm2708_io_desc	file:
+__initdata	kernel/bcm2709.c	/^static struct map_desc bcm2709_io_desc[] __initdata = {$/;"	v	typeref:struct:bcm2709_io_desc	file:
+__initdata	kernel/bcm2709.c	/^struct smp_operations  bcm2709_smp_ops __initdata = {$/;"	v	typeref:struct:bcm2709_smp_ops
+__initdata	work/kernel/bcm2708.c	/^static struct map_desc bcm2708_io_desc[] __initdata = {$/;"	v	typeref:struct:bcm2708_io_desc	file:
+__initdata	work/kernel/bcm2709.c	/^static struct map_desc bcm2709_io_desc[] __initdata = {$/;"	v	typeref:struct:bcm2709_io_desc	file:
+__initdata	work/kernel/bcm2709.c	/^struct smp_operations  bcm2709_smp_ops __initdata = {$/;"	v	typeref:struct:bcm2709_smp_ops
+__io	kernel/include/mach/io.h	25;"	d
+__io	work/kernel/include/mach/io.h	25;"	d
+__io_address	kernel/include/mach/platform.h	28;"	d
+__io_address	work/kernel/include/mach/platform.h	28;"	d
+__pfn_to_bus	kernel/include/mach/memory.h	54;"	d
+__pfn_to_bus	work/kernel/include/mach/memory.h	54;"	d
+__this_module	gpio_chdev/gpio_chdev.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	kernel/gpio.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	kernel/hello.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	kernel/led.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	kernel/rasp_led.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	work/kernel/gpio.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	work/kernel/hello.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	work/kernel/led.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	work/kernel/rasp_led.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__used	gpio_chdev/gpio_chdev.mod.c	/^__used$/;"	v	file:
+__used	gpio_chdev/gpio_chdev.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	kernel/gpio.mod.c	/^__used$/;"	v	file:
+__used	kernel/gpio.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	kernel/hello.mod.c	/^__used$/;"	v	file:
+__used	kernel/hello.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	kernel/led.mod.c	/^__used$/;"	v	file:
+__used	kernel/led.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	kernel/rasp_led.mod.c	/^__used$/;"	v	file:
+__used	kernel/rasp_led.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	work/kernel/gpio.mod.c	/^__used$/;"	v	file:
+__used	work/kernel/gpio.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	work/kernel/hello.mod.c	/^__used$/;"	v	file:
+__used	work/kernel/hello.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	work/kernel/led.mod.c	/^__used$/;"	v	file:
+__used	work/kernel/led.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	work/kernel/rasp_led.mod.c	/^__used$/;"	v	file:
+__used	work/kernel/rasp_led.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__virt_to_bus	kernel/include/mach/memory.h	52;"	d
+__virt_to_bus	work/kernel/include/mach/memory.h	52;"	d
+address	i2c/adda/PC8591/Tkinter_I2CB.py	/^address = 0x48$/;"	v
+address	work/i2c/adda/PC8591/Tkinter_I2CB.py	/^address = 0x48$/;"	v
+app	i2c/adda/PC8591/Tkinter_I2CB.py	/^app = App(root)$/;"	v
+app	work/i2c/adda/PC8591/Tkinter_I2CB.py	/^app = App(root)$/;"	v
+arch_decomp_setup	kernel/include/mach/uncompress.h	/^static inline void arch_decomp_setup(void)$/;"	f
+arch_decomp_setup	work/kernel/include/mach/uncompress.h	/^static inline void arch_decomp_setup(void)$/;"	f
+arch_decomp_wdog	kernel/include/mach/uncompress.h	84;"	d
+arch_decomp_wdog	work/kernel/include/mach/uncompress.h	84;"	d
+arch_idle	kernel/include/mach/system.h	/^static inline void arch_idle(void)$/;"	f
+arch_idle	work/kernel/include/mach/system.h	/^static inline void arch_idle(void)$/;"	f
+array	shm_test1.c	/^	unsigned short *array;	\/*   array   for   GETALL,   SETALL   *\/$/;"	m	union:semun	file:
+array	work/shm_test1.c	/^	unsigned short *array;	\/*   array   for   GETALL,   SETALL   *\/$/;"	m	union:semun	file:
+bcm2708_compat	kernel/bcm2708.c	/^static const char * const bcm2708_compat[] = {$/;"	v	file:
+bcm2708_compat	work/kernel/bcm2708.c	/^static const char * const bcm2708_compat[] = {$/;"	v	file:
+bcm2708_init	kernel/bcm2708.c	/^void __init bcm2708_init(void)$/;"	f
+bcm2708_init	work/kernel/bcm2708.c	/^void __init bcm2708_init(void)$/;"	f
+bcm2708_init_early	kernel/bcm2708.c	/^void __init bcm2708_init_early(void)$/;"	f
+bcm2708_init_early	work/kernel/bcm2708.c	/^void __init bcm2708_init_early(void)$/;"	f
+bcm2708_init_uart1	kernel/bcm2708.c	/^static void __init bcm2708_init_uart1(void)$/;"	f	file:
+bcm2708_init_uart1	work/kernel/bcm2708.c	/^static void __init bcm2708_init_uart1(void)$/;"	f	file:
+bcm2708_map_io	kernel/bcm2708.c	/^void __init bcm2708_map_io(void)$/;"	f
+bcm2708_map_io	work/kernel/bcm2708.c	/^void __init bcm2708_map_io(void)$/;"	f
+bcm2708_power_off	kernel/bcm2708.c	/^static void bcm2708_power_off(void)$/;"	f	file:
+bcm2708_power_off	work/kernel/bcm2708.c	/^static void bcm2708_power_off(void)$/;"	f	file:
+bcm2708_restart	kernel/bcm2708.c	/^static void bcm2708_restart(enum reboot_mode mode, const char *cmd)$/;"	f	file:
+bcm2708_restart	work/kernel/bcm2708.c	/^static void bcm2708_restart(enum reboot_mode mode, const char *cmd)$/;"	f	file:
+bcm2709_boot_secondary	kernel/bcm2709.c	/^int __init bcm2709_boot_secondary(unsigned int cpu, struct task_struct *idle)$/;"	f
+bcm2709_boot_secondary	work/kernel/bcm2709.c	/^int __init bcm2709_boot_secondary(unsigned int cpu, struct task_struct *idle)$/;"	f
+bcm2709_compat	kernel/bcm2709.c	/^static const char * const bcm2709_compat[] = {$/;"	v	file:
+bcm2709_compat	work/kernel/bcm2709.c	/^static const char * const bcm2709_compat[] = {$/;"	v	file:
+bcm2709_init	kernel/bcm2709.c	/^void __init bcm2709_init(void)$/;"	f
+bcm2709_init	work/kernel/bcm2709.c	/^void __init bcm2709_init(void)$/;"	f
+bcm2709_init_early	kernel/bcm2709.c	/^void __init bcm2709_init_early(void)$/;"	f
+bcm2709_init_early	work/kernel/bcm2709.c	/^void __init bcm2709_init_early(void)$/;"	f
+bcm2709_init_uart1	kernel/bcm2709.c	/^static void __init bcm2709_init_uart1(void)$/;"	f	file:
+bcm2709_init_uart1	work/kernel/bcm2709.c	/^static void __init bcm2709_init_uart1(void)$/;"	f	file:
+bcm2709_map_io	kernel/bcm2709.c	/^void __init bcm2709_map_io(void)$/;"	f
+bcm2709_map_io	work/kernel/bcm2709.c	/^void __init bcm2709_map_io(void)$/;"	f
+bcm2709_power_off	kernel/bcm2709.c	/^static void bcm2709_power_off(void)$/;"	f	file:
+bcm2709_power_off	work/kernel/bcm2709.c	/^static void bcm2709_power_off(void)$/;"	f	file:
+bcm2709_restart	kernel/bcm2709.c	/^static void bcm2709_restart(enum reboot_mode mode, const char *cmd)$/;"	f	file:
+bcm2709_restart	work/kernel/bcm2709.c	/^static void bcm2709_restart(enum reboot_mode mode, const char *cmd)$/;"	f	file:
+bcm2709_secondary_init	kernel/bcm2709.c	/^void __init bcm2709_secondary_init(unsigned int cpu)$/;"	f
+bcm2709_secondary_init	work/kernel/bcm2709.c	/^void __init bcm2709_secondary_init(unsigned int cpu)$/;"	f
+bcm2709_smp_init_cpus	kernel/bcm2709.c	/^void __init bcm2709_smp_init_cpus(void)$/;"	f
+bcm2709_smp_init_cpus	work/kernel/bcm2709.c	/^void __init bcm2709_smp_init_cpus(void)$/;"	f
+bcm2709_smp_prepare_cpus	kernel/bcm2709.c	/^void __init bcm2709_smp_prepare_cpus(unsigned int max_cpus)$/;"	f
+bcm2709_smp_prepare_cpus	work/kernel/bcm2709.c	/^void __init bcm2709_smp_prepare_cpus(unsigned int max_cpus)$/;"	f
+bcm2709_timer_init	kernel/bcm2709.c	/^static void __init bcm2709_timer_init(void)$/;"	f	file:
+bcm2709_timer_init	work/kernel/bcm2709.c	/^static void __init bcm2709_timer_init(void)$/;"	f	file:
+bcm2835FunctionSelect	kernel/bcm2835.h	/^} bcm2835FunctionSelect;$/;"	t	typeref:enum:__anon2
+bcm2835FunctionSelect	work/kernel/bcm2835.h	/^} bcm2835FunctionSelect;$/;"	t	typeref:enum:__anon14
+bcm2835I2CClockDivider	kernel/bcm2835.h	/^} bcm2835I2CClockDivider;$/;"	t	typeref:enum:__anon10
+bcm2835I2CClockDivider	work/kernel/bcm2835.h	/^} bcm2835I2CClockDivider;$/;"	t	typeref:enum:__anon22
+bcm2835I2CReasonCodes	kernel/bcm2835.h	/^} bcm2835I2CReasonCodes;$/;"	t	typeref:enum:__anon11
+bcm2835I2CReasonCodes	work/kernel/bcm2835.h	/^} bcm2835I2CReasonCodes;$/;"	t	typeref:enum:__anon23
+bcm2835PUDControl	kernel/bcm2835.h	/^} bcm2835PUDControl;$/;"	t	typeref:enum:__anon3
+bcm2835PUDControl	work/kernel/bcm2835.h	/^} bcm2835PUDControl;$/;"	t	typeref:enum:__anon15
+bcm2835PWMClockDivider	kernel/bcm2835.h	/^} bcm2835PWMClockDivider;$/;"	t	typeref:enum:__anon12
+bcm2835PWMClockDivider	work/kernel/bcm2835.h	/^} bcm2835PWMClockDivider;$/;"	t	typeref:enum:__anon24
+bcm2835PadGroup	kernel/bcm2835.h	/^} bcm2835PadGroup;$/;"	t	typeref:enum:__anon4
+bcm2835PadGroup	work/kernel/bcm2835.h	/^} bcm2835PadGroup;$/;"	t	typeref:enum:__anon16
+bcm2835RegisterBase	kernel/bcm2835.h	/^} bcm2835RegisterBase;$/;"	t	typeref:enum:__anon1
+bcm2835RegisterBase	work/kernel/bcm2835.h	/^} bcm2835RegisterBase;$/;"	t	typeref:enum:__anon13
+bcm2835SPIBitOrder	kernel/bcm2835.h	/^}bcm2835SPIBitOrder;$/;"	t	typeref:enum:__anon6
+bcm2835SPIBitOrder	work/kernel/bcm2835.h	/^}bcm2835SPIBitOrder;$/;"	t	typeref:enum:__anon18
+bcm2835SPIChipSelect	kernel/bcm2835.h	/^} bcm2835SPIChipSelect;$/;"	t	typeref:enum:__anon8
+bcm2835SPIChipSelect	work/kernel/bcm2835.h	/^} bcm2835SPIChipSelect;$/;"	t	typeref:enum:__anon20
+bcm2835SPIClockDivider	kernel/bcm2835.h	/^} bcm2835SPIClockDivider;$/;"	t	typeref:enum:__anon9
+bcm2835SPIClockDivider	work/kernel/bcm2835.h	/^} bcm2835SPIClockDivider;$/;"	t	typeref:enum:__anon21
+bcm2835SPIMode	kernel/bcm2835.h	/^}bcm2835SPIMode;$/;"	t	typeref:enum:__anon7
+bcm2835SPIMode	work/kernel/bcm2835.h	/^}bcm2835SPIMode;$/;"	t	typeref:enum:__anon19
+bcm2835_bsc0	kernel/bcm2835.c	/^volatile uint32_t *bcm2835_bsc0        = (uint32_t *)MAP_FAILED;$/;"	v
+bcm2835_bsc0	work/kernel/bcm2835.c	/^volatile uint32_t *bcm2835_bsc0        = (uint32_t *)MAP_FAILED;$/;"	v
+bcm2835_bsc1	kernel/bcm2835.c	/^volatile uint32_t *bcm2835_bsc1        = (uint32_t *)MAP_FAILED;$/;"	v
+bcm2835_bsc1	work/kernel/bcm2835.c	/^volatile uint32_t *bcm2835_bsc1        = (uint32_t *)MAP_FAILED;$/;"	v
+bcm2835_clk	kernel/bcm2835.c	/^volatile uint32_t *bcm2835_clk         = (uint32_t *)MAP_FAILED;$/;"	v
+bcm2835_clk	work/kernel/bcm2835.c	/^volatile uint32_t *bcm2835_clk         = (uint32_t *)MAP_FAILED;$/;"	v
+bcm2835_close	kernel/bcm2835.c	/^int bcm2835_close(void)$/;"	f
+bcm2835_close	work/kernel/bcm2835.c	/^int bcm2835_close(void)$/;"	f
+bcm2835_delay	kernel/bcm2835.c	/^void bcm2835_delay(unsigned int millis)$/;"	f
+bcm2835_delay	work/kernel/bcm2835.c	/^void bcm2835_delay(unsigned int millis)$/;"	f
+bcm2835_delayMicroseconds	kernel/bcm2835.c	/^void bcm2835_delayMicroseconds(uint64_t micros)$/;"	f
+bcm2835_delayMicroseconds	work/kernel/bcm2835.c	/^void bcm2835_delayMicroseconds(uint64_t micros)$/;"	f
+bcm2835_gpio	kernel/bcm2835.c	/^volatile uint32_t *bcm2835_gpio        = (uint32_t *)MAP_FAILED;$/;"	v
+bcm2835_gpio	work/kernel/bcm2835.c	/^volatile uint32_t *bcm2835_gpio        = (uint32_t *)MAP_FAILED;$/;"	v
+bcm2835_gpio_afen	kernel/bcm2835.c	/^void bcm2835_gpio_afen(uint8_t pin)$/;"	f
+bcm2835_gpio_afen	work/kernel/bcm2835.c	/^void bcm2835_gpio_afen(uint8_t pin)$/;"	f
+bcm2835_gpio_aren	kernel/bcm2835.c	/^void bcm2835_gpio_aren(uint8_t pin)$/;"	f
+bcm2835_gpio_aren	work/kernel/bcm2835.c	/^void bcm2835_gpio_aren(uint8_t pin)$/;"	f
+bcm2835_gpio_clr	gpio_chdev/gpio_chdev.c	/^static void bcm2835_gpio_clr(int pin)$/;"	f	file:
+bcm2835_gpio_clr	kernel/bcm2835.c	/^void bcm2835_gpio_clr(uint8_t pin)$/;"	f
+bcm2835_gpio_clr	kernel/rasp_led.c	/^void bcm2835_gpio_clr(uint8_t pin)$/;"	f
+bcm2835_gpio_clr	work/kernel/bcm2835.c	/^void bcm2835_gpio_clr(uint8_t pin)$/;"	f
+bcm2835_gpio_clr	work/kernel/rasp_led.c	/^void bcm2835_gpio_clr(uint8_t pin)$/;"	f
+bcm2835_gpio_clr_afen	kernel/bcm2835.c	/^void bcm2835_gpio_clr_afen(uint8_t pin)$/;"	f
+bcm2835_gpio_clr_afen	work/kernel/bcm2835.c	/^void bcm2835_gpio_clr_afen(uint8_t pin)$/;"	f
+bcm2835_gpio_clr_aren	kernel/bcm2835.c	/^void bcm2835_gpio_clr_aren(uint8_t pin)$/;"	f
+bcm2835_gpio_clr_aren	work/kernel/bcm2835.c	/^void bcm2835_gpio_clr_aren(uint8_t pin)$/;"	f
+bcm2835_gpio_clr_fen	kernel/bcm2835.c	/^void bcm2835_gpio_clr_fen(uint8_t pin)$/;"	f
+bcm2835_gpio_clr_fen	work/kernel/bcm2835.c	/^void bcm2835_gpio_clr_fen(uint8_t pin)$/;"	f
+bcm2835_gpio_clr_hen	kernel/bcm2835.c	/^void bcm2835_gpio_clr_hen(uint8_t pin)$/;"	f
+bcm2835_gpio_clr_hen	work/kernel/bcm2835.c	/^void bcm2835_gpio_clr_hen(uint8_t pin)$/;"	f
+bcm2835_gpio_clr_len	kernel/bcm2835.c	/^void bcm2835_gpio_clr_len(uint8_t pin)$/;"	f
+bcm2835_gpio_clr_len	work/kernel/bcm2835.c	/^void bcm2835_gpio_clr_len(uint8_t pin)$/;"	f
+bcm2835_gpio_clr_multi	kernel/bcm2835.c	/^void bcm2835_gpio_clr_multi(uint32_t mask)$/;"	f
+bcm2835_gpio_clr_multi	work/kernel/bcm2835.c	/^void bcm2835_gpio_clr_multi(uint32_t mask)$/;"	f
+bcm2835_gpio_clr_ren	kernel/bcm2835.c	/^void bcm2835_gpio_clr_ren(uint8_t pin)$/;"	f
+bcm2835_gpio_clr_ren	work/kernel/bcm2835.c	/^void bcm2835_gpio_clr_ren(uint8_t pin)$/;"	f
+bcm2835_gpio_eds	kernel/bcm2835.c	/^uint8_t bcm2835_gpio_eds(uint8_t pin)$/;"	f
+bcm2835_gpio_eds	work/kernel/bcm2835.c	/^uint8_t bcm2835_gpio_eds(uint8_t pin)$/;"	f
+bcm2835_gpio_eds_multi	kernel/bcm2835.c	/^uint32_t bcm2835_gpio_eds_multi(uint32_t mask)$/;"	f
+bcm2835_gpio_eds_multi	work/kernel/bcm2835.c	/^uint32_t bcm2835_gpio_eds_multi(uint32_t mask)$/;"	f
+bcm2835_gpio_fen	kernel/bcm2835.c	/^void bcm2835_gpio_fen(uint8_t pin)$/;"	f
+bcm2835_gpio_fen	work/kernel/bcm2835.c	/^void bcm2835_gpio_fen(uint8_t pin)$/;"	f
+bcm2835_gpio_fsel	gpio_chdev/gpio_chdev.c	/^static void bcm2835_gpio_fsel(int pin, int functionCode)$/;"	f	file:
+bcm2835_gpio_fsel	kernel/bcm2835.c	/^void bcm2835_gpio_fsel(uint8_t pin, uint8_t mode)$/;"	f
+bcm2835_gpio_fsel	kernel/rasp_led.c	/^void bcm2835_gpio_fsel(uint8_t pin, uint8_t mode)$/;"	f
+bcm2835_gpio_fsel	work/kernel/bcm2835.c	/^void bcm2835_gpio_fsel(uint8_t pin, uint8_t mode)$/;"	f
+bcm2835_gpio_fsel	work/kernel/rasp_led.c	/^void bcm2835_gpio_fsel(uint8_t pin, uint8_t mode)$/;"	f
+bcm2835_gpio_hen	kernel/bcm2835.c	/^void bcm2835_gpio_hen(uint8_t pin)$/;"	f
+bcm2835_gpio_hen	work/kernel/bcm2835.c	/^void bcm2835_gpio_hen(uint8_t pin)$/;"	f
+bcm2835_gpio_len	kernel/bcm2835.c	/^void bcm2835_gpio_len(uint8_t pin)$/;"	f
+bcm2835_gpio_len	work/kernel/bcm2835.c	/^void bcm2835_gpio_len(uint8_t pin)$/;"	f
+bcm2835_gpio_lev	gpio_chdev/gpio_chdev.c	/^static int bcm2835_gpio_lev(int pin)$/;"	f	file:
+bcm2835_gpio_lev	kernel/bcm2835.c	/^uint8_t bcm2835_gpio_lev(uint8_t pin)$/;"	f
+bcm2835_gpio_lev	work/kernel/bcm2835.c	/^uint8_t bcm2835_gpio_lev(uint8_t pin)$/;"	f
+bcm2835_gpio_pad	kernel/bcm2835.c	/^uint32_t bcm2835_gpio_pad(uint8_t group)$/;"	f
+bcm2835_gpio_pad	work/kernel/bcm2835.c	/^uint32_t bcm2835_gpio_pad(uint8_t group)$/;"	f
+bcm2835_gpio_pud	kernel/bcm2835.c	/^void bcm2835_gpio_pud(uint8_t pud)$/;"	f
+bcm2835_gpio_pud	work/kernel/bcm2835.c	/^void bcm2835_gpio_pud(uint8_t pud)$/;"	f
+bcm2835_gpio_pudclk	kernel/bcm2835.c	/^void bcm2835_gpio_pudclk(uint8_t pin, uint8_t on)$/;"	f
+bcm2835_gpio_pudclk	work/kernel/bcm2835.c	/^void bcm2835_gpio_pudclk(uint8_t pin, uint8_t on)$/;"	f
+bcm2835_gpio_ren	kernel/bcm2835.c	/^void bcm2835_gpio_ren(uint8_t pin)$/;"	f
+bcm2835_gpio_ren	work/kernel/bcm2835.c	/^void bcm2835_gpio_ren(uint8_t pin)$/;"	f
+bcm2835_gpio_set	gpio_chdev/gpio_chdev.c	/^static void bcm2835_gpio_set(int pin)$/;"	f	file:
+bcm2835_gpio_set	kernel/bcm2835.c	/^void bcm2835_gpio_set(uint8_t pin)$/;"	f
+bcm2835_gpio_set	kernel/rasp_led.c	/^void bcm2835_gpio_set(uint8_t pin)$/;"	f
+bcm2835_gpio_set	work/kernel/bcm2835.c	/^void bcm2835_gpio_set(uint8_t pin)$/;"	f
+bcm2835_gpio_set	work/kernel/rasp_led.c	/^void bcm2835_gpio_set(uint8_t pin)$/;"	f
+bcm2835_gpio_set_eds	kernel/bcm2835.c	/^void bcm2835_gpio_set_eds(uint8_t pin)$/;"	f
+bcm2835_gpio_set_eds	work/kernel/bcm2835.c	/^void bcm2835_gpio_set_eds(uint8_t pin)$/;"	f
+bcm2835_gpio_set_eds_multi	kernel/bcm2835.c	/^void bcm2835_gpio_set_eds_multi(uint32_t mask)$/;"	f
+bcm2835_gpio_set_eds_multi	work/kernel/bcm2835.c	/^void bcm2835_gpio_set_eds_multi(uint32_t mask)$/;"	f
+bcm2835_gpio_set_multi	kernel/bcm2835.c	/^void bcm2835_gpio_set_multi(uint32_t mask)$/;"	f
+bcm2835_gpio_set_multi	work/kernel/bcm2835.c	/^void bcm2835_gpio_set_multi(uint32_t mask)$/;"	f
+bcm2835_gpio_set_pad	kernel/bcm2835.c	/^void bcm2835_gpio_set_pad(uint8_t group, uint32_t control)$/;"	f
+bcm2835_gpio_set_pad	work/kernel/bcm2835.c	/^void bcm2835_gpio_set_pad(uint8_t group, uint32_t control)$/;"	f
+bcm2835_gpio_set_pud	kernel/bcm2835.c	/^void bcm2835_gpio_set_pud(uint8_t pin, uint8_t pud)$/;"	f
+bcm2835_gpio_set_pud	work/kernel/bcm2835.c	/^void bcm2835_gpio_set_pud(uint8_t pin, uint8_t pud)$/;"	f
+bcm2835_gpio_write	kernel/bcm2835.c	/^void bcm2835_gpio_write(uint8_t pin, uint8_t on)$/;"	f
+bcm2835_gpio_write	work/kernel/bcm2835.c	/^void bcm2835_gpio_write(uint8_t pin, uint8_t on)$/;"	f
+bcm2835_gpio_write_mask	kernel/bcm2835.c	/^void bcm2835_gpio_write_mask(uint32_t value, uint32_t mask)$/;"	f
+bcm2835_gpio_write_mask	work/kernel/bcm2835.c	/^void bcm2835_gpio_write_mask(uint32_t value, uint32_t mask)$/;"	f
+bcm2835_gpio_write_multi	kernel/bcm2835.c	/^void bcm2835_gpio_write_multi(uint32_t mask, uint8_t on)$/;"	f
+bcm2835_gpio_write_multi	work/kernel/bcm2835.c	/^void bcm2835_gpio_write_multi(uint32_t mask, uint8_t on)$/;"	f
+bcm2835_i2c_begin	kernel/bcm2835.c	/^int bcm2835_i2c_begin(void)$/;"	f
+bcm2835_i2c_begin	work/kernel/bcm2835.c	/^int bcm2835_i2c_begin(void)$/;"	f
+bcm2835_i2c_end	kernel/bcm2835.c	/^void bcm2835_i2c_end(void)$/;"	f
+bcm2835_i2c_end	work/kernel/bcm2835.c	/^void bcm2835_i2c_end(void)$/;"	f
+bcm2835_i2c_read	kernel/bcm2835.c	/^uint8_t bcm2835_i2c_read(char* buf, uint32_t len)$/;"	f
+bcm2835_i2c_read	work/kernel/bcm2835.c	/^uint8_t bcm2835_i2c_read(char* buf, uint32_t len)$/;"	f
+bcm2835_i2c_read_register_rs	kernel/bcm2835.c	/^uint8_t bcm2835_i2c_read_register_rs(char* regaddr, char* buf, uint32_t len)$/;"	f
+bcm2835_i2c_read_register_rs	work/kernel/bcm2835.c	/^uint8_t bcm2835_i2c_read_register_rs(char* regaddr, char* buf, uint32_t len)$/;"	f
+bcm2835_i2c_setClockDivider	kernel/bcm2835.c	/^void bcm2835_i2c_setClockDivider(uint16_t divider)$/;"	f
+bcm2835_i2c_setClockDivider	work/kernel/bcm2835.c	/^void bcm2835_i2c_setClockDivider(uint16_t divider)$/;"	f
+bcm2835_i2c_setSlaveAddress	kernel/bcm2835.c	/^void bcm2835_i2c_setSlaveAddress(uint8_t addr)$/;"	f
+bcm2835_i2c_setSlaveAddress	work/kernel/bcm2835.c	/^void bcm2835_i2c_setSlaveAddress(uint8_t addr)$/;"	f
+bcm2835_i2c_set_baudrate	kernel/bcm2835.c	/^void bcm2835_i2c_set_baudrate(uint32_t baudrate)$/;"	f
+bcm2835_i2c_set_baudrate	work/kernel/bcm2835.c	/^void bcm2835_i2c_set_baudrate(uint32_t baudrate)$/;"	f
+bcm2835_i2c_write	kernel/bcm2835.c	/^uint8_t bcm2835_i2c_write(const char * buf, uint32_t len)$/;"	f
+bcm2835_i2c_write	work/kernel/bcm2835.c	/^uint8_t bcm2835_i2c_write(const char * buf, uint32_t len)$/;"	f
+bcm2835_i2c_write_read_rs	kernel/bcm2835.c	/^uint8_t bcm2835_i2c_write_read_rs(char* cmds, uint32_t cmds_len, char* buf, uint32_t buf_len)$/;"	f
+bcm2835_i2c_write_read_rs	work/kernel/bcm2835.c	/^uint8_t bcm2835_i2c_write_read_rs(char* cmds, uint32_t cmds_len, char* buf, uint32_t buf_len)$/;"	f
+bcm2835_init	kernel/bcm2835.c	/^int bcm2835_init(void)$/;"	f
+bcm2835_init	work/kernel/bcm2835.c	/^int bcm2835_init(void)$/;"	f
+bcm2835_pads	kernel/bcm2835.c	/^volatile uint32_t *bcm2835_pads        = (uint32_t *)MAP_FAILED;$/;"	v
+bcm2835_pads	work/kernel/bcm2835.c	/^volatile uint32_t *bcm2835_pads        = (uint32_t *)MAP_FAILED;$/;"	v
+bcm2835_peri_read	kernel/bcm2835.c	/^uint32_t bcm2835_peri_read(volatile uint32_t* paddr)$/;"	f
+bcm2835_peri_read	work/kernel/bcm2835.c	/^uint32_t bcm2835_peri_read(volatile uint32_t* paddr)$/;"	f
+bcm2835_peri_read_nb	kernel/bcm2835.c	/^uint32_t bcm2835_peri_read_nb(volatile uint32_t* paddr)$/;"	f
+bcm2835_peri_read_nb	work/kernel/bcm2835.c	/^uint32_t bcm2835_peri_read_nb(volatile uint32_t* paddr)$/;"	f
+bcm2835_peri_set_bits	kernel/bcm2835.c	/^void bcm2835_peri_set_bits(volatile uint32_t* paddr, uint32_t value, uint32_t mask)$/;"	f
+bcm2835_peri_set_bits	work/kernel/bcm2835.c	/^void bcm2835_peri_set_bits(volatile uint32_t* paddr, uint32_t value, uint32_t mask)$/;"	f
+bcm2835_peri_write	kernel/bcm2835.c	/^void bcm2835_peri_write(volatile uint32_t* paddr, uint32_t value)$/;"	f
+bcm2835_peri_write	work/kernel/bcm2835.c	/^void bcm2835_peri_write(volatile uint32_t* paddr, uint32_t value)$/;"	f
+bcm2835_peri_write_nb	kernel/bcm2835.c	/^void bcm2835_peri_write_nb(volatile uint32_t* paddr, uint32_t value)$/;"	f
+bcm2835_peri_write_nb	work/kernel/bcm2835.c	/^void bcm2835_peri_write_nb(volatile uint32_t* paddr, uint32_t value)$/;"	f
+bcm2835_peripherals	kernel/bcm2835.c	/^uint32_t *bcm2835_peripherals = (uint32_t *)MAP_FAILED;$/;"	v
+bcm2835_peripherals	work/kernel/bcm2835.c	/^uint32_t *bcm2835_peripherals = (uint32_t *)MAP_FAILED;$/;"	v
+bcm2835_peripherals_base	kernel/bcm2835.c	/^uint32_t *bcm2835_peripherals_base = (uint32_t *)BCM2835_PERI_BASE;$/;"	v
+bcm2835_peripherals_base	work/kernel/bcm2835.c	/^uint32_t *bcm2835_peripherals_base = (uint32_t *)BCM2835_PERI_BASE;$/;"	v
+bcm2835_peripherals_size	kernel/bcm2835.c	/^uint32_t bcm2835_peripherals_size = BCM2835_PERI_SIZE;$/;"	v
+bcm2835_peripherals_size	work/kernel/bcm2835.c	/^uint32_t bcm2835_peripherals_size = BCM2835_PERI_SIZE;$/;"	v
+bcm2835_pwm	kernel/bcm2835.c	/^volatile uint32_t *bcm2835_pwm         = (uint32_t *)MAP_FAILED;$/;"	v
+bcm2835_pwm	work/kernel/bcm2835.c	/^volatile uint32_t *bcm2835_pwm         = (uint32_t *)MAP_FAILED;$/;"	v
+bcm2835_pwm_set_clock	kernel/bcm2835.c	/^void bcm2835_pwm_set_clock(uint32_t divisor)$/;"	f
+bcm2835_pwm_set_clock	work/kernel/bcm2835.c	/^void bcm2835_pwm_set_clock(uint32_t divisor)$/;"	f
+bcm2835_pwm_set_data	kernel/bcm2835.c	/^void bcm2835_pwm_set_data(uint8_t channel, uint32_t data)$/;"	f
+bcm2835_pwm_set_data	work/kernel/bcm2835.c	/^void bcm2835_pwm_set_data(uint8_t channel, uint32_t data)$/;"	f
+bcm2835_pwm_set_mode	kernel/bcm2835.c	/^void bcm2835_pwm_set_mode(uint8_t channel, uint8_t markspace, uint8_t enabled)$/;"	f
+bcm2835_pwm_set_mode	work/kernel/bcm2835.c	/^void bcm2835_pwm_set_mode(uint8_t channel, uint8_t markspace, uint8_t enabled)$/;"	f
+bcm2835_pwm_set_range	kernel/bcm2835.c	/^void bcm2835_pwm_set_range(uint8_t channel, uint32_t range)$/;"	f
+bcm2835_pwm_set_range	work/kernel/bcm2835.c	/^void bcm2835_pwm_set_range(uint8_t channel, uint32_t range)$/;"	f
+bcm2835_regbase	kernel/bcm2835.c	/^uint32_t* bcm2835_regbase(uint8_t regbase)$/;"	f
+bcm2835_regbase	work/kernel/bcm2835.c	/^uint32_t* bcm2835_regbase(uint8_t regbase)$/;"	f
+bcm2835_send_doorbell	kernel/bcm2709.c	/^static void bcm2835_send_doorbell(const struct cpumask *mask, unsigned int irq)$/;"	f	file:
+bcm2835_send_doorbell	work/kernel/bcm2709.c	/^static void bcm2835_send_doorbell(const struct cpumask *mask, unsigned int irq)$/;"	f	file:
+bcm2835_set_debug	kernel/bcm2835.c	/^void  bcm2835_set_debug(uint8_t d)$/;"	f
+bcm2835_set_debug	work/kernel/bcm2835.c	/^void  bcm2835_set_debug(uint8_t d)$/;"	f
+bcm2835_spi0	kernel/bcm2835.c	/^volatile uint32_t *bcm2835_spi0        = (uint32_t *)MAP_FAILED;$/;"	v
+bcm2835_spi0	work/kernel/bcm2835.c	/^volatile uint32_t *bcm2835_spi0        = (uint32_t *)MAP_FAILED;$/;"	v
+bcm2835_spi_begin	kernel/bcm2835.c	/^int bcm2835_spi_begin(void)$/;"	f
+bcm2835_spi_begin	work/kernel/bcm2835.c	/^int bcm2835_spi_begin(void)$/;"	f
+bcm2835_spi_chipSelect	kernel/bcm2835.c	/^void bcm2835_spi_chipSelect(uint8_t cs)$/;"	f
+bcm2835_spi_chipSelect	work/kernel/bcm2835.c	/^void bcm2835_spi_chipSelect(uint8_t cs)$/;"	f
+bcm2835_spi_end	kernel/bcm2835.c	/^void bcm2835_spi_end(void)$/;"	f
+bcm2835_spi_end	work/kernel/bcm2835.c	/^void bcm2835_spi_end(void)$/;"	f
+bcm2835_spi_setBitOrder	kernel/bcm2835.c	/^void bcm2835_spi_setBitOrder(uint8_t __attribute__((unused)) order)$/;"	f
+bcm2835_spi_setBitOrder	work/kernel/bcm2835.c	/^void bcm2835_spi_setBitOrder(uint8_t __attribute__((unused)) order)$/;"	f
+bcm2835_spi_setChipSelectPolarity	kernel/bcm2835.c	/^void bcm2835_spi_setChipSelectPolarity(uint8_t cs, uint8_t active)$/;"	f
+bcm2835_spi_setChipSelectPolarity	work/kernel/bcm2835.c	/^void bcm2835_spi_setChipSelectPolarity(uint8_t cs, uint8_t active)$/;"	f
+bcm2835_spi_setClockDivider	kernel/bcm2835.c	/^void bcm2835_spi_setClockDivider(uint16_t divider)$/;"	f
+bcm2835_spi_setClockDivider	work/kernel/bcm2835.c	/^void bcm2835_spi_setClockDivider(uint16_t divider)$/;"	f
+bcm2835_spi_setDataMode	kernel/bcm2835.c	/^void bcm2835_spi_setDataMode(uint8_t mode)$/;"	f
+bcm2835_spi_setDataMode	work/kernel/bcm2835.c	/^void bcm2835_spi_setDataMode(uint8_t mode)$/;"	f
+bcm2835_spi_transfer	kernel/bcm2835.c	/^uint8_t bcm2835_spi_transfer(uint8_t value)$/;"	f
+bcm2835_spi_transfer	work/kernel/bcm2835.c	/^uint8_t bcm2835_spi_transfer(uint8_t value)$/;"	f
+bcm2835_spi_transfern	kernel/bcm2835.c	/^void bcm2835_spi_transfern(char* buf, uint32_t len)$/;"	f
+bcm2835_spi_transfern	work/kernel/bcm2835.c	/^void bcm2835_spi_transfern(char* buf, uint32_t len)$/;"	f
+bcm2835_spi_transfernb	kernel/bcm2835.c	/^void bcm2835_spi_transfernb(char* tbuf, char* rbuf, uint32_t len)$/;"	f
+bcm2835_spi_transfernb	work/kernel/bcm2835.c	/^void bcm2835_spi_transfernb(char* tbuf, char* rbuf, uint32_t len)$/;"	f
+bcm2835_spi_writenb	kernel/bcm2835.c	/^void bcm2835_spi_writenb(char* tbuf, uint32_t len)$/;"	f
+bcm2835_spi_writenb	work/kernel/bcm2835.c	/^void bcm2835_spi_writenb(char* tbuf, uint32_t len)$/;"	f
+bcm2835_st	kernel/bcm2835.c	/^volatile uint32_t *bcm2835_st	       = (uint32_t *)MAP_FAILED;$/;"	v
+bcm2835_st	work/kernel/bcm2835.c	/^volatile uint32_t *bcm2835_st	       = (uint32_t *)MAP_FAILED;$/;"	v
+bcm2835_st_delay	kernel/bcm2835.c	/^void bcm2835_st_delay(uint64_t offset_micros, uint64_t micros)$/;"	f
+bcm2835_st_delay	work/kernel/bcm2835.c	/^void bcm2835_st_delay(uint64_t offset_micros, uint64_t micros)$/;"	f
+bcm2835_st_read	kernel/bcm2835.c	/^uint64_t bcm2835_st_read(void)$/;"	f
+bcm2835_st_read	work/kernel/bcm2835.c	/^uint64_t bcm2835_st_read(void)$/;"	f
+bcm2835_version	kernel/bcm2835.c	/^unsigned int bcm2835_version(void) $/;"	f
+bcm2835_version	work/kernel/bcm2835.c	/^unsigned int bcm2835_version(void) $/;"	f
+board_reserve	kernel/bcm2708.c	/^static void __init board_reserve(void)$/;"	f	file:
+board_reserve	kernel/bcm2709.c	/^static void __init board_reserve(void)$/;"	f	file:
+board_reserve	work/kernel/bcm2708.c	/^static void __init board_reserve(void)$/;"	f	file:
+board_reserve	work/kernel/bcm2709.c	/^static void __init board_reserve(void)$/;"	f	file:
+boardrev	kernel/bcm2708.c	/^static unsigned boardrev, serial;$/;"	v	file:
+boardrev	kernel/bcm2709.c	/^static unsigned boardrev, serial;$/;"	v	file:
+boardrev	work/kernel/bcm2708.c	/^static unsigned boardrev, serial;$/;"	v	file:
+boardrev	work/kernel/bcm2709.c	/^static unsigned boardrev, serial;$/;"	v	file:
+buf	shm_test1.c	/^	struct semid_ds *buf;	\/*   buffer   for   IPC_STAT,   IPC_SET   *\/$/;"	m	union:semun	typeref:struct:semun::semid_ds	file:
+buf	work/shm_test1.c	/^	struct semid_ds *buf;	\/*   buffer   for   IPC_STAT,   IPC_SET   *\/$/;"	m	union:semun	typeref:struct:semun::semid_ds	file:
+buffer	net/client.c	/^char *buffer = 0;$/;"	v
+buffer	pcm_rl.c	/^static char *buffer = 0;$/;"	v	file:
+buffer	pcm_rl55.c	/^char *buffer = 0;$/;"	v
+buffer	pcmrl.c	/^static char *buffer = 0;$/;"	v	file:
+buffer	work/net/client.c	/^char *buffer = 0;$/;"	v
+buffer	work/pcm_rl.c	/^char *buffer = 0;$/;"	v
+buffer	work/pcm_rl55.c	/^char *buffer = 0;$/;"	v
+bus	i2c/adda/PC8591/Tkinter_I2CB.py	/^bus = smbus.SMBus(1)$/;"	v
+bus	work/i2c/adda/PC8591/Tkinter_I2CB.py	/^bus = smbus.SMBus(1)$/;"	v
+calc_rsts	kernel/bcm2708.c	/^int calc_rsts(int partition)$/;"	f
+calc_rsts	kernel/bcm2709.c	/^int calc_rsts(int partition)$/;"	f
+calc_rsts	work/kernel/bcm2708.c	/^int calc_rsts(int partition)$/;"	f
+calc_rsts	work/kernel/bcm2709.c	/^int calc_rsts(int partition)$/;"	f
+closestream	pcm_w1.c	/^int closestream(int fd)$/;"	f
+closestream	work/pcm_w1.c	/^int closestream(int fd)$/;"	f
+codeDisp	gpio/RaspGPIODriver-master/gpio_sysfs/main.c	/^uchar codeDisp[38][8]={$/;"	v
+com_fd	shm_test1.c	/^static int com_fd = 0;$/;"	v	file:
+com_fd	work/shm_test1.c	/^static int com_fd = 0;$/;"	v	file:
+connect_fd	shm_test2.c	/^static int connect_fd = 0;$/;"	v	file:
+connect_fd	work/shm_test2.c	/^static int connect_fd = 0;$/;"	v	file:
+cur	pcm_rl.c	/^static int cur = 1024*300;$/;"	v	file:
+cur	pcmrl.c	/^static int cur = 1024*300;$/;"	v	file:
+cur	work/pcm_rl.c	/^static int cur = 1024*300;$/;"	v	file:
+cur_get	pcm_rl2.c	/^static int cur_get  = 0;$/;"	v	file:
+cur_get	work/pcm_rl2.c	/^static int cur_get  = 0;$/;"	v	file:
+cur_read	pcm_rl2.c	/^static int cur_read = 0;$/;"	v	file:
+cur_read	work/pcm_rl2.c	/^static int cur_read = 0;$/;"	v	file:
+dc4	kernel/bcm2709.c	/^int dc4=0;$/;"	v
+dc4	work/kernel/bcm2709.c	/^int dc4=0;$/;"	v
+dc4_log_dead	kernel/bcm2709.c	/^void dc4_log_dead(unsigned x) { if (dc4) writel((readl(__io_address(ST_BASE+0x10 + raw_smp_processor_id()*4)) & 0xffff) | ((x)<<16), __io_address(ST_BASE+0x10 + raw_smp_processor_id()*4)); }$/;"	f
+dc4_log_dead	work/kernel/bcm2709.c	/^void dc4_log_dead(unsigned x) { if (dc4) writel((readl(__io_address(ST_BASE+0x10 + raw_smp_processor_id()*4)) & 0xffff) | ((x)<<16), __io_address(ST_BASE+0x10 + raw_smp_processor_id()*4)); }$/;"	f
+debug	kernel/bcm2835.c	/^static uint8_t debug = 0;$/;"	v	file:
+debug	work/kernel/bcm2835.c	/^static uint8_t debug = 0;$/;"	v	file:
+delay	kernel/bcm2835.h	1011;"	d
+delay	work/kernel/bcm2835.h	1011;"	d
+delayMicroseconds	kernel/bcm2835.h	1012;"	d
+delayMicroseconds	work/kernel/bcm2835.h	1012;"	d
+devm_gpio_free	kernel/gpio.h	/^static inline void devm_gpio_free(struct device *dev, unsigned int gpio)$/;"	f
+devm_gpio_free	work/kernel/gpio.h	/^static inline void devm_gpio_free(struct device *dev, unsigned int gpio)$/;"	f
+devm_gpio_request	kernel/gpio.h	/^static inline int devm_gpio_request(struct device *dev, unsigned gpio,$/;"	f
+devm_gpio_request	work/kernel/gpio.h	/^static inline int devm_gpio_request(struct device *dev, unsigned gpio,$/;"	f
+devm_gpio_request_one	kernel/gpio.h	/^static inline int devm_gpio_request_one(struct device *dev, unsigned gpio,$/;"	f
+devm_gpio_request_one	work/kernel/gpio.h	/^static inline int devm_gpio_request_one(struct device *dev, unsigned gpio,$/;"	f
+dlaser_cdev	gpio_chdev/gpio_chdev.c	/^static struct cdev dlaser_cdev;	\/\/character device$/;"	v	typeref:struct:cdev	file:
+dlaser_cdev_fops	gpio_chdev/gpio_chdev.c	/^static struct file_operations dlaser_cdev_fops = {$/;"	v	typeref:struct:file_operations	file:
+dlaser_class	gpio_chdev/gpio_chdev.c	/^static struct class *dlaser_class;	\/\/device class$/;"	v	typeref:struct:class	file:
+dlaser_dev_id	gpio_chdev/gpio_chdev.c	/^static dev_t dlaser_dev_id;	\/\/device id$/;"	v	file:
+dlaser_exit	gpio_chdev/gpio_chdev.c	/^module_exit(dlaser_exit);$/;"	v
+dlaser_exit	gpio_chdev/gpio_chdev.c	/^void dlaser_exit(void)$/;"	f
+dlaser_init	gpio_chdev/gpio_chdev.c	/^module_init(dlaser_init);$/;"	v
+dlaser_init	gpio_chdev/gpio_chdev.c	/^static int dlaser_init(void)$/;"	f	file:
+dlaser_open	gpio_chdev/gpio_chdev.c	/^static int dlaser_open(struct inode *inode, struct file *flip)$/;"	f	file:
+dlaser_read	gpio_chdev/gpio_chdev.c	/^static ssize_t dlaser_read(struct file *filp, char __user * buf,$/;"	f	file:
+dlaser_release	gpio_chdev/gpio_chdev.c	/^static int dlaser_release(struct inode *inode, struct file *flip)$/;"	f	file:
+dlaser_write	gpio_chdev/gpio_chdev.c	/^static ssize_t dlaser_write(struct file *filp, const char __user * buf,$/;"	f	file:
+dld	wav.c	/^	char dld[4];		\/\/”data“$/;"	m	struct:WAV_HEADER	file:
+dld	work/wav.c	/^	char dld[4];		\/\/”data“$/;"	m	struct:WAV_HEADER	file:
+domain_client	shm_test2.c	/^static int domain_client(void)$/;"	f	file:
+domain_client	work/shm_test2.c	/^static int domain_client(void)$/;"	f	file:
+domain_server	shm_test1.c	/^static int domain_server(void)$/;"	f	file:
+domain_server	work/shm_test1.c	/^static int domain_server(void)$/;"	f	file:
+fLen	wav.c	/^	int fLen;		\/\/sizeof(wave format matex)$/;"	m	struct:WAV_HEADER	file:
+fLen	work/wav.c	/^	int fLen;		\/\/sizeof(wave format matex)$/;"	m	struct:WAV_HEADER	file:
+fd_dev	pcmrl.c	/^static int fd_dev = 0;$/;"	v	file:
+fd_fifo	mplayer_c.c	/^int fd_fifo;                    \/\/创建有名管道，用于向mplayer发送命令  $/;"	v
+fd_fifo	work/mplayer_c.c	/^int fd_fifo;                    \/\/创建有名管道，用于向mplayer发送命令  $/;"	v
+fd_pipe	mplayer_c.c	/^int fd_pipe[2];                 \/\/创建无名管道,用于从mplayer读取$/;"	v
+fd_pipe	work/mplayer_c.c	/^int fd_pipe[2];                 \/\/创建无名管道,用于从mplayer读取$/;"	v
+flags	kernel/gpio.h	/^	unsigned long	flags;$/;"	m	struct:gpio
+flags	work/kernel/gpio.h	/^	unsigned long	flags;$/;"	m	struct:gpio
+fld	wav.c	/^	char fld[4];		\/\/"fmt"$/;"	m	struct:WAV_HEADER	file:
+fld	work/wav.c	/^	char fld[4];		\/\/"fmt"$/;"	m	struct:WAV_HEADER	file:
+flush	kernel/include/mach/uncompress.h	/^static inline void flush(void)$/;"	f
+flush	work/kernel/include/mach/uncompress.h	/^static inline void flush(void)$/;"	f
+frames	net/client.c	/^static snd_pcm_uframes_t frames;$/;"	v	file:
+frames	pcm_rl.c	/^static snd_pcm_uframes_t frames;$/;"	v	file:
+frames	pcm_rl55.c	/^static snd_pcm_uframes_t frames;$/;"	v	file:
+frames	pcmrl.c	/^static snd_pcm_uframes_t frames;$/;"	v	file:
+frames	work/net/client.c	/^static snd_pcm_uframes_t frames;$/;"	v	file:
+frames	work/pcm_rl.c	/^static snd_pcm_uframes_t frames;$/;"	v	file:
+frames	work/pcm_rl55.c	/^static snd_pcm_uframes_t frames;$/;"	v	file:
+get_pthread	mplayer_c.c	/^void *get_pthread(void *arg)  $/;"	f
+get_pthread	work/mplayer_c.c	/^void *get_pthread(void *arg)  $/;"	f
+get_total	pcm_rl2.c	/^static int get_total = 0;$/;"	v	file:
+get_total	work/pcm_rl2.c	/^static int get_total = 0;$/;"	v	file:
+getmusic_pthread	pcm_rl2.c	/^void *getmusic_pthread(void *arg)$/;"	f
+getmusic_pthread	work/pcm_rl2.c	/^void *getmusic_pthread(void *arg)$/;"	f
+gpio	kernel/gpio.h	/^	unsigned	gpio;$/;"	m	struct:gpio
+gpio	kernel/gpio.h	/^struct gpio {$/;"	s
+gpio	work/kernel/gpio.h	/^	unsigned	gpio;$/;"	m	struct:gpio
+gpio	work/kernel/gpio.h	/^struct gpio {$/;"	s
+gpio_cansleep	kernel/gpio.h	/^static inline int gpio_cansleep(unsigned gpio)$/;"	f
+gpio_cansleep	kernel/gpio.h	/^static inline int gpio_cansleep(unsigned int gpio)$/;"	f
+gpio_cansleep	work/kernel/gpio.h	/^static inline int gpio_cansleep(unsigned gpio)$/;"	f
+gpio_cansleep	work/kernel/gpio.h	/^static inline int gpio_cansleep(unsigned int gpio)$/;"	f
+gpio_direction_input	kernel/gpio.h	/^static inline int gpio_direction_input(unsigned gpio)$/;"	f
+gpio_direction_input	work/kernel/gpio.h	/^static inline int gpio_direction_input(unsigned gpio)$/;"	f
+gpio_direction_output	kernel/gpio.h	/^static inline int gpio_direction_output(unsigned gpio, int value)$/;"	f
+gpio_direction_output	work/kernel/gpio.h	/^static inline int gpio_direction_output(unsigned gpio, int value)$/;"	f
+gpio_exit	kernel/gpio.c	/^module_exit(gpio_exit);$/;"	v
+gpio_exit	kernel/gpio.c	/^static void __exit gpio_exit(void)$/;"	f	file:
+gpio_exit	work/kernel/gpio.c	/^module_exit(gpio_exit);$/;"	v
+gpio_exit	work/kernel/gpio.c	/^static void __exit gpio_exit(void)$/;"	f	file:
+gpio_export	kernel/gpio.h	/^static inline int gpio_export(unsigned gpio, bool direction_may_change)$/;"	f
+gpio_export	work/kernel/gpio.h	/^static inline int gpio_export(unsigned gpio, bool direction_may_change)$/;"	f
+gpio_export_link	kernel/gpio.h	/^static inline int gpio_export_link(struct device *dev, const char *name,$/;"	f
+gpio_export_link	work/kernel/gpio.h	/^static inline int gpio_export_link(struct device *dev, const char *name,$/;"	f
+gpio_free	kernel/gpio.h	/^static inline void gpio_free(unsigned gpio)$/;"	f
+gpio_free	work/kernel/gpio.h	/^static inline void gpio_free(unsigned gpio)$/;"	f
+gpio_free_array	kernel/gpio.h	/^static inline void gpio_free_array(const struct gpio *array, size_t num)$/;"	f
+gpio_free_array	work/kernel/gpio.h	/^static inline void gpio_free_array(const struct gpio *array, size_t num)$/;"	f
+gpio_get_value	kernel/gpio.h	/^static inline int gpio_get_value(unsigned gpio)$/;"	f
+gpio_get_value	kernel/gpio.h	/^static inline int gpio_get_value(unsigned int gpio)$/;"	f
+gpio_get_value	work/kernel/gpio.h	/^static inline int gpio_get_value(unsigned gpio)$/;"	f
+gpio_get_value	work/kernel/gpio.h	/^static inline int gpio_get_value(unsigned int gpio)$/;"	f
+gpio_get_value_cansleep	kernel/gpio.h	/^static inline int gpio_get_value_cansleep(unsigned gpio)$/;"	f
+gpio_get_value_cansleep	work/kernel/gpio.h	/^static inline int gpio_get_value_cansleep(unsigned gpio)$/;"	f
+gpio_init	kernel/gpio.c	/^module_init(gpio_init);$/;"	v
+gpio_init	kernel/gpio.c	/^static int __init gpio_init(void)$/;"	f	file:
+gpio_init	work/kernel/gpio.c	/^module_init(gpio_init);$/;"	v
+gpio_init	work/kernel/gpio.c	/^static int __init gpio_init(void)$/;"	f	file:
+gpio_is_valid	kernel/gpio.h	/^static inline bool gpio_is_valid(int number)$/;"	f
+gpio_is_valid	work/kernel/gpio.h	/^static inline bool gpio_is_valid(int number)$/;"	f
+gpio_request	kernel/gpio.h	/^static inline int gpio_request(unsigned gpio, const char *label)$/;"	f
+gpio_request	work/kernel/gpio.h	/^static inline int gpio_request(unsigned gpio, const char *label)$/;"	f
+gpio_request_array	kernel/gpio.h	/^static inline int gpio_request_array(const struct gpio *array, size_t num)$/;"	f
+gpio_request_array	work/kernel/gpio.h	/^static inline int gpio_request_array(const struct gpio *array, size_t num)$/;"	f
+gpio_request_one	kernel/gpio.h	/^static inline int gpio_request_one(unsigned gpio,$/;"	f
+gpio_request_one	work/kernel/gpio.h	/^static inline int gpio_request_one(unsigned gpio,$/;"	f
+gpio_set_debounce	kernel/gpio.h	/^static inline int gpio_set_debounce(unsigned gpio, unsigned debounce)$/;"	f
+gpio_set_debounce	work/kernel/gpio.h	/^static inline int gpio_set_debounce(unsigned gpio, unsigned debounce)$/;"	f
+gpio_set_value	kernel/gpio.h	/^static inline void gpio_set_value(unsigned gpio, int value)$/;"	f
+gpio_set_value	kernel/gpio.h	/^static inline void gpio_set_value(unsigned int gpio, int value)$/;"	f
+gpio_set_value	work/kernel/gpio.h	/^static inline void gpio_set_value(unsigned gpio, int value)$/;"	f
+gpio_set_value	work/kernel/gpio.h	/^static inline void gpio_set_value(unsigned int gpio, int value)$/;"	f
+gpio_set_value_cansleep	kernel/gpio.h	/^static inline void gpio_set_value_cansleep(unsigned gpio, int value)$/;"	f
+gpio_set_value_cansleep	work/kernel/gpio.h	/^static inline void gpio_set_value_cansleep(unsigned gpio, int value)$/;"	f
+gpio_to_irq	kernel/gpio.h	/^static inline int gpio_to_irq(unsigned gpio)$/;"	f
+gpio_to_irq	kernel/gpio.h	/^static inline int gpio_to_irq(unsigned int gpio)$/;"	f
+gpio_to_irq	work/kernel/gpio.h	/^static inline int gpio_to_irq(unsigned gpio)$/;"	f
+gpio_to_irq	work/kernel/gpio.h	/^static inline int gpio_to_irq(unsigned int gpio)$/;"	f
+gpio_unexport	kernel/gpio.h	/^static inline void gpio_unexport(unsigned gpio)$/;"	f
+gpio_unexport	work/kernel/gpio.h	/^static inline void gpio_unexport(unsigned gpio)$/;"	f
+gpiochip	gpio_chdev/gpio_chdev.c	/^struct gpio_chip *gpiochip;$/;"	v	typeref:struct:gpio_chip
+gpiochip	kernel/led.c	/^struct gpio_chip *gpiochip;$/;"	v	typeref:struct:gpio_chip
+gpiochip	work/kernel/led.c	/^struct gpio_chip *gpiochip;$/;"	v	typeref:struct:gpio_chip
+gpiochip_add_pin_range	kernel/gpio.h	/^gpiochip_add_pin_range(struct gpio_chip *chip, const char *pinctl_name,$/;"	f
+gpiochip_add_pin_range	work/kernel/gpio.h	/^gpiochip_add_pin_range(struct gpio_chip *chip, const char *pinctl_name,$/;"	f
+gpiochip_add_pingroup_range	kernel/gpio.h	/^gpiochip_add_pingroup_range(struct gpio_chip *chip,$/;"	f
+gpiochip_add_pingroup_range	work/kernel/gpio.h	/^gpiochip_add_pingroup_range(struct gpio_chip *chip,$/;"	f
+gpiochip_lock_as_irq	kernel/gpio.h	/^static inline int gpiochip_lock_as_irq(struct gpio_chip *chip,$/;"	f
+gpiochip_lock_as_irq	work/kernel/gpio.h	/^static inline int gpiochip_lock_as_irq(struct gpio_chip *chip,$/;"	f
+gpiochip_remove_pin_ranges	kernel/gpio.h	/^gpiochip_remove_pin_ranges(struct gpio_chip *chip)$/;"	f
+gpiochip_remove_pin_ranges	work/kernel/gpio.h	/^gpiochip_remove_pin_ranges(struct gpio_chip *chip)$/;"	f
+gpiochip_unlock_as_irq	kernel/gpio.h	/^static inline void gpiochip_unlock_as_irq(struct gpio_chip *chip,$/;"	f
+gpiochip_unlock_as_irq	work/kernel/gpio.h	/^static inline void gpiochip_unlock_as_irq(struct gpio_chip *chip,$/;"	f
+h	pcm_back.c	/^int h,l;$/;"	v
+h	work/pcm_back.c	/^int h,l;$/;"	v
+handle	net/client.c	/^static snd_pcm_t *handle = 0;	\/\/PCI设备句柄$/;"	v	file:
+handle	pcm_rl.c	/^static snd_pcm_t *handle = 0;	\/\/PCI设备句柄$/;"	v	file:
+handle	pcm_rl55.c	/^static snd_pcm_t *handle = 0;	\/\/PCI设备句柄$/;"	v	file:
+handle	pcmrl.c	/^static snd_pcm_t *handle = 0;	\/\/PCI设备句柄$/;"	v	file:
+handle	work/net/client.c	/^static snd_pcm_t *handle = 0;	\/\/PCI设备句柄$/;"	v	file:
+handle	work/pcm_rl.c	/^static snd_pcm_t *handle = 0;	\/\/PCI设备句柄$/;"	v	file:
+handle	work/pcm_rl55.c	/^static snd_pcm_t *handle = 0;	\/\/PCI设备句柄$/;"	v	file:
+hello_exit	kernel/hello.c	/^module_exit(hello_exit);$/;"	v
+hello_exit	kernel/hello.c	/^static void hello_exit(void)$/;"	f	file:
+hello_exit	work/kernel/hello.c	/^module_exit(hello_exit);$/;"	v
+hello_exit	work/kernel/hello.c	/^static void hello_exit(void)$/;"	f	file:
+hello_init	kernel/hello.c	/^module_init(hello_init);$/;"	v
+hello_init	kernel/hello.c	/^static int hello_init(void)$/;"	f	file:
+hello_init	work/kernel/hello.c	/^module_init(hello_init);$/;"	v
+hello_init	work/kernel/hello.c	/^static int hello_init(void)$/;"	f	file:
+i2c_byte_wait_us	kernel/bcm2835.c	/^static int i2c_byte_wait_us = 0;$/;"	v	file:
+i2c_byte_wait_us	work/kernel/bcm2835.c	/^static int i2c_byte_wait_us = 0;$/;"	v	file:
+initgpio_read	pcmlib_read.c	/^int initgpio_read(void)$/;"	f
+initgpio_read	work/pcmlib_read.c	/^int initgpio_read(void)$/;"	f
+initgpio_write	pcmlib_write.c	/^int initgpio_write()$/;"	f
+initsour	pcm_rl.c	/^int initsour(void)$/;"	f
+initsour	pcmrl.c	/^int initsour(void)$/;"	f
+initsour	work/pcm_rl.c	/^int initsour(void)$/;"	f
+irq_to_gpio	kernel/gpio.h	/^static inline int irq_to_gpio(unsigned int irq)$/;"	f
+irq_to_gpio	kernel/gpio.h	/^static inline int irq_to_gpio(unsigned irq)$/;"	f
+irq_to_gpio	work/kernel/gpio.h	/^static inline int irq_to_gpio(unsigned int irq)$/;"	f
+irq_to_gpio	work/kernel/gpio.h	/^static inline int irq_to_gpio(unsigned irq)$/;"	f
+is_right_chip	kernel/led.c	/^static int is_right_chip(struct gpio_chip *chip, void *data)$/;"	f	file:
+is_right_chip	work/kernel/led.c	/^static int is_right_chip(struct gpio_chip *chip, void *data)$/;"	f	file:
+l	pcm_back.c	/^int h,l;$/;"	v
+l	work/pcm_back.c	/^int h,l;$/;"	v
+label	kernel/gpio.h	/^	const char	*label;$/;"	m	struct:gpio
+label	work/kernel/gpio.h	/^	const char	*label;$/;"	m	struct:gpio
+led_fop	kernel/gpio.c	/^const struct file_operations led_fop = {$/;"	v	typeref:struct:file_operations
+led_fop	work/kernel/gpio.c	/^const struct file_operations led_fop = {$/;"	v	typeref:struct:file_operations
+led_ioctl	kernel/gpio.c	/^int led_ioctl(struct inode *inode, struct file *filp, unsigned int cmd,$/;"	f
+led_ioctl	work/kernel/gpio.c	/^int led_ioctl(struct inode *inode, struct file *filp, unsigned int cmd,$/;"	f
+led_open	kernel/gpio.c	/^int led_open(struct inode *inode, struct file *filp)$/;"	f
+led_open	work/kernel/gpio.c	/^int led_open(struct inode *inode, struct file *filp)$/;"	f
+led_pin	kernel/led.c	32;"	d	file:
+led_pin	work/kernel/led.c	32;"	d	file:
+led_release	kernel/gpio.c	/^int led_release(struct inode *inode, struct file *filp)$/;"	f
+led_release	work/kernel/gpio.c	/^int led_release(struct inode *inode, struct file *filp)$/;"	f
+leds_exit	kernel/rasp_led.c	/^module_exit(leds_exit);$/;"	v
+leds_exit	kernel/rasp_led.c	/^static void leds_exit(void)$/;"	f	file:
+leds_exit	work/kernel/rasp_led.c	/^module_exit(leds_exit);$/;"	v
+leds_exit	work/kernel/rasp_led.c	/^static void leds_exit(void)$/;"	f	file:
+leds_fops	kernel/rasp_led.c	/^static const struct file_operations leds_fops = {$/;"	v	typeref:struct:file_operations	file:
+leds_fops	work/kernel/rasp_led.c	/^static const struct file_operations leds_fops = {$/;"	v	typeref:struct:file_operations	file:
+leds_init	kernel/rasp_led.c	/^module_init(leds_init);$/;"	v
+leds_init	kernel/rasp_led.c	/^static int __init leds_init(void)$/;"	f	file:
+leds_init	work/kernel/rasp_led.c	/^module_init(leds_init);$/;"	v
+leds_init	work/kernel/rasp_led.c	/^static int __init leds_init(void)$/;"	f	file:
+leds_ioctl	kernel/rasp_led.c	/^static int leds_ioctl(struct file *filp, unsigned int cmd, unsigned long arg)$/;"	f	file:
+leds_ioctl	work/kernel/rasp_led.c	/^static int leds_ioctl(struct file *filp, unsigned int cmd, unsigned long arg)$/;"	f	file:
+leds_open	kernel/rasp_led.c	/^static int leds_open(struct inode *inode, struct file *filp)$/;"	f	file:
+leds_open	work/kernel/rasp_led.c	/^static int leds_open(struct inode *inode, struct file *filp)$/;"	f	file:
+leds_release	kernel/rasp_led.c	/^static int leds_release(struct inode *inode, struct file *filp)$/;"	f	file:
+leds_release	work/kernel/rasp_led.c	/^static int leds_release(struct inode *inode, struct file *filp)$/;"	f	file:
+lwrite	wav2.c	/^int lwrite(int dsp_fd, char *buf, int n)$/;"	f
+lwrite	work/wav2.c	/^int lwrite(int dsp_fd, char *buf, int n)$/;"	f
+main	bcmtest.c	/^int main(int argc, char **argv)$/;"	f
+main	ctest.c	/^int main(int argc, char *argv[])$/;"	f
+main	dc.c	/^int main(int argc ,char *argv[])$/;"	f
+main	gpio/RaspGPIODriver-master/gpio_sysfs/main.c	/^int main(void)$/;"	f
+main	gpio/RaspGPIODriver-master/main.c	/^int main(int argc, char **argv)$/;"	f
+main	hsfe.c	/^int main()$/;"	f
+main	hwx.c	/^void main()$/;"	f
+main	i2c.c	/^int main(void)$/;"	f
+main	i2c/adda/pcf8591.c	/^int main(int argc, char *argv[])$/;"	f
+main	i2c/adda/pcm_sl.c	/^int main(int argc, char *argv[])$/;"	f
+main	jg.c	/^int main(int argc ,char *argv[])$/;"	f
+main	kernel/bcm2835.c	/^int main(int argc, char **argv)$/;"	f
+main	lb.c	/^int main(int argc ,char *argv[])$/;"	f
+main	mplayer_c.c	/^int main(int argc, char *argv[])  $/;"	f
+main	net/client.c	/^int main(int argc, char *argv[])$/;"	f
+main	net/pcm_sl.c	/^int main(int argc, char *argv[])$/;"	f
+main	net/server.c	/^int main(int argc, char **argv)$/;"	f
+main	pcm_back.c	/^int main(int argc ,char *argv[])$/;"	f
+main	pcm_r.c	/^int main(int argc, char *argv[])$/;"	f
+main	pcm_rl.c	/^int main (int argc, char *argv[])$/;"	f
+main	pcm_rl2.c	/^int main (int argc, char *argv[])$/;"	f
+main	pcm_rl55.c	/^int main (int argc, char *argv[])$/;"	f
+main	pcm_rl_read_pipe.c	/^int main (int argc, char *argv[])$/;"	f
+main	pcm_rl_write_pipe.c	/^int main (int argc, char *argv[])$/;"	f
+main	pcm_sl.c	/^int main(int argc, char *argv[])$/;"	f
+main	pcm_w.c	/^int main(int argc, char *argv[])$/;"	f
+main	pcm_w1.c	/^int main(int argc, char *argv[])$/;"	f
+main	pcm_w2.c	/^int main (int argc, char *argv[])$/;"	f
+main	pcm_w22.c	/^int main(int argc, char *argv[])$/;"	f
+main	pcm_w222.c	/^int main(int argc, char *argv[])$/;"	f
+main	pcmrl.c	/^int main (int argc, char *argv[])$/;"	f
+main	pcmsl.c	/^int main(int argc, char *argv[])$/;"	f
+main	shm/shmread.c	/^int main()  $/;"	f
+main	shm/shmwrite.c	/^int main(int argc, char *argv[])$/;"	f
+main	shm_test1.c	/^int main()$/;"	f
+main	shm_test2.c	/^int main()$/;"	f
+main	shmwrite.c	/^int main(int argc, char *argv[])$/;"	f
+main	test.c	/^void main()$/;"	f
+main	tt.c	/^int main (int argc, char *argv[])$/;"	f
+main	wav.c	/^int main(int argc, char *argv[])$/;"	f
+main	wav2.c	/^int main(int argc, char **argv)$/;"	f
+main	work/bcmtest.c	/^int main(int argc, char **argv)$/;"	f
+main	work/ctest.c	/^int main(int argc, char *argv[])$/;"	f
+main	work/dc.c	/^int main(int argc ,char *argv[])$/;"	f
+main	work/hsfe.c	/^int main()$/;"	f
+main	work/hwx.c	/^void main()$/;"	f
+main	work/i2c.c	/^int main(void)$/;"	f
+main	work/i2c/adda/pcf8591.c	/^int main(int argc, char *argv[])$/;"	f
+main	work/i2c/adda/pcm_sl.c	/^int main(int argc, char *argv[])$/;"	f
+main	work/jg.c	/^int main(int argc ,char *argv[])$/;"	f
+main	work/kernel/bcm2835.c	/^int main(int argc, char **argv)$/;"	f
+main	work/lb.c	/^int main(int argc ,char *argv[])$/;"	f
+main	work/mplayer_c.c	/^int main(int argc, char *argv[])  $/;"	f
+main	work/net/client.c	/^int main(int argc, char *argv[])$/;"	f
+main	work/net/pcm_sl.c	/^int main(int argc, char *argv[])$/;"	f
+main	work/net/server.c	/^int main(int argc, char **argv)$/;"	f
+main	work/pcm_back.c	/^int main(int argc ,char *argv[])$/;"	f
+main	work/pcm_r.c	/^int main(int argc, char *argv[])$/;"	f
+main	work/pcm_rl.c	/^int main (int argc, char *argv[])$/;"	f
+main	work/pcm_rl2.c	/^int main (int argc, char *argv[])$/;"	f
+main	work/pcm_rl55.c	/^int main (int argc, char *argv[])$/;"	f
+main	work/pcm_rl_read_pipe.c	/^int main (int argc, char *argv[])$/;"	f
+main	work/pcm_rl_write_pipe.c	/^int main (int argc, char *argv[])$/;"	f
+main	work/pcm_sl.c	/^int main(int argc, char *argv[])$/;"	f
+main	work/pcm_w.c	/^int main(int argc, char *argv[])$/;"	f
+main	work/pcm_w1.c	/^int main(int argc, char *argv[])$/;"	f
+main	work/pcm_w2.c	/^int main (int argc, char *argv[])$/;"	f
+main	work/pcm_w22.c	/^int main(int argc, char *argv[])$/;"	f
+main	work/pcm_w222.c	/^int main(int argc, char *argv[])$/;"	f
+main	work/shm/shmread.c	/^int main()  $/;"	f
+main	work/shm/shmwrite.c	/^int main(int argc, char *argv[])$/;"	f
+main	work/shm_test1.c	/^int main()$/;"	f
+main	work/shm_test2.c	/^int main()$/;"	f
+main	work/shmwrite.c	/^int main(int argc, char *argv[])$/;"	f
+main	work/test.c	/^void main()$/;"	f
+main	work/tt.c	/^int main (int argc, char *argv[])$/;"	f
+main	work/wav.c	/^int main(int argc, char *argv[])$/;"	f
+main	work/wav2.c	/^int main(int argc, char **argv)$/;"	f
+major	gpio_chdev/gpio_chdev.c	/^int major;$/;"	v
+malloc_aligned	kernel/bcm2835.c	/^void *malloc_aligned(size_t size)$/;"	f
+malloc_aligned	work/kernel/bcm2835.c	/^void *malloc_aligned(size_t size)$/;"	f
+mapmem	kernel/bcm2835.c	/^static void *mapmem(const char *msg, size_t size, int fd, off_t off)$/;"	f	file:
+mapmem	work/kernel/bcm2835.c	/^static void *mapmem(const char *msg, size_t size, int fd, off_t off)$/;"	f	file:
+misc	kernel/gpio.c	/^struct miscdevice misc = {$/;"	v	typeref:struct:miscdevice
+misc	kernel/rasp_led.c	/^static struct miscdevice misc = {$/;"	v	typeref:struct:miscdevice	file:
+misc	work/kernel/gpio.c	/^struct miscdevice misc = {$/;"	v	typeref:struct:miscdevice
+misc	work/kernel/rasp_led.c	/^static struct miscdevice misc = {$/;"	v	typeref:struct:miscdevice	file:
+mp	pcm_back.c	/^int mp(void)$/;"	f
+mp	work/pcm_back.c	/^int mp(void)$/;"	f
+music	pcm_rl.c	/^static char *music = 0;$/;"	v	file:
+music	pcm_rl2.c	/^static char *music  = 0;$/;"	v	file:
+music	pcmrl.c	/^static char *music = 0;$/;"	v	file:
+music	work/pcm_rl.c	/^static char *music = 0;$/;"	v	file:
+music	work/pcm_rl2.c	/^static char *music  = 0;$/;"	v	file:
+nAvgBitsPerSample	wav.c	/^	int nAvgBitsPerSample;	\/\/WAVE文件采样大小$/;"	m	struct:WAV_HEADER	file:
+nAvgBitsPerSample	work/wav.c	/^	int nAvgBitsPerSample;	\/\/WAVE文件采样大小$/;"	m	struct:WAV_HEADER	file:
+nSamplesPersec	wav.c	/^	int nSamplesPersec;	\/\/采样频率$/;"	m	struct:WAV_HEADER	file:
+nSamplesPersec	work/wav.c	/^	int nSamplesPersec;	\/\/采样频率$/;"	m	struct:WAV_HEADER	file:
+obj-m	gpio_chdev/Makefile	/^obj-m := gpio_chdev.o$/;"	m
+obj-m	kernel/Makefile	/^obj-m := rasp_led.o led.o$/;"	m
+obj-m	work/kernel/Makefile	/^obj-m := rasp_led.o led.o$/;"	m
+open_flag	kernel/led.c	/^int open_flag = 0;$/;"	v
+open_flag	work/kernel/led.c	/^int open_flag = 0;$/;"	v
+open_state	kernel/gpio.c	/^int open_state = 0;		\/\/1为打开，0为关闭   $/;"	v
+open_state	kernel/rasp_led.c	/^int open_state = 0;		\/\/文件打开状态  $/;"	v
+open_state	work/kernel/gpio.c	/^int open_state = 0;		\/\/1为打开，0为关闭   $/;"	v
+open_state	work/kernel/rasp_led.c	/^int open_state = 0;		\/\/文件打开状态  $/;"	v
+openstream	pcm_w1.c	/^int openstream(char *name)$/;"	f
+openstream	work/pcm_w1.c	/^int openstream(char *name)$/;"	f
+p	dc.c	/^int p(int x)$/;"	f
+p	lb.c	/^int p(int x, int y)$/;"	f
+p	pcm_w.c	/^int p(int a)$/;"	f
+p	pcm_w22.c	/^int p(int a)$/;"	f
+p	work/dc.c	/^int p(int x)$/;"	f
+p	work/lb.c	/^int p(int x, int y)$/;"	f
+p	work/pcm_w.c	/^int p(int a)$/;"	f
+p	work/pcm_w22.c	/^int p(int a)$/;"	f
+pcmdelay_f	pcmlib_read.c	/^int inline pcmdelay_f(int t)$/;"	f
+pcmdelay_f	pcmlib_write.c	/^int inline pcmdelay_f(int t)$/;"	f
+pcmdelay_f	work/pcmlib_read.c	/^int inline pcmdelay_f(int t)$/;"	f
+pcmdelay_s	i2c/adda/pcf8591.c	/^int inline pcmdelay_s(int *c, int t)$/;"	f
+pcmdelay_s	i2c/adda/pcf8591.c	/^int inline pcmdelay_s(int t)$/;"	f
+pcmdelay_s	pcmlib_read.c	/^int inline pcmdelay_s(int *c, int t)$/;"	f
+pcmdelay_s	pcmlib_write.c	/^int inline pcmdelay_s(int *c, int t)$/;"	f
+pcmdelay_s	work/i2c/adda/pcf8591.c	/^int inline pcmdelay_s(int *c, int t)$/;"	f
+pcmdelay_s	work/i2c/adda/pcf8591.c	/^int inline pcmdelay_s(int t)$/;"	f
+pcmdelay_s	work/pcmlib_read.c	/^int inline pcmdelay_s(int *c, int t)$/;"	f
+pi_led_class	kernel/led.c	/^static struct class *pi_led_class;$/;"	v	typeref:struct:class	file:
+pi_led_class	work/kernel/led.c	/^static struct class *pi_led_class;$/;"	v	typeref:struct:class	file:
+pi_led_class_dev	kernel/led.c	/^static struct cdev pi_led_class_dev;$/;"	v	typeref:struct:cdev	file:
+pi_led_class_dev	work/kernel/led.c	/^static struct cdev pi_led_class_dev;$/;"	v	typeref:struct:cdev	file:
+pi_led_dev_fops	kernel/led.c	/^static struct file_operations pi_led_dev_fops = {$/;"	v	typeref:struct:file_operations	file:
+pi_led_dev_fops	work/kernel/led.c	/^static struct file_operations pi_led_dev_fops = {$/;"	v	typeref:struct:file_operations	file:
+pi_led_devno	kernel/led.c	/^static dev_t pi_led_devno;	\/\/设备号$/;"	v	file:
+pi_led_devno	work/kernel/led.c	/^static dev_t pi_led_devno;	\/\/设备号$/;"	v	file:
+pi_led_exit	kernel/led.c	/^module_exit(pi_led_exit);$/;"	v
+pi_led_exit	kernel/led.c	/^void pi_led_exit(void)$/;"	f
+pi_led_exit	work/kernel/led.c	/^module_exit(pi_led_exit);$/;"	v
+pi_led_exit	work/kernel/led.c	/^void pi_led_exit(void)$/;"	f
+pi_led_init	kernel/led.c	/^module_init(pi_led_init);$/;"	v
+pi_led_init	kernel/led.c	/^static int __init pi_led_init(void)$/;"	f	file:
+pi_led_init	work/kernel/led.c	/^module_init(pi_led_init);$/;"	v
+pi_led_init	work/kernel/led.c	/^static int __init pi_led_init(void)$/;"	f	file:
+pi_led_ioctl	kernel/led.c	/^static long pi_led_ioctl(struct file *filp, unsigned int cmd, unsigned long arg)$/;"	f	file:
+pi_led_ioctl	work/kernel/led.c	/^static long pi_led_ioctl(struct file *filp, unsigned int cmd, unsigned long arg)$/;"	f	file:
+pi_led_open	kernel/led.c	/^static int pi_led_open(struct inode *inode, struct file *filp)$/;"	f	file:
+pi_led_open	work/kernel/led.c	/^static int pi_led_open(struct inode *inode, struct file *filp)$/;"	f	file:
+pi_led_release	kernel/led.c	/^static int pi_led_release(struct inode *inode, struct file *file)$/;"	f	file:
+pi_led_release	work/kernel/led.c	/^static int pi_led_release(struct inode *inode, struct file *file)$/;"	f	file:
+pinCLK	gpio/RaspGPIODriver-master/gpio_sysfs/main.c	6;"	d	file:
+pinCS	gpio/RaspGPIODriver-master/gpio_sysfs/main.c	7;"	d	file:
+pinDIN	gpio/RaspGPIODriver-master/gpio_sysfs/main.c	8;"	d	file:
+pinILASER	gpio_chdev/gpio_chdev.c	21;"	d	file:
+pinOLASER	gpio_chdev/gpio_chdev.c	22;"	d	file:
+pkt	shm_test1.c	/^	unsigned char pkt[1528];$/;"	m	struct:shared_use	file:
+pkt	shm_test2.c	/^	unsigned char pkt[1528];$/;"	m	struct:shared_use	file:
+pkt	work/shm_test1.c	/^	unsigned char pkt[1528];$/;"	m	struct:shared_use	file:
+pkt	work/shm_test2.c	/^	unsigned char pkt[1528];$/;"	m	struct:shared_use	file:
+pktlen	shm_test1.c	/^	int pktlen;$/;"	m	struct:shared_use	file:
+pktlen	shm_test2.c	/^	int pktlen;$/;"	m	struct:shared_use	file:
+pktlen	work/shm_test1.c	/^	int pktlen;$/;"	m	struct:shared_use	file:
+pktlen	work/shm_test2.c	/^	int pktlen;$/;"	m	struct:shared_use	file:
+play_music	wav2.c	/^int play_music(char *music_name, int dsp_fd)$/;"	f
+play_music	work/wav2.c	/^int play_music(char *music_name, int dsp_fd)$/;"	f
+playframe_pthread	pcm_rl55.c	/^void *playframe_pthread(void *arg)$/;"	f
+playframe_pthread	work/pcm_rl.c	/^void *playframe_pthread(void *arg)$/;"	f
+playframe_pthread	work/pcm_rl55.c	/^void *playframe_pthread(void *arg)$/;"	f
+port	net/client.c	/^int port = 6789;$/;"	v
+port	net/server.c	/^int port = 6789;$/;"	v
+port	work/net/client.c	/^int port = 6789;$/;"	v
+port	work/net/server.c	/^int port = 6789;$/;"	v
+pp	dc.c	/^int pp(int x, int y, int z)$/;"	f
+pp	work/dc.c	/^int pp(int x, int y, int z)$/;"	f
+print_cmd_help	shm_test1.c	/^static void print_cmd_help(void)$/;"	f	file:
+print_cmd_help	work/shm_test1.c	/^static void print_cmd_help(void)$/;"	f	file:
+print_pkt	shm_test2.c	/^static void print_pkt(shared_use_t shared_pkt)$/;"	f	file:
+print_pkt	work/shm_test2.c	/^static void print_pkt(shared_use_t shared_pkt)$/;"	f	file:
+print_pthread	mplayer_c.c	/^void *print_pthread(void *arg)  $/;"	f
+print_pthread	work/mplayer_c.c	/^void *print_pthread(void *arg)  $/;"	f
+putc	kernel/include/mach/uncompress.h	/^static inline void putc(int c)$/;"	f
+putc	work/kernel/include/mach/uncompress.h	/^static inline void putc(int c)$/;"	f
+rLen	wav.c	/^	int rLen;$/;"	m	struct:WAV_HEADER	file:
+rLen	work/wav.c	/^	int rLen;$/;"	m	struct:WAV_HEADER	file:
+r_buffer	gpio_chdev/gpio_chdev.c	/^static char r_buffer[1024];$/;"	v	file:
+read_AIN0	i2c/adda/PC8591/Tkinter_I2CB.py	/^        def read_AIN0(self):$/;"	m	class:App
+read_AIN0	work/i2c/adda/PC8591/Tkinter_I2CB.py	/^        def read_AIN0(self):$/;"	m	class:App
+read_AIN1	i2c/adda/PC8591/Tkinter_I2CB.py	/^        def read_AIN1(self):$/;"	m	class:App
+read_AIN1	work/i2c/adda/PC8591/Tkinter_I2CB.py	/^        def read_AIN1(self):$/;"	m	class:App
+read_AIN2	i2c/adda/PC8591/Tkinter_I2CB.py	/^        def read_AIN2(self):$/;"	m	class:App
+read_AIN2	work/i2c/adda/PC8591/Tkinter_I2CB.py	/^        def read_AIN2(self):$/;"	m	class:App
+read_AIN3	i2c/adda/PC8591/Tkinter_I2CB.py	/^        def read_AIN3(self):$/;"	m	class:App
+read_AIN3	work/i2c/adda/PC8591/Tkinter_I2CB.py	/^        def read_AIN3(self):$/;"	m	class:App
+read_total	pcm_rl2.c	/^static int read_total = 0;$/;"	v	file:
+read_total	work/pcm_rl2.c	/^static int read_total = 0;$/;"	v	file:
+readbuffer	work/pcm_rl.c	/^int readbuffer(char *buf)$/;"	f
+readgpio_ls	pcmlib_read.c	/^int readgpio_ls(char *buf, int len)$/;"	f
+readgpio_ls	pcmrl.c	/^int readgpio_ls(char *buffer, int len)$/;"	f
+readgpio_ls	work/pcmlib_read.c	/^int readgpio_ls(char *buf, int len)$/;"	f
+readmusic	pcm_rl2.c	/^int readmusic(char *buf)$/;"	f
+readmusic	work/pcm_rl2.c	/^int readmusic(char *buf)$/;"	f
+readstream	pcm_w1.c	/^int readstream(int fd_sour, char *buf)$/;"	f
+readstream	work/pcm_w1.c	/^int readstream(int fd_sour, char *buf)$/;"	f
+reboot_part	kernel/bcm2708.c	/^static unsigned reboot_part = 0;$/;"	v	file:
+reboot_part	kernel/bcm2709.c	/^static unsigned reboot_part = 0;$/;"	v	file:
+reboot_part	work/kernel/bcm2708.c	/^static unsigned reboot_part = 0;$/;"	v	file:
+reboot_part	work/kernel/bcm2709.c	/^static unsigned reboot_part = 0;$/;"	v	file:
+rld	wav.c	/^	char rld[4];		\/\/riff 标志符号$/;"	m	struct:WAV_HEADER	file:
+rld	work/wav.c	/^	char rld[4];		\/\/riff 标志符号$/;"	m	struct:WAV_HEADER	file:
+root	i2c/adda/PC8591/Tkinter_I2CB.py	/^root = Tk()$/;"	v
+root	work/i2c/adda/PC8591/Tkinter_I2CB.py	/^root = Tk()$/;"	v
+s_pGpioRegisters	gpio_chdev/gpio_chdev.c	/^struct GpioRegisters *s_pGpioRegisters;$/;"	v	typeref:struct:GpioRegisters
+sem_id	shm_test1.c	/^static int sem_id = 0;$/;"	v	file:
+sem_id	shm_test2.c	/^static int sem_id = 0;$/;"	v	file:
+sem_id	work/shm_test1.c	/^static int sem_id = 0;$/;"	v	file:
+sem_id	work/shm_test2.c	/^static int sem_id = 0;$/;"	v	file:
+semaphore_init	shm_test1.c	/^static int semaphore_init(void)$/;"	f	file:
+semaphore_init	shm_test2.c	/^static int semaphore_init()$/;"	f	file:
+semaphore_init	work/shm_test1.c	/^static int semaphore_init(void)$/;"	f	file:
+semaphore_init	work/shm_test2.c	/^static int semaphore_init()$/;"	f	file:
+semaphore_p	shm_test1.c	/^static int semaphore_p(void)$/;"	f	file:
+semaphore_p	shm_test2.c	/^static int semaphore_p()$/;"	f	file:
+semaphore_p	work/shm_test1.c	/^static int semaphore_p(void)$/;"	f	file:
+semaphore_p	work/shm_test2.c	/^static int semaphore_p()$/;"	f	file:
+semaphore_v	shm_test1.c	/^static int semaphore_v(void)$/;"	f	file:
+semaphore_v	shm_test2.c	/^static int semaphore_v()$/;"	f	file:
+semaphore_v	work/shm_test1.c	/^static int semaphore_v(void)$/;"	f	file:
+semaphore_v	work/shm_test2.c	/^static int semaphore_v()$/;"	f	file:
+semun	shm_test1.c	/^union semun {$/;"	u	file:
+semun	work/shm_test1.c	/^union semun {$/;"	u	file:
+serial	kernel/bcm2708.c	/^static unsigned boardrev, serial;$/;"	v	file:
+serial	kernel/bcm2709.c	/^static unsigned boardrev, serial;$/;"	v	file:
+serial	work/kernel/bcm2708.c	/^static unsigned boardrev, serial;$/;"	v	file:
+serial	work/kernel/bcm2709.c	/^static unsigned boardrev, serial;$/;"	v	file:
+set_pcm_play	pcm_r.c	/^int set_pcm_play(int fd_fifo)$/;"	f
+set_pcm_play	pcm_rl_read_pipe.c	/^int set_pcm_play(int fd_fifo)$/;"	f
+set_pcm_play	wav.c	/^int set_pcm_play(FILE * fp)$/;"	f
+set_pcm_play	work/pcm_r.c	/^int set_pcm_play(int fd_fifo)$/;"	f
+set_pcm_play	work/pcm_rl_read_pipe.c	/^int set_pcm_play(int fd_fifo)$/;"	f
+set_pcm_play	work/wav.c	/^int set_pcm_play(FILE * fp)$/;"	f
+setup_dsp	wav2.c	/^int setup_dsp(int dsp_fd, int rate, int channels)$/;"	f
+setup_dsp	work/wav2.c	/^int setup_dsp(int dsp_fd, int rate, int channels)$/;"	f
+shared_use	shm_test1.c	/^typedef struct shared_use {$/;"	s	file:
+shared_use	shm_test2.c	/^typedef struct shared_use {$/;"	s	file:
+shared_use	work/shm_test1.c	/^typedef struct shared_use {$/;"	s	file:
+shared_use	work/shm_test2.c	/^typedef struct shared_use {$/;"	s	file:
+shared_use_t	shm_test1.c	/^} shared_use_t;$/;"	t	typeref:struct:shared_use	file:
+shared_use_t	shm_test2.c	/^} shared_use_t;$/;"	t	typeref:struct:shared_use	file:
+shared_use_t	work/shm_test1.c	/^} shared_use_t;$/;"	t	typeref:struct:shared_use	file:
+shared_use_t	work/shm_test2.c	/^} shared_use_t;$/;"	t	typeref:struct:shared_use	file:
+sharemmy_destroy	shm_test1.c	/^static int sharemmy_destroy(int shmid, void *shm)$/;"	f	file:
+sharemmy_destroy	shm_test2.c	/^static int sharemmy_destroy(int shmid, void *shm)$/;"	f	file:
+sharemmy_destroy	work/shm_test1.c	/^static int sharemmy_destroy(int shmid, void *shm)$/;"	f	file:
+sharemmy_destroy	work/shm_test2.c	/^static int sharemmy_destroy(int shmid, void *shm)$/;"	f	file:
+sharemmy_init	shm_test1.c	/^static int sharemmy_init(void)$/;"	f	file:
+sharemmy_init	shm_test2.c	/^static int sharemmy_init(void)$/;"	f	file:
+sharemmy_init	work/shm_test1.c	/^static int sharemmy_init(void)$/;"	f	file:
+sharemmy_init	work/shm_test2.c	/^static int sharemmy_init(void)$/;"	f	file:
+shm	shm_test1.c	/^static void *shm = NULL;$/;"	v	file:
+shm	shm_test2.c	/^static void *shm = NULL;$/;"	v	file:
+shm	work/shm_test1.c	/^static void *shm = NULL;$/;"	v	file:
+shm	work/shm_test2.c	/^static void *shm = NULL;$/;"	v	file:
+shmread	shm_test2.c	/^static int shmread(shared_use_t * shared)$/;"	f	file:
+shmread	work/shm_test2.c	/^static int shmread(shared_use_t * shared)$/;"	f	file:
+shmwrite	shm_test1.c	/^static int shmwrite(void *shm)$/;"	f	file:
+shmwrite	work/shm_test1.c	/^static int shmwrite(void *shm)$/;"	f	file:
+state	gpio_chdev/gpio_chdev.c	/^static int state = 0;		\/\/0->closed 1->open$/;"	v	file:
+sync_dsp	wav2.c	/^int sync_dsp(int dsp_fd)$/;"	f
+sync_dsp	work/wav2.c	/^int sync_dsp(int dsp_fd)$/;"	f
+ucast_pkt	shm_test1.c	/^static unsigned char ucast_pkt[] = {$/;"	v	file:
+ucast_pkt	work/shm_test1.c	/^static unsigned char ucast_pkt[] = {$/;"	v	file:
+uchar	gpio/RaspGPIODriver-master/gpio_sysfs/main.c	3;"	d	file:
+uchar	gpio_chdev/gpio_chdev.c	18;"	d	file:
+uint	gpio/RaspGPIODriver-master/gpio_sysfs/main.c	4;"	d	file:
+uint	gpio_chdev/gpio_chdev.c	19;"	d	file:
+unmapmem	kernel/bcm2835.c	/^static void unmapmem(void **pmem, size_t size)$/;"	f	file:
+unmapmem	work/kernel/bcm2835.c	/^static void unmapmem(void **pmem, size_t size)$/;"	f	file:
+val	shm_test1.c	/^	int val;		\/*   value   for   SETVAL   *\/$/;"	m	union:semun	file:
+val	work/shm_test1.c	/^	int val;		\/*   value   for   SETVAL   *\/$/;"	m	union:semun	file:
+wBitsPerSample	wav.c	/^	short wBitsPerSample;	\/\/WAVE文件采样大小$/;"	m	struct:WAV_HEADER	file:
+wBitsPerSample	work/wav.c	/^	short wBitsPerSample;	\/\/WAVE文件采样大小$/;"	m	struct:WAV_HEADER	file:
+wBlockAlign	wav.c	/^	short wBlockAlign;	\/\/块对齐$/;"	m	struct:WAV_HEADER	file:
+wBlockAlign	work/wav.c	/^	short wBlockAlign;	\/\/块对齐$/;"	m	struct:WAV_HEADER	file:
+wChannels	wav.c	/^	short wChannels;	\/\/声道数$/;"	m	struct:WAV_HEADER	file:
+wChannels	work/wav.c	/^	short wChannels;	\/\/声道数$/;"	m	struct:WAV_HEADER	file:
+wFormatTag	wav.c	/^	short wFormatTag;	\/\/编码格式$/;"	m	struct:WAV_HEADER	file:
+wFormatTag	work/wav.c	/^	short wFormatTag;	\/\/编码格式$/;"	m	struct:WAV_HEADER	file:
+wSampleLength	wav.c	/^	int wSampleLength;	\/\/音频数据的大小$/;"	m	struct:WAV_HEADER	file:
+wSampleLength	work/wav.c	/^	int wSampleLength;	\/\/音频数据的大小$/;"	m	struct:WAV_HEADER	file:
+wav_header	wav.c	/^} wav_header;$/;"	v	typeref:struct:WAV_HEADER
+wav_header	work/wav.c	/^} wav_header;$/;"	v	typeref:struct:WAV_HEADER
+wld	wav.c	/^	char wld[4];		\/\/格式类型（wave）$/;"	m	struct:WAV_HEADER	file:
+wld	work/wav.c	/^	char wld[4];		\/\/格式类型（wave）$/;"	m	struct:WAV_HEADER	file:
+wmode	gpio_chdev/gpio_chdev.c	/^static int wmode = 0;		\/\/0:低电平使能，1：高电平使能$/;"	v	file:
+writeAOUT	i2c/adda/PC8591/Tkinter_I2CB.py	/^        def writeAOUT(self):$/;"	m	class:App
+writeAOUT	work/i2c/adda/PC8591/Tkinter_I2CB.py	/^        def writeAOUT(self):$/;"	m	class:App
+writegpio_fz	pcmlib_write.c	/^int writegpio_fz(char *buf, int len)$/;"	f
+writegpio_ls	pcmlib_write.c	/^int writegpio_ls(char *buf, int len)$/;"	f
+writegpio_ls	pcmsl.c	/^int writegpio_ls(const char *buffer, int len)$/;"	f

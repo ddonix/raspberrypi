@@ -1,0 +1,124 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ARMV8_PMCR_C	tsc.c	13;"	d	file:
+ARMV8_PMCR_D	tsc.c	14;"	d	file:
+ARMV8_PMCR_DP	tsc.c	16;"	d	file:
+ARMV8_PMCR_E	tsc.c	11;"	d	file:
+ARMV8_PMCR_LC	tsc.c	17;"	d	file:
+ARMV8_PMCR_MASK	tsc.c	10;"	d	file:
+ARMV8_PMCR_N_MASK	tsc.c	19;"	d	file:
+ARMV8_PMCR_N_SHIFT	tsc.c	18;"	d	file:
+ARMV8_PMCR_P	tsc.c	12;"	d	file:
+ARMV8_PMCR_X	tsc.c	15;"	d	file:
+ARMV8_PMUSERENR_CR	tsc.c	21;"	d	file:
+ARMV8_PMUSERENR_EN_EL0	tsc.c	20;"	d	file:
+ARMV8_PMUSERENR_ER	tsc.c	22;"	d	file:
+BITWIDTH	gpio_chdev.c	96;"	d	file:
+BITWIDTH	gpio_chdev_mh.c	96;"	d	file:
+DRIVER_NAME	gpio_chdev.c	25;"	d	file:
+DRIVER_NAME	gpio_chdev_mh.c	25;"	d	file:
+GPCLR	gpio_chdev.c	/^	uint32_t GPCLR[2];$/;"	m	struct:GpioRegisters	file:
+GPCLR	gpio_chdev_mh.c	/^	uint32_t GPCLR[2];$/;"	m	struct:GpioRegisters	file:
+GPFSEL	gpio_chdev.c	/^	uint32_t GPFSEL[6];$/;"	m	struct:GpioRegisters	file:
+GPFSEL	gpio_chdev_mh.c	/^	uint32_t GPFSEL[6];$/;"	m	struct:GpioRegisters	file:
+GPLEV	gpio_chdev.c	/^	uint32_t GPLEV[2];$/;"	m	struct:GpioRegisters	file:
+GPLEV	gpio_chdev_mh.c	/^	uint32_t GPLEV[2];$/;"	m	struct:GpioRegisters	file:
+GPSET	gpio_chdev.c	/^	uint32_t GPSET[2];$/;"	m	struct:GpioRegisters	file:
+GPSET	gpio_chdev_mh.c	/^	uint32_t GPSET[2];$/;"	m	struct:GpioRegisters	file:
+GpioRegisters	gpio_chdev.c	/^struct GpioRegisters {$/;"	s	file:
+GpioRegisters	gpio_chdev_mh.c	/^struct GpioRegisters {$/;"	s	file:
+PERF_DEF_OPTS	tsc.c	7;"	d	file:
+PERF_OPT_DIV64	tsc.c	9;"	d	file:
+PERF_OPT_RESET_CYCLES	tsc.c	8;"	d	file:
+Reserved1	gpio_chdev.c	/^	uint32_t Reserved1;$/;"	m	struct:GpioRegisters	file:
+Reserved1	gpio_chdev_mh.c	/^	uint32_t Reserved1;$/;"	m	struct:GpioRegisters	file:
+Reserved2	gpio_chdev.c	/^	uint32_t Reserved2;$/;"	m	struct:GpioRegisters	file:
+Reserved2	gpio_chdev_mh.c	/^	uint32_t Reserved2;$/;"	m	struct:GpioRegisters	file:
+Reserved3	gpio_chdev.c	/^	uint32_t Reserved3;$/;"	m	struct:GpioRegisters	file:
+Reserved3	gpio_chdev_mh.c	/^	uint32_t Reserved3;$/;"	m	struct:GpioRegisters	file:
+__this_module	gpio_chdev.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	hrt.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__this_module	tsc.mod.c	/^__visible struct module __this_module$/;"	v	typeref:struct:module
+__used	gpio_chdev.mod.c	/^__used$/;"	v	file:
+__used	gpio_chdev.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	hrt.mod.c	/^__used$/;"	v	file:
+__used	hrt.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	tsc.mod.c	/^__used$/;"	v	file:
+__used	tsc.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+armv8_read_CNTPCT_EL0	tsc.c	/^static inline long long armv8_read_CNTPCT_EL0(void)$/;"	f	file:
+armv8pmu_pmcr_read	tsc.c	/^static inline u32 armv8pmu_pmcr_read(void)$/;"	f	file:
+armv8pmu_pmcr_write	tsc.c	/^static inline void armv8pmu_pmcr_write(u32 val)$/;"	f	file:
+bcm2835_gpio_fsel	gpio_chdev.c	/^static void bcm2835_gpio_fsel(int pin, int functionCode)$/;"	f	file:
+bcm2835_gpio_fsel	gpio_chdev_mh.c	/^static void bcm2835_gpio_fsel(int pin, int functionCode)$/;"	f	file:
+bcm2835_gpio_lev	gpio_chdev.c	/^static int bcm2835_gpio_lev(int pin)$/;"	f	file:
+bcm2835_gpio_lev	gpio_chdev_mh.c	/^static int bcm2835_gpio_lev(int pin)$/;"	f	file:
+c	gpio_chdev_mh.c	/^static unsigned char c = 0;$/;"	v	file:
+d	gpio_chdev_mh.c	/^static unsigned char d = 1;$/;"	v	file:
+disable_cpu_counters	tsc.c	/^static void disable_cpu_counters(void *data)$/;"	f	file:
+dlaser_cdev	gpio_chdev.c	/^static struct cdev dlaser_cdev;	\/\/character device$/;"	v	typeref:struct:cdev	file:
+dlaser_cdev	gpio_chdev_mh.c	/^static struct cdev dlaser_cdev;	\/\/character device$/;"	v	typeref:struct:cdev	file:
+dlaser_cdev_fops	gpio_chdev.c	/^static struct file_operations dlaser_cdev_fops = {$/;"	v	typeref:struct:file_operations	file:
+dlaser_cdev_fops	gpio_chdev_mh.c	/^static struct file_operations dlaser_cdev_fops = {$/;"	v	typeref:struct:file_operations	file:
+dlaser_class	gpio_chdev.c	/^static struct class *dlaser_class;	\/\/device class$/;"	v	typeref:struct:class	file:
+dlaser_class	gpio_chdev_mh.c	/^static struct class *dlaser_class;	\/\/device class$/;"	v	typeref:struct:class	file:
+dlaser_dev_id	gpio_chdev.c	/^static dev_t dlaser_dev_id;	\/\/device id$/;"	v	file:
+dlaser_dev_id	gpio_chdev_mh.c	/^static dev_t dlaser_dev_id;	\/\/device id$/;"	v	file:
+dlaser_exit	gpio_chdev.c	/^module_exit(dlaser_exit);$/;"	v
+dlaser_exit	gpio_chdev.c	/^void dlaser_exit(void)$/;"	f
+dlaser_exit	gpio_chdev_mh.c	/^module_exit(dlaser_exit);$/;"	v
+dlaser_exit	gpio_chdev_mh.c	/^void dlaser_exit(void)$/;"	f
+dlaser_init	gpio_chdev.c	/^module_init(dlaser_init);$/;"	v
+dlaser_init	gpio_chdev.c	/^static int dlaser_init(void)$/;"	f	file:
+dlaser_init	gpio_chdev_mh.c	/^module_init(dlaser_init);$/;"	v
+dlaser_init	gpio_chdev_mh.c	/^static int dlaser_init(void)$/;"	f	file:
+dlaser_open	gpio_chdev.c	/^static int dlaser_open(struct inode *inode, struct file *flip)$/;"	f	file:
+dlaser_open	gpio_chdev_mh.c	/^static int dlaser_open(struct inode *inode, struct file *flip)$/;"	f	file:
+dlaser_read	gpio_chdev.c	/^static ssize_t dlaser_read(struct file *filp, char __user * buf,$/;"	f	file:
+dlaser_read	gpio_chdev_mh.c	/^static ssize_t dlaser_read(struct file *filp, char __user * buf,$/;"	f	file:
+dlaser_release	gpio_chdev.c	/^static int dlaser_release(struct inode *inode, struct file *flip)$/;"	f	file:
+dlaser_release	gpio_chdev_mh.c	/^static int dlaser_release(struct inode *inode, struct file *flip)$/;"	f	file:
+enable_cpu_counters	tsc.c	/^static void enable_cpu_counters(void *data)$/;"	f	file:
+fini	tsc.c	/^module_exit(fini);$/;"	v
+fini	tsc.c	/^static void __exit fini(void)$/;"	f	file:
+gpiochip	gpio_chdev.c	/^struct gpio_chip *gpiochip;$/;"	v	typeref:struct:gpio_chip
+gpiochip	gpio_chdev_mh.c	/^struct gpio_chip *gpiochip;$/;"	v	typeref:struct:gpio_chip
+hrtimer_handler	gpio_chdev_mh.c	/^static enum hrtimer_restart hrtimer_handler(struct hrtimer *timer)$/;"	f	file:
+hrtimer_handler	hrt.c	/^static enum hrtimer_restart hrtimer_handler(struct hrtimer *timer)$/;"	f	file:
+init	tsc.c	/^module_init(init);$/;"	v
+init	tsc.c	/^static int __init init(void)$/;"	f	file:
+kt	hrt.c	/^ktime_t kt;$/;"	v
+kt0	gpio_chdev_mh.c	/^static ktime_t kt0;$/;"	v	file:
+kt1	gpio_chdev_mh.c	/^static ktime_t kt1;$/;"	v	file:
+kt12	gpio_chdev_mh.c	/^static ktime_t kt12;$/;"	v	file:
+kt5	gpio_chdev_mh.c	/^static ktime_t kt5;$/;"	v	file:
+major	gpio_chdev.c	/^int major;$/;"	v
+major	gpio_chdev_mh.c	/^int major;$/;"	v
+obj-m	Makefile	/^obj-m := gpio_chdev.o hrt.o tsc.o$/;"	m
+pinILASER	gpio_chdev.c	23;"	d	file:
+pinILASER	gpio_chdev_mh.c	22;"	d	file:
+pinOLASER	gpio_chdev_mh.c	23;"	d	file:
+r_buffer	gpio_chdev.c	/^static char r_buffer[1024];$/;"	v	file:
+r_buffer	gpio_chdev_mh.c	/^static char r_buffer[1024];$/;"	v	file:
+r_cur	gpio_chdev_mh.c	/^static int r_cur = 0;$/;"	v	file:
+r_cur_bit	gpio_chdev_mh.c	/^static int r_cur_bit = 0;$/;"	v	file:
+r_t	gpio_chdev_mh.c	/^static int r_t = 0;		\/\/0:读低电平,1:读到高电平，>1:读到高电平时间$/;"	v	file:
+r_want	gpio_chdev_mh.c	/^static int r_want = 0;$/;"	v	file:
+s_pGpioRegisters	gpio_chdev.c	/^struct GpioRegisters *s_pGpioRegisters;$/;"	v	typeref:struct:GpioRegisters
+s_pGpioRegisters	gpio_chdev_mh.c	/^struct GpioRegisters *s_pGpioRegisters;$/;"	v	typeref:struct:GpioRegisters
+sem1	gpio_chdev_mh.c	/^static struct semaphore sem1;$/;"	v	typeref:struct:semaphore	file:
+state	gpio_chdev.c	/^static int state = 0;		\/\/0->closed 1->open$/;"	v	file:
+state	gpio_chdev_mh.c	/^static int state = 0;		\/\/0->closed 1->open$/;"	v	file:
+test_exit	hrt.c	/^module_exit(test_exit);$/;"	v
+test_exit	hrt.c	/^static void __exit test_exit(void)$/;"	f	file:
+test_init	hrt.c	/^module_init(test_init);$/;"	v
+test_init	hrt.c	/^static int __init test_init(void)$/;"	f	file:
+timer	gpio_chdev_mh.c	/^static struct hrtimer timer;$/;"	v	typeref:struct:hrtimer	file:
+timer	hrt.c	/^static struct hrtimer timer;$/;"	v	typeref:struct:hrtimer	file:
+uchar	gpio_chdev.c	20;"	d	file:
+uchar	gpio_chdev_mh.c	19;"	d	file:
+uint	gpio_chdev.c	21;"	d	file:
+uint	gpio_chdev_mh.c	20;"	d	file:

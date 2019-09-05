@@ -1,0 +1,9 @@
+1.alsa
+注意：编译的时候记得加上参数，g++ xxx.cpp -o xxx -lasound；如果编译时出现如下错误：alsa/asoundlib.h: No such file or directory
+缺少一个库：
+apt-get install libasound2-dev
+OK!
+2.gpio 
+read  > 10GHZ
+write < 120MHZ
+read

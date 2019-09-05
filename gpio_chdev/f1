@@ -1,0 +1,455 @@
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 4.4.33-v7+ (pi@raspberrypi_2) (gcc version 4.9.2 (Raspbian 4.9.2-10) ) #8 Fri Dec 16 23:08:34 CST 2016
+[    0.000000] CPU: ARMv7 Processor [410fd034] revision 4 (ARMv7), cr=10c5383d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[    0.000000] Machine model: Raspberry Pi 3 Model B Rev 1.2
+[    0.000000] cma: Reserved 8 MiB at 0x3a800000
+[    0.000000] Memory policy: Data cache writeback
+[    0.000000] On node 0 totalpages: 241664
+[    0.000000] free_area_init_node: node 0, pgdat 8085ffcc, node_mem_map b9fa6000
+[    0.000000]   Normal zone: 2124 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 241664 pages, LIFO batch:31
+[    0.000000] ------------[ cut here ]------------
+[    0.000000] WARNING: CPU: 0 PID: 0 at arch/arm/kernel/devtree.c:157 arm_dt_init_cpu_maps+0x114/0x180()
+[    0.000000] DT /cpu 2 nodes greater than max cores 1, capping them
+[    0.000000] Modules linked in:
+[    0.000000] CPU: 0 PID: 0 Comm: swapper Not tainted 4.4.33-v7+ #8
+[    0.000000] Hardware name: BCM2709
+[    0.000000] [<80016e64>] (unwind_backtrace) from [<80013cb0>] (show_stack+0x20/0x24)
+[    0.000000] [<80013cb0>] (show_stack) from [<802e3224>] (dump_stack+0x24/0x28)
+[    0.000000] [<802e3224>] (dump_stack) from [<80023430>] (warn_slowpath_common+0x98/0xc4)
+[    0.000000] [<80023430>] (warn_slowpath_common) from [<8002349c>] (warn_slowpath_fmt+0x40/0x48)
+[    0.000000] [<8002349c>] (warn_slowpath_fmt) from [<8079fa2c>] (arm_dt_init_cpu_maps+0x114/0x180)
+[    0.000000] [<8079fa2c>] (arm_dt_init_cpu_maps) from [<8079f5e8>] (setup_arch+0x74c/0x7b4)
+[    0.000000] [<8079f5e8>] (setup_arch) from [<8079b9ec>] (start_kernel+0x94/0x4ec)
+[    0.000000] [<8079b9ec>] (start_kernel) from [<00008074>] (0x8074)
+[    0.000000] ---[ end trace cb88537fdc8fa200 ]---
+[    0.000000] CPU: All CPU(s) started in HYP mode.
+[    0.000000] CPU: Virtualization extensions available.
+[    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+[    0.000000] pcpu-alloc: [0] 0 
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 239540
+[    0.000000] Kernel command line: 8250.nr_uarts=0 dma.dmachans=0x7f35 bcm2708_fb.fbwidth=1680 bcm2708_fb.fbheight=1050 bcm2709.boardrev=0xa02082 bcm2709.serial=0xdfbda565 smsc95xx.macaddr=B8:27:EB:BD:A5:65 bcm2708_fb.fbswap=1 bcm2709.uart_clock=48000000 vc_mem.mem_base=0x3dc00000 vc_mem.mem_size=0x3f000000  dwc_otg.lpm_enable=0 console=ttyS0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait nosmp
+[    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+[    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Memory: 939684K/966656K available (6065K kernel code, 436K rwdata, 1688K rodata, 388K init, 720K bss, 18780K reserved, 8192K cma-reserved)
+[    0.000000] Virtual kernel memory layout:
+    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+    fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+    vmalloc : 0xbb800000 - 0xff800000   (1088 MB)
+    lowmem  : 0x80000000 - 0xbb000000   ( 944 MB)
+    modules : 0x7f000000 - 0x80000000   (  16 MB)
+      .text : 0x80008000 - 0x8079a67c   (7754 kB)
+      .init : 0x8079b000 - 0x807fc000   ( 388 kB)
+      .data : 0x807fc000 - 0x808690d0   ( 437 kB)
+       .bss : 0x8086c000 - 0x80920090   ( 721 kB)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] NR_IRQS:16 nr_irqs:16 16
+[    0.000000] Architected cp15 timer(s) running at 19.20MHz (phys).
+[    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x46d987e47, max_idle_ns: 440795202767 ns
+[    0.000009] sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 4398046511078ns
+[    0.000024] Switching to timer-based delay loop, resolution 52ns
+[    0.000265] Console: colour dummy device 80x30
+[    0.001730] console [tty1] enabled
+[    0.001760] aaaaaaaaadddddddddddddddffffffffffff
+[    0.001788] i am lidong1
+[    0.001812] i am lidong2
+[    0.001836] i am lidong3
+[    0.001861] dddddddddddddddffffffffffff
+[    0.001889] i am lidongdddd
+[    0.001914] dddddddddddddddffffffddddddddddffffff
+[    0.001944] dddddddddddddddddddddddddddddddddddddddddddd1
+[    0.001975] dddeeeeeeeeeddddddddddddffffffddddddddddffffff
+[    0.002006] dddeeeeeeeeeddddddddddddffffffddddddddddffffff
+[    0.002038] dddddddddddddddddddddddddddddddddddddddddddd2
+[    0.002090] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=192000)
+[    0.002156] pid_max: default: 32768 minimum: 301
+[    0.002213] i am lidong4
+[    0.002239] dddddddddddddddddddddddddddddddddddddddddddddd3
+[    0.002273] i am lidong5
+[    0.002307] i am lidong6
+[    0.002563] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.002604] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.002988] i am lidong7
+[    0.003015] dddddddddddddddddddddddddddddddddddddddddddddd4
+[    0.003564] Disabling cpuset control group subsystem
+[    0.003620] Initializing cgroup subsys io
+[    0.003669] Initializing cgroup subsys memory
+[    0.003731] Initializing cgroup subsys devices
+[    0.003774] Initializing cgroup subsys freezer
+[    0.003815] Initializing cgroup subsys net_cls
+[    0.003880] i am lidong8
+[    0.003906] dddddddddddddddddddddddddddddddddddddddddddddd5
+[    0.003948] CPU: Testing write buffer coherency: ok
+[    0.004029] i am lidong9
+[    0.004054] dddddddddddddddddddddddddddddddddddddddddddddd6
+[    0.004086] i am lidong10
+[    0.004115] ftrace: allocating 20715 entries in 61 pages
+[    0.052472] i am lidong11
+[    0.053067] Setting up static identity map for 0x81c0 - 0x81f4
+[    0.054291] devtmpfs: initialized
+[    0.062170] VFP support v0.3: implementor 41 architecture 3 part 40 variant 3 rev 4
+[    0.062537] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+[    0.063314] pinctrl core: initialized pinctrl subsystem
+[    0.063876] NET: Registered protocol family 16
+[    0.073263] DMA: preallocated 4096 KiB pool for atomic coherent allocations
+[    0.080187] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+[    0.080239] hw-breakpoint: maximum watchpoint size is 8 bytes.
+[    0.080399] Serial: AMBA PL011 UART driver
+[    0.080553] uart-pl011 3f201000.uart: could not find pctldev for node /soc/gpio@7e200000/uart0_pins, deferring probe
+[    0.080779] bcm2835-mbox 3f00b880.mailbox: mailbox enabled
+[    0.118533] bcm2835-dma 3f007000.dma: DMA legacy API manager at f3007000, dmachans=0x1
+[    0.119172] SCSI subsystem initialized
+[    0.119409] usbcore: registered new interface driver usbfs
+[    0.119530] usbcore: registered new interface driver hub
+[    0.119634] usbcore: registered new device driver usb
+[    0.122615] raspberrypi-firmware soc:firmware: Attached to firmware from 2016-09-21 13:13
+[    0.149776] clocksource: Switched to clocksource arch_sys_counter
+[    0.197808] FS-Cache: Loaded
+[    0.198174] CacheFiles: Loaded
+[    0.209087] NET: Registered protocol family 2
+[    0.210058] TCP established hash table entries: 8192 (order: 3, 32768 bytes)
+[    0.210207] TCP bind hash table entries: 8192 (order: 3, 32768 bytes)
+[    0.210322] TCP: Hash tables configured (established 8192 bind 8192)
+[    0.210509] UDP hash table entries: 512 (order: 1, 8192 bytes)
+[    0.210565] UDP-Lite hash table entries: 512 (order: 1, 8192 bytes)
+[    0.210789] NET: Registered protocol family 1
+[    0.211137] RPC: Registered named UNIX socket transport module.
+[    0.211168] RPC: Registered udp transport module.
+[    0.211195] RPC: Registered tcp transport module.
+[    0.211222] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.212385] hw perfevents: enabled with armv7_cortex_a7 PMU driver, 7 counters available
+[    0.213410] futex hash table entries: 256 (order: -1, 3072 bytes)
+[    0.226182] VFS: Disk quotas dquot_6.6.0
+[    0.226484] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+[    0.228426] FS-Cache: Netfs 'nfs' registered for caching
+[    0.229099] NFS: Registering the id_resolver key type
+[    0.229176] Key type id_resolver registered
+[    0.229204] Key type id_legacy registered
+[    0.231599] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+[    0.231774] io scheduler noop registered
+[    0.231808] io scheduler deadline registered (default)
+[    0.232081] io scheduler cfq registered
+[    0.234304] brcmvirt-gpio soc:virtgpio: Failed to set gpiovirtbuf, trying to get err:0
+[    0.235635] BCM2708FB: allocated DMA memory fac00000
+[    0.235685] BCM2708FB: allocated DMA channel 0 @ f3007000
+[    0.290376] Console: switching to colour frame buffer device 210x65
+[    1.212241] bcm2835-rng 3f104000.rng: hwrng registered
+[    1.212527] vc-cma: Videocore CMA driver
+[    1.212656] vc-cma: vc_cma_base      = 0x00000000
+[    1.212804] vc-cma: vc_cma_size      = 0x00000000 (0 MiB)
+[    1.212969] vc-cma: vc_cma_initial   = 0x00000000 (0 MiB)
+[    1.213345] vc-mem: phys_addr:0x00000000 mem_base=0x3dc00000 mem_size:0x3f000000(1008 MiB)
+[    1.231383] brd: module loaded
+[    1.239462] loop: module loaded
+[    1.240998] vchiq: vchiq_init_state: slot_zero = 0xbac80000, is_master = 0
+[    1.243131] Loading iSCSI transport class v2.0-870.
+[    1.244027] usbcore: registered new interface driver smsc95xx
+[    1.244288] dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+[    1.444813] Core Release: 2.80a
+[    1.444950] Setting default values for core params
+[    1.445161] Finished setting default values for core params
+[    1.645707] Using Buffer DMA mode
+[    1.645823] Periodic Transfer Interrupt Enhancement - disabled
+[    1.646006] Multiprocessor Interrupt Enhancement - disabled
+[    1.646189] OTG VER PARAM: 0, OTG VER FLAG: 0
+[    1.646360] Dedicated Tx FIFOs mode
+[    1.646835] WARN::dwc_otg_hcd_init:1047: FIQ DMA bounce buffers: virt = 0xbac14000 dma = 0xfac14000 len=9024
+[    1.647195] FIQ FSM acceleration enabled for :
+Non-periodic Split Transactions
+Periodic Split Transactions
+High-Speed Isochronous Endpoints
+Interrupt/Control Split Transaction hack enabled
+[    1.647843] dwc_otg: Microframe scheduler enabled
+[    1.647889] WARN::hcd_init_fiq:413: FIQ on core 0 at 0x80409b0c
+[    1.648075] WARN::hcd_init_fiq:414: FIQ ASM at 0x80409dc8 length 36
+[    1.648281] WARN::hcd_init_fiq:439: MPHI regs_base at 0xbb89a000
+[    1.648509] dwc_otg 3f980000.usb: DWC OTG Controller
+[    1.656551] dwc_otg 3f980000.usb: new USB bus registered, assigned bus number 1
+[    1.664606] dwc_otg 3f980000.usb: irq 62, io mem 0x00000000
+[    1.672557] Init: Port Power? op_state=1
+[    1.680363] Init: Power Port (0)
+[    1.688329] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[    1.696190] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.704054] usb usb1: Product: DWC OTG Controller
+[    1.711865] usb usb1: Manufacturer: Linux 4.4.33-v7+ dwc_otg_hcd
+[    1.719744] usb usb1: SerialNumber: 3f980000.usb
+[    1.728453] hub 1-0:1.0: USB hub found
+[    1.736411] hub 1-0:1.0: 1 port detected
+[    1.744840] dwc_otg: FIQ enabled
+[    1.744849] dwc_otg: NAK holdoff enabled
+[    1.744857] dwc_otg: FIQ split-transaction FSM enabled
+[    1.744895] Module dwc_common_port init
+[    1.745168] usbcore: registered new interface driver usb-storage
+[    1.753264] mousedev: PS/2 mouse device common for all mice
+[    1.761882] bcm2835-cpufreq: min=600000 max=1200000
+[    1.769913] sdhci: Secure Digital Host Controller Interface driver
+[    1.777660] sdhci: Copyright(c) Pierre Ossman
+[    1.785766] sdhost: log_buf @ bac13000 (fac13000)
+[    1.849810] mmc0: sdhost-bcm2835 loaded - DMA enabled (>1)
+[    1.859905] mmc-bcm2835 3f300000.mmc: mmc_debug:0 mmc_debug2:0
+[    1.867778] mmc-bcm2835 3f300000.mmc: DMA channel allocated
+[    1.929884] sdhci-pltfm: SDHCI platform and OF driver helper
+[    1.938049] ledtrig-cpu: registered to indicate activity on CPUs
+[    1.945880] Indeed it is in host mode hprt0 = 00021501
+[    2.014219] hidraw: raw HID events driver (C) Jiri Kosina
+[    2.022616] usbcore: registered new interface driver usbhid
+[    2.030606] usbhid: USB HID core driver
+[    2.039202] Initializing XFRM netlink socket
+[    2.047265] NET: Registered protocol family 17
+[    2.055773] Key type dns_resolver registered
+[    2.064384] Registering SWP/SWPB emulation handler
+[    2.074437] registered taskstats version 1
+[    2.082950] vc-sm: Videocore shared memory driver
+[    2.090894] [vc_sm_connected_init]: start
+[    2.099184] mmc0: host does not support reading read-only switch, assuming write-enable
+[    2.107606] [vc_sm_connected_init]: end - returning 0
+[    2.117434] 3f201000.uart: ttyAMA0 at MMIO 0x3f201000 (irq = 87, base_baud = 0) is a PL011 rev2
+[    2.125887] mmc0: new high speed SDHC card at address aaaa
+[    2.134673] of_cfs_init
+[    2.143320] of_cfs_init: OK
+[    2.151668] mmcblk0: mmc0:aaaa SL16G 14.8 GiB
+[    2.166702]  mmcblk0: p1 p2
+[    2.190842] usb 1-1: new high-speed USB device number 2 using dwc_otg
+[    2.203616] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+[    2.216599] Indeed it is in host mode hprt0 = 00001101
+[    2.286936] VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+[    2.306991] mmc1: queuing unknown CIS tuple 0x80 (2 bytes)
+[    2.316865] devtmpfs: mounted
+[    2.327041] Freeing unused kernel memory: 388K (8079b000 - 807fc000)
+[    2.337481] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+[    2.348664] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+[    2.361010] mmc1: queuing unknown CIS tuple 0x80 (7 bytes)
+[    2.430737] usb 1-1: New USB device found, idVendor=0424, idProduct=9514
+[    2.440040] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    2.451299] hub 1-1:1.0: USB hub found
+[    2.461997] hub 1-1:1.0: 5 ports detected
+[    2.522346] mmc1: new high speed SDIO card at address 0001
+[    2.701138] random: systemd: uninitialized urandom read (16 bytes read, 49 bits of entropy available)
+[    2.719512] systemd[1]: systemd 215 running in system mode. (+PAM +AUDIT +SELINUX +IMA +SYSVINIT +LIBCRYPTSETUP +GCRYPT +ACL +XZ -SECCOMP -APPARMOR)
+[    2.730152] systemd[1]: Detected architecture 'arm'.
+[    2.749869] usb 1-1.1: new high-speed USB device number 3 using dwc_otg
+[    2.860496] usb 1-1.1: New USB device found, idVendor=0424, idProduct=ec00
+[    2.870780] usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    2.884140] smsc95xx v1.0.4
+[    2.947389] NET: Registered protocol family 10
+[    2.965063] smsc95xx 1-1.1:1.0 eth0: register 'smsc95xx' at usb-3f980000.usb-1.1, smsc95xx USB 2.0 Ethernet, b8:27:eb:bd:a5:65
+[    2.976673] systemd[1]: Inserted module 'ipv6'
+[    2.993838] systemd[1]: Set hostname to <raspberrypi_2>.
+[    3.070052] usb 1-1.2: new high-speed USB device number 4 using dwc_otg
+[    3.195234] random: systemd-sysv-ge: uninitialized urandom read (16 bytes read, 56 bits of entropy available)
+[    3.210779] usb 1-1.2: New USB device found, idVendor=1908, idProduct=0226
+[    3.221608] usb 1-1.2: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    3.239202] usb-storage 1-1.2:1.0: USB Mass Storage device detected
+[    3.252149] scsi host0: usb-storage 1-1.2:1.0
+[    3.349977] usb 1-1.3: new low-speed USB device number 5 using dwc_otg
+[    3.390845] random: systemd: uninitialized urandom read (16 bytes read, 58 bits of entropy available)
+[    3.404174] random: systemd: uninitialized urandom read (16 bytes read, 59 bits of entropy available)
+[    3.416869] random: systemd: uninitialized urandom read (16 bytes read, 59 bits of entropy available)
+[    3.452347] random: systemd: uninitialized urandom read (16 bytes read, 59 bits of entropy available)
+[    3.464821] random: systemd: uninitialized urandom read (16 bytes read, 59 bits of entropy available)
+[    3.475548] random: systemd: uninitialized urandom read (16 bytes read, 59 bits of entropy available)
+[    3.537992] usb 1-1.3: New USB device found, idVendor=0e8f, idProduct=00a7
+[    3.548701] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    3.558882] usb 1-1.3: Product: 2.4G RX
+[    3.569071] usb 1-1.3: Manufacturer: DaKai
+[    3.586488] random: systemd: uninitialized urandom read (16 bytes read, 61 bits of entropy available)
+[    3.601982] input: DaKai 2.4G RX as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.3/1-1.3:1.0/0003:0E8F:00A7.0001/input/input0
+[    3.620505] random: systemd: uninitialized urandom read (16 bytes read, 61 bits of entropy available)
+[    3.671273] hid-generic 0003:0E8F:00A7.0001: input,hidraw0: USB HID v1.10 Keyboard [DaKai 2.4G RX] on usb-3f980000.usb-1.3/input0
+[    3.715573] input: DaKai 2.4G RX as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.3/1-1.3:1.1/0003:0E8F:00A7.0002/input/input1
+[    3.781191] hid-generic 0003:0E8F:00A7.0002: input,hiddev0,hidraw1: USB HID v1.10 Mouse [DaKai 2.4G RX] on usb-3f980000.usb-1.3/input1
+[    3.854829] systemd[1]: Starting Forward Password Requests to Wall Directory Watch.
+[    3.867835] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[    3.879625] systemd[1]: Starting Remote File Systems (Pre).
+[    3.891488] usb 1-1.5: new low-speed USB device number 6 using dwc_otg
+[    3.916657] systemd[1]: Reached target Remote File Systems (Pre).
+[    3.929056] systemd[1]: Starting Arbitrary Executable File Formats File System Automount Point.
+[    3.955789] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[    3.968315] systemd[1]: Starting Encrypted Volumes.
+[    3.993414] systemd[1]: Reached target Encrypted Volumes.
+[    4.005572] systemd[1]: Starting Swap.
+[    4.030990] systemd[1]: Reached target Swap.
+[    4.043125] systemd[1]: Expecting device dev-mmcblk0p1.device...
+[    4.063900] usb 1-1.5: New USB device found, idVendor=0e8f, idProduct=00a4
+[    4.063919] usb 1-1.5: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    4.063928] usb 1-1.5: Product: 2.4G RX
+[    4.063935] usb 1-1.5: Manufacturer: DKTEK
+[    4.072539] input: DKTEK 2.4G RX as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.5/1-1.5:1.0/0003:0E8F:00A4.0003/input/input2
+[    4.139888] hid-generic 0003:0E8F:00A4.0003: input,hidraw2: USB HID v1.10 Keyboard [DKTEK 2.4G RX] on usb-3f980000.usb-1.5/input0
+[    4.154020] systemd[1]: Starting Root Slice.
+[    4.178473] input: DKTEK 2.4G RX as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.5/1-1.5:1.1/0003:0E8F:00A4.0004/input/input3
+[    4.202208] systemd[1]: Created slice Root Slice.
+[    4.214927] systemd[1]: Starting User and Session Slice.
+[    4.230749] hid-generic 0003:0E8F:00A4.0004: input,hiddev0,hidraw3: USB HID v1.10 Mouse [DKTEK 2.4G RX] on usb-3f980000.usb-1.5/input1
+[    4.256017] systemd[1]: Created slice User and Session Slice.
+[    4.269104] systemd[1]: Starting Delayed Shutdown Socket.
+[    4.290862] scsi 0:0:0:0: Direct-Access     Generic  Mass-Storage     1.11 PQ: 0 ANSI: 2
+[    4.313805] systemd[1]: Listening on Delayed Shutdown Socket.
+[    4.326885] systemd[1]: Starting /dev/initctl Compatibility Named Pipe.
+[    4.354593] systemd[1]: Listening on /dev/initctl Compatibility Named Pipe.
+[    4.367595] systemd[1]: Starting Journal Socket (/dev/log).
+[    4.394679] systemd[1]: Listening on Journal Socket (/dev/log).
+[    4.407718] systemd[1]: Starting udev Control Socket.
+[    4.434599] systemd[1]: Listening on udev Control Socket.
+[    4.447198] systemd[1]: Starting udev Kernel Socket.
+[    4.474054] systemd[1]: Listening on udev Kernel Socket.
+[    4.487145] systemd[1]: Starting Journal Socket.
+[    4.514665] systemd[1]: Listening on Journal Socket.
+[    4.528070] systemd[1]: Starting System Slice.
+[    4.558874] sd 0:0:0:0: [sda] Attached SCSI removable disk
+[    4.572547] systemd[1]: Created slice System Slice.
+[    4.586000] systemd[1]: Starting File System Check on Root Device...
+[    4.617817] systemd[1]: Starting system-systemd\x2dfsck.slice.
+[    4.668621] systemd[1]: Created slice system-systemd\x2dfsck.slice.
+[    4.682553] systemd[1]: Starting system-autologin.slice.
+[    4.722183] systemd[1]: Created slice system-autologin.slice.
+[    4.735772] systemd[1]: Starting Increase datagram queue length...
+[    4.770847] systemd[1]: Starting Restore / save the current clock...
+[    4.851543] systemd[1]: Mounted Huge Pages File System.
+[    4.903556] systemd[1]: Starting udev Coldplug all Devices...
+[    4.976572] systemd[1]: Mounting Debug File System...
+[    5.138589] systemd[1]: Started Set Up Additional Binary Formats.
+[    5.171303] systemd[1]: Starting Create list of required static device nodes for the current kernel...
+[    5.214646] systemd[1]: Mounting POSIX Message Queue File System...
+[    5.280207] systemd[1]: Starting Load Kernel Modules...
+[    5.336408] systemd[1]: Starting Slices.
+[    5.384101] systemd[1]: Reached target Slices.
+[    5.415779] fuse init (API version 7.23)
+[    5.437589] systemd[1]: Mounted POSIX Message Queue File System.
+[    5.465107] i2c /dev entries driver
+[    5.488689] systemd[1]: Mounted Debug File System.
+[    5.514881] systemd[1]: Started File System Check on Root Device.
+[    5.558563] systemd[1]: Started Increase datagram queue length.
+[    5.583185] systemd[1]: Started Restore / save the current clock.
+[    5.640196] systemd[1]: Started Create list of required static device nodes for the current kernel.
+[    5.690023] systemd[1]: Started Load Kernel Modules.
+[    5.725876] systemd[1]: Time has been changed
+[    5.811734] systemd[1]: Started udev Coldplug all Devices.
+[    5.999436] systemd[1]: Mounting FUSE Control File System...
+[    6.028393] systemd[1]: Mounting Configuration File System...
+[    6.078873] systemd[1]: Starting Apply Kernel Variables...
+[    6.137472] systemd[1]: Starting Create Static Device Nodes in /dev...
+[    6.196242] systemd[1]: Starting Syslog Socket.
+[    6.238821] systemd[1]: Listening on Syslog Socket.
+[    6.239229] systemd[1]: Starting Journal Service...
+[    6.307371] systemd[1]: Started Journal Service.
+[    6.740150] systemd-udevd[122]: starting version 215
+[    8.034260] lirc_dev: IR Remote Control driver registered, major 244 
+[    8.140071] lirc_rpi: module is from the staging directory, the quality is unknown, you have been warned.
+[    8.783115] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null)
+[    9.180002] lirc_rpi: auto-detected active high receiver on GPIO pin 18
+[    9.180701] lirc_rpi lirc_rpi: lirc_dev: driver lirc_rpi registered at minor = 0
+[    9.180725] lirc_rpi: driver registered!
+[    9.760402] gpiomem-bcm2835 3f200000.gpiomem: Initialised: Registers at 0x3f200000
+[    9.775070] bcm2835-wdt 3f100000.watchdog: Broadcom BCM2835 watchdog timer
+[    9.821727] bcm2708_i2c 3f804000.i2c: BSC1 Controller at 0x3f804000 (irq 83) (baudrate 100000)
+[   10.002595] random: nonblocking pool is initialized
+[   10.599337] usbcore: registered new interface driver brcmfmac
+[   10.762010] brcmfmac: brcmf_c_preinit_dcmds: Firmware version = wl0: May 27 2016 00:13:38 version 7.45.41.26 (r640327) FWID 01-df77e4a7
+[   10.792734] brcmfmac: brcmf_cfg80211_reg_notifier: not a ISO3166 code
+[   10.954667] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[   12.315147] systemd-journald[120]: Received request to flush runtime journal from PID 1
+[   13.708929] brcmfmac: brcmf_cfg80211_reg_notifier: not a ISO3166 code
+[   13.709027] cfg80211: World regulatory domain updated:
+[   13.709036] cfg80211:  DFS Master region: unset
+[   13.709046] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+[   13.709056] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+[   13.709063] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+[   13.709070] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (N/A, 2000 mBm), (N/A)
+[   13.709084] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (N/A)
+[   13.709093] cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (0 s)
+[   13.709100] cfg80211:   (5490000 KHz - 5730000 KHz @ 160000 KHz), (N/A, 2000 mBm), (0 s)
+[   13.709107] cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (N/A, 2000 mBm), (N/A)
+[   13.709113] cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 0 mBm), (N/A)
+[   14.482802] brcmfmac: brcmf_add_if: ERROR: netdev:wlan0 already exists
+[   14.482850] brcmfmac: brcmf_add_if: ignore IF event
+[   14.488662] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[   14.488696] brcmfmac: power management disabled
+[   14.701271] uart-pl011 3f201000.uart: no DMA platform data
+[   15.811312] cfg80211: Regulatory domain changed to country: GB
+[   15.811346] cfg80211:  DFS Master region: ETSI
+[   15.811360] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+[   15.811383] cfg80211:   (2402000 KHz - 2482000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+[   15.811392] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (N/A)
+[   15.811400] cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (0 s)
+[   15.811406] cfg80211:   (5490000 KHz - 5710000 KHz @ 160000 KHz), (N/A, 2700 mBm), (0 s)
+[   15.811412] cfg80211:   (57000000 KHz - 66000000 KHz @ 2160000 KHz), (N/A, 4000 mBm), (N/A)
+[   16.441576] Adding 102396k swap on /var/swap.  Priority:-1 extents:4 across:192508k SSFS
+[   16.921045] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+[   17.525083] smsc95xx 1-1.1:1.0 eth0: hardware isn't capable of remote wakeup
+[   17.525863] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   19.138559] Bluetooth: Core ver 2.21
+[   19.138704] NET: Registered protocol family 31
+[   19.138713] Bluetooth: HCI device and connection manager initialized
+[   19.138745] Bluetooth: HCI socket layer initialized
+[   19.138764] Bluetooth: L2CAP socket layer initialized
+[   19.138799] Bluetooth: SCO socket layer initialized
+[   19.149566] Bluetooth: HCI UART driver ver 2.3
+[   19.149599] Bluetooth: HCI UART protocol H4 registered
+[   19.149607] Bluetooth: HCI UART protocol Three-wire (H5) registered
+[   19.153085] Bluetooth: HCI UART protocol BCM registered
+[   19.462931] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[   19.462961] Bluetooth: BNEP filters: protocol multicast
+[   19.462999] Bluetooth: BNEP socket layer initialized
+[  194.412472] address = f3200000
+[  194.412500] Changing function of GPIO22 from 0 to 0
+[  194.412507] dlaser init successfully1
+[  194.412674] 2 2 1 3 1 1 2 1 2 1 1 2 1 3 1 2 3 1 2 1 2 1 2 2 1 2 1 1 2 1 2 3 1 1 2 1 2 1 2 1 2 3 1 2 1 2 1 2 1 1 2 2 2 1 1 2 1 2 1 2 1 2 2 2 1 1 2 1 2 1 4 1 1 2 1 2 1 1 2 1 3 1 2 1 1 2 1 2 1 2 2 2 1 2 1 4 2 1 3 
+[  194.413044] 3 2 3 4 3 2 3 2 2 4 2 3 2 3 2 3 2 3 2 3 2 3 2 3 2 3 2 4 2 3 2 3 2 3 2 3 2 3 2 3 3 2 3 2 3 3 2 3 2 2 6 3 2 3 2 2 3 3 2 2 3 2 4 2 3 2 2 3 3 2 3 2 3 2 3 3 2 3 2 2 3 3 2 3 2 3 3 2 3 2 3 2 3 3 2 3 2 2 6 
+[  194.413625] 5 4 6 4 5 6 5 4 6 5 4 4 5 4 5 4 5 4 7 4 4 7 4 5 6 5 4 6 6 4 6 4 5 6 4 5 4 4 5 4 5 4 5 6 4 5 6 4 5 4 5 4 5 4 5 4 6 5 4 7 4 4 7 4 4 5 4 5 4 4 5 4 7 4 4 6 5 4 4 5 4 5 5 4 5 6 4 5 7 4 4 6 5 4 5 4 5 4 4 
+[  267.985898] dlaser exit successfully
+[  271.080016] address = f3200000
+[  271.080125] Changing function of GPIO22 from 0 to 0
+[  271.080131] dlaser init successfully1
+[  271.080368] 2 2 1 1 2 1 2 1 3 1 2 1 2 1 2 1 2 3 1 2 1 2 1 2 1 2 3 1 2 1 2 1 2 1 1 1 3 2 1 2 1 2 1 1 2 1 3 1 2 1 2 33 2 1 1 3 1 2 1 2 1 1 2 1 2 2 1 2 1 2 1 1 2 1 2 3 1 1 2 1 2 1 1 2 1 3 1 2 1 2 1 1 2 1 3 2 1 2 1 
+[  271.080738] 4 2 3 2 3 2 3 2 3 2 3 6 2 3 2 3 2 3 2 2 3 2 3 3 2 3 2 3 2 3 3 2 3 2 3 3 2 3 2 2 3 3 2 3 2 2 3 3 3 2 2 3 2 4 2 2 3 3 2 6 2 3 2 2 3 3 2 2 3 2 3 3 2 3 2 3 3 2 3 2 3 2 3 2 3 2 3 2 3 3 2 3 2 2 4 2 2 3 2 
+[  271.081316] 4 5 5 4 6 5 4 5 5 4 5 4 4 5 5 5 4 7 4 5 6 4 5 6 5 4 6 5 4 4 5 4 5 5 4 4 6 5 4 6 4 5 4 5 4 5 5 4 5 6 5 4 6 5 4 5 5 4 4 5 4 6 5 4 5 5 5 4 5 5 4 5 4 4 5 6 4 4 7 4 4 5 4 5 4 5 4 5 6 4 5 6 5 4 6 5 4 5 5 
+[  271.082285] 9 8 11 8 9 8 8 9 8 11 8 8 9 8 8 9 8 9 10 8 8 9 8 9 9 10 8 8 9 8 9 8 9 8 9 9 8 9 8 8 9 8 9 9 8 9 8 9 8 9 10 8 9 9 8 9 8 10 9 8 9 8 8 9 10 9 8 9 8 9 8 8 9 9 9 8 9 8 8 9 10 9 9 8 9 8 9 10 8 8 9 8 9 8 9 8 9 11 9 
+[  271.083762] 13 13 13 12 13 12 13 12 14 13 12 13 12 13 14 13 12 13 12 12 15 12 12 13 13 12 14 13 12 13 12 13 14 12 13 12 13 12 15 15 12 12 13 13 12 14 13 12 12 13 12 14 12 12 13 13 12 12 13 12 13 12 14 13 12 13 12 13 14 12 12 13 108 13 12 14 12 13 12 13 12 15 12 12 13 12 12 15 12 13 12 13 12 15 12 13 12 13 12 
+[  271.086344] 24 25 26 25 24 25 24 25 24 25 24 24 25 25 24 25 24 25 24 25 28 24 25 24 25 26 25 24 25 25 26 26 25 24 24 26 24 25 24 24 25 27 24 25 25 24 27 25 24 25 24 29 24 24 25 26 25 24 26 24 26 24 24 25 24 25 27 24 25 24 25 25 24 24 25 24 25 25 24 25 24 25 24 24 25 24 25 25 24 24 25 25 24 25 24 24 25 25 24 
+[  338.987468] dlaser exit successfully
+[  342.053137] address = f3200000
+[  342.053168] Changing function of GPIO22 from 0 to 0
+[  342.053173] dlaser init successfully1
+[  342.053505] 3 2 1 1 2 1 4 1 1 2 1 2 1 1 2 1 3 1 2 1 2 1 2 1 1 6 1 2 1 2 1 2 1 3 2 1 1 2 1 2 1 2 1 2 2 1 2 1 2 1 1 2 2 2 2 1 1 2 1 1 2 2 2 2 1 2 1 2 1 1 2 2 3 1 1 2 1 2 1 2 1 1 3 1 2 1 2 1 2 1 1 2 2 2 1 2 1 2 1 2 1 3 4 2 1 2 1 1 2 3 2 1 1 2 1 2 1 2 2 1 1 2 1 2 2 1 1 2 1 2 2 1 2 1 1 2 1 2 1 3 1 2 1 1 2 1 2 1 2 2 2 1 2 1 2 1 1 2 3 1 1 2 1 2 1 2 1 1 4 1 2 1 2 1 2 1 2 3 1 3 2 1 2 1 2 1 2 2 1 2 1 1 2 1 2 1 3 1 2 
+[  342.054234] 3 3 2 4 3 4 2 2 3 2 3 3 2 3 2 3 2 3 2 3 2 3 2 4 2 3 2 2 3 3 2 3 2 3 2 3 3 2 2 3 2 4 2 3 2 3 2 3 2 2 3 4 4 2 3 3 2 2 4 2 2 3 2 3 3 2 2 3 2 3 3 3 2 3 2 2 3 3 2 2 3 2 4 2 3 2 3 2 3 3 2 3 2 3 2 3 3 2 2 6 3 2 3 2 2 3 2 3 2 3 2 3 3 2 3 2 3 3 2 3 2 3 2 3 2 3 2 3 3 2 3 2 3 2 2 4 2 2 3 2 3 3 2 3 2 3 2 5 3 2 3 2 4 2 2 3 2 3 3 2 3 2 2 3 3 2 3 2 3 2 3 3 2 3 2 3 3 2 3 2 3 2 3 2 3 2 3 2 4 2 2 3 2 3 3 4 2 3 2 
+[  342.055515] 5 4 5 4 6 5 6 5 4 5 6 4 5 6 4 5 6 5 4 7 4 5 6 4 5 4 5 4 5 4 4 5 6 4 5 5 4 5 4 4 5 4 6 4 5 5 5 4 5 4 5 4 5 5 4 6 5 4 7 6 4 5 5 4 6 5 4 6 5 4 4 5 4 5 4 5 4 7 4 4 7 4 4 5 5 5 4 5 4 5 5 4 5 6 5 4 5 5 4 4 5 4 5 5 5 4 6 5 4 4 5 4 5 4 5 4 6 5 4 4 5 4 5 4 5 4 6 5 4 6 5 4 7 4 5 6 5 4 6 5 4 5 4 4 5 4 5 4 7 4 5 6 4 5 6 5 4 6 5 4 5 4 4 5 4 5 4 6 5 4 5 5 4 4 5 4 5 5 5 4 6 5 4 5 4 5 4 4 5 4 6 5 4 6 4 4 5 4 5 
+[  342.057576] 9 10 9 8 9 8 8 9 10 9 8 8 9 8 10 9 9 8 9 8 9 8 8 9 9 9 8 8 9 8 9 10 9 8 8 9 8 8 9 8 10 8 9 9 8 9 8 10 9 8 8 9 8 9 8 9 9 8 9 8 8 9 8 10 9 8 8 9 8 9 8 9 12 8 8 9 8 11 8 9 8 9 8 9 10 8 65 9 10 8 8 9 8 9 10 9 9 8 8 9 8 8 9 8 10 8 9 8 8 33 10 9 8 8 9 8 9 10 9 8 8 9 8 9 8 9 9 9 8 8 9 8 9 8 8 10 8 9 8 9 8 8 11 8 9 8 8 9 8 12 9 8 8 9 8 9 9 9 8 9 8 9 8 8 9 9 9 8 8 9 8 9 10 8 9 8 9 8 9 8 9 9 8 9 8 9 8 9 10 8 9 8 9 53 9 8 8 11 8 
+[  342.060392] 12 13 13 12 13 12 13 14 12 13 12 13 12 14 13 12 13 12 13 14 13 12 12 13 12 15 12 13 12 12 13 13 13 12 12 13 12 13 13 12 12 13 14 13 12 13 12 12 14 13 12 13 12 12 14 12 12 13 12 14 12 12 13 12 13 14 12 13 12 13 12 14 13 13 12 12 13 14 13 12 12 13 12 15 12 13 12 12 15 12 13 13 12 12 13 14 12 13 12 13 12 14 13 12 13 12 13 13 12 13 12 13 12 13 12 13 12 13 14 13 12 12 13 12 14 12 13 12 13 12 12 13 12 13 12 14 13 12 13 12 12 15 12 13 12 13 12 14 13 12 13 12 12 14 13 12 12 15 12 14 12 13 12 13 12 14 13 12 13 12 13 14 12 13 12 12 13 14 13 12 12 13 12 12 13 12 13 12 14 13 12 13 12 13 14 12 13 12 13 
+[  342.065625] 24 24 25 24 25 25 24 25 24 24 25 24 25 24 27 25 24 26 24 24 25 24 25 25 26 26 24 25 24 27 24 24 25 26 26 24 25 25 24 26 24 25 24 25 24 25 25 24 24 25 24 25 24 25 24 25 25 25 24 24 25 24 25 24 25 24 25 24 25 24 25 24 25 24 25 49 24 24 25 25 25 24 25 24 43 25 24 25 24 25 24 24 25 25 24 24 25 24 25 24 25 24 25 25 24 24 25 24 25 24 25 24 25 25 24 24 25 24 25 25 24 24 25 25 24 24 25 24 25 27 24 26 24 24 29 24 25 24 24 27 25 24 25 25 25 27 24 25 24 25 24 25 24 25 24 27 24 25 25 27 24 26 25 24 28 24 25 24 25 27 24 24 26 24 25 24 25 24 25 24 28 24 25 25 25 25 24 24 27 25 25 24 25 24 25 44 24 24 25 
+[  460.805343] dlaser exit successfully
+[  463.603646] address = f3200000
+[  463.603684] Changing function of GPIO22 from 0 to 0
+[  463.603689] dlaser init successfully1
+[  463.604014] 2 0 1 0 1 0 1 1 1 0 0 1 0 1 0 1 0 2 1 0 1 0 0 1 0 1 0 2 0 0 1 0 0 1 0 1 0 2 1 0 1 0 0 1 0 1 0 1 1 0 1 0 1 0 0 1 1 1 0 1 0 0 1 0 1 0 0 5 0 1 0 1 0 1 0 1 1 0 0 1 0 1 0 0 1 2 0 1 0 0 1 0 0 1 0 2 1 0 0 1 0 1 0 0 1 1 1 0 1 0 1 0 0 1 0 2 0 1 0 0 1 0 1 0 1 1 0 1 0 1 0 0 1 0 1 1 1 0 1 0 1 0 1 0 3 2 1 0 1 0 0 1 2 1 0 1 0 0 1 0 1 0 1 1 0 1 0 1 0 1 0 0 2 0 1 0 0 1 0 1 0 0 2 0 0 1 0 1 0 0 1 0 2 1 0 1 0 0 1 
+[  463.604744] 1 0 1 1 0 1 0 1 0 1 1 0 1 0 1 1 0 1 0 0 1 1 0 1 0 0 1 1 1 0 4 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 0 1 0 1 1 0 0 1 0 1 1 0 0 1 0 1 1 1 0 1 0 1 1 0 0 1 1 0 1 0 1 0 0 4 1 0 1 0 1 0 1 0 0 1 0 2 0 1 0 1 0 1 0 1 0 1 0 1 1 0 0 1 0 2 0 1 0 0 1 1 1 0 1 0 0 1 1 0 1 0 1 4 1 0 1 2 0 1 0 1 0 1 1 0 1 0 0 2 0 1 0 1 0 1 0 1 0 1 0 1 1 0 0 1 0 1 1 0 1 0 1 1 0 1 0 1 0 1 3 0 1 0 2 0 0 1 0 0 2 0 1 0 1 0 1 1 0 0 1 0 2 0 0 
+[  463.605910] 1 0 1 2 1 0 2 1 0 3 0 1 2 1 0 2 1 0 2 0 2 2 1 0 2 1 0 2 1 0 2 1 0 1 0 1 0 1 0 1 2 0 1 2 1 0 2 1 0 1 0 0 1 0 1 0 2 1 0 0 1 0 0 1 1 0 2 1 0 0 1 0 1 1 0 1 1 1 0 1 0 1 0 0 1 0 2 1 0 2 1 0 1 0 1 0 1 0 0 3 2 1 0 1 0 2 1 0 3 0 0 3 0 0 2 0 1 0 0 1 0 2 0 1 2 0 1 0 1 0 0 1 1 0 2 1 0 2 1 0 2 1 0 1 0 0 1 1 0 0 2 3 1 0 1 0 2 1 0 2 1 0 3 0 1 1 1 0 1 0 1 0 1 0 0 1 0 1 5 0 1 2 0 1 2 0 1 2 0 1 0 0 1 0 1 1 0 2 1 
+[  463.607958] 1 0 1 0 0 1 0 2 0 2 1 0 2 1 0 0 1 0 1 0 1 1 0 1 0 1 0 1 2 0 1 0 0 1 0 1 0 2 0 1 0 0 1 0 2 0 0 1 0 1 0 1 0 1 1 0 1 0 1 0 1 0 2 0 1 1 0 4 1 0 1 0 1 0 2 1 0 1 0 1 0 1 4 0 1 0 2 1 0 1 0 1 0 3 0 3 0 0 3 0 1 0 1 0 1 2 1 0 0 1 4 0 1 1 0 0 1 1 1 0 1 0 1 0 0 1 2 0 1 0 1 0 1 2 1 0 0 1 0 1 2 1 0 0 1 0 1 0 1 1 1 0 0 1 0 1 0 0 2 0 1 0 0 1 0 3 0 1 1 0 1 0 2 1 0 0 1 0 1 1 0 1 3 0 1 0 2 0 1 0 1 0 0 3 0 0 1 0 1 
+[  463.610833] 0 1 0 1 0 1 3 2 0 1 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 0 1 0 1 41 1 0 1 0 1 0 1 0 0 1 0 1 1 1 0 1 17 0 1 1 0 1 0 1 1 1 0 1 0 0 2 1 0 1 0 1 0 0 1 0 0 3 0 1 0 1 0 0 1 0 1 0 2 0 1 0 1 0 2 1 0 1 0 0 3 0 1 0 1 0 1 1 0 0 41 0 1 0 1 0 27 1 0 0 1 0 1 0 29 1 0 1 0 1 0 1 0 1 2 0 1 0 1 0 2 1 0 1 0 0 3 0 0 1 0 1 0 1 0 1 0 2 0 1 0 1 0 3 0 0 1 0 1 2 0 3 0 1 0 1 0 0 1 0 1 3 0 1 0 0 1 2 0 1 0 1 0 
+[  463.615995] 0 2 0 1 0 1 1 0 1 0 0 1 0 1 0 0 1 1 0 1 0 1 0 1 0 0 1 1 0 1 0 1 0 1 0 3 1 0 1 1 2 1 2 0 1 1 0 1 0 0 1 0 1 0 1 0 1 0 1 0 0 1 1 0 1 0 0 1 1 0 1 0 1 0 0 1 0 1 1 0 1 0 1 0 1 0 0 1 1 0 1 0 1 1 0 0 2 0 1 0 2 2 1 2 1 0 1 1 0 1 0 0 5 1 2 1 0 0 1 1 0 2 2 1 0 0 2 1 0 0 1 0 1 0 1 0 1 0 0 1 0 1 1 0 0 1 0 13 1 0 1 2 2 0 1 0 2 0 1 0 1 0 4 0 0 1 2 1 1 1 0 4 0 1 0 1 3 0 0 2 0 1 1 0 1 0 1 0 0 1 0 1 0 0 2 0 0 1 0 
+[  570.402459] dlaser exit successfully
+[  573.473579] address = f3200000
+[  573.473612] Changing function of GPIO22 from 0 to 0
+[  573.473616] dlaser init successfully1
+[  573.473942] 1 0 1 0 1 0 1 1 0 0 1 0 1 0 1 0 1 0 2 0 0 1 0 1 0 1 0 0 2 0 1 0 1 0 1 0 1 2 0 1 0 1 0 1 0 0 1 2 1 1 0 1 0 1 0 1 1 0 1 0 1 0 1 0 0 1 1 1 0 1 0 0 1 0 1 0 1 1 0 1 0 1 0 1 0 2 0 1 0 1 0 1 0 0 1 2 0 1 1 0 0 1 0 1 1 1 0 1 0 1 0 0 1 0 3 0 1 0 0 1 0 1 0 0 2 0 1 2 0 1 0 1 0 1 1 0 1 0 0 1 0 1 1 1 0 1 0 1 0 0 1 0 2 0 1 0 1 0 1 0 1 0 2 0 1 0 0 1 0 1 0 0 3 0 1 0 1 0 1 0 0 3 0 0 1 0 1 0 1 0 1 1 1 0 0 1 0 1 0 
+[  573.474669] 1 1 1 0 1 0 1 1 0 0 1 0 1 1 0 1 0 1 1 0 0 1 0 1 0 1 1 0 1 0 1 0 1 0 1 0 1 1 0 1 0 1 0 1 1 0 1 0 1 1 0 1 0 1 0 1 0 0 1 0 1 1 1 0 1 0 0 3 1 0 1 0 2 0 1 0 1 0 1 1 0 1 0 0 1 1 1 0 1 0 1 0 1 0 1 0 1 1 0 0 1 0 1 1 0 1 0 1 1 0 0 1 0 1 1 3 0 1 0 1 1 0 1 0 1 1 0 1 0 1 0 1 1 0 1 0 1 0 1 0 1 0 1 1 0 1 0 1 0 1 1 0 1 0 0 1 1 0 1 0 1 0 1 2 0 1 2 0 1 0 1 0 1 1 0 0 1 0 1 1 0 1 0 0 2 0 1 0 1 0 1 1 0 1 0 0 1 1 0 
+[  573.475798] 2 1 0 2 1 0 3 0 0 3 0 1 2 1 0 2 1 0 0 1 0 1 0 1 0 2 1 0 3 0 1 2 1 0 2 1 0 0 1 0 1 1 1 0 1 1 0 3 0 1 2 0 1 2 0 1 1 1 0 0 1 0 1 1 1 0 2 3 0 1 0 1 2 1 0 1 0 0 1 0 1 0 1 0 1 0 0 1 0 0 1 1 0 0 1 1 0 0 1 0 1 3 2 1 0 0 1 0 1 0 1 0 0 1 0 1 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 1 0 0 1 0 0 1 0 1 0 1 0 0 1 0 1 0 2 0 1 0 1 0 1 0 1 0 0 1 0 1 0 1 0 1 0 0 1 0 1 0 0 1 0 1 1 1 0 0 1 0 1 0 0 1 0 1 0 1 0 0 1 0 1 0 0 1 
+[  573.477730] 1 0 2 0 0 1 1 0 0 2 0 1 0 1 0 1 0 0 3 0 0 1 0 1 0 3 0 0 1 0 1 0 1 0 1 1 0 1 0 0 1 2 1 0 1 0 0 1 0 1 1 1 0 0 1 0 1 1 0 1 0 1 0 1 0 1 3 0 1 0 1 0 1 1 1 0 1 0 1 0 2 3 0 1 0 2 1 0 1 0 1 0 2 1 0 1 0 1 0 1 0 1 1 0 1 0 1 0 2 1 0 1 0 1 0 3 0 0 1 1 0 0 3 2 0 1 0 1 0 2 0 0 1 0 1 0 0 1 1 1 0 1 0 1 0 2 1 0 1 0 1 0 3 0 1 0 1 0 1 2 0 1 0 0 1 0 1 0 1 1 0 1 0 1 0 2 0 1 0 1 0 0 1 0 2 1 0 0 1 0 1 0 0 2 0 1 0 1 0 
+[  573.480479] 1 0 1 0 1 0 0 2 1 0 1 0 1 0 1 0 1 0 2 1 0 0 1 0 3 0 0 1 0 1 2 1 0 1 0 1 2 0 1 0 2 0 2 0 0 1 0 1 2 0 1 0 1 0 2 1 0 1 0 0 3 0 0 1 0 1 0 1 0 0 1 2 0 1 0 1 0 2 1 0 1 0 1 2 0 1 0 1 0 3 3 1 0 1 0 0 3 0 1 0 0 1 2 0 1 0 1 0 3 0 0 1 0 1 2 0 1 0 1 0 3 0 0 1 0 1 2 1 0 1 0 1 2 0 1 0 1 0 4 2 0 1 0 1 0 2 1 0 1 0 1 2 0 1 0 0 1 0 1 0 1 0 2 0 1 0 1 0 2 1 0 0 1 0 1 0 1 0 1 1 1 0 1 0 0 3 0 1 0 0 1 2 1 0 0 1 0 4 2 
+[  573.485622] 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 0 4 0 0 1 0 5 1 2 0 1 0 1 1 0 1 1 0 1 0 0 1 0 0 1 0 1 0 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 0 0 1 0 1 1 0 4 0 1 0 0 3 0 0 3 0 0 1 0 1 1 0 4 0 1 0 1 2 0 0 3 2 1 1 1 0 4 0 1 0 1 3 1 0 1 1 0 1 0 1 0 1 4 0 0 1 1 1 0 1 1 3 0 1 0 0 1 0 1 0 1 0 1 0 0 1 0 1 0 1 1 0 1 0 0 1 0 1 0 1 1 0 1 0 0 1 1 0 1 0 1 0 1 0 0 1 1 0 1 0 1 0 2 2 1 0 0 1 1 0 1 0 1 0 
+[  684.506856] dlaser exit successfully
+[  687.749294] address = f3200000
+[  687.749327] Changing function of GPIO22 from 0 to 0
+[  687.749332] dlaser init successfully1
+[  687.749658] 2 0 0 1 0 1 0 1 1 1 1 0 0 1 0 0 1 0 1 1 0 0 1 0 1 0 0 1 2 0 1 0 1 0 0 1 0 1 2 0 0 1 0 1 0 0 1 0 2 0 1 0 1 0 0 1 0 1 1 0 3 1 0 1 0 0 2 1 0 1 0 0 0 1 0 1 2 0 0 1 0 1 0 1 0 3 0 1 0 1 0 0 1 0 0 2 0 1 1 0 0 1 0 1 0 1 1 0 1 0 1 0 0 1 0 2 0 1 0 1 0 1 0 0 3 1 0 0 1 0 1 0 0 1 1 1 0 1 2 0 1 0 0 2 0 0 1 0 1 0 1 0 1 1 0 1 0 0 1 0 1 0 0 2 1 0 1 0 1 0 1 0 3 0 1 0 1 0 1 0 1 2 0 0 1 0 1 0 1 0 0 3 0 0 1 0 1 0 0 
+[  687.750390] 1 1 1 0 1 0 1 0 1 0 0 1 0 2 0 0 1 0 1 1 0 1 0 1 0 5 0 0 1 0 1 0 0 1 0 1 1 1 0 0 1 0 1 1 1 0 0 1 1 0 1 0 1 0 1 1 0 0 1 1 0 1 0 1 0 1 1 0 1 0 0 1 1 3 0 1 0 1 1 0 1 0 0 2 0 0 1 0 1 1 0 1 0 1 0 1 1 0 1 0 1 0 1 0 1 0 0 2 0 1 0 1 0 1 1 0 1 0 0 1 3 0 1 1 1 0 1 0 1 0 1 1 0 0 1 0 2 0 0 1 1 0 1 0 1 0 1 0 1 0 1 0 1 0 2 0 0 1 0 1 1 0 1 0 1 0 1 1 2 1 0 1 1 0 1 0 1 1 0 0 1 0 1 1 0 1 0 1 0 1 1 0 1 0 1 1 0 0 1 
+[  687.751556] 0 1 0 1 0 1 1 0 1 2 0 1 2 0 1 2 1 0 4 0 1 1 1 0 3 0 1 2 0 1 2 1 0 2 1 0 2 0 1 0 1 0 0 4 1 0 1 0 1 1 0 1 2 1 0 1 1 0 1 0 0 1 1 1 0 0 1 0 1 0 1 0 2 1 0 2 1 0 1 1 0 1 0 0 1 1 1 0 3 0 0 1 0 1 0 1 2 0 1 0 1 2 1 0 2 1 0 2 1 0 2 0 1 0 0 1 0 2 0 0 2 1 2 1 1 0 2 1 0 3 0 0 1 0 1 0 1 0 1 2 0 1 2 0 1 0 1 0 2 0 1 0 1 1 0 2 1 0 3 0 0 2 0 1 0 1 0 1 1 0 1 2 0 1 3 1 0 2 0 1 2 0 1 2 0 0 1 0 0 1 1 0 1 2 1 0 1 1 0 
+[  687.753484] 0 1 0 1 0 1 1 1 0 0 1 0 1 0 1 1 1 0 0 1 0 1 2 0 1 0 1 0 0 1 0 2 0 1 1 0 0 1 2 0 1 0 1 0 0 1 0 2 0 0 1 0 1 0 3 0 1 0 0 1 0 1 0 4 1 0 0 1 1 1 0 1 0 1 0 3 0 2 0 0 1 1 1 0 1 1 0 0 1 2 1 0 1 0 1 0 2 1 0 1 0 1 0 1 1 0 1 0 1 0 0 1 2 1 0 0 1 0 1 0 1 1 0 1 0 1 0 1 2 0 1 0 1 0 1 2 1 0 1 0 0 1 0 1 1 1 0 0 1 0 1 2 1 0 0 1 0 1 0 1 1 0 1 0 1 0 0 1 0 1 1 0 1 0 0 1 0 1 1 0 0 1 0 1 0 1 0 2 0 0 1 0 1 0 1 1 0 1 0 
+[  687.756228] 0 0 1 2 0 1 0 1 0 5 1 0 1 0 0 1 2 1 0 0 1 0 3 0 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 2 1 0 1 0 1 2 0 1 0 0 1 2 1 0 0 1 0 1 0 2 1 0 1 0 1 0 0 1 3 2 1 0 0 1 0 2 0 1 0 0 1 1 0 0 1 0 2 1 0 1 0 1 2 1 0 0 1 0 3 0 1 0 0 1 1 1 0 1 0 1 0 1 0 0 1 2 1 0 2 1 0 1 0 1 0 1 0 3 2 1 0 1 0 1 2 1 0 0 1 0 3 0 0 1 0 1 1 1 0 1 0 1 0 1 0 1 0 2 1 0 1 0 0 3 0 1 0 0 1 2 1 0 0 1 0 2 1 1 0 1 0 3 0 0 1 1 0 2 1 0 0 1 0 2 1 1 0 0 1 
+[  687.761356] 0 1 0 1 0 0 1 0 1 0 1 1 0 0 1 0 1 0 1 0 1 1 0 0 1 0 1 1 0 0 1 1 0 0 1 1 2 0 1 2 1 1 2 1 0 5 0 0 1 0 2 0 1 2 1 0 0 1 1 0 1 3 1 0 1 1 1 0 1 2 3 0 2 0 0 2 0 0 1 0 1 0 1 0 1 0 1 1 0 0 1 0 1 0 1 0 1 1 0 0 1 0 1 0 1 0 1 1 0 0 1 0 1 1 0 1 0 0 1 0 1 0 1 0 1 0 2 0 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 1 0 1 0 0 1 0 1 0 1 1 0 1 0 1 3 0 0 2 0 2 2 0 1 0 1 1 0 1 0 0 1 1 0 1 0 1 

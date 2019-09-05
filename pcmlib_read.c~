@@ -1,0 +1,146 @@
+#include <wiringPi.h>
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+#include <pthread.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <string.h>
+#include <assert.h>
+
+#include <sys/shm.h>
+#include "pcmlib.h"
+
+static int good = 0;
+static int bad = 0;
+
+int inline pcmdelay_s(int *c, int t)
+{
+	int tt;
+	while (1) {
+		tt = micros();
+		if (tt < *c + t)
+			continue;
+		else {
+			*c = *c + t;
+			if (tt > *c) {
+				if (!(++bad % 1000))
+					printf("BAD %d %d %d %d %d\n", bad, tt,
+					       *c, t, tt - *c);
+			} else {
+				if (!(++good % 1000))
+					printf("GOOD %d %d %d %d %d\n", good,
+					       tt, *c, t, tt - *c);
+			}
+			return tt;
+		}
+	}
+}
+
+int inline pcmdelay_f(int *c, int t)
+{
+        int tt;
+	        while (1) {
+		                tt = micros();
+				                if (tt < *c+t)
+						                        continue;
+									                if (tt > *c+t)
+											                {
+													                        *c = tt;
+																                        continue;
+																			                }
+																					                else
+																							                {
+																									                        *c = tt;
+																												                        return tt;
+																															                }
+																																	        }
+																																		}
+
+int initgpio_read(void)
+{
+	unsigned int t1, t2, i, j;
+	wiringPiSetup();
+	t1 = micros();
+	pinMode(ILASER_PIN, INPUT);
+	pullUpDnControl(ILASER_PIN, PUD_DOWN);
+/*
+	t2 = micros();
+	printf("%d %d %d\n", t1, t2, t2 - t1);
+
+	t1 = micros();
+	delayMicroseconds(10);
+	t2 = micros();
+	printf("%d %d %d\n", t1, t2, t2 - t1);
+
+	t1 = micros();
+	delayMicroseconds(1000);
+	t2 = micros();
+	printf("%d %d %d\n", t1, t2, t2 - t1);
+
+	t1 = micros();
+	for (i = 0; i < 1000; i++) ;
+	t2 = micros();
+	printf("%d %d %d\n", t1, t2, t2 - t1);
+*/ return 0;
+}
+
+int readgpio_ls(char *buf, int len)
+{
+	int i, j;
+	int time_cur, t;
+	char c, d;
+
+	t = time_cur = micros();
+	pcmdelay_f(time_cur, 1);
+	for (i = 0; i < len; i++) {
+		while (1) {
+			if (LOW == digitalRead(ILASER_PIN))
+				continue;
+			while (1) {
+				if (LOW == digitalRead(ILASER_PIN))
+					break;
+				t = micros();
+				if (t >= time_cur + 21)
+					break;
+			}
+			if ((t >= time_cur + 21) && (t < time_cur + 21 + 5))
+				break;
+		}
+		time_cur = time_cur + 21;
+		printf("FFFFFFF\n");
+		c = 0;
+		d = 1;
+		for (j = 0; j < 8; j++) {
+			pcmdelay(time_cur, 7);
+			time_cur += 7;
+
+			if (HIGH == digitalRead(ILASER_PIN)) {
+				c |= d;
+			} else {
+			}
+			d = d << 1;
+			pcmdelay(time_cur, 6);
+			time_cur += 6;
+		}
+		buf[i] = c;
+		printf("%d\n", c);
+	}
+	return 0;
+}
+
+int readgpio_lx(char *buf, int len)
+{
+	return 0;
+}
+
+int initgpio_write()
+{
+	wiringPiSetup();
+	pinMode(OLASER_PIN, OUTPUT);
+	digitalWrite(OLASER_PIN, LOW);
+}

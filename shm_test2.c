@@ -1,0 +1,212 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <string.h>
+#include <sys/un.h>
+#include <sys/shm.h>
+#include <sys/types.h>
+#include <sys/sem.h>
+#include <sys/stat.h>
+#include <sys/socket.h>
+
+#define SEM_KEY     100
+#define PRINT_TIMES 10
+#define SHM_KEY     101
+#define UNIX_DOMAIN "/tmp/unix_sock"
+
+typedef struct shared_use {
+	int pktlen;
+	unsigned char pkt[1528];
+} shared_use_t;
+
+static int sem_id = 0;
+static int connect_fd = 0;
+static void *shm = NULL;
+
+static int semaphore_v()
+{
+	struct sembuf sem_b;
+
+	sem_b.sem_num = 0;
+	sem_b.sem_op = 1;
+	sem_b.sem_flg = SEM_UNDO;
+	if (semop(sem_id, &sem_b, 1) == -1) {
+		return -1;
+	}
+
+	return 0;
+}
+
+static int semaphore_p()
+{
+	struct sembuf sem_b;
+
+	sem_b.sem_num = 0;
+	sem_b.sem_op = -1;
+	sem_b.sem_flg = SEM_UNDO;
+	if (semop(sem_id, &sem_b, 1) == -1) {
+		return -1;
+	}
+
+	return 0;
+}
+
+static int semaphore_init()
+{
+	sem_id = semget((key_t) SEM_KEY, 0, 0666 | IPC_CREAT);
+	if (sem_id == -1) {
+		return -1;
+	}
+
+	return 0;
+}
+
+static int sharemmy_init(void)
+{
+	int shmid;
+
+	shmid = shmget((key_t) SHM_KEY, sizeof(shared_use_t), 0666 | IPC_CREAT);
+	if (shmid == -1) {
+		return shmid;
+	}
+
+	shm = shmat(shmid, (void *)0, 0);
+	if (shm == (void *)-1) {
+		return -1;
+	}
+
+	return shmid;
+}
+
+static int sharemmy_destroy(int shmid, void *shm)
+{
+	int rv;
+
+	rv = shmdt(shm);
+	if (rv == -1) {
+		return rv;
+	}
+
+	return 0;
+}
+
+static int domain_client(void)
+{
+	int rv;
+	struct sockaddr_un srv_un;
+
+	connect_fd = socket(AF_UNIX, SOCK_STREAM, 0);
+	if (connect_fd < 0) {
+		perror("client socket: ");
+		return -1;
+	}
+
+	memset(&srv_un, 0, sizeof(srv_un));
+	srv_un.sun_family = AF_UNIX;
+	strncpy(srv_un.sun_path, UNIX_DOMAIN, sizeof(srv_un.sun_path) - 1);
+	rv = connect(connect_fd, (struct sockaddr *)&srv_un, sizeof(srv_un));
+	if (rv < 0) {
+		perror("connect: ");
+		close(connect_fd);
+		return -1;
+	}
+
+	return 0;
+}
+
+static int shmread(shared_use_t * shared)
+{
+	int rv;
+
+	rv = semaphore_p();
+	if (rv < 0) {
+		return -1;
+	}
+
+	shared->pktlen = ((shared_use_t *) shm)->pktlen;
+	memcpy(shared->pkt, ((shared_use_t *) shm)->pkt, shared->pktlen);
+
+	rv = semaphore_v();
+	if (rv < 0) {
+		return -1;
+	}
+
+	return 0;
+}
+
+static void print_pkt(shared_use_t shared_pkt)
+{
+	int i;
+
+	printf("********** RECV PACKET **********\n");
+	for (i = 0; i < shared_pkt.pktlen; i++) {
+		printf("0x%02x ", shared_pkt.pkt[i]);
+		if ((i + 1) % 16 == 0) {
+			printf("\n");
+		}
+	}
+	printf("**********     END     **********\n");
+	printf("\n");
+}
+
+int main()
+{
+	int rv;
+	int shmid;
+	char cmd[10];
+	shared_use_t shared_pkt;
+
+	rv = semaphore_init();
+	if (rv < 0) {
+		printf("Init a semaphore fail.\n");
+	}
+
+	shmid = sharemmy_init();
+	if (shmid == -1) {
+		printf("Init a share memory fail.\n");
+		return 0;
+	}
+
+	usleep(10 * 1000);
+	rv = domain_client();
+	if (rv < 0) {
+		printf("Create domain client socket fail.\n");
+		return 0;
+	}
+	printf("Client init success.\n");
+
+	while (1) {
+		memset(cmd, 0, 10);
+		rv = recv(connect_fd, cmd, sizeof(cmd), 0);
+		if (rv < 0) {
+			printf("Recv cmd from server fail.\n");
+			close(connect_fd);
+			break;
+		}
+		if (strstr(cmd, "send") != NULL || strstr(cmd, "Send") != NULL) {
+			rv = shmread(&shared_pkt);
+			if (rv < 0) {
+				printf("Read packet from share memory fail.\n");
+				break;
+			}
+			print_pkt(shared_pkt);
+			continue;
+		} else if (strstr(cmd, "quit") != NULL
+			   || strstr(cmd, "Quit") != NULL) {
+			printf("Quit the packet recv client.\n");
+			break;
+		} else {
+			printf("Unrecognized command for client.\n");
+			break;
+		}
+	}
+
+	rv = sharemmy_destroy(shmid, shm);
+	if (rv < 0) {
+		printf("Destroy share memory fail.\n");
+		return 0;
+	}
+	close(connect_fd);
+
+	return 1;
+}

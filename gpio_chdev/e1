@@ -1,0 +1,2526 @@
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 4.4.39-v7+ (pi@raspberrypi_2) (gcc version 4.9.2 (Raspbian 4.9.2-10) ) #1 SMP Wed Dec 21 14:01:43 UTC 2016
+[    0.000000] CPU: ARMv7 Processor [410fd034] revision 4 (ARMv7), cr=10c5383d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[    0.000000] Machine model: Raspberry Pi 3 Model B Rev 1.2
+[    0.000000] cma: Reserved 8 MiB at 0x3a800000
+[    0.000000] Memory policy: Data cache writealloc
+[    0.000000] On node 0 totalpages: 241664
+[    0.000000] free_area_init_node: node 0, pgdat 808c4f40, node_mem_map b9fa6000
+[    0.000000]   Normal zone: 2124 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 241664 pages, LIFO batch:31
+[    0.000000] [bcm2709_smp_init_cpus] enter (9520->f3003010)
+[    0.000000] [bcm2709_smp_init_cpus] ncores=4
+[    0.000000] PERCPU: Embedded 13 pages/cpu @b9f62000 s22592 r8192 d22464 u53248
+[    0.000000] pcpu-alloc: s22592 r8192 d22464 u53248 alloc=13*4096
+[    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 239540
+[    0.000000] Kernel command line: 8250.nr_uarts=0 dma.dmachans=0x7f35 bcm2708_fb.fbwidth=1680 bcm2708_fb.fbheight=1050 bcm2709.boardrev=0xa02082 bcm2709.serial=0xdfbda565 smsc95xx.macaddr=B8:27:EB:BD:A5:65 bcm2708_fb.fbswap=1 bcm2709.uart_clock=48000000 vc_mem.mem_base=0x3dc00000 vc_mem.mem_size=0x3f000000  dwc_otg.lpm_enable=0 console=ttyS0,115200 console=tty1 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait quiet splash plymouth.ignore-serial-consoles
+[    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+[    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+[    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+[    0.000000] Memory: 939064K/966656K available (6357K kernel code, 432K rwdata, 1716K rodata, 476K init, 764K bss, 19400K reserved, 8192K cma-reserved)
+[    0.000000] Virtual kernel memory layout:
+    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+    fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+    vmalloc : 0xbb800000 - 0xff800000   (1088 MB)
+    lowmem  : 0x80000000 - 0xbb000000   ( 944 MB)
+    modules : 0x7f000000 - 0x80000000   (  16 MB)
+      .text : 0x80008000 - 0x807ea6b0   (8074 kB)
+      .init : 0x807eb000 - 0x80862000   ( 476 kB)
+      .data : 0x80862000 - 0x808ce250   ( 433 kB)
+       .bss : 0x808d1000 - 0x809901ec   ( 765 kB)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[    0.000000] Hierarchical RCU implementation.
+[    0.000000] 	Build-time adjustment of leaf fanout to 32.
+[    0.000000] NR_IRQS:16 nr_irqs:16 16
+[    0.000000] Architected cp15 timer(s) running at 19.20MHz (phys).
+[    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x46d987e47, max_idle_ns: 440795202767 ns
+[    0.000009] sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 4398046511078ns
+[    0.000027] Switching to timer-based delay loop, resolution 52ns
+[    0.000285] Console: colour dummy device 80x30
+[    0.000485] console [tty1] enabled
+[    0.000509] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=192000)
+[    0.000531] pid_max: default: 32768 minimum: 301
+[    0.000843] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.000859] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes)
+[    0.001788] Disabling cpuset control group subsystem
+[    0.001823] Initializing cgroup subsys io
+[    0.001854] Initializing cgroup subsys memory
+[    0.001898] Initializing cgroup subsys devices
+[    0.001917] Initializing cgroup subsys freezer
+[    0.001936] Initializing cgroup subsys net_cls
+[    0.001985] CPU: Testing write buffer coherency: ok
+[    0.002049] ftrace: allocating 21239 entries in 63 pages
+[    0.052065] CPU0: update cpu_capacity 1024
+[    0.052100] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+[    0.052111] [bcm2709_smp_prepare_cpus] enter
+[    0.052249] Setting up static identity map for 0x8240 - 0x8274
+[    0.053881] [bcm2709_boot_secondary] cpu:1 started (0) 17
+[    0.054209] [bcm2709_secondary_init] enter cpu:1
+[    0.054252] CPU1: update cpu_capacity 1024
+[    0.054259] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+[    0.054634] [bcm2709_boot_secondary] cpu:2 started (0) 18
+[    0.054894] [bcm2709_secondary_init] enter cpu:2
+[    0.054915] CPU2: update cpu_capacity 1024
+[    0.054922] CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+[    0.055278] [bcm2709_boot_secondary] cpu:3 started (0) 18
+[    0.055459] [bcm2709_secondary_init] enter cpu:3
+[    0.055479] CPU3: update cpu_capacity 1024
+[    0.055486] CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+[    0.055545] Brought up 4 CPUs
+[    0.055569] SMP: Total of 4 processors activated (153.60 BogoMIPS).
+[    0.055577] CPU: All CPU(s) started in HYP mode.
+[    0.055584] CPU: Virtualization extensions available.
+[    0.056189] devtmpfs: initialized
+[    0.067264] VFP support v0.3: implementor 41 architecture 3 part 40 variant 3 rev 4
+[    0.067603] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+[    0.068312] pinctrl core: initialized pinctrl subsystem
+[    0.068835] NET: Registered protocol family 16
+[    0.074099] DMA: preallocated 4096 KiB pool for atomic coherent allocations
+[    0.081104] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+[    0.081116] hw-breakpoint: maximum watchpoint size is 8 bytes.
+[    0.081265] Serial: AMBA PL011 UART driver
+[    0.081398] uart-pl011 3f201000.uart: could not find pctldev for node /soc/gpio@7e200000/uart0_pins, deferring probe
+[    0.081587] bcm2835-mbox 3f00b880.mailbox: mailbox enabled
+[    0.144183] bcm2835-dma 3f007000.dma: DMA legacy API manager at f3007000, dmachans=0x1
+[    0.144753] SCSI subsystem initialized
+[    0.144942] usbcore: registered new interface driver usbfs
+[    0.145033] usbcore: registered new interface driver hub
+[    0.145131] usbcore: registered new device driver usb
+[    0.151611] raspberrypi-firmware soc:firmware: Attached to firmware from 2016-09-21 13:13
+[    0.178849] clocksource: Switched to clocksource arch_sys_counter
+[    0.224063] FS-Cache: Loaded
+[    0.224339] CacheFiles: Loaded
+[    0.236602] NET: Registered protocol family 2
+[    0.237461] TCP established hash table entries: 8192 (order: 3, 32768 bytes)
+[    0.237575] TCP bind hash table entries: 8192 (order: 4, 65536 bytes)
+[    0.237764] TCP: Hash tables configured (established 8192 bind 8192)
+[    0.237858] UDP hash table entries: 512 (order: 2, 16384 bytes)
+[    0.237904] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+[    0.238135] NET: Registered protocol family 1
+[    0.238453] RPC: Registered named UNIX socket transport module.
+[    0.238464] RPC: Registered udp transport module.
+[    0.238473] RPC: Registered tcp transport module.
+[    0.238482] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.239666] hw perfevents: enabled with armv7_cortex_a7 PMU driver, 7 counters available
+[    0.240985] futex hash table entries: 1024 (order: 4, 65536 bytes)
+[    0.254307] VFS: Disk quotas dquot_6.6.0
+[    0.254619] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+[    0.256855] FS-Cache: Netfs 'nfs' registered for caching
+[    0.257757] NFS: Registering the id_resolver key type
+[    0.257800] Key type id_resolver registered
+[    0.257810] Key type id_legacy registered
+[    0.260155] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+[    0.260274] io scheduler noop registered
+[    0.260290] io scheduler deadline registered (default)
+[    0.260341] io scheduler cfq registered
+[    0.262485] brcmvirt-gpio soc:virtgpio: Failed to set gpiovirtbuf, trying to get err:0
+[    0.263825] BCM2708FB: allocated DMA memory fac00000
+[    0.263852] BCM2708FB: allocated DMA channel 0 @ f3007000
+[    0.313250] Console: switching to colour frame buffer device 210x65
+[    1.263167] bcm2835-rng 3f104000.rng: hwrng registered
+[    1.263340] vc-cma: Videocore CMA driver
+[    1.263353] vc-cma: vc_cma_base      = 0x00000000
+[    1.263363] vc-cma: vc_cma_size      = 0x00000000 (0 MiB)
+[    1.263372] vc-cma: vc_cma_initial   = 0x00000000 (0 MiB)
+[    1.263607] vc-mem: phys_addr:0x00000000 mem_base=0x3dc00000 mem_size:0x3f000000(1008 MiB)
+[    1.278241] brd: module loaded
+[    1.287052] loop: module loaded
+[    1.287991] vchiq: vchiq_init_state: slot_zero = 0xbac80000, is_master = 0
+[    1.289584] Loading iSCSI transport class v2.0-870.
+[    1.290243] usbcore: registered new interface driver smsc95xx
+[    1.290300] dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+[    1.490544] Core Release: 2.80a
+[    1.490558] Setting default values for core params
+[    1.490593] Finished setting default values for core params
+[    1.690957] Using Buffer DMA mode
+[    1.690968] Periodic Transfer Interrupt Enhancement - disabled
+[    1.690976] Multiprocessor Interrupt Enhancement - disabled
+[    1.690986] OTG VER PARAM: 0, OTG VER FLAG: 0
+[    1.691000] Dedicated Tx FIFOs mode
+[    1.691312] WARN::dwc_otg_hcd_init:1047: FIQ DMA bounce buffers: virt = 0xbac14000 dma = 0xfac14000 len=9024
+[    1.691343] FIQ FSM acceleration enabled for :
+Non-periodic Split Transactions
+Periodic Split Transactions
+High-Speed Isochronous Endpoints
+Interrupt/Control Split Transaction hack enabled
+[    1.691367] dwc_otg: Microframe scheduler enabled
+[    1.691414] WARN::hcd_init_fiq:413: FIQ on core 1 at 0x804489cc
+[    1.691428] WARN::hcd_init_fiq:414: FIQ ASM at 0x80448d3c length 36
+[    1.691443] WARN::hcd_init_fiq:439: MPHI regs_base at 0xbbf62000
+[    1.691507] dwc_otg 3f980000.usb: DWC OTG Controller
+[    1.691547] dwc_otg 3f980000.usb: new USB bus registered, assigned bus number 1
+[    1.691598] dwc_otg 3f980000.usb: irq 62, io mem 0x00000000
+[    1.691651] Init: Port Power? op_state=1
+[    1.691659] Init: Power Port (0)
+[    1.691874] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[    1.691889] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    1.691901] usb usb1: Product: DWC OTG Controller
+[    1.691915] usb usb1: Manufacturer: Linux 4.4.39-v7+ dwc_otg_hcd
+[    1.691927] usb usb1: SerialNumber: 3f980000.usb
+[    1.692718] hub 1-0:1.0: USB hub found
+[    1.692760] hub 1-0:1.0: 1 port detected
+[    1.693368] dwc_otg: FIQ enabled
+[    1.693377] dwc_otg: NAK holdoff enabled
+[    1.693387] dwc_otg: FIQ split-transaction FSM enabled
+[    1.693418] Module dwc_common_port init
+[    1.693677] usbcore: registered new interface driver usb-storage
+[    1.693939] mousedev: PS/2 mouse device common for all mice
+[    1.694679] bcm2835-cpufreq: min=600000 max=1200000
+[    1.694983] sdhci: Secure Digital Host Controller Interface driver
+[    1.694994] sdhci: Copyright(c) Pierre Ossman
+[    1.695307] sdhost: log_buf @ bac13000 (fac13000)
+[    1.748881] mmc0: sdhost-bcm2835 loaded - DMA enabled (>1)
+[    1.751140] mmc-bcm2835 3f300000.mmc: mmc_debug:0 mmc_debug2:0
+[    1.751154] mmc-bcm2835 3f300000.mmc: DMA channel allocated
+[    1.808969] sdhci-pltfm: SDHCI platform and OF driver helper
+[    1.809394] ledtrig-cpu: registered to indicate activity on CPUs
+[    1.809528] hidraw: raw HID events driver (C) Jiri Kosina
+[    1.809707] usbcore: registered new interface driver usbhid
+[    1.809716] usbhid: USB HID core driver
+[    1.810254] Initializing XFRM netlink socket
+[    1.810290] NET: Registered protocol family 17
+[    1.810429] Key type dns_resolver registered
+[    1.811052] Registering SWP/SWPB emulation handler
+[    1.811822] registered taskstats version 1
+[    1.812014] vc-sm: Videocore shared memory driver
+[    1.812032] [vc_sm_connected_init]: start
+[    1.812512] [vc_sm_connected_init]: end - returning 0
+[    1.813899] 3f201000.uart: ttyAMA0 at MMIO 0x3f201000 (irq = 87, base_baud = 0) is a PL011 rev2
+[    1.814259] of_cfs_init
+[    1.814345] of_cfs_init: OK
+[    1.815215] Waiting for root device /dev/mmcblk0p2...
+[    1.850293] mmc0: host does not support reading read-only switch, assuming write-enable
+[    1.853063] mmc0: new high speed SDHC card at address aaaa
+[    1.853655] mmcblk0: mmc0:aaaa SL16G 14.8 GiB
+[    1.856053]  mmcblk0: p1 p2
+[    1.873955] mmc1: queuing unknown CIS tuple 0x80 (2 bytes)
+[    1.875509] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+[    1.877061] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+[    1.879848] mmc1: queuing unknown CIS tuple 0x80 (7 bytes)
+[    1.888964] Indeed it is in host mode hprt0 = 00021501
+[    1.945165] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+[    1.945220] VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+[    1.952805] devtmpfs: mounted
+[    1.953604] Freeing unused kernel memory: 476K (807eb000 - 80862000)
+[    1.970770] mmc1: new high speed SDIO card at address 0001
+[    2.068906] usb 1-1: new high-speed USB device number 2 using dwc_otg
+[    2.069069] Indeed it is in host mode hprt0 = 00001101
+[    2.211571] random: systemd: uninitialized urandom read (16 bytes read, 34 bits of entropy available)
+[    2.215702] systemd[1]: systemd 215 running in system mode. (+PAM +AUDIT +SELINUX +IMA +SYSVINIT +LIBCRYPTSETUP +GCRYPT +ACL +XZ -SECCOMP -APPARMOR)
+[    2.216084] systemd[1]: Detected architecture 'arm'.
+[    2.269178] usb 1-1: New USB device found, idVendor=0424, idProduct=9514
+[    2.269201] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    2.270008] hub 1-1:1.0: USB hub found
+[    2.270114] hub 1-1:1.0: 5 ports detected
+[    2.317346] NET: Registered protocol family 10
+[    2.318966] systemd[1]: Inserted module 'ipv6'
+[    2.323995] systemd[1]: Set hostname to <raspberrypi_2>.
+[    2.448243] random: systemd-sysv-ge: uninitialized urandom read (16 bytes read, 66 bits of entropy available)
+[    2.534867] random: systemd: uninitialized urandom read (16 bytes read, 70 bits of entropy available)
+[    2.536157] random: systemd: uninitialized urandom read (16 bytes read, 70 bits of entropy available)
+[    2.537632] random: systemd: uninitialized urandom read (16 bytes read, 70 bits of entropy available)
+[    2.548907] usb 1-1.1: new high-speed USB device number 3 using dwc_otg
+[    2.556906] random: systemd: uninitialized urandom read (16 bytes read, 71 bits of entropy available)
+[    2.557640] random: systemd: uninitialized urandom read (16 bytes read, 71 bits of entropy available)
+[    2.557810] random: systemd: uninitialized urandom read (16 bytes read, 71 bits of entropy available)
+[    2.591320] random: systemd: uninitialized urandom read (16 bytes read, 71 bits of entropy available)
+[    2.593984] random: systemd: uninitialized urandom read (16 bytes read, 71 bits of entropy available)
+[    2.649230] usb 1-1.1: New USB device found, idVendor=0424, idProduct=ec00
+[    2.649254] usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    2.652191] smsc95xx v1.0.4
+[    2.708450] systemd[1]: Starting Forward Password Requests to Wall Directory Watch.
+[    2.708953] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[    2.709045] systemd[1]: Starting Remote File Systems (Pre).
+[    2.709217] systemd[1]: Reached target Remote File Systems (Pre).
+[    2.709383] systemd[1]: Starting Arbitrary Executable File Formats File System Automount Point.
+[    2.709928] systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+[    2.710011] systemd[1]: Starting Encrypted Volumes.
+[    2.710085] systemd[1]: Reached target Encrypted Volumes.
+[    2.710175] systemd[1]: Starting Swap.
+[    2.710245] systemd[1]: Reached target Swap.
+[    2.710321] systemd[1]: Expecting device dev-mmcblk0p1.device...
+[    2.710396] systemd[1]: Starting Root Slice.
+[    2.710544] systemd[1]: Created slice Root Slice.
+[    2.710615] systemd[1]: Starting User and Session Slice.
+[    2.710852] systemd[1]: Created slice User and Session Slice.
+[    2.710927] systemd[1]: Starting Delayed Shutdown Socket.
+[    2.711107] systemd[1]: Listening on Delayed Shutdown Socket.
+[    2.711181] systemd[1]: Starting /dev/initctl Compatibility Named Pipe.
+[    2.711366] systemd[1]: Listening on /dev/initctl Compatibility Named Pipe.
+[    2.711440] systemd[1]: Starting Journal Socket (/dev/log).
+[    2.711626] systemd[1]: Listening on Journal Socket (/dev/log).
+[    2.711720] systemd[1]: Starting udev Control Socket.
+[    2.711883] systemd[1]: Listening on udev Control Socket.
+[    2.711971] systemd[1]: Starting udev Kernel Socket.
+[    2.712106] systemd[1]: Listening on udev Kernel Socket.
+[    2.712207] systemd[1]: Starting Journal Socket.
+[    2.712391] systemd[1]: Listening on Journal Socket.
+[    2.712548] systemd[1]: Starting System Slice.
+[    2.712783] systemd[1]: Created slice System Slice.
+[    2.712811] smsc95xx 1-1.1:1.0 eth0: register 'smsc95xx' at usb-3f980000.usb-1.1, smsc95xx USB 2.0 Ethernet, b8:27:eb:bd:a5:65
+[    2.712956] systemd[1]: Starting File System Check on Root Device...
+[    2.749507] systemd[1]: Starting system-systemd\x2dfsck.slice.
+[    2.749966] systemd[1]: Created slice system-systemd\x2dfsck.slice.
+[    2.750075] systemd[1]: Starting system-autologin.slice.
+[    2.750381] systemd[1]: Created slice system-autologin.slice.
+[    2.750578] systemd[1]: Starting Increase datagram queue length...
+[    2.753430] systemd[1]: Starting Restore / save the current clock...
+[    2.758186] systemd[1]: Mounted Huge Pages File System.
+[    2.758385] systemd[1]: Starting udev Coldplug all Devices...
+[    2.762008] systemd[1]: Mounting Debug File System...
+[    2.777770] systemd[1]: Started Set Up Additional Binary Formats.
+[    2.778407] systemd[1]: Starting Create list of required static device nodes for the current kernel...
+[    2.781653] systemd[1]: Mounting POSIX Message Queue File System...
+[    2.788979] usb 1-1.2: new low-speed USB device number 4 using dwc_otg
+[    2.811058] systemd[1]: Starting Load Kernel Modules...
+[    2.819012] systemd[1]: Starting Slices.
+[    2.819114] systemd[1]: Reached target Slices.
+[    2.843509] systemd[1]: Started Create list of required static device nodes for the current kernel.
+[    2.863286] systemd[1]: Starting Create Static Device Nodes in /dev...
+[    2.897442] systemd[1]: Mounted POSIX Message Queue File System.
+[    2.897893] systemd[1]: Mounted Debug File System.
+[    2.901364] systemd[1]: Started Increase datagram queue length.
+[    2.906235] fuse init (API version 7.23)
+[    2.909408] systemd[1]: Started udev Coldplug all Devices.
+[    2.937589] i2c /dev entries driver
+[    2.944101] systemd[1]: Started Load Kernel Modules.
+[    2.958124] systemd[1]: Started Restore / save the current clock.
+[    2.960694] systemd[1]: Time has been changed
+[    2.996981] usb 1-1.2: New USB device found, idVendor=0e8f, idProduct=00a7
+[    2.997007] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    2.997020] usb 1-1.2: Product: 2.4G RX
+[    2.997032] usb 1-1.2: Manufacturer: DaKai
+[    3.003288] systemd[1]: Started Create Static Device Nodes in /dev.
+[    3.009272] input: DaKai 2.4G RX as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.2/1-1.2:1.0/0003:0E8F:00A7.0001/input/input0
+[    3.058252] systemd[1]: Starting udev Kernel Device Manager...
+[    3.069786] hid-generic 0003:0E8F:00A7.0001: input,hidraw0: USB HID v1.10 Keyboard [DaKai 2.4G RX] on usb-3f980000.usb-1.2/input0
+[    3.100979] input: DaKai 2.4G RX as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.2/1-1.2:1.1/0003:0E8F:00A7.0002/input/input1
+[    3.109821] systemd[1]: Mounting FUSE Control File System...
+[    3.113279] systemd[1]: Mounting Configuration File System...
+[    3.116150] systemd[1]: Starting Apply Kernel Variables...
+[    3.119414] systemd[1]: Starting Syslog Socket.
+[    3.119699] systemd[1]: Listening on Syslog Socket.
+[    3.119906] systemd[1]: Starting Journal Service...
+[    3.123161] systemd[1]: Started Journal Service.
+[    3.134522] systemd-udevd[130]: starting version 215
+[    3.160428] hid-generic 0003:0E8F:00A7.0002: input,hiddev0,hidraw1: USB HID v1.10 Mouse [DaKai 2.4G RX] on usb-3f980000.usb-1.2/input1
+[    3.238939] usb 1-1.4: new high-speed USB device number 5 using dwc_otg
+[    3.339380] usb 1-1.4: New USB device found, idVendor=1908, idProduct=0226
+[    3.339408] usb 1-1.4: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    3.340422] usb-storage 1-1.4:1.0: USB Mass Storage device detected
+[    3.340808] scsi host0: usb-storage 1-1.4:1.0
+[    3.418963] usb 1-1.5: new low-speed USB device number 6 using dwc_otg
+[    3.533202] usb 1-1.5: New USB device found, idVendor=0e8f, idProduct=00a4
+[    3.533254] usb 1-1.5: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+[    3.533278] usb 1-1.5: Product: 2.4G RX
+[    3.533297] usb 1-1.5: Manufacturer: DKTEK
+[    3.545288] input: DKTEK 2.4G RX as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.5/1-1.5:1.0/0003:0E8F:00A4.0003/input/input2
+[    3.600121] hid-generic 0003:0E8F:00A4.0003: input,hidraw2: USB HID v1.10 Keyboard [DKTEK 2.4G RX] on usb-3f980000.usb-1.5/input0
+[    3.620390] input: DKTEK 2.4G RX as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.5/1-1.5:1.1/0003:0E8F:00A4.0004/input/input3
+[    3.620498] bcm2835-wdt 3f100000.watchdog: Broadcom BCM2835 watchdog timer
+[    3.642241] gpiomem-bcm2835 3f200000.gpiomem: Initialised: Registers at 0x3f200000
+[    3.679663] hid-generic 0003:0E8F:00A4.0004: input,hiddev0,hidraw3: USB HID v1.10 Mouse [DKTEK 2.4G RX] on usb-3f980000.usb-1.5/input1
+[    3.883910] usbcore: registered new interface driver brcmfmac
+[    4.003949] brcmfmac: brcmf_c_preinit_dcmds: Firmware version = wl0: May 27 2016 00:13:38 version 7.45.41.26 (r640327) FWID 01-df77e4a7
+[    4.038685] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null)
+[    4.045512] brcmfmac: brcmf_cfg80211_reg_notifier: not a ISO3166 code
+[    4.265438] brcmfmac: brcmf_cfg80211_reg_notifier: not a ISO3166 code
+[    4.265469] cfg80211: World regulatory domain updated:
+[    4.265479] cfg80211:  DFS Master region: unset
+[    4.265489] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+[    4.265503] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+[    4.265516] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+[    4.265528] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (N/A, 2000 mBm), (N/A)
+[    4.265543] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (N/A)
+[    4.265557] cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (0 s)
+[    4.265571] cfg80211:   (5490000 KHz - 5730000 KHz @ 160000 KHz), (N/A, 2000 mBm), (0 s)
+[    4.265583] cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (N/A, 2000 mBm), (N/A)
+[    4.265595] cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 0 mBm), (N/A)
+[    4.272382] random: nonblocking pool is initialized
+[    4.339705] scsi 0:0:0:0: Direct-Access     Generic  Mass-Storage     1.11 PQ: 0 ANSI: 2
+[    4.360275] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[    4.544693] systemd-journald[135]: Received request to flush runtime journal from PID 1
+[    5.049077] sd 0:0:0:0: [sda] 15605760 512-byte logical blocks: (7.99 GB/7.44 GiB)
+[    5.049417] sd 0:0:0:0: [sda] Write Protect is off
+[    5.049436] sd 0:0:0:0: [sda] Mode Sense: 03 00 00 00
+[    5.049759] sd 0:0:0:0: [sda] No Caching mode page found
+[    5.049774] sd 0:0:0:0: [sda] Assuming drive cache: write through
+[    5.053199]  sda: sda1
+[    5.059934] sd 0:0:0:0: [sda] Attached SCSI removable disk
+[    6.644390] brcmfmac: brcmf_add_if: ERROR: netdev:wlan0 already exists
+[    6.644407] brcmfmac: brcmf_add_if: ignore IF event
+[    6.648603] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[    6.648636] brcmfmac: power management disabled
+[    6.763201] uart-pl011 3f201000.uart: no DMA platform data
+[    7.025219] Adding 102396k swap on /var/swap.  Priority:-1 extents:4 across:192508k SSFS
+[    7.204325] cfg80211: Regulatory domain changed to country: GB
+[    7.204346] cfg80211:  DFS Master region: ETSI
+[    7.204357] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+[    7.204370] cfg80211:   (2402000 KHz - 2482000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+[    7.204379] cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (N/A)
+[    7.204386] cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (0 s)
+[    7.204393] cfg80211:   (5490000 KHz - 5710000 KHz @ 160000 KHz), (N/A, 2700 mBm), (0 s)
+[    7.204400] cfg80211:   (57000000 KHz - 66000000 KHz @ 2160000 KHz), (N/A, 4000 mBm), (N/A)
+[    7.550189] smsc95xx 1-1.1:1.0 eth0: hardware isn't capable of remote wakeup
+[    7.550351] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[    8.238391] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+[   11.349946] Bluetooth: Core ver 2.21
+[   11.350005] NET: Registered protocol family 31
+[   11.350011] Bluetooth: HCI device and connection manager initialized
+[   11.350029] Bluetooth: HCI socket layer initialized
+[   11.350040] Bluetooth: L2CAP socket layer initialized
+[   11.350064] Bluetooth: SCO socket layer initialized
+[   11.363100] Bluetooth: HCI UART driver ver 2.3
+[   11.363117] Bluetooth: HCI UART protocol H4 registered
+[   11.363122] Bluetooth: HCI UART protocol Three-wire (H5) registered
+[   11.363236] Bluetooth: HCI UART protocol BCM registered
+[   11.606999] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[   11.607016] Bluetooth: BNEP filters: protocol multicast
+[   11.607033] Bluetooth: BNEP socket layer initialized
+[   16.121827] FAT-fs (sda1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+[  455.900617] address = f3200000
+[  455.900638] Changing function of GPIO22 from 0 to 0
+[  455.900646] dlaser init successfully1
+[  455.900754] 458009966 458009966 458009968 458009968 458009969 458009970 458009971 458009973 458009974 458009974 458009975 458009976 458009977 458009978 458009979 458009980 458009981 458009982 458009983 458009984 458009985 458009986 458009989 458009989 458009989 458009990 458009991 458009992 458009993 458009994 458009995 458009996 458009997 458009998 458009999 458010000 458010001 458010002 458010004 458010004 458010005 458010006 458010007 458010008 458010009 458010010 458010011 458010012 458010013 458010014 458010015 458010016 458010017 458010019 458010020 458010020 458010021 458010022 458010023 458010024 458010025 458010026 458010027 458010028 458010029 458010030 458010031 458010032 458010034 458010035 458010035 458010036 458010037 458010038 458010039 458010040 458010041 458010042 458010043 458010044 
+[  455.900898] 458010045 458010046 458010047 458010048 458010050 458010050 458010051 458010052 458010053 458010054 458010055 458010056 458010057 458010058 458010059 458010060 458010061 458010062 458010063 458010065 
+[  544.166261] dlaser exit successfully
+[  547.293345] address = f3200000
+[  547.293362] Changing function of GPIO22 from 0 to 0
+[  547.293366] dlaser init successfully1
+[  547.293473] 549402915 549402915 0
+[  547.293478] 549402916 549402916 0
+[  547.293483] 549402917 549402917 0
+[  547.293488] 549402918 549402918 0
+[  547.293492] 549402919 549402919 0
+[  547.293497] 549402920 549402920 0
+[  547.293502] 549402921 549402921 0
+[  547.293507] 549402922 549402922 0
+[  547.293511] 549402923 549402923 0
+[  547.293518] 549402925 549402924 -1
+[  547.293522] 549402925 549402925 0
+[  547.293527] 549402926 549402926 0
+[  547.293532] 549402927 549402927 0
+[  547.293537] 549402928 549402928 0
+[  547.293541] 549402929 549402929 0
+[  547.293546] 549402930 549402930 0
+[  547.293550] 549402931 549402931 0
+[  547.293555] 549402932 549402932 0
+[  547.293559] 549402933 549402933 0
+[  547.293564] 549402934 549402934 0
+[  547.293571] 549402935 549402935 0
+[  547.293577] 549402936 549402936 0
+[  547.293581] 549402937 549402937 0
+[  547.293586] 549402938 549402938 0
+[  547.293590] 549402940 549402939 -1
+[  547.293595] 549402941 549402940 -1
+[  547.293605] 549402941 549402941 0
+[  547.293610] 549402942 549402942 0
+[  547.293614] 549402943 549402943 0
+[  547.293619] 549402944 549402944 0
+[  547.293625] 549402945 549402945 0
+[  547.293629] 549402946 549402946 0
+[  547.293634] 549402947 549402947 0
+[  547.293639] 549402948 549402948 0
+[  547.293644] 549402949 549402949 0
+[  547.293648] 549402950 549402950 0
+[  547.293653] 549402951 549402951 0
+[  547.293657] 549402952 549402952 0
+[  547.293662] 549402953 549402953 0
+[  547.293669] 549402954 549402954 0
+[  547.293679] 549402955 549402955 0
+[  547.293689] 549402956 549402956 0
+[  547.293695] 549402957 549402957 0
+[  547.293700] 549402958 549402958 0
+[  547.293704] 549402959 549402959 0
+[  547.293709] 549402960 549402960 0
+[  547.293718] 549402961 549402961 0
+[  547.293729] 549402962 549402962 0
+[  547.293737] 549402963 549402963 0
+[  547.293747] 549402964 549402964 0
+[  547.293759] 549402965 549402965 0
+[  547.293765] 549402966 549402966 0
+[  547.293769] 549402967 549402967 0
+[  547.293774] 549402968 549402968 0
+[  547.293779] 549402969 549402969 0
+[  547.293783] 549402970 549402970 0
+[  547.293792] 549402972 549402971 -1
+[  547.293797] 549402972 549402972 0
+[  547.293801] 549402973 549402973 0
+[  547.293809] 549402974 549402974 0
+[  547.293820] 549402975 549402975 0
+[  547.293828] 549402976 549402976 0
+[  547.293836] 549402977 549402977 0
+[  547.293845] 549402978 549402978 0
+[  547.293855] 549402979 549402979 0
+[  547.293861] 549402980 549402980 0
+[  547.293866] 549402981 549402981 0
+[  547.293875] 549402982 549402982 0
+[  547.293886] 549402983 549402983 0
+[  547.293893] 549402984 549402984 0
+[  547.293902] 549402985 549402985 0
+[  547.293909] 549402987 549402986 -1
+[  547.293916] 549402987 549402987 0
+[  547.293927] 549402988 549402988 0
+[  547.293936] 549402989 549402989 0
+[  547.293941] 549402990 549402990 0
+[  547.293947] 549402991 549402991 0
+[  547.293958] 549402992 549402992 0
+[  547.293967] 549402993 549402993 0
+[  547.293979] 549402994 549402994 0
+[  547.293990] 549402995 549402995 0
+[  547.293995] 549402996 549402996 0
+[  547.293999] 549402997 549402997 0
+[  547.294004] 549402998 549402998 0
+[  547.294010] 549402999 549402999 0
+[  547.294014] 549403000 549403000 0
+[  547.294019] 549403002 549403001 -1
+[  547.294024] 549403002 549403002 0
+[  547.294035] 549403003 549403003 0
+[  547.294044] 549403004 549403004 0
+[  547.294049] 549403005 549403005 0
+[  547.294060] 549403006 549403006 0
+[  547.294070] 549403007 549403007 0
+[  547.294076] 549403008 549403008 0
+[  547.294081] 549403009 549403009 0
+[  547.294085] 549403010 549403010 0
+[  547.294090] 549403011 549403011 0
+[  547.294094] 549403012 549403012 0
+[  547.294100] 549403013 549403013 0
+[  547.294104] 549403014 549403014 0
+
+[  604.714072] dlaser exit successfully
+[  615.672359] address = f3200000
+[  615.672374] Changing function of GPIO22 from 0 to 0
+[  615.672380] dlaser init successfully1
+[  615.672587] 617782103 617782103 0
+[  615.672595] 617782104 617782104 0
+[  615.672600] 617782105 617782105 0
+[  615.672604] 617782106 617782106 0
+[  615.672609] 617782107 617782107 0
+[  615.672613] 617782108 617782108 0
+[  615.672618] 617782109 617782109 0
+[  615.672622] 617782110 617782110 0
+[  615.672627] 617782111 617782111 0
+[  615.672631] 617782113 617782112 -1
+[  615.672640] 617782113 617782113 0
+[  615.672644] 617782114 617782114 0
+[  615.672649] 617782115 617782115 0
+[  615.672660] 617782116 617782116 0
+[  615.672675] 617782117 617782117 0
+[  615.672688] 617782118 617782118 0
+[  615.672701] 617782119 617782119 0
+[  615.672707] 617782120 617782120 0
+[  615.672712] 617782121 617782121 0
+[  615.672716] 617782122 617782122 0
+[  615.672721] 617782123 617782123 0
+[  615.672725] 617782124 617782124 0
+[  615.672731] 617782125 617782125 0
+[  615.672735] 617782126 617782126 0
+[  615.672740] 617782128 617782127 -1
+[  615.672744] 617782128 617782128 0
+[  615.672749] 617782129 617782129 0
+[  615.672753] 617782130 617782130 0
+[  615.672758] 617782131 617782131 0
+[  615.672762] 617782132 617782132 0
+[  615.672767] 617782133 617782133 0
+[  615.672771] 617782134 617782134 0
+[  615.672776] 617782135 617782135 0
+[  615.672781] 617782136 617782136 0
+[  615.672792] 617782137 617782137 0
+[  615.672807] 617782138 617782138 0
+[  615.672822] 617782139 617782139 0
+[  615.672838] 617782140 617782140 0
+[  615.672854] 617782141 617782141 0
+[  615.672865] 617782143 617782142 -1
+[  615.672870] 617782143 617782143 0
+[  615.672874] 617782144 617782144 0
+[  615.672879] 617782145 617782145 0
+[  615.672884] 617782146 617782146 0
+[  615.672888] 617782147 617782147 0
+[  615.672893] 617782148 617782148 0
+[  615.672899] 617782149 617782149 0
+[  615.672903] 617782150 617782150 0
+[  615.672909] 617782151 617782151 0
+[  615.672914] 617782152 617782152 0
+[  615.672919] 617782153 617782153 0
+[  615.672924] 617782154 617782154 0
+[  615.672928] 617782155 617782155 0
+[  615.672933] 617782156 617782156 0
+[  615.672938] 617782157 617782157 0
+[  615.672942] 617782159 617782158 -1
+[  615.672947] 617782159 617782159 0
+[  615.672951] 617782160 617782160 0
+[  615.672956] 617782161 617782161 0
+[  615.672961] 617782162 617782162 0
+[  615.672972] 617782163 617782163 0
+[  615.672986] 617782164 617782164 0
+[  615.673001] 617782165 617782165 0
+[  615.673015] 617782166 617782166 0
+[  615.673030] 617782167 617782167 0
+[  615.673042] 617782168 617782168 0
+[  615.673048] 617782169 617782169 0
+[  615.673053] 617782170 617782170 0
+[  615.673057] 617782171 617782171 0
+[  615.673062] 617782174 617782172 -2
+[  615.673068] 617782175 617782173 -2
+[  615.673072] 617782175 617782174 -1
+[  615.673077] 617782175 617782175 0
+[  615.673081] 617782176 617782176 0
+[  615.673086] 617782177 617782177 0
+[  615.673090] 617782178 617782178 0
+[  615.673095] 617782179 617782179 0
+[  615.673099] 617782180 617782180 0
+[  615.673104] 617782181 617782181 0
+[  615.673108] 617782182 617782182 0
+[  615.673113] 617782183 617782183 0
+[  615.673118] 617782184 617782184 0
+[  615.673122] 617782263 617782185 -78
+[  615.673127] 617782263 617782186 -77
+[  615.673132] 617782263 617782187 -76
+[  615.673137] 617782263 617782188 -75
+[  615.673141] 617782264 617782189 -75
+[  615.673146] 617782264 617782190 -74
+[  615.673150] 617782264 617782191 -73
+[  615.673155] 617782266 617782192 -74
+[  615.673168] 617782266 617782193 -73
+[  615.673184] 617782267 617782194 -73
+[  615.673198] 617782267 617782195 -72
+[  615.673212] 617782267 617782196 -71
+[  615.673224] 617782267 617782197 -70
+[  615.673236] 617782267 617782198 -69
+[  615.673249] 617782268 617782199 -69
+[  615.673255] 617782268 617782200 -68
+[  615.673260] 617782268 617782201 -67
+[  615.673264] 617782268 617782202 -66
+[  615.673269] 617782269 617782203 -66
+[  615.673273] 617782269 617782204 -65
+[  615.673278] 617782269 617782205 -64
+[  615.673282] 617782269 617782206 -63
+[  615.673287] 617782270 617782207 -63
+[  615.673292] 617782270 617782208 -62
+[  615.673298] 617782270 617782209 -61
+[  615.673302] 617782270 617782210 -60
+[  615.673307] 617782270 617782211 -59
+[  615.673312] 617782270 617782212 -58
+[  615.673317] 617782271 617782213 -58
+[  615.673322] 617782271 617782214 -57
+[  615.673327] 617782272 617782215 -57
+[  615.673332] 617782272 617782216 -56
+[  615.673336] 617782272 617782217 -55
+[  615.673341] 617782272 617782218 -54
+[  615.673346] 617782273 617782219 -54
+[  615.673350] 617782273 617782220 -53
+[  615.673355] 617782273 617782221 -52
+[  615.673359] 617782273 617782222 -51
+[  615.673364] 617782273 617782223 -50
+[  615.673368] 617782273 617782224 -49
+[  615.673373] 617782274 617782225 -49
+[  615.673378] 617782274 617782226 -48
+[  615.673382] 617782274 617782227 -47
+[  615.673387] 617782274 617782228 -46
+[  615.673391] 617782274 617782229 -45
+[  615.673401] 617782275 617782230 -45
+[  615.673415] 617782275 617782231 -44
+[  615.673429] 617782275 617782232 -43
+[  615.673444] 617782275 617782233 -42
+[  615.673456] 617782275 617782234 -41
+[  615.673469] 617782275 617782235 -40
+[  615.673483] 617782275 617782236 -39
+[  615.673497] 617782276 617782237 -39
+[  615.673508] 617782276 617782238 -38
+[  615.673512] 617782276 617782239 -37
+[  615.673517] 617782276 617782240 -36
+[  615.673521] 617782276 617782241 -35
+[  615.673527] 617782277 617782242 -35
+[  615.673531] 617782277 617782243 -34
+[  615.673536] 617782278 617782244 -34
+[  615.673542] 617782278 617782245 -33
+[  615.673547] 617782278 617782246 -32
+[  615.673551] 617782279 617782247 -32
+[  615.673556] 617782279 617782248 -31
+[  615.673560] 617782279 617782249 -30
+[  615.673565] 617782279 617782250 -29
+[  615.673573] 617782281 617782251 -30
+[  615.673578] 617782282 617782252 -30
+[  615.673582] 617782282 617782253 -29
+[  615.673587] 617782282 617782254 -28
+[  615.673591] 617782283 617782255 -28
+[  615.673598] 617782283 617782256 -27
+[  615.673606] 617782283 617782257 -26
+[  615.673611] 617782283 617782258 -25
+[  615.673615] 617782284 617782259 -25
+[  615.673620] 617782284 617782260 -24
+[  615.673624] 617782284 617782261 -23
+[  615.673629] 617782285 617782262 -23
+[  615.673634] 617782285 617782263 -22
+[  615.673639] 617782285 617782264 -21
+[  615.673644] 617782286 617782265 -21
+[  615.673650] 617782286 617782266 -20
+[  615.673656] 617782286 617782267 -19
+[  615.673666] 617782287 617782268 -19
+[  615.673677] 617782287 617782269 -18
+[  615.673682] 617782287 617782270 -17
+[  615.673687] 617782288 617782271 -17
+[  615.673692] 617782288 617782272 -16
+[  615.673696] 617782288 617782273 -15
+[  615.673727] 617782289 617782274 -15
+[  615.673753] 617782289 617782275 -14
+[  615.673768] 617782289 617782276 -13
+[  615.673787] 617782290 617782277 -13
+[  615.673815] 617782290 617782278 -12
+[  615.673842] 617782290 617782279 -11
+[  615.673869] 617782290 617782280 -10
+[  615.673891] 617782291 617782281 -10
+[  615.673915] 617782291 617782282 -9
+[  615.673930] 617782291 617782283 -8
+[  615.673956] 617782292 617782284 -8
+[  615.673965] 617782292 617782285 -7
+[  615.673977] 617782292 617782286 -6
+[  615.673987] 617782293 617782287 -6
+[  615.673991] 617782293 617782288 -5
+[  615.673996] 617782293 617782289 -4
+[  615.674002] 617782293 617782290 -3
+[  615.674006] 617782294 617782291 -3
+[  615.674011] 617782294 617782292 -2
+[  615.674017] 617782294 617782293 -1
+[  615.674029] 617782296 617782294 -2
+[  615.674037] 617782297 617782295 -2
+[  615.674042] 617782297 617782296 -1
+[  615.674048] 617782298 617782297 -1
+[  615.674054] 617782298 617782298 0
+[  615.674064] 617782299 617782299 0
+[  615.674074] 617782300 617782300 0
+[  615.674079] 617782301 617782301 0
+[  615.674083] 617782302 617782302 0
+
+[  659.479859] dlaser exit successfully
+[  669.145389] address = f3200000
+[  669.145414] Changing function of GPIO22 from 0 to 0
+[  669.145419] dlaser init successfully1
+[  669.145629] 671255279 671255278 -1
+[  669.145634] 671255279 671255279 0
+[  669.145639] 671255281 671255280 -1
+[  669.145644] 671255282 671255281 -1
+[  669.145649] 671255282 671255282 0
+[  669.145654] 671255283 671255283 0
+[  669.145659] 671255284 671255284 0
+[  669.145663] 671255285 671255285 0
+[  669.145668] 671255286 671255286 0
+[  669.145673] 671255287 671255287 0
+[  669.145677] 671255288 671255288 0
+[  669.145682] 671255289 671255289 0
+[  669.145687] 671255290 671255290 0
+[  669.145692] 671255291 671255291 0
+[  669.145696] 671255292 671255292 0
+[  669.145701] 671255293 671255293 0
+[  669.145706] 671255294 671255294 0
+[  669.145711] 671255295 671255295 0
+[  669.145716] 671255296 671255296 0
+[  669.145721] 671255297 671255297 0
+[  669.145726] 671255299 671255298 -1
+[  669.145732] 671255299 671255299 0
+[  669.145737] 671255300 671255300 0
+[  669.145741] 671255301 671255301 0
+[  669.145746] 671255302 671255302 0
+[  669.145751] 671255303 671255303 0
+[  669.145756] 671255304 671255304 0
+[  669.145762] 671255305 671255305 0
+[  669.145768] 671255306 671255306 0
+[  669.145774] 671255307 671255307 0
+[  669.145781] 671255308 671255308 0
+[  669.145787] 671255309 671255309 0
+[  669.145791] 671255310 671255310 0
+[  669.145796] 671255311 671255311 0
+[  669.145800] 671255312 671255312 0
+[  669.145805] 671255314 671255313 -1
+[  669.145809] 671255314 671255314 0
+[  669.145814] 671255315 671255315 0
+[  669.145818] 671255316 671255316 0
+[  669.145823] 671255317 671255317 0
+[  669.145827] 671255318 671255318 0
+[  669.145832] 671255319 671255319 0
+[  669.145837] 671255320 671255320 0
+[  669.145843] 671255321 671255321 0
+[  669.145847] 671255322 671255322 0
+[  669.145852] 671255323 671255323 0
+[  669.145858] 671255324 671255324 0
+[  669.145862] 671255325 671255325 0
+[  669.145867] 671255326 671255326 0
+[  669.145871] 671255327 671255327 0
+[  669.145876] 671255330 671255328 -2
+[  669.145881] 671255330 671255329 -1
+[  669.145885] 671255330 671255330 0
+[  669.145889] 671255331 671255331 0
+[  669.145894] 671255332 671255332 0
+[  669.145898] 671255333 671255333 0
+[  669.145903] 671255334 671255334 0
+[  669.145908] 671255335 671255335 0
+[  669.145915] 671255336 671255336 0
+[  669.145919] 671255337 671255337 0
+[  669.145924] 671255338 671255338 0
+[  669.145929] 671255339 671255339 0
+[  669.145936] 671255340 671255340 0
+[  669.145941] 671255341 671255341 0
+[  669.145945] 671255342 671255342 0
+[  669.145951] 671255343 671255343 0
+[  669.145956] 671255345 671255344 -1
+[  669.145962] 671255346 671255345 -1
+[  669.145967] 671255346 671255346 0
+[  669.145971] 671255347 671255347 0
+[  669.145976] 671255348 671255348 0
+[  669.145981] 671255349 671255349 0
+[  669.145985] 671255350 671255350 0
+[  669.145990] 671255351 671255351 0
+[  669.145996] 671255352 671255352 0
+[  669.146000] 671255353 671255353 0
+[  669.146005] 671255354 671255354 0
+[  669.146011] 671255355 671255355 0
+[  669.146015] 671255356 671255356 0
+[  669.146020] 671255357 671255357 0
+[  669.146026] 671255358 671255358 0
+[  669.146030] 671255360 671255359 -1
+[  669.146035] 671255360 671255360 0
+[  669.146041] 671255361 671255361 0
+[  669.146046] 671255362 671255362 0
+[  669.146052] 671255363 671255363 0
+[  669.146059] 671255364 671255364 0
+[  669.146066] 671255365 671255365 0
+[  669.146074] 671255366 671255366 0
+[  669.146079] 671255367 671255367 0
+[  669.146084] 671255368 671255368 0
+[  669.146088] 671255369 671255369 0
+[  669.146093] 671255370 671255370 0
+[  669.146097] 671255371 671255371 0
+[  669.146103] 671255372 671255372 0
+[  669.146107] 671255373 671255373 0
+[  669.146111] 671255376 671255374 -2
+[  669.146116] 671255376 671255375 -1
+[  669.146120] 671255376 671255376 0
+[  669.146125] 671255377 671255377 0
+[  669.146129] 671255378 671255378 0
+[  669.146134] 671255379 671255379 0
+[  669.146139] 671255380 671255380 0
+[  669.146143] 671255381 671255381 0
+[  669.146148] 671255382 671255382 0
+[  669.146153] 671255383 671255383 0
+[  669.146157] 671255384 671255384 0
+[  669.146164] 671255385 671255385 0
+[  669.146169] 671255386 671255386 0
+[  669.146173] 671255387 671255387 0
+[  669.146179] 671255388 671255388 0
+[  669.146183] 671255389 671255389 0
+[  669.146188] 671255391 671255390 -1
+[  669.146193] 671255391 671255391 0
+[  669.146197] 671255392 671255392 0
+[  669.146202] 671255393 671255393 0
+[  669.146207] 671255394 671255394 0
+[  669.146212] 671255395 671255395 0
+[  669.146217] 671255396 671255396 0
+[  669.146221] 671255397 671255397 0
+[  669.146226] 671255398 671255398 0
+[  669.146230] 671255399 671255399 0
+[  669.146235] 671255400 671255400 0
+[  669.146241] 671255401 671255401 0
+[  669.146245] 671255402 671255402 0
+[  669.146250] 671255403 671255403 0
+[  669.146256] 671255404 671255404 0
+[  669.146260] 671255406 671255405 -1
+[  669.146265] 671255406 671255406 0
+[  669.146270] 671255407 671255407 0
+[  669.146275] 671255408 671255408 0
+[  669.146280] 671255409 671255409 0
+[  669.146284] 671255410 671255410 0
+[  669.146289] 671255411 671255411 0
+[  669.146293] 671255412 671255412 0
+[  669.146298] 671255413 671255413 0
+[  669.146302] 671255414 671255414 0
+[  669.146307] 671255415 671255415 0
+[  669.146311] 671255416 671255416 0
+[  669.146317] 671255417 671255417 0
+[  669.146321] 671255418 671255418 0
+[  669.146326] 671255419 671255419 0
+[  669.146332] 671255422 671255420 -2
+[  669.146337] 671255422 671255421 -1
+[  669.146342] 671255422 671255422 0
+[  669.146347] 671255423 671255423 0
+[  669.146352] 671255424 671255424 0
+[  669.146356] 671255425 671255425 0
+[  669.146361] 671255426 671255426 0
+[  669.146366] 671255427 671255427 0
+[  669.146370] 671255428 671255428 0
+[  669.146375] 671255429 671255429 0
+[  669.146381] 671255430 671255430 0
+[  669.146386] 671255431 671255431 0
+[  669.146390] 671255432 671255432 0
+[  669.146395] 671255433 671255433 0
+[  669.146400] 671255434 671255434 0
+[  669.146405] 671255435 671255435 0
+[  669.146409] 671255436 671255436 0
+[  669.146414] 671255437 671255437 0
+[  669.146418] 671255438 671255438 0
+[  669.146423] 671255439 671255439 0
+[  669.146428] 671255440 671255440 0
+[  669.146432] 671255441 671255441 0
+[  669.146437] 671255442 671255442 0
+[  669.146442] 671255443 671255443 0
+[  669.146447] 671255444 671255444 0
+[  669.146451] 671255445 671255445 0
+[  669.146456] 671255446 671255446 0
+[  669.146460] 671255447 671255447 0
+[  669.146465] 671255448 671255448 0
+[  669.146470] 671255449 671255449 0
+[  669.146474] 671255450 671255450 0
+[  669.146479] 671255452 671255451 -1
+[  669.146485] 671255453 671255452 -1
+[  669.146489] 671255453 671255453 0
+[  669.146494] 671255454 671255454 0
+[  669.146498] 671255455 671255455 0
+[  669.146502] 671255456 671255456 0
+[  669.146507] 671255457 671255457 0
+[  669.146512] 671255458 671255458 0
+[  669.146516] 671255459 671255459 0
+[  669.146521] 671255460 671255460 0
+[  669.146525] 671255461 671255461 0
+[  669.146531] 671255462 671255462 0
+[  669.146536] 671255463 671255463 0
+[  669.146541] 671255464 671255464 0
+[  669.146547] 671255465 671255465 0
+[  669.146551] 671255468 671255466 -2
+[  669.146556] 671255468 671255467 -1
+[  669.146562] 671255468 671255468 0
+[  669.146567] 671255469 671255469 0
+[  669.146571] 671255470 671255470 0
+[  669.146576] 671255471 671255471 0
+[  669.146581] 671255472 671255472 0
+[  669.146585] 671255473 671255473 0
+[  669.146590] 671255474 671255474 0
+[  669.146595] 671255475 671255475 0
+[  669.146599] 671255476 671255476 0
+[  669.146603] 671255477 671255477 0
+
+[  799.312504] dlaser exit successfully
+[  803.488772] address = f3200000
+[  803.488790] Changing function of GPIO22 from 0 to 0
+[  803.488795] dlaser init successfully1
+[  803.489004] 805598995 805598995 0
+[  803.489011] 805598997 805598996 -1
+[  803.489016] 805598997 805598997 0
+[  803.489020] 805598998 805598998 0
+[  803.489025] 805598999 805598999 0
+[  803.489029] 805599002 805599000 -2
+[  803.489035] 805599002 805599001 -1
+[  803.489039] 805599002 805599002 0
+[  803.489044] 805599003 805599003 0
+[  803.489048] 805599004 805599004 0
+[  803.489053] 805599005 805599005 0
+[  803.489058] 805599006 805599006 0
+[  803.489062] 805599007 805599007 0
+[  803.489067] 805599008 805599008 0
+[  803.489071] 805599009 805599009 0
+[  803.489076] 805599010 805599010 0
+[  803.489081] 805599011 805599011 0
+[  803.489085] 805599012 805599012 0
+[  803.489090] 805599013 805599013 0
+[  803.489098] 805599014 805599014 0
+[  803.489102] 805599017 805599015 -2
+[  803.489107] 805599017 805599016 -1
+[  803.489112] 805599017 805599017 0
+[  803.489117] 805599018 805599018 0
+[  803.489122] 805599019 805599019 0
+[  803.489127] 805599020 805599020 0
+[  803.489132] 805599021 805599021 0
+[  803.489138] 805599022 805599022 0
+[  803.489150] 805599023 805599023 0
+[  803.489159] 805599024 805599024 0
+[  803.489164] 805599025 805599025 0
+[  803.489168] 805599026 805599026 0
+[  803.489174] 805599027 805599027 0
+[  803.489179] 805599028 805599028 0
+[  803.489188] 805599029 805599029 0
+[  803.489200] 805599030 805599030 0
+[  803.489207] 805599032 805599031 -1
+[  803.489216] 805599032 805599032 0
+[  803.489229] 805599033 805599033 0
+[  803.489237] 805599034 805599034 0
+[  803.489241] 805599035 805599035 0
+[  803.489246] 805599036 805599036 0
+[  803.489250] 805599037 805599037 0
+[  803.489256] 805599038 805599038 0
+[  803.489261] 805599039 805599039 0
+[  803.489270] 805599040 805599040 0
+[  803.489275] 805599042 805599041 -1
+[  803.489280] 805599042 805599042 0
+[  803.489284] 805599043 805599043 0
+[  803.489297] 805599044 805599044 0
+[  803.489308] 805599045 805599045 0
+[  803.489314] 805599047 805599046 -1
+[  803.489323] 805599047 805599047 0
+[  803.489333] 805599048 805599048 0
+[  803.489342] 805599049 805599049 0
+[  803.489349] 805599050 805599050 0
+[  803.489356] 805599051 805599051 0
+[  803.489368] 805599052 805599052 0
+[  803.489377] 805599053 805599053 0
+[  803.489384] 805599054 805599054 0
+[  803.489395] 805599055 805599055 0
+[  803.489402] 805599056 805599056 0
+[  803.489412] 805599057 805599057 0
+[  803.489423] 805599058 805599058 0
+[  803.489429] 805599059 805599059 0
+[  803.489435] 805599060 805599060 0
+[  803.489439] 805599063 805599061 -2
+[  803.489444] 805599063 805599062 -1
+[  803.489449] 805599063 805599063 0
+[  803.489454] 805599064 805599064 0
+[  803.489459] 805599065 805599065 0
+[  803.489470] 805599066 805599066 0
+[  803.489480] 805599067 805599067 0
+[  803.489490] 805599068 805599068 0
+[  803.489500] 805599069 805599069 0
+[  803.489510] 805599070 805599070 0
+[  803.489514] 805599071 805599071 0
+[  803.489519] 805599072 805599072 0
+[  803.489525] 805599073 805599073 0
+[  803.489531] 805599074 805599074 0
+[  803.489536] 805599075 805599075 0
+[  803.489540] 805599077 805599076 -1
+[  803.489545] 805599078 805599077 -1
+[  803.489555] 805599078 805599078 0
+[  803.489567] 805599079 805599079 0
+[  803.489573] 805599080 805599080 0
+[  803.489578] 805599081 805599081 0
+[  803.489586] 805599082 805599082 0
+[  803.489601] 805599083 805599083 0
+[  803.489607] 805599084 805599084 0
+[  803.489612] 805599085 805599085 0
+[  803.489617] 805599086 805599086 0
+[  803.489622] 805599087 805599087 0
+[  803.489627] 805599088 805599088 0
+[  803.489632] 805599089 805599089 0
+[  803.489637] 805599090 805599090 0
+[  803.489641] 805599091 805599091 0
+[  803.489646] 805599094 805599092 -2
+[  803.489651] 805599094 805599093 -1
+[  803.489655] 805599094 805599094 0
+[  803.489660] 805599095 805599095 0
+[  803.489666] 805599096 805599096 0
+[  803.489670] 805599097 805599097 0
+[  803.489675] 805599098 805599098 0
+[  803.489680] 805599099 805599099 0
+[  803.489692] 805599100 805599100 0
+[  803.489703] 805599101 805599101 0
+[  803.489712] 805599102 805599102 0
+[  803.489720] 805599103 805599103 0
+[  803.489725] 805599104 805599104 0
+[  803.489730] 805599105 805599105 0
+[  803.489734] 805599106 805599106 0
+[  803.489739] 805599109 805599107 -2
+[  803.489744] 805599109 805599108 -1
+[  803.489755] 805599109 805599109 0
+[  803.489767] 805599110 805599110 0
+[  803.489773] 805599111 805599111 0
+[  803.489779] 805599112 805599112 0
+[  803.489785] 805599113 805599113 0
+[  803.489791] 805599114 805599114 0
+[  803.489795] 805599115 805599115 0
+[  803.489800] 805599116 805599116 0
+[  803.489804] 805599117 805599117 0
+[  803.489809] 805599118 805599118 0
+[  803.489814] 805599119 805599119 0
+[  803.489818] 805599120 805599120 0
+[  803.489823] 805599121 805599121 0
+[  803.489827] 805599122 805599122 0
+[  803.489833] 805599124 805599123 -1
+[  803.489837] 805599124 805599124 0
+[  803.489842] 805599125 805599125 0
+[  803.489850] 805599126 805599126 0
+[  803.489855] 805599127 805599127 0
+[  803.489859] 805599128 805599128 0
+[  803.489864] 805599129 805599129 0
+[  803.489876] 805599130 805599130 0
+[  803.489886] 805599131 805599131 0
+[  803.489893] 805599132 805599132 0
+[  803.489898] 805599133 805599133 0
+[  803.489902] 805599134 805599134 0
+[  803.489908] 805599135 805599135 0
+[  803.489914] 805599136 805599136 0
+[  803.489923] 805599137 805599137 0
+[  803.489934] 805599139 805599138 -1
+[  803.489944] 805599140 805599139 -1
+[  803.489954] 805599140 805599140 0
+[  803.489963] 805599141 805599141 0
+[  803.489972] 805599142 805599142 0
+[  803.489977] 805599143 805599143 0
+[  803.489984] 805599144 805599144 0
+[  803.489990] 805599145 805599145 0
+[  803.489995] 805599146 805599146 0
+[  803.490004] 805599147 805599147 0
+[  803.490011] 805599148 805599148 0
+[  803.490017] 805599149 805599149 0
+[  803.490024] 805599150 805599150 0
+[  803.490028] 805599151 805599151 0
+[  803.490033] 805599152 805599152 0
+[  803.490037] 805599155 805599153 -2
+[  803.490042] 805599155 805599154 -1
+[  803.490047] 805599156 805599155 -1
+[  803.490052] 805599156 805599156 0
+[  803.490057] 805599157 805599157 0
+[  803.490061] 805599158 805599158 0
+[  803.490066] 805599159 805599159 0
+[  803.490071] 805599160 805599160 0
+[  803.490076] 805599161 805599161 0
+[  803.490081] 805599162 805599162 0
+[  803.490086] 805599163 805599163 0
+[  803.490090] 805599164 805599164 0
+[  803.490095] 805599165 805599165 0
+[  803.490100] 805599170 805599166 -4
+[  803.490107] 805599170 805599167 -3
+[  803.490119] 805599170 805599168 -2
+[  803.490130] 805599171 805599169 -2
+[  803.490138] 805599171 805599170 -1
+[  803.490145] 805599171 805599171 0
+[  803.490152] 805599172 805599172 0
+[  803.490162] 805599173 805599173 0
+[  803.490173] 805599174 805599174 0
+[  803.490180] 805599175 805599175 0
+[  803.490185] 805599176 805599176 0
+[  803.490190] 805599177 805599177 0
+[  803.490194] 805599178 805599178 0
+[  803.490199] 805599179 805599179 0
+[  803.490203] 805599180 805599180 0
+[  803.490208] 805599181 805599181 0
+[  803.490214] 805599182 805599182 0
+[  803.490221] 805599183 805599183 0
+[  803.490226] 805599186 805599184 -2
+[  803.490231] 805599186 805599185 -1
+[  803.490236] 805599186 805599186 0
+[  803.490240] 805599187 805599187 0
+[  803.490245] 805599188 805599188 0
+[  803.490250] 805599189 805599189 0
+[  803.490255] 805599190 805599190 0
+[  803.490261] 805599191 805599191 0
+[  803.490265] 805599192 805599192 0
+[  803.490270] 805599193 805599193 0
+[  803.490275] 805599194 805599194 0
+
+[  803.492698] 805600479 805600490 11
+[  803.492714] 805600490 805600502 12
+[  803.492720] 805600502 805600514 12
+[  803.492726] 805600514 805600526 12
+[  803.492730] 805600526 805600538 12
+[  803.492735] 805600538 805600550 12
+[  803.492741] 805600550 805600562 12
+[  803.492746] 805600563 805600574 11
+[  803.492750] 805600574 805600586 12
+[  803.492757] 805600586 805600598 12
+[  803.492762] 805600598 805600610 12
+[  803.492766] 805600610 805600622 12
+[  803.492772] 805600622 805600634 12
+[  803.492776] 805600634 805600646 12
+[  803.492781] 805600646 805600658 12
+[  803.492786] 805600658 805600670 12
+[  803.492790] 805600671 805600682 11
+[  803.492795] 805600682 805600694 12
+[  803.492800] 805600694 805600706 12
+[  803.492804] 805600706 805600718 12
+[  803.492809] 805600718 805600730 12
+[  803.492814] 805600730 805600742 12
+[  803.492818] 805600742 805600754 12
+[  803.492823] 805600754 805600766 12
+[  803.492827] 805600766 805600778 12
+[  803.492833] 805600778 805600790 12
+[  803.492838] 805600790 805600802 12
+[  803.492842] 805600802 805600814 12
+[  803.492848] 805600814 805600826 12
+[  803.492853] 805600826 805600838 12
+[  803.492857] 805600839 805600850 11
+[  803.492862] 805600850 805600862 12
+[  803.492866] 805600862 805600874 12
+[  803.492870] 805600874 805600886 12
+[  803.492875] 805600886 805600898 12
+[  803.492879] 805600898 805600910 12
+[  803.492884] 805600910 805600922 12
+[  803.492888] 805600922 805600934 12
+[  803.492894] 805600934 805600946 12
+[  803.492899] 805600947 805600958 11
+[  803.492903] 805600958 805600970 12
+[  803.492908] 805600970 805600982 12
+[  803.492913] 805600982 805600994 12
+[  803.492917] 805600994 805601006 12
+[  803.492922] 805601006 805601018 12
+[  803.492926] 805601018 805601030 12
+[  803.492931] 805601030 805601042 12
+[  803.492935] 805601042 805601054 12
+[  803.492940] 805601054 805601066 12
+[  803.492945] 805601066 805601078 12
+[  803.492949] 805601078 805601090 12
+[  803.492955] 805601090 805601102 12
+[  803.492960] 805601102 805601114 12
+[  803.492965] 805601115 805601126 11
+[  803.492971] 805601126 805601138 12
+[  803.492976] 805601138 805601150 12
+[  803.492980] 805601150 805601162 12
+[  803.492985] 805601162 805601174 12
+[  803.492990] 805601174 805601186 12
+[  803.492995] 805601186 805601198 12
+[  803.492999] 805601198 805601210 12
+[  803.493003] 805601210 805601222 12
+[  803.493008] 805601222 805601234 12
+[  803.493012] 805601234 805601246 12
+[  803.493017] 805601246 805601258 12
+[  803.493022] 805601258 805601270 12
+[  803.493026] 805601270 805601282 12
+[  803.493032] 805601284 805601294 10
+[  803.493037] 805601294 805601306 12
+[  803.493041] 805601306 805601318 12
+[  803.493047] 805601318 805601330 12
+[  803.493052] 805601330 805601342 12
+[  803.493056] 805601342 805601354 12
+[  803.493063] 805601354 805601366 12
+[  803.493067] 805601366 805601378 12
+[  803.493072] 805601378 805601390 12
+[  803.493078] 805601391 805601402 11
+[  803.493082] 805601402 805601414 12
+[  803.493087] 805601414 805601426 12
+[  803.493092] 805601426 805601438 12
+[  803.493098] 805601438 805601450 12
+[  803.493102] 805601450 805601462 12
+[  803.493107] 805601462 805601474 12
+[  803.493111] 805601474 805601486 12
+[  803.493116] 805601486 805601498 12
+[  803.493120] 805601498 805601510 12
+[  803.493125] 805601510 805601522 12
+[  803.493129] 805601522 805601534 12
+[  803.493134] 805601534 805601546 12
+[  803.493139] 805601546 805601558 12
+[  803.493144] 805601559 805601570 11
+[  803.493148] 805601570 805601582 12
+[  803.493154] 805601582 805601594 12
+[  803.493158] 805601594 805601606 12
+[  803.493163] 805601606 805601618 12
+[  803.493167] 805601618 805601630 12
+[  803.493172] 805601630 805601642 12
+[  803.493176] 805601642 805601654 12
+[  803.493180] 805601654 805601666 12
+[  803.493185] 805601669 805601678 9
+[  803.493190] 805601678 805601690 12
+[  803.493195] 805601690 805601702 12
+[  803.493201] 805601702 805601714 12
+[  803.493205] 805601714 805601726 12
+[  803.493210] 805601728 805601738 10
+[  803.493216] 805601738 805601750 12
+[  803.493221] 805601750 805601762 12
+[  803.493226] 805601762 805601774 12
+[  803.493231] 805601774 805601786 12
+[  803.493236] 805601786 805601798 12
+[  803.493241] 805601798 805601810 12
+[  803.493245] 805601810 805601822 12
+[  803.493250] 805601822 805601834 12
+[  803.493256] 805601835 805601846 11
+[  803.493260] 805601846 805601858 12
+[  803.493266] 805601858 805601870 12
+[  803.493278] 805601870 805601882 12
+[  803.493283] 805601882 805601894 12
+[  803.493287] 805601894 805601906 12
+[  803.493293] 805601906 805601918 12
+[  803.493298] 805601918 805601930 12
+[  803.493302] 805601930 805601942 12
+[  803.493307] 805601942 805601954 12
+[  803.493311] 805601954 805601966 12
+[  803.493316] 805601966 805601978 12
+[  803.493320] 805601978 805601990 12
+[  803.493324] 805601990 805602002 12
+[  803.493329] 805602003 805602014 11
+[  803.493333] 805602014 805602026 12
+[  803.493339] 805602026 805602038 12
+[  803.493343] 805602038 805602050 12
+[  803.493355] 805602050 805602062 12
+[  803.493359] 805602062 805602074 12
+[  803.493364] 805602074 805602086 12
+[  803.493369] 805602086 805602098 12
+[  803.493374] 805602098 805602110 12
+[  803.493378] 805602111 805602122 11
+[  803.493384] 805602122 805602134 12
+[  803.493388] 805602134 805602146 12
+[  803.493393] 805602146 805602158 12
+[  803.493397] 805602158 805602170 12
+[  803.493403] 805602170 805602182 12
+[  803.493407] 805602182 805602194 12
+[  803.493412] 805602194 805602206 12
+[  803.493416] 805602206 805602218 12
+[  803.493421] 805602218 805602230 12
+[  803.493425] 805602230 805602242 12
+[  803.493430] 805602242 805602254 12
+[  803.493435] 805602254 805602266 12
+[  803.493439] 805602266 805602278 12
+[  803.493444] 805602279 805602290 11
+[  803.493449] 805602290 805602302 12
+[  803.493453] 805602302 805602314 12
+[  803.493458] 805602314 805602326 12
+[  803.493462] 805602326 805602338 12
+[  803.493467] 805602338 805602350 12
+[  803.493478] 805602350 805602362 12
+[  803.493483] 805602362 805602374 12
+[  803.493488] 805602374 805602386 12
+[  803.493494] 805602386 805602398 12
+[  803.493498] 805602398 805602410 12
+[  803.493503] 805602410 805602422 12
+[  803.493507] 805602422 805602434 12
+[  803.493512] 805602434 805602446 12
+[  803.493516] 805602446 805602458 12
+[  803.493521] 805602458 805602470 12
+[  803.493525] 805602470 805602482 12
+[  803.493530] 805602482 805602494 12
+[  803.493534] 805602494 805602506 12
+[  803.493539] 805602506 805602518 12
+[  803.493543] 805602518 805602530 12
+[  803.493548] 805602530 805602542 12
+[  803.493553] 805602542 805602554 12
+[  803.493558] 805602554 805602566 12
+[  803.493562] 805602566 805602578 12
+[  803.493567] 805602578 805602590 12
+[  803.493571] 805602590 805602602 12
+[  803.493576] 805602602 805602614 12
+[  803.493580] 805602614 805602626 12
+[  803.493585] 805602626 805602638 12
+[  803.493589] 805602638 805602650 12
+[  803.493594] 805602650 805602662 12
+[  803.493600] 805602662 805602674 12
+[  803.493604] 805602674 805602686 12
+[  803.493609] 805602686 805602698 12
+[  803.493614] 805602698 805602710 12
+[  803.493619] 805602710 805602722 12
+[  803.493623] 805602722 805602734 12
+[  803.493630] 805602734 805602746 12
+[  803.493634] 805602746 805602758 12
+[  803.493638] 805602758 805602770 12
+[  803.493643] 805602770 805602782 12
+[  803.493648] 805602782 805602794 12
+[  803.493652] 805602794 805602806 12
+[  803.493656] 805602806 805602818 12
+[  803.493661] 805602818 805602830 12
+[  803.493665] 805602830 805602842 12
+[  803.493670] 805602842 805602854 12
+[  803.493675] 805602854 805602866 12
+[  803.493680] 805602866 805602878 12
+
+[ 1151.693190] dlaser exit successfully
+[ 1160.266488] address = f3200000
+[ 1160.266549] Changing function of GPIO22 from 0 to 0
+[ 1160.266563] dlaser init successfully1
+[ 1160.266783] 1162377677 1162377676 1
+[ 1160.266795] 1162377677 1162377677 0
+[ 1160.266811] 1162377680 1162377678 2
+[ 1160.266822] 1162377680 1162377679 1
+[ 1160.266849] 1162377680 1162377680 0
+[ 1160.266875] 1162377681 1162377681 0
+[ 1160.266906] 1162377683 1162377682 1
+[ 1160.266926] 1162377683 1162377683 0
+[ 1160.266955] 1162377684 1162377684 0
+[ 1160.266967] 1162377685 1162377685 0
+[ 1160.266976] 1162377686 1162377686 0
+[ 1160.266985] 1162377688 1162377687 1
+[ 1160.266994] 1162377689 1162377688 1
+[ 1160.267003] 1162377689 1162377689 0
+[ 1160.267012] 1162377690 1162377690 0
+[ 1160.267021] 1162377691 1162377691 0
+[ 1160.267034] 1162377692 1162377692 0
+[ 1160.267057] 1162377693 1162377693 0
+[ 1160.267074] 1162377694 1162377694 0
+[ 1160.267087] 1162377695 1162377695 0
+[ 1160.267096] 1162377696 1162377696 0
+[ 1160.267105] 1162377697 1162377697 0
+[ 1160.267114] 1162377698 1162377698 0
+[ 1160.267125] 1162377699 1162377699 0
+[ 1160.267149] 1162377700 1162377700 0
+[ 1160.267167] 1162377701 1162377701 0
+[ 1160.267176] 1162377702 1162377702 0
+[ 1160.267188] 1162377705 1162377703 2
+[ 1160.267198] 1162377706 1162377704 2
+[ 1160.267207] 1162377706 1162377705 1
+[ 1160.267216] 1162377706 1162377706 0
+[ 1160.267225] 1162377707 1162377707 0
+[ 1160.267234] 1162377708 1162377708 0
+[ 1160.267243] 1162377709 1162377709 0
+[ 1160.267251] 1162377710 1162377710 0
+[ 1160.267273] 1162377711 1162377711 0
+[ 1160.267292] 1162377712 1162377712 0
+[ 1160.267302] 1162377713 1162377713 0
+[ 1160.267313] 1162377714 1162377714 0
+[ 1160.267330] 1162377715 1162377715 0
+[ 1160.267353] 1162377716 1162377716 0
+[ 1160.267369] 1162377717 1162377717 0
+[ 1160.267392] 1162377718 1162377718 0
+[ 1160.267405] 1162377720 1162377719 1
+[ 1160.267414] 1162377721 1162377720 1
+[ 1160.267428] 1162377721 1162377721 0
+[ 1160.267437] 1162377722 1162377722 0
+[ 1160.267453] 1162377723 1162377723 0
+[ 1160.267463] 1162377724 1162377724 0
+[ 1160.267476] 1162377725 1162377725 0
+[ 1160.267485] 1162377726 1162377726 0
+[ 1160.267494] 1162377727 1162377727 0
+[ 1160.267503] 1162377728 1162377728 0
+[ 1160.267512] 1162377729 1162377729 0
+[ 1160.267521] 1162377730 1162377730 0
+[ 1160.267530] 1162377731 1162377731 0
+[ 1160.267539] 1162377732 1162377732 0
+[ 1160.267548] 1162377733 1162377733 0
+[ 1160.267557] 1162377736 1162377734 2
+[ 1160.267567] 1162377736 1162377735 1
+[ 1160.267576] 1162377737 1162377736 1
+[ 1160.267585] 1162377737 1162377737 0
+[ 1160.267594] 1162377738 1162377738 0
+[ 1160.267603] 1162377739 1162377739 0
+[ 1160.267614] 1162377740 1162377740 0
+[ 1160.267623] 1162377741 1162377741 0
+[ 1160.267635] 1162377742 1162377742 0
+[ 1160.267647] 1162377743 1162377743 0
+[ 1160.267659] 1162377744 1162377744 0
+[ 1160.267674] 1162377745 1162377745 0
+[ 1160.267696] 1162377746 1162377746 0
+[ 1160.267717] 1162377747 1162377747 0
+[ 1160.267738] 1162377748 1162377748 0
+[ 1160.267753] 1162377751 1162377749 2
+[ 1160.267763] 1162377752 1162377750 2
+[ 1160.267771] 1162377752 1162377751 1
+[ 1160.267782] 1162377752 1162377752 0
+[ 1160.267790] 1162377753 1162377753 0
+[ 1160.267799] 1162377754 1162377754 0
+[ 1160.267808] 1162377755 1162377755 0
+[ 1160.267819] 1162377756 1162377756 0
+[ 1160.267829] 1162377757 1162377757 0
+[ 1160.267838] 1162377758 1162377758 0
+[ 1160.267847] 1162377759 1162377759 0
+[ 1160.267857] 1162377760 1162377760 0
+[ 1160.267866] 1162377761 1162377761 0
+[ 1160.267875] 1162377763 1162377762 1
+[ 1160.267883] 1162377763 1162377763 0
+[ 1160.267892] 1162377767 1162377764 3
+[ 1160.267901] 1162377767 1162377765 2
+[ 1160.267910] 1162377768 1162377766 2
+[ 1160.267919] 1162377768 1162377767 1
+[ 1160.267928] 1162377768 1162377768 0
+[ 1160.267937] 1162377769 1162377769 0
+[ 1160.267946] 1162377770 1162377770 0
+[ 1160.267955] 1162377771 1162377771 0
+[ 1160.267965] 1162377772 1162377772 0
+[ 1160.267974] 1162377773 1162377773 0
+[ 1160.267983] 1162377774 1162377774 0
+[ 1160.267992] 1162377776 1162377775 1
+[ 1160.268001] 1162377776 1162377776 0
+[ 1160.268009] 1162377777 1162377777 0
+[ 1160.268018] 1162377778 1162377778 0
+[ 1160.268027] 1162377780 1162377779 1
+[ 1160.268037] 1162377781 1162377780 1
+[ 1160.268048] 1162377782 1162377781 1
+[ 1160.268057] 1162377782 1162377782 0
+[ 1160.268066] 1162377783 1162377783 0
+[ 1160.268075] 1162377784 1162377784 0
+[ 1160.268084] 1162377785 1162377785 0
+[ 1160.268092] 1162377786 1162377786 0
+[ 1160.268101] 1162377787 1162377787 0
+[ 1160.268110] 1162377788 1162377788 0
+[ 1160.268119] 1162377789 1162377789 0
+[ 1160.268127] 1162377790 1162377790 0
+[ 1160.268136] 1162377791 1162377791 0
+[ 1160.268145] 1162377792 1162377792 0
+[ 1160.268154] 1162377793 1162377793 0
+[ 1160.268164] 1162377794 1162377794 0
+[ 1160.268173] 1162377797 1162377795 2
+[ 1160.268182] 1162377797 1162377796 1
+[ 1160.268191] 1162377798 1162377797 1
+[ 1160.268200] 1162377798 1162377798 0
+[ 1160.268210] 1162377799 1162377799 0
+[ 1160.268219] 1162377800 1162377800 0
+[ 1160.268228] 1162377801 1162377801 0
+[ 1160.268237] 1162377802 1162377802 0
+[ 1160.268249] 1162377803 1162377803 0
+[ 1160.268258] 1162377804 1162377804 0
+[ 1160.268267] 1162377805 1162377805 0
+[ 1160.268276] 1162377806 1162377806 0
+[ 1160.268286] 1162377807 1162377807 0
+[ 1160.268294] 1162377808 1162377808 0
+[ 1160.268303] 1162377809 1162377809 0
+[ 1160.268312] 1162377812 1162377810 2
+[ 1160.268321] 1162377812 1162377811 1
+[ 1160.268330] 1162377812 1162377812 0
+[ 1160.268339] 1162377813 1162377813 0
+[ 1160.268347] 1162377814 1162377814 0
+[ 1160.268356] 1162377815 1162377815 0
+[ 1160.268365] 1162377816 1162377816 0
+[ 1160.268374] 1162377818 1162377817 1
+[ 1160.268383] 1162377818 1162377818 0
+[ 1160.268391] 1162377819 1162377819 0
+[ 1160.268402] 1162377820 1162377820 0
+[ 1160.268413] 1162377821 1162377821 0
+[ 1160.268422] 1162377822 1162377822 0
+[ 1160.268430] 1162377823 1162377823 0
+[ 1160.268440] 1162377824 1162377824 0
+[ 1160.268449] 1162377825 1162377825 0
+[ 1160.268458] 1162377828 1162377826 2
+[ 1160.268467] 1162377828 1162377827 1
+[ 1160.268476] 1162377828 1162377828 0
+[ 1160.268486] 1162377829 1162377829 0
+[ 1160.268494] 1162377830 1162377830 0
+[ 1160.268504] 1162377831 1162377831 0
+[ 1160.268512] 1162377832 1162377832 0
+[ 1160.268521] 1162377833 1162377833 0
+[ 1160.268531] 1162377834 1162377834 0
+[ 1160.268539] 1162377835 1162377835 0
+[ 1160.268549] 1162377836 1162377836 0
+[ 1160.268558] 1162377837 1162377837 0
+[ 1160.268567] 1162377838 1162377838 0
+[ 1160.268578] 1162377839 1162377839 0
+[ 1160.268587] 1162377840 1162377840 0
+[ 1160.268596] 1162377842 1162377841 1
+[ 1160.268605] 1162377843 1162377842 1
+[ 1160.268614] 1162377843 1162377843 0
+[ 1160.268624] 1162377844 1162377844 0
+[ 1160.268633] 1162377846 1162377845 1
+[ 1160.268641] 1162377846 1162377846 0
+[ 1160.268650] 1162377847 1162377847 0
+[ 1160.268659] 1162377848 1162377848 0
+[ 1160.268668] 1162377849 1162377849 0
+[ 1160.268677] 1162377850 1162377850 0
+[ 1160.268686] 1162377851 1162377851 0
+[ 1160.268695] 1162377852 1162377852 0
+[ 1160.268704] 1162377853 1162377853 0
+[ 1160.268712] 1162377854 1162377854 0
+[ 1160.268721] 1162377855 1162377855 0
+[ 1160.268731] 1162377858 1162377856 2
+[ 1160.268740] 1162377858 1162377857 1
+[ 1160.268749] 1162377859 1162377858 1
+[ 1160.268758] 1162377859 1162377859 0
+[ 1160.268767] 1162377860 1162377860 0
+[ 1160.268777] 1162377861 1162377861 0
+[ 1160.268786] 1162377862 1162377862 0
+[ 1160.268795] 1162377863 1162377863 0
+[ 1160.268804] 1162377864 1162377864 0
+[ 1160.268813] 1162377865 1162377865 0
+[ 1160.268823] 1162377866 1162377866 0
+[ 1160.268832] 1162377867 1162377867 0
+[ 1160.268841] 1162377868 1162377868 0
+[ 1160.268850] 1162377869 1162377869 0
+[ 1160.268859] 1162377870 1162377870 0
+[ 1160.268869] 1162377871 1162377871 0
+[ 1160.268877] 1162377874 1162377872 2
+[ 1160.268886] 1162377874 1162377873 1
+[ 1160.268895] 1162377874 1162377874 0
+[ 1160.268904] 1162377875 1162377875 0
+
+[ 1160.271319] 1162380019 1162380019 0
+[ 1160.271329] 1162380031 1162380031 0
+[ 1160.271338] 1162380043 1162380043 0
+[ 1160.271346] 1162380055 1162380055 0
+[ 1160.271355] 1162380067 1162380067 0
+[ 1160.271364] 1162380079 1162380079 0
+[ 1160.271373] 1162380091 1162380091 0
+[ 1160.271382] 1162380103 1162380103 0
+[ 1160.271391] 1162380115 1162380115 0
+[ 1160.271399] 1162380127 1162380127 0
+[ 1160.271408] 1162380139 1162380139 0
+[ 1160.271417] 1162380151 1162380151 0
+[ 1160.271427] 1162380163 1162380163 0
+[ 1160.271435] 1162380175 1162380175 0
+[ 1160.271444] 1162380187 1162380187 0
+[ 1160.271453] 1162380199 1162380199 0
+[ 1160.271462] 1162380211 1162380211 0
+[ 1160.271472] 1162380223 1162380223 0
+[ 1160.271481] 1162380235 1162380235 0
+[ 1160.271489] 1162380247 1162380247 0
+[ 1160.271498] 1162380259 1162380259 0
+[ 1160.271507] 1162380271 1162380271 0
+[ 1160.271516] 1162380283 1162380283 0
+[ 1160.271525] 1162380295 1162380295 0
+[ 1160.271535] 1162380308 1162380307 -1
+[ 1160.271544] 1162380319 1162380319 0
+[ 1160.271553] 1162380331 1162380331 0
+[ 1160.271561] 1162380343 1162380343 0
+[ 1160.271570] 1162380355 1162380355 0
+[ 1160.271579] 1162380367 1162380367 0
+[ 1160.271588] 1162380379 1162380379 0
+[ 1160.271597] 1162380391 1162380391 0
+[ 1160.271606] 1162380403 1162380403 0
+[ 1160.271615] 1162380415 1162380415 0
+[ 1160.271624] 1162380427 1162380427 0
+[ 1160.271633] 1162380439 1162380439 0
+[ 1160.271642] 1162380451 1162380451 0
+[ 1160.271651] 1162380463 1162380463 0
+[ 1160.271660] 1162380475 1162380475 0
+[ 1160.271669] 1162380487 1162380487 0
+[ 1160.271677] 1162380499 1162380499 0
+[ 1160.271687] 1162380511 1162380511 0
+[ 1160.271696] 1162380523 1162380523 0
+[ 1160.271704] 1162380535 1162380535 0
+[ 1160.271714] 1162380547 1162380547 0
+[ 1160.271722] 1162380559 1162380559 0
+[ 1160.271732] 1162380571 1162380571 0
+[ 1160.271741] 1162380584 1162380583 -1
+[ 1160.271750] 1162380595 1162380595 0
+[ 1160.271759] 1162380607 1162380607 0
+[ 1160.271768] 1162380619 1162380619 0
+[ 1160.271777] 1162380631 1162380631 0
+[ 1160.271785] 1162380643 1162380643 0
+[ 1160.271794] 1162380655 1162380655 0
+[ 1160.271803] 1162380667 1162380667 0
+[ 1160.271812] 1162380679 1162380679 0
+[ 1160.271821] 1162380691 1162380691 0
+[ 1160.271830] 1162380703 1162380703 0
+[ 1160.271840] 1162380715 1162380715 0
+[ 1160.271849] 1162380727 1162380727 0
+[ 1160.271858] 1162380739 1162380739 0
+[ 1160.271867] 1162380751 1162380751 0
+[ 1160.271876] 1162380763 1162380763 0
+[ 1160.271885] 1162380775 1162380775 0
+[ 1160.271894] 1162380787 1162380787 0
+[ 1160.271903] 1162380799 1162380799 0
+[ 1160.271912] 1162380811 1162380811 0
+[ 1160.271921] 1162380823 1162380823 0
+[ 1160.271930] 1162380835 1162380835 0
+[ 1160.271938] 1162380847 1162380847 0
+[ 1160.271947] 1162380859 1162380859 0
+[ 1160.271956] 1162380871 1162380871 0
+[ 1160.271965] 1162380883 1162380883 0
+[ 1160.271974] 1162380895 1162380895 0
+[ 1160.271983] 1162380907 1162380907 0
+[ 1160.271991] 1162380919 1162380919 0
+[ 1160.272000] 1162380931 1162380931 0
+[ 1160.272009] 1162380943 1162380943 0
+[ 1160.272018] 1162380955 1162380955 0
+[ 1160.272027] 1162380967 1162380967 0
+[ 1160.272036] 1162380979 1162380979 0
+[ 1160.272045] 1162380991 1162380991 0
+[ 1160.272054] 1162381003 1162381003 0
+[ 1160.272063] 1162381015 1162381015 0
+[ 1160.272072] 1162381028 1162381027 -1
+[ 1160.272081] 1162381039 1162381039 0
+[ 1160.272090] 1162381051 1162381051 0
+[ 1160.272100] 1162381063 1162381063 0
+[ 1160.272109] 1162381075 1162381075 0
+[ 1160.272117] 1162381087 1162381087 0
+[ 1160.272126] 1162381099 1162381099 0
+[ 1160.272135] 1162381111 1162381111 0
+[ 1160.272144] 1162381123 1162381123 0
+[ 1160.272153] 1162381135 1162381135 0
+[ 1160.272162] 1162381147 1162381147 0
+[ 1160.272171] 1162381159 1162381159 0
+[ 1160.272180] 1162381171 1162381171 0
+[ 1160.272189] 1162381183 1162381183 0
+[ 1160.272197] 1162381195 1162381195 0
+[ 1160.272206] 1162381207 1162381207 0
+[ 1160.272215] 1162381219 1162381219 0
+[ 1160.272224] 1162381231 1162381231 0
+[ 1160.272233] 1162381243 1162381243 0
+[ 1160.272242] 1162381255 1162381255 0
+[ 1160.272251] 1162381267 1162381267 0
+[ 1160.272260] 1162381279 1162381279 0
+[ 1160.272269] 1162381291 1162381291 0
+[ 1160.272278] 1162381303 1162381303 0
+[ 1160.272287] 1162381315 1162381315 0
+[ 1160.272295] 1162381327 1162381327 0
+[ 1160.272304] 1162381339 1162381339 0
+[ 1160.272314] 1162381351 1162381351 0
+[ 1160.272323] 1162381363 1162381363 0
+[ 1160.272333] 1162381375 1162381375 0
+[ 1160.272341] 1162381387 1162381387 0
+[ 1160.272350] 1162381399 1162381399 0
+[ 1160.272360] 1162381411 1162381411 0
+[ 1160.272369] 1162381423 1162381423 0
+[ 1160.272378] 1162381435 1162381435 0
+[ 1160.272386] 1162381447 1162381447 0
+[ 1160.272395] 1162381459 1162381459 0
+[ 1160.272404] 1162381471 1162381471 0
+[ 1160.272413] 1162381483 1162381483 0
+[ 1160.272422] 1162381495 1162381495 0
+[ 1160.272431] 1162381507 1162381507 0
+[ 1160.272440] 1162381519 1162381519 0
+[ 1160.272449] 1162381531 1162381531 0
+[ 1160.272458] 1162381543 1162381543 0
+[ 1160.272467] 1162381555 1162381555 0
+[ 1160.272476] 1162381567 1162381567 0
+[ 1160.272484] 1162381579 1162381579 0
+[ 1160.272493] 1162381591 1162381591 0
+[ 1160.272502] 1162381603 1162381603 0
+[ 1160.272511] 1162381615 1162381615 0
+[ 1160.272520] 1162381627 1162381627 0
+[ 1160.272529] 1162381639 1162381639 0
+[ 1160.272538] 1162381651 1162381651 0
+[ 1160.272547] 1162381663 1162381663 0
+[ 1160.272556] 1162381675 1162381675 0
+[ 1160.272565] 1162381687 1162381687 0
+[ 1160.272575] 1162381699 1162381699 0
+[ 1160.272583] 1162381711 1162381711 0
+[ 1160.272592] 1162381723 1162381723 0
+[ 1160.272601] 1162381735 1162381735 0
+[ 1160.272610] 1162381747 1162381747 0
+[ 1160.272619] 1162381759 1162381759 0
+[ 1160.272627] 1162381771 1162381771 0
+[ 1160.272636] 1162381783 1162381783 0
+[ 1160.272645] 1162381795 1162381795 0
+[ 1160.272654] 1162381807 1162381807 0
+[ 1160.272663] 1162381819 1162381819 0
+[ 1160.272672] 1162381831 1162381831 0
+[ 1160.272681] 1162381843 1162381843 0
+[ 1160.272690] 1162381855 1162381855 0
+[ 1160.272699] 1162381867 1162381867 0
+[ 1160.272708] 1162381879 1162381879 0
+[ 1160.272717] 1162381891 1162381891 0
+[ 1160.272726] 1162381903 1162381903 0
+[ 1160.272735] 1162381915 1162381915 0
+[ 1160.272744] 1162381927 1162381927 0
+[ 1160.272753] 1162381939 1162381939 0
+[ 1160.272762] 1162381951 1162381951 0
+[ 1160.272771] 1162381963 1162381963 0
+[ 1160.272780] 1162381975 1162381975 0
+[ 1160.272790] 1162381987 1162381987 0
+[ 1160.272799] 1162381999 1162381999 0
+[ 1160.272808] 1162382011 1162382011 0
+[ 1160.272817] 1162382023 1162382023 0
+[ 1160.272826] 1162382035 1162382035 0
+[ 1160.272836] 1162382047 1162382047 0
+[ 1160.272845] 1162382059 1162382059 0
+[ 1160.272854] 1162382071 1162382071 0
+[ 1160.272864] 1162382083 1162382083 0
+[ 1160.272873] 1162382095 1162382095 0
+[ 1160.272882] 1162382107 1162382107 0
+[ 1160.272891] 1162382119 1162382119 0
+[ 1160.272900] 1162382131 1162382131 0
+[ 1160.272909] 1162382143 1162382143 0
+[ 1160.272918] 1162382155 1162382155 0
+[ 1160.272927] 1162382167 1162382167 0
+[ 1160.272935] 1162382179 1162382179 0
+[ 1160.272944] 1162382191 1162382191 0
+[ 1160.272953] 1162382203 1162382203 0
+[ 1160.272962] 1162382215 1162382215 0
+[ 1160.272971] 1162382227 1162382227 0
+[ 1160.272980] 1162382239 1162382239 0
+[ 1160.272989] 1162382251 1162382251 0
+[ 1160.272998] 1162382263 1162382263 0
+[ 1160.273007] 1162382275 1162382275 0
+[ 1160.273016] 1162382287 1162382287 0
+[ 1160.273025] 1162382299 1162382299 0
+[ 1160.273034] 1162382311 1162382311 0
+[ 1160.273042] 1162382323 1162382323 0
+[ 1160.273051] 1162382335 1162382335 0
+[ 1160.273060] 1162382347 1162382347 0
+[ 1160.273069] 1162382360 1162382359 -1
+[ 1160.273078] 1162382371 1162382371 0
+[ 1160.273087] 1162382383 1162382383 0
+[ 1160.273096] 1162382395 1162382395 0
+[ 1160.273105] 1162382407 1162382407 0
+
+[ 1160.275529] 1162384220 1162384220 98675468
+[ 1160.275538] 1162384232 1162384232 98675480
+[ 1160.275547] 1162384246 1162384244 98675494
+[ 1160.275556] 1162384258 1162384256 98675506
+[ 1160.275566] 1162384270 1162384268 98675518
+[ 1160.275575] 1162384282 1162384280 98675530
+[ 1160.275584] 1162384294 1162384292 98675542
+[ 1160.275593] 1162384306 1162384304 98675554
+[ 1160.275603] 1162384318 1162384316 98675566
+[ 1160.275612] 1162384330 1162384328 98675578
+[ 1160.275621] 1162384342 1162384340 98675590
+[ 1160.275630] 1162384354 1162384352 98675602
+[ 1160.275639] 1162384366 1162384364 98675614
+[ 1160.275648] 1162384378 1162384376 98675626
+[ 1160.275657] 1162384390 1162384388 98675638
+[ 1160.275667] 1162384402 1162384400 98675650
+[ 1160.275676] 1162384414 1162384412 98675662
+[ 1160.275685] 1162384426 1162384424 98675674
+[ 1160.275694] 1162384438 1162384436 98675686
+[ 1160.275703] 1162384450 1162384448 98675698
+[ 1160.275713] 1162384462 1162384460 98675710
+[ 1160.275722] 1162384474 1162384472 98675722
+[ 1160.275731] 1162384486 1162384484 98675734
+[ 1160.275740] 1162384498 1162384496 98675746
+[ 1160.275749] 1162384510 1162384508 98675758
+[ 1160.275758] 1162384522 1162384520 98675770
+[ 1160.275767] 1162384534 1162384532 98675782
+[ 1160.275776] 1162384546 1162384544 98675794
+[ 1160.275786] 1162384558 1162384556 98675806
+[ 1160.275795] 1162384570 1162384568 98675818
+[ 1160.275804] 1162384582 1162384580 98675830
+[ 1160.275813] 1162384594 1162384592 98675842
+[ 1160.275822] 1162384606 1162384604 98675854
+[ 1160.275832] 1162384618 1162384616 98675866
+[ 1160.275841] 1162384630 1162384628 98675878
+[ 1160.275850] 1162384642 1162384640 98675890
+[ 1160.275859] 1162384654 1162384652 98675902
+[ 1160.275868] 1162384666 1162384664 98675914
+[ 1160.275877] 1162384678 1162384676 98675926
+[ 1160.275886] 1162384690 1162384688 98675938
+[ 1160.275896] 1162384702 1162384700 98675950
+[ 1160.275905] 1162384714 1162384712 98675962
+[ 1160.275914] 1162384726 1162384724 98675974
+[ 1160.275923] 1162384738 1162384736 98675986
+[ 1160.275932] 1162384750 1162384748 98675998
+[ 1160.275942] 1162384762 1162384760 98676010
+[ 1160.275951] 1162384774 1162384772 98676022
+[ 1160.275960] 1162384786 1162384784 98676034
+[ 1160.275969] 1162384798 1162384796 98676046
+[ 1160.275978] 1162384810 1162384808 98676058
+[ 1160.275988] 1162384822 1162384820 98676070
+[ 1160.275997] 1162384834 1162384832 98676082
+[ 1160.276006] 1162384846 1162384844 98676094
+[ 1160.276015] 1162384858 1162384856 98676106
+[ 1160.276024] 1162384870 1162384868 98676118
+[ 1160.276034] 1162384882 1162384880 98676130
+[ 1160.276043] 1162384894 1162384892 98676142
+[ 1160.276052] 1162384906 1162384904 98676154
+[ 1160.276061] 1162384918 1162384916 98676166
+[ 1160.276070] 1162384930 1162384928 98676178
+[ 1160.276080] 1162384942 1162384940 98676190
+[ 1160.276089] 1162384954 1162384952 98676202
+[ 1160.276098] 1162384966 1162384964 98676214
+[ 1160.276107] 1162384978 1162384976 98676226
+[ 1160.276116] 1162384990 1162384988 98676238
+[ 1160.276125] 1162385002 1162385000 98676250
+[ 1160.276135] 1162385014 1162385012 98676262
+[ 1160.276144] 1162385026 1162385024 98676274
+[ 1160.276153] 1162385038 1162385036 98676286
+[ 1160.276162] 1162385050 1162385048 98676298
+[ 1160.276172] 1162385062 1162385060 98676310
+[ 1160.276181] 1162385074 1162385072 98676322
+[ 1160.276190] 1162385087 1162385084 98676335
+[ 1160.276199] 1162385099 1162385096 98676347
+[ 1160.276208] 1162385111 1162385108 98676359
+[ 1160.276217] 1162385123 1162385120 98676371
+[ 1160.276227] 1162385135 1162385132 98676383
+[ 1160.276236] 1162385147 1162385144 98676395
+[ 1160.276245] 1162385159 1162385156 98676407
+[ 1160.276254] 1162385171 1162385168 98676419
+[ 1160.276263] 1162385183 1162385180 98676431
+[ 1160.276272] 1162385195 1162385192 98676443
+[ 1160.276282] 1162385207 1162385204 98676455
+[ 1160.276291] 1162385219 1162385216 98676467
+[ 1160.276300] 1162385231 1162385228 98676479
+[ 1160.276309] 1162385243 1162385240 98676491
+[ 1160.276318] 1162385255 1162385252 98676503
+[ 1160.276328] 1162385267 1162385264 98676515
+[ 1160.276337] 1162385279 1162385276 98676527
+[ 1160.276346] 1162385291 1162385288 98676539
+[ 1160.276355] 1162385303 1162385300 98676551
+[ 1160.276364] 1162385315 1162385312 98676563
+[ 1160.276374] 1162385327 1162385324 98676575
+[ 1160.276383] 1162385339 1162385336 98676587
+[ 1160.276392] 1162385351 1162385348 98676599
+[ 1160.276401] 1162385363 1162385360 98676611
+[ 1160.276410] 1162385375 1162385372 98676623
+[ 1160.276419] 1162385387 1162385384 98676635
+[ 1160.276428] 1162385399 1162385396 98676647
+[ 1160.276437] 1162385411 1162385408 98676659
+[ 1160.276447] 1162385423 1162385420 98676671
+[ 1160.276456] 1162385435 1162385432 98676683
+[ 1160.276466] 1162385447 1162385444 98676695
+[ 1160.276475] 1162385459 1162385456 98676707
+[ 1160.276484] 1162385471 1162385468 98676719
+[ 1160.276493] 1162385483 1162385480 98676731
+[ 1160.276503] 1162385495 1162385492 98676743
+[ 1160.276512] 1162385507 1162385504 98676755
+[ 1160.276521] 1162385519 1162385516 98676767
+[ 1160.276530] 1162385531 1162385528 98676779
+[ 1160.276539] 1162385543 1162385540 98676791
+[ 1160.276548] 1162385555 1162385552 98676803
+[ 1160.276558] 1162385567 1162385564 98676815
+[ 1160.276567] 1162385579 1162385576 98676827
+[ 1160.276576] 1162385591 1162385588 98676839
+[ 1160.276585] 1162385603 1162385600 98676851
+[ 1160.276594] 1162385615 1162385612 98676863
+[ 1160.276604] 1162385627 1162385624 98676875
+[ 1160.276613] 1162385639 1162385636 98676887
+[ 1160.276622] 1162385651 1162385648 98676899
+[ 1160.276631] 1162385663 1162385660 98676911
+[ 1160.276640] 1162385675 1162385672 98676923
+[ 1160.276649] 1162385687 1162385684 98676935
+[ 1160.276659] 1162385699 1162385696 98676947
+[ 1160.276668] 1162385711 1162385708 98676959
+[ 1160.276677] 1162385723 1162385720 98676971
+[ 1160.276686] 1162385735 1162385732 98676983
+[ 1160.276695] 1162385747 1162385744 98676995
+[ 1160.276705] 1162385759 1162385756 98677007
+[ 1160.276714] 1162385771 1162385768 98677019
+[ 1160.276723] 1162385783 1162385780 98677031
+[ 1160.276732] 1162385795 1162385792 98677043
+[ 1160.276741] 1162385807 1162385804 98677055
+[ 1160.276751] 1162385819 1162385816 98677067
+[ 1160.276760] 1162385831 1162385828 98677079
+[ 1160.276769] 1162385843 1162385840 98677091
+[ 1160.276778] 1162385855 1162385852 98677103
+[ 1160.276788] 1162385868 1162385864 98677116
+[ 1160.276797] 1162385880 1162385876 98677128
+[ 1160.276806] 1162385892 1162385888 98677140
+[ 1160.276815] 1162385904 1162385900 98677152
+[ 1160.276824] 1162385916 1162385912 98677164
+[ 1160.276833] 1162385930 1162385924 98677178
+[ 1160.276843] 1162385942 1162385936 98677190
+[ 1160.276852] 1162385954 1162385948 98677202
+[ 1160.276861] 1162385966 1162385960 98677214
+[ 1160.276870] 1162385978 1162385972 98677226
+[ 1160.276879] 1162385990 1162385984 98677238
+[ 1160.276889] 1162386002 1162385996 98677250
+[ 1160.276898] 1162386014 1162386008 98677262
+[ 1160.276907] 1162386026 1162386020 98677274
+[ 1160.276916] 1162386038 1162386032 98677286
+[ 1160.276925] 1162386050 1162386044 98677298
+[ 1160.276934] 1162386062 1162386056 98677310
+[ 1160.276944] 1162386074 1162386068 98677322
+[ 1160.276953] 1162386086 1162386080 98677334
+[ 1160.276962] 1162386098 1162386092 98677346
+[ 1160.276971] 1162386110 1162386104 98677358
+[ 1160.276980] 1162386122 1162386116 98677370
+[ 1160.276990] 1162386134 1162386128 98677382
+[ 1160.276999] 1162386146 1162386140 98677394
+[ 1160.277008] 1162386159 1162386152 98677407
+[ 1160.277018] 1162386171 1162386164 98677419
+[ 1160.277027] 1162386183 1162386176 98677431
+[ 1160.277036] 1162386195 1162386188 98677443
+[ 1160.277045] 1162386207 1162386200 98677455
+[ 1160.277055] 1162386220 1162386212 98677468
+[ 1160.277064] 1162386232 1162386224 98677480
+[ 1160.277073] 1162386244 1162386236 98677492
+[ 1160.277082] 1162386256 1162386248 98677504
+[ 1160.277091] 1162386268 1162386260 98677516
+[ 1160.277100] 1162386280 1162386272 98677528
+[ 1160.277110] 1162386292 1162386284 98677540
+[ 1160.277119] 1162386304 1162386296 98677552
+[ 1160.277128] 1162386316 1162386308 98677564
+[ 1160.277137] 1162386328 1162386320 98677576
+[ 1160.277146] 1162386340 1162386332 98677588
+[ 1160.277155] 1162386352 1162386344 98677600
+[ 1160.277164] 1162386364 1162386356 98677612
+[ 1160.277173] 1162386376 1162386368 98677624
+[ 1160.277183] 1162386388 1162386380 98677636
+[ 1160.277192] 1162386400 1162386392 98677648
+[ 1160.277201] 1162386412 1162386404 98677660
+[ 1160.277210] 1162386424 1162386416 98677672
+[ 1160.277219] 1162386436 1162386428 98677684
+[ 1160.277228] 1162386448 1162386440 98677696
+[ 1160.277238] 1162386460 1162386452 98677708
+[ 1160.277247] 1162386472 1162386464 98677720
+[ 1160.277256] 1162386484 1162386476 98677732
+[ 1160.277265] 1162386496 1162386488 98677744
+[ 1160.277274] 1162386508 1162386500 98677756
+[ 1160.277283] 1162386520 1162386512 98677768
+[ 1160.277293] 1162386532 1162386524 98677780
+[ 1160.277302] 1162386544 1162386536 98677792
+[ 1160.277311] 1162386556 1162386548 98677804
+[ 1160.277320] 1162386568 1162386560 98677816
+[ 1160.277329] 1162386580 1162386572 98677828
+[ 1160.277339] 1162386592 1162386584 98677840
+[ 1160.277348] 1162386604 1162386596 98677852
+[ 1160.277357] 1162386616 1162386608 98677864
+
+[ 1275.687056] dlaser exit successfully
+[ 1278.928366] address = f3200000
+[ 1278.928385] Changing function of GPIO22 from 0 to 0
+[ 1278.928390] dlaser init successfully1
+[ 1278.928596] 1281039798 1281039797 1
+[ 1278.928603] 1281039798 1281039798 0
+[ 1278.928608] 1281039799 1281039799 0
+[ 1278.928613] 1281039800 1281039800 0
+[ 1278.928617] 1281039801 1281039801 0
+[ 1278.928622] 1281039802 1281039802 0
+[ 1278.928626] 1281039805 1281039803 2
+[ 1278.928631] 1281039805 1281039804 1
+[ 1278.928636] 1281039806 1281039805 1
+[ 1278.928640] 1281039806 1281039806 0
+[ 1278.928646] 1281039807 1281039807 0
+[ 1278.928650] 1281039808 1281039808 0
+[ 1278.928655] 1281039809 1281039809 0
+[ 1278.928661] 1281039810 1281039810 0
+[ 1278.928665] 1281039811 1281039811 0
+[ 1278.928670] 1281039812 1281039812 0
+[ 1278.928676] 1281039813 1281039813 0
+[ 1278.928680] 1281039814 1281039814 0
+[ 1278.928685] 1281039815 1281039815 0
+[ 1278.928690] 1281039816 1281039816 0
+[ 1278.928695] 1281039817 1281039817 0
+[ 1278.928700] 1281039818 1281039818 0
+[ 1278.928704] 1281039820 1281039819 1
+[ 1278.928709] 1281039820 1281039820 0
+[ 1278.928714] 1281039821 1281039821 0
+[ 1278.928718] 1281039822 1281039822 0
+[ 1278.928723] 1281039823 1281039823 0
+[ 1278.928728] 1281039824 1281039824 0
+[ 1278.928732] 1281039825 1281039825 0
+[ 1278.928738] 1281039826 1281039826 0
+[ 1278.928743] 1281039827 1281039827 0
+[ 1278.928748] 1281039828 1281039828 0
+[ 1278.928753] 1281039829 1281039829 0
+[ 1278.928757] 1281039830 1281039830 0
+[ 1278.928762] 1281039831 1281039831 0
+[ 1278.928766] 1281039832 1281039832 0
+[ 1278.928771] 1281039833 1281039833 0
+[ 1278.928775] 1281039836 1281039834 2
+[ 1278.928780] 1281039836 1281039835 1
+[ 1278.928784] 1281039836 1281039836 0
+[ 1278.928789] 1281039837 1281039837 0
+[ 1278.928793] 1281039838 1281039838 0
+[ 1278.928799] 1281039839 1281039839 0
+[ 1278.928803] 1281039840 1281039840 0
+[ 1278.928808] 1281039841 1281039841 0
+[ 1278.928814] 1281039842 1281039842 0
+[ 1278.928819] 1281039843 1281039843 0
+[ 1278.928823] 1281039844 1281039844 0
+[ 1278.928829] 1281039845 1281039845 0
+[ 1278.928834] 1281039846 1281039846 0
+[ 1278.928838] 1281039847 1281039847 0
+[ 1278.928843] 1281039848 1281039848 0
+[ 1278.928847] 1281039851 1281039849 2
+[ 1278.928852] 1281039851 1281039850 1
+[ 1278.928856] 1281039851 1281039851 0
+[ 1278.928861] 1281039852 1281039852 0
+[ 1278.928865] 1281039853 1281039853 0
+[ 1278.928870] 1281039854 1281039854 0
+[ 1278.928875] 1281039855 1281039855 0
+[ 1278.928879] 1281039856 1281039856 0
+[ 1278.928884] 1281039857 1281039857 0
+[ 1278.928888] 1281039858 1281039858 0
+[ 1278.928893] 1281039859 1281039859 0
+[ 1278.928897] 1281039860 1281039860 0
+[ 1278.928902] 1281039861 1281039861 0
+[ 1278.928907] 1281039862 1281039862 0
+[ 1278.928912] 1281039863 1281039863 0
+[ 1278.928916] 1281039865 1281039864 1
+[ 1278.928921] 1281039866 1281039865 1
+[ 1278.928926] 1281039866 1281039866 0
+[ 1278.928930] 1281039867 1281039867 0
+[ 1278.928935] 1281039868 1281039868 0
+[ 1278.928940] 1281039869 1281039869 0
+[ 1278.928944] 1281039870 1281039870 0
+[ 1278.928949] 1281039871 1281039871 0
+[ 1278.928953] 1281039872 1281039872 0
+[ 1278.928958] 1281039873 1281039873 0
+[ 1278.928962] 1281039874 1281039874 0
+[ 1278.928967] 1281039875 1281039875 0
+[ 1278.928971] 1281039876 1281039876 0
+[ 1278.928976] 1281039877 1281039877 0
+[ 1278.928981] 1281039878 1281039878 0
+[ 1278.928985] 1281039879 1281039879 0
+[ 1278.928989] 1281039881 1281039880 1
+[ 1278.928994] 1281039881 1281039881 0
+[ 1278.928999] 1281039882 1281039882 0
+[ 1278.929003] 1281039883 1281039883 0
+[ 1278.929008] 1281039884 1281039884 0
+[ 1278.929013] 1281039885 1281039885 0
+[ 1278.929017] 1281039886 1281039886 0
+[ 1278.929022] 1281039887 1281039887 0
+[ 1278.929026] 1281039888 1281039888 0
+[ 1278.929031] 1281039889 1281039889 0
+[ 1278.929036] 1281039890 1281039890 0
+[ 1278.929040] 1281039891 1281039891 0
+[ 1278.929045] 1281039892 1281039892 0
+[ 1278.929049] 1281039893 1281039893 0
+[ 1278.929054] 1281039894 1281039894 0
+[ 1278.929059] 1281039897 1281039895 2
+[ 1278.929063] 1281039897 1281039896 1
+[ 1278.929068] 1281039897 1281039897 0
+[ 1278.929073] 1281039898 1281039898 0
+[ 1278.929078] 1281039899 1281039899 0
+[ 1278.929082] 1281039900 1281039900 0
+[ 1278.929087] 1281039901 1281039901 0
+[ 1278.929091] 1281039902 1281039902 0
+[ 1278.929096] 1281039903 1281039903 0
+[ 1278.929100] 1281039904 1281039904 0
+[ 1278.929105] 1281039905 1281039905 0
+[ 1278.929110] 1281039906 1281039906 0
+[ 1278.929114] 1281039907 1281039907 0
+[ 1278.929120] 1281039908 1281039908 0
+[ 1278.929125] 1281039909 1281039909 0
+[ 1278.929129] 1281039911 1281039910 1
+[ 1278.929136] 1281039912 1281039911 1
+[ 1278.929140] 1281039912 1281039912 0
+[ 1278.929145] 1281039913 1281039913 0
+[ 1278.929151] 1281039914 1281039914 0
+[ 1278.929155] 1281039915 1281039915 0
+[ 1278.929160] 1281039916 1281039916 0
+[ 1278.929165] 1281039917 1281039917 0
+[ 1278.929170] 1281039918 1281039918 0
+[ 1278.929174] 1281039919 1281039919 0
+[ 1278.929179] 1281039920 1281039920 0
+[ 1278.929183] 1281039921 1281039921 0
+[ 1278.929188] 1281039922 1281039922 0
+[ 1278.929192] 1281039923 1281039923 0
+[ 1278.929197] 1281039924 1281039924 0
+[ 1278.929202] 1281039925 1281039925 0
+[ 1278.929206] 1281039927 1281039926 1
+[ 1278.929211] 1281039928 1281039927 1
+[ 1278.929216] 1281039928 1281039928 0
+[ 1278.929220] 1281039929 1281039929 0
+[ 1278.929225] 1281039930 1281039930 0
+[ 1278.929229] 1281039931 1281039931 0
+[ 1278.929234] 1281039932 1281039932 0
+[ 1278.929238] 1281039933 1281039933 0
+[ 1278.929243] 1281039934 1281039934 0
+[ 1278.929247] 1281039935 1281039935 0
+[ 1278.929252] 1281039936 1281039936 0
+[ 1278.929258] 1281039937 1281039937 0
+[ 1278.929263] 1281039938 1281039938 0
+[ 1278.929267] 1281039939 1281039939 0
+[ 1278.929273] 1281039940 1281039940 0
+[ 1278.929278] 1281039942 1281039941 1
+[ 1278.929282] 1281039943 1281039942 1
+[ 1278.929288] 1281039943 1281039943 0
+[ 1278.929292] 1281039944 1281039944 0
+[ 1278.929297] 1281039945 1281039945 0
+[ 1278.929302] 1281039946 1281039946 0
+[ 1278.929306] 1281039947 1281039947 0
+[ 1278.929311] 1281039948 1281039948 0
+[ 1278.929315] 1281039949 1281039949 0
+[ 1278.929320] 1281039950 1281039950 0
+[ 1278.929324] 1281039951 1281039951 0
+[ 1278.929329] 1281039952 1281039952 0
+[ 1278.929335] 1281039953 1281039953 0
+[ 1278.929339] 1281039954 1281039954 0
+[ 1278.929344] 1281039955 1281039955 0
+[ 1278.929350] 1281039958 1281039956 2
+[ 1278.929354] 1281039959 1281039957 2
+[ 1278.929359] 1281039959 1281039958 1
+[ 1278.929365] 1281039959 1281039959 0
+[ 1278.929370] 1281039960 1281039960 0
+[ 1278.929374] 1281039961 1281039961 0
+[ 1278.929381] 1281039962 1281039962 0
+[ 1278.929385] 1281039963 1281039963 0
+[ 1278.929390] 1281039964 1281039964 0
+[ 1278.929395] 1281039965 1281039965 0
+[ 1278.929400] 1281039966 1281039966 0
+[ 1278.929404] 1281039967 1281039967 0
+[ 1278.929409] 1281039968 1281039968 0
+[ 1278.929413] 1281039969 1281039969 0
+[ 1278.929418] 1281039970 1281039970 0
+[ 1278.929422] 1281039971 1281039971 0
+[ 1278.929428] 1281039973 1281039972 1
+[ 1278.929433] 1281039974 1281039973 1
+[ 1278.929437] 1281039974 1281039974 0
+[ 1278.929442] 1281039975 1281039975 0
+[ 1278.929447] 1281039976 1281039976 0
+[ 1278.929451] 1281039977 1281039977 0
+[ 1278.929457] 1281039978 1281039978 0
+[ 1278.929462] 1281039979 1281039979 0
+[ 1278.929467] 1281039980 1281039980 0
+[ 1278.929472] 1281039981 1281039981 0
+[ 1278.929477] 1281039982 1281039982 0
+[ 1278.929482] 1281039983 1281039983 0
+[ 1278.929486] 1281039984 1281039984 0
+[ 1278.929491] 1281039985 1281039985 0
+[ 1278.929495] 1281039986 1281039986 0
+[ 1278.929500] 1281039988 1281039987 1
+[ 1278.929504] 1281039988 1281039988 0
+[ 1278.929509] 1281039989 1281039989 0
+[ 1278.929513] 1281039990 1281039990 0
+[ 1278.929519] 1281039991 1281039991 0
+[ 1278.929523] 1281039992 1281039992 0
+[ 1278.929528] 1281039993 1281039993 0
+[ 1278.929534] 1281039994 1281039994 0
+[ 1278.929538] 1281039995 1281039995 0
+[ 1278.929543] 1281039996 1281039996 0
+
+[ 1278.931951] 1281040954 1281040953 1
+[ 1278.931959] 1281040965 1281040965 0
+[ 1278.931964] 1281040977 1281040977 0
+[ 1278.931969] 1281040989 1281040989 0
+[ 1278.931974] 1281041001 1281041001 0
+[ 1278.931978] 1281041015 1281041013 2
+[ 1278.931984] 1281041025 1281041025 0
+[ 1278.931989] 1281041037 1281041037 0
+[ 1278.931993] 1281041049 1281041049 0
+[ 1278.931998] 1281041061 1281041061 0
+[ 1278.932002] 1281041073 1281041073 0
+[ 1278.932007] 1281041085 1281041085 0
+[ 1278.932011] 1281041097 1281041097 0
+[ 1278.932016] 1281041109 1281041109 0
+[ 1278.932021] 1281041121 1281041121 0
+[ 1278.932025] 1281041133 1281041133 0
+[ 1278.932030] 1281041145 1281041145 0
+[ 1278.932035] 1281041157 1281041157 0
+[ 1278.932040] 1281041169 1281041169 0
+[ 1278.932046] 1281041181 1281041181 0
+[ 1278.932050] 1281041193 1281041193 0
+[ 1278.932055] 1281041205 1281041205 0
+[ 1278.932061] 1281041217 1281041217 0
+[ 1278.932065] 1281041229 1281041229 0
+[ 1278.932070] 1281041241 1281041241 0
+[ 1278.932076] 1281041253 1281041253 0
+[ 1278.932081] 1281041265 1281041265 0
+[ 1278.932085] 1281041277 1281041277 0
+[ 1278.932090] 1281041290 1281041289 1
+[ 1278.932095] 1281041301 1281041301 0
+[ 1278.932099] 1281041313 1281041313 0
+[ 1278.932103] 1281041325 1281041325 0
+[ 1278.932108] 1281041337 1281041337 0
+[ 1278.932112] 1281041349 1281041349 0
+[ 1278.932117] 1281041361 1281041361 0
+[ 1278.932122] 1281041373 1281041373 0
+[ 1278.932127] 1281041385 1281041385 0
+[ 1278.932131] 1281041397 1281041397 0
+[ 1278.932138] 1281041409 1281041409 0
+[ 1278.932142] 1281041421 1281041421 0
+[ 1278.932146] 1281041433 1281041433 0
+[ 1278.932151] 1281041445 1281041445 0
+[ 1278.932155] 1281041458 1281041457 1
+[ 1278.932160] 1281041469 1281041469 0
+[ 1278.932164] 1281041481 1281041481 0
+[ 1278.932170] 1281041493 1281041493 0
+[ 1278.932174] 1281041505 1281041505 0
+[ 1278.932179] 1281041517 1281041517 0
+[ 1278.932184] 1281041529 1281041529 0
+[ 1278.932188] 1281041541 1281041541 0
+[ 1278.932193] 1281041553 1281041553 0
+[ 1278.932199] 1281041565 1281041565 0
+[ 1278.932203] 1281041577 1281041577 0
+[ 1278.932208] 1281041589 1281041589 0
+[ 1278.932214] 1281041601 1281041601 0
+[ 1278.932219] 1281041613 1281041613 0
+[ 1278.932223] 1281041625 1281041625 0
+[ 1278.932228] 1281041637 1281041637 0
+[ 1278.932232] 1281041649 1281041649 0
+[ 1278.932237] 1281041661 1281041661 0
+[ 1278.932241] 1281041673 1281041673 0
+[ 1278.932246] 1281041685 1281041685 0
+[ 1278.932250] 1281041697 1281041697 0
+[ 1278.932254] 1281041709 1281041709 0
+[ 1278.932260] 1281041721 1281041721 0
+[ 1278.932264] 1281041733 1281041733 0
+[ 1278.932269] 1281041745 1281041745 0
+[ 1278.932275] 1281041757 1281041757 0
+[ 1278.932280] 1281041769 1281041769 0
+[ 1278.932284] 1281041781 1281041781 0
+[ 1278.932289] 1281041793 1281041793 0
+[ 1278.932294] 1281041805 1281041805 0
+[ 1278.932298] 1281041817 1281041817 0
+[ 1278.932303] 1281041829 1281041829 0
+[ 1278.932308] 1281041841 1281041841 0
+[ 1278.932312] 1281041853 1281041853 0
+[ 1278.932317] 1281041865 1281041865 0
+[ 1278.932323] 1281041877 1281041877 0
+[ 1278.932327] 1281041889 1281041889 0
+[ 1278.932332] 1281041901 1281041901 0
+[ 1278.932337] 1281041913 1281041913 0
+[ 1278.932341] 1281041925 1281041925 0
+[ 1278.932346] 1281041937 1281041937 0
+[ 1278.932352] 1281041949 1281041949 0
+[ 1278.932356] 1281041961 1281041961 0
+[ 1278.932361] 1281041973 1281041973 0
+[ 1278.932365] 1281041985 1281041985 0
+[ 1278.932370] 1281041997 1281041997 0
+[ 1278.932374] 1281042009 1281042009 0
+[ 1278.932379] 1281042021 1281042021 0
+[ 1278.932383] 1281042033 1281042033 0
+[ 1278.932388] 1281042045 1281042045 0
+[ 1278.932392] 1281042057 1281042057 0
+[ 1278.932398] 1281042069 1281042069 0
+[ 1278.932403] 1281042081 1281042081 0
+[ 1278.932407] 1281042093 1281042093 0
+[ 1278.932412] 1281042105 1281042105 0
+[ 1278.932417] 1281042117 1281042117 0
+[ 1278.932421] 1281042129 1281042129 0
+[ 1278.932426] 1281042141 1281042141 0
+[ 1278.932430] 1281042153 1281042153 0
+[ 1278.932434] 1281042165 1281042165 0
+[ 1278.932439] 1281042177 1281042177 0
+[ 1278.932443] 1281042189 1281042189 0
+[ 1278.932448] 1281042201 1281042201 0
+[ 1278.932452] 1281042213 1281042213 0
+[ 1278.932457] 1281042225 1281042225 0
+[ 1278.932462] 1281042237 1281042237 0
+[ 1278.932466] 1281042249 1281042249 0
+[ 1278.932471] 1281042261 1281042261 0
+[ 1278.932475] 1281042273 1281042273 0
+[ 1278.932480] 1281042286 1281042285 1
+[ 1278.932484] 1281042297 1281042297 0
+[ 1278.932489] 1281042309 1281042309 0
+[ 1278.932494] 1281042321 1281042321 0
+[ 1278.932498] 1281042333 1281042333 0
+[ 1278.932503] 1281042345 1281042345 0
+[ 1278.932507] 1281042357 1281042357 0
+[ 1278.932512] 1281042369 1281042369 0
+[ 1278.932516] 1281042381 1281042381 0
+[ 1278.932521] 1281042393 1281042393 0
+[ 1278.932525] 1281042405 1281042405 0
+[ 1278.932530] 1281042417 1281042417 0
+[ 1278.932536] 1281042429 1281042429 0
+[ 1278.932540] 1281042441 1281042441 0
+[ 1278.932545] 1281042454 1281042453 1
+[ 1278.932551] 1281042465 1281042465 0
+[ 1278.932555] 1281042477 1281042477 0
+[ 1278.932560] 1281042489 1281042489 0
+[ 1278.932564] 1281042501 1281042501 0
+[ 1278.932569] 1281042513 1281042513 0
+[ 1278.932573] 1281042525 1281042525 0
+[ 1278.932578] 1281042537 1281042537 0
+[ 1278.932583] 1281042549 1281042549 0
+[ 1278.932588] 1281042562 1281042561 1
+[ 1278.932592] 1281042573 1281042573 0
+[ 1278.932597] 1281042585 1281042585 0
+[ 1278.932602] 1281042597 1281042597 0
+[ 1278.932606] 1281042609 1281042609 0
+[ 1278.932612] 1281042623 1281042621 2
+[ 1278.932616] 1281042633 1281042633 0
+[ 1278.932621] 1281042645 1281042645 0
+[ 1278.932625] 1281042657 1281042657 0
+[ 1278.932630] 1281042669 1281042669 0
+[ 1278.932634] 1281042681 1281042681 0
+[ 1278.932639] 1281042693 1281042693 0
+[ 1278.932643] 1281042705 1281042705 0
+[ 1278.932648] 1281042717 1281042717 0
+[ 1278.932652] 1281042730 1281042729 1
+[ 1278.932658] 1281042741 1281042741 0
+[ 1278.932663] 1281042753 1281042753 0
+[ 1278.932667] 1281042765 1281042765 0
+[ 1278.932672] 1281042777 1281042777 0
+[ 1278.932677] 1281042789 1281042789 0
+[ 1278.932681] 1281042801 1281042801 0
+[ 1278.932686] 1281042813 1281042813 0
+[ 1278.932690] 1281042825 1281042825 0
+[ 1278.932695] 1281042837 1281042837 0
+[ 1278.932700] 1281042849 1281042849 0
+[ 1278.932704] 1281042861 1281042861 0
+[ 1278.932709] 1281042873 1281042873 0
+[ 1278.932713] 1281042885 1281042885 0
+[ 1278.932718] 1281042898 1281042897 1
+[ 1278.932723] 1281042909 1281042909 0
+[ 1278.932727] 1281042921 1281042921 0
+[ 1278.932732] 1281042933 1281042933 0
+[ 1278.932738] 1281042945 1281042945 0
+[ 1278.932742] 1281042957 1281042957 0
+[ 1278.932747] 1281042969 1281042969 0
+[ 1278.932751] 1281042981 1281042981 0
+[ 1278.932756] 1281042993 1281042993 0
+[ 1278.932760] 1281043006 1281043005 1
+[ 1278.932765] 1281043017 1281043017 0
+[ 1278.932769] 1281043029 1281043029 0
+[ 1278.932774] 1281043041 1281043041 0
+[ 1278.932778] 1281043053 1281043053 0
+[ 1278.932783] 1281043067 1281043065 2
+[ 1278.932787] 1281043077 1281043077 0
+[ 1278.932792] 1281043089 1281043089 0
+[ 1278.932796] 1281043101 1281043101 0
+[ 1278.932801] 1281043113 1281043113 0
+[ 1278.932805] 1281043125 1281043125 0
+[ 1278.932812] 1281043137 1281043137 0
+[ 1278.932816] 1281043149 1281043149 0
+[ 1278.932820] 1281043161 1281043161 0
+[ 1278.932825] 1281043173 1281043173 0
+[ 1278.932831] 1281043185 1281043185 0
+[ 1278.932835] 1281043197 1281043197 0
+[ 1278.932840] 1281043209 1281043209 0
+[ 1278.932844] 1281043221 1281043221 0
+[ 1278.932849] 1281043233 1281043233 0
+[ 1278.932854] 1281043245 1281043245 0
+[ 1278.932859] 1281043257 1281043257 0
+[ 1278.932863] 1281043269 1281043269 0
+[ 1278.932868] 1281043281 1281043281 0
+[ 1278.932873] 1281043293 1281043293 0
+[ 1278.932877] 1281043305 1281043305 0
+[ 1278.932882] 1281043317 1281043317 0
+[ 1278.932888] 1281043329 1281043329 0
+[ 1278.932892] 1281043342 1281043341 1
+
+[ 1278.935301] 1281044303 1281044303 0
+[ 1278.935308] 1281044315 1281044315 0
+[ 1278.935313] 1281044327 1281044327 0
+[ 1278.935317] 1281044339 1281044339 0
+[ 1278.935324] 1281044351 1281044351 0
+[ 1278.935328] 1281044363 1281044363 0
+[ 1278.935333] 1281044375 1281044375 0
+[ 1278.935337] 1281044387 1281044387 0
+[ 1278.935342] 1281044400 1281044399 -1
+[ 1278.935346] 1281044411 1281044411 0
+[ 1278.935350] 1281044423 1281044423 0
+[ 1278.935355] 1281044435 1281044435 0
+[ 1278.935360] 1281044447 1281044447 0
+[ 1278.935364] 1281044460 1281044459 -1
+[ 1278.935369] 1281044471 1281044471 0
+[ 1278.935374] 1281044483 1281044483 0
+[ 1278.935379] 1281044495 1281044495 0
+[ 1278.935385] 1281044507 1281044507 0
+[ 1278.935389] 1281044519 1281044519 0
+[ 1278.935394] 1281044531 1281044531 0
+[ 1278.935400] 1281044543 1281044543 0
+[ 1278.935404] 1281044555 1281044555 0
+[ 1278.935409] 1281044567 1281044567 0
+[ 1278.935413] 1281044579 1281044579 0
+[ 1278.935418] 1281044591 1281044591 0
+[ 1278.935422] 1281044603 1281044603 0
+[ 1278.935427] 1281044615 1281044615 0
+[ 1278.935431] 1281044627 1281044627 0
+[ 1278.935436] 1281044639 1281044639 0
+[ 1278.935440] 1281044651 1281044651 0
+[ 1278.935445] 1281044663 1281044663 0
+[ 1278.935450] 1281044675 1281044675 0
+[ 1278.935454] 1281044687 1281044687 0
+[ 1278.935459] 1281044699 1281044699 0
+[ 1278.935463] 1281044711 1281044711 0
+[ 1278.935468] 1281044723 1281044723 0
+[ 1278.935472] 1281044736 1281044735 -1
+[ 1278.935476] 1281044747 1281044747 0
+[ 1278.935481] 1281044759 1281044759 0
+[ 1278.935485] 1281044771 1281044771 0
+[ 1278.935491] 1281044783 1281044783 0
+[ 1278.935495] 1281044795 1281044795 0
+[ 1278.935500] 1281044807 1281044807 0
+[ 1278.935504] 1281044819 1281044819 0
+[ 1278.935509] 1281044831 1281044831 0
+[ 1278.935513] 1281044844 1281044843 -1
+[ 1278.935518] 1281044855 1281044855 0
+[ 1278.935523] 1281044867 1281044867 0
+[ 1278.935528] 1281044879 1281044879 0
+[ 1278.935532] 1281044891 1281044891 0
+[ 1278.935537] 1281044903 1281044903 0
+[ 1278.935542] 1281044915 1281044915 0
+[ 1278.935546] 1281044927 1281044927 0
+[ 1278.935551] 1281044939 1281044939 0
+[ 1278.935555] 1281044951 1281044951 0
+[ 1278.935560] 1281044963 1281044963 0
+[ 1278.935564] 1281044975 1281044975 0
+[ 1278.935569] 1281044987 1281044987 0
+[ 1278.935573] 1281044999 1281044999 0
+[ 1278.935577] 1281045012 1281045011 -1
+[ 1278.935583] 1281045023 1281045023 0
+[ 1278.935587] 1281045035 1281045035 0
+[ 1278.935592] 1281045047 1281045047 0
+[ 1278.935596] 1281045059 1281045059 0
+[ 1278.935601] 1281045071 1281045071 0
+[ 1278.935605] 1281045083 1281045083 0
+[ 1278.935610] 1281045095 1281045095 0
+[ 1278.935615] 1281045107 1281045107 0
+[ 1278.935619] 1281045119 1281045119 0
+[ 1278.935624] 1281045131 1281045131 0
+[ 1278.935630] 1281045143 1281045143 0
+[ 1278.935634] 1281045155 1281045155 0
+[ 1278.935638] 1281045167 1281045167 0
+[ 1278.935643] 1281045179 1281045179 0
+[ 1278.935647] 1281045191 1281045191 0
+[ 1278.935652] 1281045203 1281045203 0
+[ 1278.935656] 1281045215 1281045215 0
+[ 1278.935661] 1281045227 1281045227 0
+[ 1278.935665] 1281045239 1281045239 0
+[ 1278.935669] 1281045251 1281045251 0
+[ 1278.935675] 1281045263 1281045263 0
+[ 1278.935680] 1281045275 1281045275 0
+[ 1278.935684] 1281045287 1281045287 0
+[ 1278.935688] 1281045299 1281045299 0
+[ 1278.935693] 1281045311 1281045311 0
+[ 1278.935697] 1281045323 1281045323 0
+[ 1278.935702] 1281045335 1281045335 0
+[ 1278.935706] 1281045347 1281045347 0
+[ 1278.935711] 1281045359 1281045359 0
+[ 1278.935715] 1281045371 1281045371 0
+[ 1278.935720] 1281045383 1281045383 0
+[ 1278.935724] 1281045395 1281045395 0
+[ 1278.935729] 1281045407 1281045407 0
+[ 1278.935733] 1281045419 1281045419 0
+[ 1278.935737] 1281045431 1281045431 0
+[ 1278.935742] 1281045443 1281045443 0
+[ 1278.935746] 1281045456 1281045455 -1
+[ 1278.935752] 1281045467 1281045467 0
+[ 1278.935757] 1281045479 1281045479 0
+[ 1278.935761] 1281045491 1281045491 0
+[ 1278.935768] 1281045503 1281045503 0
+[ 1278.935772] 1281045515 1281045515 0
+[ 1278.935776] 1281045527 1281045527 0
+[ 1278.935781] 1281045539 1281045539 0
+[ 1278.935785] 1281045551 1281045551 0
+[ 1278.935790] 1281045563 1281045563 0
+[ 1278.935794] 1281045575 1281045575 0
+[ 1278.935799] 1281045587 1281045587 0
+[ 1278.935803] 1281045599 1281045599 0
+[ 1278.935808] 1281045611 1281045611 0
+[ 1278.935813] 1281045624 1281045623 -1
+[ 1278.935818] 1281045635 1281045635 0
+[ 1278.935823] 1281045647 1281045647 0
+[ 1278.935829] 1281045659 1281045659 0
+[ 1278.935833] 1281045671 1281045671 0
+[ 1278.935838] 1281045683 1281045683 0
+[ 1278.935844] 1281045695 1281045695 0
+[ 1278.935849] 1281045707 1281045707 0
+[ 1278.935853] 1281045719 1281045719 0
+[ 1278.935858] 1281045731 1281045731 0
+[ 1278.935862] 1281045743 1281045743 0
+[ 1278.935867] 1281045755 1281045755 0
+[ 1278.935871] 1281045767 1281045767 0
+[ 1278.935876] 1281045779 1281045779 0
+[ 1278.935880] 1281045791 1281045791 0
+[ 1278.935885] 1281045803 1281045803 0
+[ 1278.935890] 1281045815 1281045815 0
+[ 1278.935895] 1281045827 1281045827 0
+[ 1278.935899] 1281045839 1281045839 0
+[ 1278.935905] 1281045851 1281045851 0
+[ 1278.935909] 1281045863 1281045863 0
+[ 1278.935914] 1281045875 1281045875 0
+[ 1278.935918] 1281045887 1281045887 0
+[ 1278.935922] 1281045899 1281045899 0
+[ 1278.935927] 1281045911 1281045911 0
+[ 1278.935932] 1281045923 1281045923 0
+[ 1278.935936] 1281045935 1281045935 0
+[ 1278.935941] 1281045947 1281045947 0
+[ 1278.935945] 1281045959 1281045959 0
+[ 1278.935951] 1281045971 1281045971 0
+[ 1278.935956] 1281045983 1281045983 0
+[ 1278.935960] 1281045995 1281045995 0
+[ 1278.935965] 1281046007 1281046007 0
+[ 1278.935970] 1281046019 1281046019 0
+[ 1278.935974] 1281046031 1281046031 0
+[ 1278.935979] 1281046043 1281046043 0
+[ 1278.935983] 1281046055 1281046055 0
+[ 1278.935988] 1281046067 1281046067 0
+[ 1278.935992] 1281046079 1281046079 0
+[ 1278.935997] 1281046091 1281046091 0
+[ 1278.936002] 1281046103 1281046103 0
+[ 1278.936006] 1281046115 1281046115 0
+[ 1278.936011] 1281046127 1281046127 0
+[ 1278.936016] 1281046139 1281046139 0
+[ 1278.936020] 1281046151 1281046151 0
+[ 1278.936025] 1281046163 1281046163 0
+[ 1278.936030] 1281046176 1281046175 -1
+[ 1278.936035] 1281046187 1281046187 0
+[ 1278.936039] 1281046199 1281046199 0
+[ 1278.936043] 1281046211 1281046211 0
+[ 1278.936048] 1281046223 1281046223 0
+[ 1278.936052] 1281046235 1281046235 0
+[ 1278.936057] 1281046247 1281046247 0
+[ 1278.936061] 1281046259 1281046259 0
+[ 1278.936066] 1281046271 1281046271 0
+[ 1278.936070] 1281046284 1281046283 -1
+[ 1278.936075] 1281046295 1281046295 0
+[ 1278.936079] 1281046307 1281046307 0
+[ 1278.936084] 1281046319 1281046319 0
+[ 1278.936089] 1281046331 1281046331 0
+[ 1278.936094] 1281046345 1281046343 -2
+[ 1278.936098] 1281046355 1281046355 0
+[ 1278.936104] 1281046367 1281046367 0
+[ 1278.936109] 1281046379 1281046379 0
+[ 1278.936114] 1281046391 1281046391 0
+[ 1278.936118] 1281046403 1281046403 0
+[ 1278.936123] 1281046415 1281046415 0
+[ 1278.936127] 1281046427 1281046427 0
+[ 1278.936131] 1281046439 1281046439 0
+[ 1278.936136] 1281046452 1281046451 -1
+[ 1278.936140] 1281046463 1281046463 0
+[ 1278.936145] 1281046475 1281046475 0
+[ 1278.936150] 1281046487 1281046487 0
+[ 1278.936155] 1281046499 1281046499 0
+[ 1278.936159] 1281046511 1281046511 0
+[ 1278.936164] 1281046523 1281046523 0
+[ 1278.936169] 1281046535 1281046535 0
+[ 1278.936173] 1281046547 1281046547 0
+[ 1278.936178] 1281046559 1281046559 0
+[ 1278.936182] 1281046571 1281046571 0
+[ 1278.936186] 1281046583 1281046583 0
+[ 1278.936191] 1281046595 1281046595 0
+[ 1278.936196] 1281046607 1281046607 0
+[ 1278.936201] 1281046620 1281046619 -1
+[ 1278.936205] 1281046631 1281046631 0
+[ 1278.936212] 1281046643 1281046643 0
+[ 1278.936216] 1281046655 1281046655 0
+[ 1278.936221] 1281046667 1281046667 0
+[ 1278.936226] 1281046679 1281046679 0
+[ 1278.936231] 1281046691 1281046691 0
+
